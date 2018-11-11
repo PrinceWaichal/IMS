@@ -1,0 +1,4 @@
+https://www.oreilly.com/library/view/learning-mysql/0596008643/ch04s04.html
+
+https://www.tutorialcup.com/dbms/er-model-into-tables.htm
+
