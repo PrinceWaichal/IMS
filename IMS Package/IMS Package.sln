@@ -1,9 +1,11 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 14
+# Visual Studio Express 14 for Windows Desktop
 VisualStudioVersion = 14.0.25420.1
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{00D1A9C2-B5F0-4AF3-8072-F6C62B433612}") = "Database Project", "Database Project\Database Project.sqlproj", "{1A870597-CD57-4ACF-A4A5-6C31E9833819}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Software Application", "Software Application\Software Application.csproj", "{A474DB1B-E44D-4CFC-AE10-0A2E063E3D7A}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -17,6 +19,10 @@ Global
 		{1A870597-CD57-4ACF-A4A5-6C31E9833819}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{1A870597-CD57-4ACF-A4A5-6C31E9833819}.Release|Any CPU.Build.0 = Release|Any CPU
 		{1A870597-CD57-4ACF-A4A5-6C31E9833819}.Release|Any CPU.Deploy.0 = Release|Any CPU
+		{A474DB1B-E44D-4CFC-AE10-0A2E063E3D7A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A474DB1B-E44D-4CFC-AE10-0A2E063E3D7A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A474DB1B-E44D-4CFC-AE10-0A2E063E3D7A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A474DB1B-E44D-4CFC-AE10-0A2E063E3D7A}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
