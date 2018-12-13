@@ -3,8 +3,6 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 14
 VisualStudioVersion = 14.0.25420.1
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Software Project", "Software Project\Software Project.csproj", "{93D7255A-9C55-4EE4-BA23-40B8548B72BE}"
-EndProject
 Project("{00D1A9C2-B5F0-4AF3-8072-F6C62B433612}") = "Database Project", "Database Project\Database Project.sqlproj", "{1A870597-CD57-4ACF-A4A5-6C31E9833819}"
 EndProject
 Global
@@ -13,10 +11,6 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{93D7255A-9C55-4EE4-BA23-40B8548B72BE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{93D7255A-9C55-4EE4-BA23-40B8548B72BE}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{93D7255A-9C55-4EE4-BA23-40B8548B72BE}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{93D7255A-9C55-4EE4-BA23-40B8548B72BE}.Release|Any CPU.Build.0 = Release|Any CPU
 		{1A870597-CD57-4ACF-A4A5-6C31E9833819}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{1A870597-CD57-4ACF-A4A5-6C31E9833819}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{1A870597-CD57-4ACF-A4A5-6C31E9833819}.Debug|Any CPU.Deploy.0 = Debug|Any CPU

@@ -58,9 +58,4 @@
   <ItemGroup>
     <Folder Include="Properties" />
   </ItemGroup>
-  <ItemGroup>
-    <Build Include="Student Table.sql" />
-    <Build Include="TSTable.sql" />
-    <Build Include="NTSTable.sql" />
-  </ItemGroup>
 </Project>
