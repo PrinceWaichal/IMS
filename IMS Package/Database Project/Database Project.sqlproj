@@ -59,8 +59,17 @@
     <Folder Include="Properties" />
   </ItemGroup>
   <ItemGroup>
-    <Build Include="Student Table.sql" />
-    <Build Include="TSTable.sql" />
-    <Build Include="NTSTable.sql" />
+    <Build Include="PrimeDetail Table.sql" />
+    <Build Include="EduDetails Table.sql" />
+    <Build Include="Work Experience Table.sql" />
+    <Build Include="Resume.sql" />
+    <Build Include="Attendance.sql" />
+    <Build Include="Marks.sql" />
+    <Build Include="Liabrary.sql" />
+    <Build Include="Office.sql" />
+    <Build Include="Activities.sql" />
+  </ItemGroup>
+  <ItemGroup>
+    <RefactorLog Include="Database Project.refactorlog" />
   </ItemGroup>
 </Project>

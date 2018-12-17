@@ -1,4 +1,0 @@
-﻿CREATE TABLE [dbo].[NTSTable]
-(
-	[Id] INT NOT NULL PRIMARY KEY
-)
