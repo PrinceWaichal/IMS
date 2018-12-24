@@ -7,7 +7,7 @@ Project("{00D1A9C2-B5F0-4AF3-8072-F6C62B433612}") = "Database Project", "Databas
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "1 - Software Package", "1 - Software Package\1 - Software Package.csproj", "{1647CFBB-A724-4CF6-ADF5-043532CB3DE5}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HeaderFooter", "..\..\..\..\Documents\Visual Studio 2015\Projects\HeaderFooter\HeaderFooter.csproj", "{FC198D42-9677-407F-98EE-6881F1F27B26}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HeaderFooter", "HeaderFooter\HeaderFooter.csproj", "{FC198D42-9677-407F-98EE-6881F1F27B26}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
