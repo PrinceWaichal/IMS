@@ -14,5 +14,10 @@ namespace _1___Software_Package
         {
             InitializeComponent();
         }
+
+        private void LoginTblPanel2_Paint(object sender, PaintEventArgs e)
+        {
+
+        }
     }
 }
