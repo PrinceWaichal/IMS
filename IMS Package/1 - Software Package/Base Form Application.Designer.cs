@@ -34,6 +34,7 @@
             this.linkLabel2 = new System.Windows.Forms.LinkLabel();
             this.panel1 = new System.Windows.Forms.Panel();
             this.label1 = new System.Windows.Forms.Label();
+            this.ButtonPanel = new System.Windows.Forms.TableLayoutPanel();
             this.tableLayoutPanel1.SuspendLayout();
             this.panel1.SuspendLayout();
             this.SuspendLayout();
@@ -69,14 +70,21 @@
             resources.ApplyResources(this.label1, "label1");
             this.label1.Name = "label1";
             // 
+            // ButtonPanel
+            // 
+            resources.ApplyResources(this.ButtonPanel, "ButtonPanel");
+            this.ButtonPanel.Cursor = System.Windows.Forms.Cursors.Arrow;
+            this.ButtonPanel.Name = "ButtonPanel";
+            // 
             // Base_Form_Application
             // 
             resources.ApplyResources(this, "$this");
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.Controls.Add(this.ButtonPanel);
             this.Controls.Add(this.panel1);
             this.Controls.Add(this.tableLayoutPanel1);
+            this.MaximizeBox = false;
             this.Name = "Base_Form_Application";
-            this.TopMost = true;
             this.WindowState = System.Windows.Forms.FormWindowState.Maximized;
             this.tableLayoutPanel1.ResumeLayout(false);
             this.tableLayoutPanel1.PerformLayout();
@@ -92,5 +100,6 @@
         private System.Windows.Forms.LinkLabel linkLabel2;
         private System.Windows.Forms.Panel panel1;
         private System.Windows.Forms.Label label1;
+        private System.Windows.Forms.TableLayoutPanel ButtonPanel;
     }
 }
