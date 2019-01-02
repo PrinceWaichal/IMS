@@ -65,24 +65,6 @@
     <Compile Include="Base Form Application.Designer.cs">
       <DependentUpon>Base Form Application.cs</DependentUpon>
     </Compile>
-    <Compile Include="DataEntry_Marks%28FY%29.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="DataEntry_Marks%28FY%29.Designer.cs">
-      <DependentUpon>DataEntry_Marks%28FY%29.cs</DependentUpon>
-    </Compile>
-    <Compile Include="DataEntry_Marks%28SY%29.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="DataEntry_Marks%28SY%29.Designer.cs">
-      <DependentUpon>DataEntry_Marks%28SY%29.cs</DependentUpon>
-    </Compile>
-    <Compile Include="DataEntry_Marks%28TY%29.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="DataEntry_Marks%28TY%29.Designer.cs">
-      <DependentUpon>DataEntry_Marks%28TY%29.cs</DependentUpon>
-    </Compile>
     <Compile Include="DE_Marks.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -97,17 +79,14 @@
     <Compile Include="SignInForm.Designer.cs">
       <DependentUpon>SignInForm.cs</DependentUpon>
     </Compile>
+    <Compile Include="SignUp.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SignUp.Designer.cs">
+      <DependentUpon>SignUp.cs</DependentUpon>
+    </Compile>
     <EmbeddedResource Include="Base Form Application.resx">
       <DependentUpon>Base Form Application.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="DataEntry_Marks%28FY%29.resx">
-      <DependentUpon>DataEntry_Marks%28FY%29.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="DataEntry_Marks%28SY%29.resx">
-      <DependentUpon>DataEntry_Marks%28SY%29.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="DataEntry_Marks%28TY%29.resx">
-      <DependentUpon>DataEntry_Marks%28TY%29.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="DE_Marks.resx">
       <DependentUpon>DE_Marks.cs</DependentUpon>
@@ -123,6 +102,9 @@
     </Compile>
     <EmbeddedResource Include="SignInForm.resx">
       <DependentUpon>SignInForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SignUp.resx">
+      <DependentUpon>SignUp.cs</DependentUpon>
     </EmbeddedResource>
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
