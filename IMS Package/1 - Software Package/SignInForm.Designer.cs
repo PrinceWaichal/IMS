@@ -110,7 +110,7 @@
             this.StudentLoginLabel.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.StudentLoginLabel.CausesValidation = false;
             this.StudentLoginLabel.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.StudentLoginLabel.Font = new System.Drawing.Font("Lucida Calligraphy", 15F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.StudentLoginLabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 15F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.StudentLoginLabel.Location = new System.Drawing.Point(3, 0);
             this.StudentLoginLabel.Name = "StudentLoginLabel";
             this.StudentLoginLabel.Size = new System.Drawing.Size(294, 50);
@@ -227,7 +227,7 @@
             this.AdminLoginLabel.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.AdminLoginLabel.CausesValidation = false;
             this.AdminLoginLabel.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.AdminLoginLabel.Font = new System.Drawing.Font("Lucida Calligraphy", 15F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.AdminLoginLabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 15F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.AdminLoginLabel.Location = new System.Drawing.Point(3, 0);
             this.AdminLoginLabel.Name = "AdminLoginLabel";
             this.AdminLoginLabel.Size = new System.Drawing.Size(294, 50);
@@ -343,7 +343,7 @@
             this.TeacherLoginLabel.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.TeacherLoginLabel.CausesValidation = false;
             this.TeacherLoginLabel.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.TeacherLoginLabel.Font = new System.Drawing.Font("Lucida Calligraphy", 15F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.TeacherLoginLabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 15F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.TeacherLoginLabel.Location = new System.Drawing.Point(3, 0);
             this.TeacherLoginLabel.Name = "TeacherLoginLabel";
             this.TeacherLoginLabel.Size = new System.Drawing.Size(294, 50);
