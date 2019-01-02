@@ -69,6 +69,7 @@
     <Build Include="Office.sql" />
     <Build Include="Activities.sql" />
     <Build Include="Simple_Table.sql" />
+    <Build Include="LoginDetails.sql" />
   </ItemGroup>
   <ItemGroup>
     <RefactorLog Include="Database Project.refactorlog" />

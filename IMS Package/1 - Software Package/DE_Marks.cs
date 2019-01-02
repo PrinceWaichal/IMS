@@ -8,9 +8,9 @@ using System.Windows.Forms;
 
 namespace _1___Software_Package
 {
-    public partial class DataEntry_Marks : _1___Software_Package.Base_Form_Application
+    public partial class DE_Marks : _1___Software_Package.Base_Form_Application
     {
-        public DataEntry_Marks()
+        public DE_Marks()
         {
             InitializeComponent();
         }
