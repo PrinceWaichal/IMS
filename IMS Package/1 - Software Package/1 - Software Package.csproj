@@ -83,11 +83,11 @@
     <Compile Include="DataEntry_Marks%28TY%29.Designer.cs">
       <DependentUpon>DataEntry_Marks%28TY%29.cs</DependentUpon>
     </Compile>
-    <Compile Include="DataEntry_Marks.cs">
+    <Compile Include="DE_Marks.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="DataEntry_Marks.Designer.cs">
-      <DependentUpon>DataEntry_Marks.cs</DependentUpon>
+    <Compile Include="DE_Marks.Designer.cs">
+      <DependentUpon>DE_Marks.cs</DependentUpon>
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
@@ -109,8 +109,8 @@
     <EmbeddedResource Include="DataEntry_Marks%28TY%29.resx">
       <DependentUpon>DataEntry_Marks%28TY%29.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="DataEntry_Marks.resx">
-      <DependentUpon>DataEntry_Marks.cs</DependentUpon>
+    <EmbeddedResource Include="DE_Marks.resx">
+      <DependentUpon>DE_Marks.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
