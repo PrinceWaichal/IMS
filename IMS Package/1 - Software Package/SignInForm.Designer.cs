@@ -48,6 +48,11 @@
             this.TchLgnBtn = new System.Windows.Forms.Button();
             this.OfcStfLgnBtn = new System.Windows.Forms.Button();
             this.SignUpBtn = new System.Windows.Forms.Button();
+            this.button7 = new System.Windows.Forms.Button();
+            this.button8 = new System.Windows.Forms.Button();
+            this.button9 = new System.Windows.Forms.Button();
+            this.button10 = new System.Windows.Forms.Button();
+            this.button11 = new System.Windows.Forms.Button();
             this.LoginTblPanel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.IDContainer)).BeginInit();
             this.IDContainer.Panel1.SuspendLayout();
@@ -68,7 +73,7 @@
             this.LoginTblPanel1.Controls.Add(this.IDContainer, 0, 1);
             this.LoginTblPanel1.Controls.Add(this.PwdContainer, 0, 2);
             this.LoginTblPanel1.Controls.Add(this.StudLoginBtn, 0, 3);
-            this.LoginTblPanel1.Location = new System.Drawing.Point(250, 250);
+            this.LoginTblPanel1.Location = new System.Drawing.Point(250, 50);
             this.LoginTblPanel1.Name = "LoginTblPanel1";
             this.LoginTblPanel1.RowCount = 4;
             this.LoginTblPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 25F));
@@ -279,6 +284,56 @@
             this.SignUpBtn.Text = "Go to Sign Up Page";
             this.SignUpBtn.UseVisualStyleBackColor = true;
             // 
+            // button7
+            // 
+            this.button7.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.button7.Location = new System.Drawing.Point(3, 3);
+            this.button7.Name = "button7";
+            this.button7.Size = new System.Drawing.Size(194, 94);
+            this.button7.TabIndex = 0;
+            this.button7.Text = "Admin";
+            this.button7.UseVisualStyleBackColor = true;
+            // 
+            // button8
+            // 
+            this.button8.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.button8.Location = new System.Drawing.Point(3, 103);
+            this.button8.Name = "button8";
+            this.button8.Size = new System.Drawing.Size(194, 94);
+            this.button8.TabIndex = 1;
+            this.button8.Text = "Student";
+            this.button8.UseVisualStyleBackColor = true;
+            // 
+            // button9
+            // 
+            this.button9.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.button9.Location = new System.Drawing.Point(3, 203);
+            this.button9.Name = "button9";
+            this.button9.Size = new System.Drawing.Size(194, 94);
+            this.button9.TabIndex = 1;
+            this.button9.Text = "Teacher";
+            this.button9.UseVisualStyleBackColor = true;
+            // 
+            // button10
+            // 
+            this.button10.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.button10.Location = new System.Drawing.Point(3, 303);
+            this.button10.Name = "button10";
+            this.button10.Size = new System.Drawing.Size(194, 94);
+            this.button10.TabIndex = 1;
+            this.button10.Text = "Office";
+            this.button10.UseVisualStyleBackColor = true;
+            // 
+            // button11
+            // 
+            this.button11.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.button11.Location = new System.Drawing.Point(3, 403);
+            this.button11.Name = "button11";
+            this.button11.Size = new System.Drawing.Size(194, 94);
+            this.button11.TabIndex = 1;
+            this.button11.Text = "Sign Up Window";
+            this.button11.UseVisualStyleBackColor = true;
+            // 
             // SignInForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -327,5 +382,10 @@
         private System.Windows.Forms.Button TchLgnBtn;
         private System.Windows.Forms.Button OfcStfLgnBtn;
         private System.Windows.Forms.Button SignUpBtn;
+        private System.Windows.Forms.Button button7;
+        private System.Windows.Forms.Button button8;
+        private System.Windows.Forms.Button button9;
+        private System.Windows.Forms.Button button10;
+        private System.Windows.Forms.Button button11;
     }
 }
