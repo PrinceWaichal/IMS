@@ -15,5 +15,10 @@ namespace _1___Software_Package
         {
             InitializeComponent();
         }
+
+        private void StartUp(object sender, EventArgs e)
+        {
+            
+        }
     }
 }

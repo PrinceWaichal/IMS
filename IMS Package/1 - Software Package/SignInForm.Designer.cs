@@ -28,243 +28,205 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.LoginTblPanel1 = new System.Windows.Forms.TableLayoutPanel();
-            this.StudentLoginLabel = new System.Windows.Forms.Label();
-            this.IDContainer = new System.Windows.Forms.SplitContainer();
-            this.StudUsernameLabel = new System.Windows.Forms.Label();
-            this.LoginID = new System.Windows.Forms.TextBox();
-            this.PwdContainer = new System.Windows.Forms.SplitContainer();
-            this.StudPassLabel = new System.Windows.Forms.Label();
-            this.LoginPass = new System.Windows.Forms.TextBox();
-            this.StudLoginBtn = new System.Windows.Forms.Button();
-            this.button1 = new System.Windows.Forms.Button();
-            this.button2 = new System.Windows.Forms.Button();
-            this.button3 = new System.Windows.Forms.Button();
-            this.button4 = new System.Windows.Forms.Button();
-            this.button5 = new System.Windows.Forms.Button();
-            this.button6 = new System.Windows.Forms.Button();
-            this.LoginTblPanel1.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.IDContainer)).BeginInit();
-            this.IDContainer.Panel1.SuspendLayout();
-            this.IDContainer.Panel2.SuspendLayout();
-            this.IDContainer.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.PwdContainer)).BeginInit();
-            this.PwdContainer.Panel1.SuspendLayout();
-            this.PwdContainer.Panel2.SuspendLayout();
-            this.PwdContainer.SuspendLayout();
+            this.AdminLogin = new System.Windows.Forms.Button();
+            this.StudLogin = new System.Windows.Forms.Button();
+            this.TchLogin = new System.Windows.Forms.Button();
+            this.OfcStfLogin = new System.Windows.Forms.Button();
+            this.LibStfLogin = new System.Windows.Forms.Button();
+            this.SignUpBtn = new System.Windows.Forms.Button();
+            this.IdPassContainer = new System.Windows.Forms.Panel();
+            this.LoginButton = new System.Windows.Forms.Button();
+            this.LabelContain = new System.Windows.Forms.Panel();
+            this.Label = new System.Windows.Forms.Label();
+            this.tableLayoutPanel2 = new System.Windows.Forms.TableLayoutPanel();
+            this.label2 = new System.Windows.Forms.Label();
+            this.label3 = new System.Windows.Forms.Label();
+            this.IDBox = new System.Windows.Forms.TextBox();
+            this.PasswordBox = new System.Windows.Forms.TextBox();
+            this.IdPassContainer.SuspendLayout();
+            this.LabelContain.SuspendLayout();
+            this.tableLayoutPanel2.SuspendLayout();
             this.SuspendLayout();
             // 
-            // LoginTblPanel1
+            // AdminLogin
             // 
-            this.LoginTblPanel1.ColumnCount = 1;
-            this.LoginTblPanel1.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 100F));
-            this.LoginTblPanel1.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 20F));
-            this.LoginTblPanel1.Controls.Add(this.StudentLoginLabel, 0, 0);
-            this.LoginTblPanel1.Controls.Add(this.IDContainer, 0, 1);
-            this.LoginTblPanel1.Controls.Add(this.PwdContainer, 0, 2);
-            this.LoginTblPanel1.Controls.Add(this.StudLoginBtn, 0, 3);
-            this.LoginTblPanel1.Location = new System.Drawing.Point(250, 250);
-            this.LoginTblPanel1.Name = "LoginTblPanel1";
-            this.LoginTblPanel1.RowCount = 4;
-            this.LoginTblPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 25F));
-            this.LoginTblPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 25F));
-            this.LoginTblPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 25F));
-            this.LoginTblPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 25F));
-            this.LoginTblPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 20F));
-            this.LoginTblPanel1.Size = new System.Drawing.Size(300, 200);
-            this.LoginTblPanel1.TabIndex = 3;
+            this.AdminLogin.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.AdminLogin.Location = new System.Drawing.Point(3, 3);
+            this.AdminLogin.Name = "AdminLogin";
+            this.AdminLogin.Size = new System.Drawing.Size(194, 91);
+            this.AdminLogin.TabIndex = 0;
+            this.AdminLogin.Text = "Admin Login";
+            this.AdminLogin.UseVisualStyleBackColor = true;
             // 
-            // StudentLoginLabel
+            // StudLogin
             // 
-            this.StudentLoginLabel.AutoSize = true;
-            this.StudentLoginLabel.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.StudentLoginLabel.CausesValidation = false;
-            this.StudentLoginLabel.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.StudentLoginLabel.Font = new System.Drawing.Font("Lucida Calligraphy", 15F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.StudentLoginLabel.Location = new System.Drawing.Point(3, 0);
-            this.StudentLoginLabel.Name = "StudentLoginLabel";
-            this.StudentLoginLabel.Size = new System.Drawing.Size(294, 50);
-            this.StudentLoginLabel.TabIndex = 0;
-            this.StudentLoginLabel.Text = "Login";
-            this.StudentLoginLabel.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.StudLogin.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.StudLogin.Location = new System.Drawing.Point(3, 100);
+            this.StudLogin.Name = "StudLogin";
+            this.StudLogin.Size = new System.Drawing.Size(194, 91);
+            this.StudLogin.TabIndex = 0;
+            this.StudLogin.Text = "Student Login";
+            this.StudLogin.UseVisualStyleBackColor = true;
             // 
-            // IDContainer
+            // TchLogin
             // 
-            this.IDContainer.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.IDContainer.Location = new System.Drawing.Point(3, 53);
-            this.IDContainer.Name = "IDContainer";
+            this.TchLogin.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.TchLogin.Location = new System.Drawing.Point(3, 197);
+            this.TchLogin.Name = "TchLogin";
+            this.TchLogin.Size = new System.Drawing.Size(194, 91);
+            this.TchLogin.TabIndex = 0;
+            this.TchLogin.Text = "Teachers Login";
+            this.TchLogin.UseVisualStyleBackColor = true;
             // 
-            // IDContainer.Panel1
+            // OfcStfLogin
             // 
-            this.IDContainer.Panel1.Controls.Add(this.StudUsernameLabel);
+            this.OfcStfLogin.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.OfcStfLogin.Location = new System.Drawing.Point(3, 294);
+            this.OfcStfLogin.Name = "OfcStfLogin";
+            this.OfcStfLogin.Size = new System.Drawing.Size(194, 91);
+            this.OfcStfLogin.TabIndex = 0;
+            this.OfcStfLogin.Text = "Office Staff Login";
+            this.OfcStfLogin.UseVisualStyleBackColor = true;
             // 
-            // IDContainer.Panel2
+            // LibStfLogin
             // 
-            this.IDContainer.Panel2.Controls.Add(this.LoginID);
-            this.IDContainer.Size = new System.Drawing.Size(294, 44);
-            this.IDContainer.SplitterDistance = 98;
-            this.IDContainer.TabIndex = 1;
+            this.LibStfLogin.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.LibStfLogin.Location = new System.Drawing.Point(3, 391);
+            this.LibStfLogin.Name = "LibStfLogin";
+            this.LibStfLogin.Size = new System.Drawing.Size(194, 91);
+            this.LibStfLogin.TabIndex = 0;
+            this.LibStfLogin.Text = "Library Staff Login";
+            this.LibStfLogin.UseVisualStyleBackColor = true;
             // 
-            // StudUsernameLabel
+            // SignUpBtn
             // 
-            this.StudUsernameLabel.AutoSize = true;
-            this.StudUsernameLabel.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.StudUsernameLabel.Location = new System.Drawing.Point(0, 0);
-            this.StudUsernameLabel.Name = "StudUsernameLabel";
-            this.StudUsernameLabel.Size = new System.Drawing.Size(55, 13);
-            this.StudUsernameLabel.TabIndex = 0;
-            this.StudUsernameLabel.Text = "Username";
-            this.StudUsernameLabel.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.SignUpBtn.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.SignUpBtn.Location = new System.Drawing.Point(3, 488);
+            this.SignUpBtn.Name = "SignUpBtn";
+            this.SignUpBtn.Size = new System.Drawing.Size(194, 94);
+            this.SignUpBtn.TabIndex = 0;
+            this.SignUpBtn.Text = "Sign Up";
+            this.SignUpBtn.UseVisualStyleBackColor = true;
             // 
-            // LoginID
+            // IdPassContainer
             // 
-            this.LoginID.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.LoginID.Location = new System.Drawing.Point(0, 0);
-            this.LoginID.Name = "LoginID";
-            this.LoginID.Size = new System.Drawing.Size(192, 20);
-            this.LoginID.TabIndex = 0;
+            this.IdPassContainer.Controls.Add(this.tableLayoutPanel2);
+            this.IdPassContainer.Controls.Add(this.LabelContain);
+            this.IdPassContainer.Controls.Add(this.LoginButton);
+            this.IdPassContainer.Location = new System.Drawing.Point(160, 141);
+            this.IdPassContainer.Name = "IdPassContainer";
+            this.IdPassContainer.Size = new System.Drawing.Size(400, 300);
+            this.IdPassContainer.TabIndex = 0;
             // 
-            // PwdContainer
+            // LoginButton
             // 
-            this.PwdContainer.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.PwdContainer.Location = new System.Drawing.Point(3, 103);
-            this.PwdContainer.Name = "PwdContainer";
+            this.LoginButton.Dock = System.Windows.Forms.DockStyle.Bottom;
+            this.LoginButton.Location = new System.Drawing.Point(0, 277);
+            this.LoginButton.Name = "LoginButton";
+            this.LoginButton.Size = new System.Drawing.Size(400, 23);
+            this.LoginButton.TabIndex = 0;
+            this.LoginButton.Text = "Login";
+            this.LoginButton.UseVisualStyleBackColor = true;
             // 
-            // PwdContainer.Panel1
+            // LabelContain
             // 
-            this.PwdContainer.Panel1.Controls.Add(this.StudPassLabel);
+            this.LabelContain.Controls.Add(this.Label);
+            this.LabelContain.Dock = System.Windows.Forms.DockStyle.Top;
+            this.LabelContain.Location = new System.Drawing.Point(0, 0);
+            this.LabelContain.Name = "LabelContain";
+            this.LabelContain.Size = new System.Drawing.Size(400, 100);
+            this.LabelContain.TabIndex = 1;
             // 
-            // PwdContainer.Panel2
+            // Label
             // 
-            this.PwdContainer.Panel2.Controls.Add(this.LoginPass);
-            this.PwdContainer.Size = new System.Drawing.Size(294, 44);
-            this.PwdContainer.SplitterDistance = 98;
-            this.PwdContainer.TabIndex = 2;
+            this.Label.AutoSize = true;
+            this.Label.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.Label.Location = new System.Drawing.Point(0, 0);
+            this.Label.Name = "Label";
+            this.Label.Size = new System.Drawing.Size(62, 13);
+            this.Label.TabIndex = 0;
+            this.Label.Text = "Login Tools";
             // 
-            // StudPassLabel
+            // tableLayoutPanel2
             // 
-            this.StudPassLabel.AutoSize = true;
-            this.StudPassLabel.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.StudPassLabel.Location = new System.Drawing.Point(0, 0);
-            this.StudPassLabel.Name = "StudPassLabel";
-            this.StudPassLabel.Size = new System.Drawing.Size(53, 13);
-            this.StudPassLabel.TabIndex = 0;
-            this.StudPassLabel.Text = "Password";
-            this.StudPassLabel.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.tableLayoutPanel2.ColumnCount = 2;
+            this.tableLayoutPanel2.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 50F));
+            this.tableLayoutPanel2.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 50F));
+            this.tableLayoutPanel2.Controls.Add(this.label2, 0, 0);
+            this.tableLayoutPanel2.Controls.Add(this.label3, 0, 1);
+            this.tableLayoutPanel2.Controls.Add(this.IDBox, 1, 0);
+            this.tableLayoutPanel2.Controls.Add(this.PasswordBox, 1, 1);
+            this.tableLayoutPanel2.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.tableLayoutPanel2.Location = new System.Drawing.Point(0, 100);
+            this.tableLayoutPanel2.Name = "tableLayoutPanel2";
+            this.tableLayoutPanel2.RowCount = 2;
+            this.tableLayoutPanel2.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 50F));
+            this.tableLayoutPanel2.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 50F));
+            this.tableLayoutPanel2.Size = new System.Drawing.Size(400, 177);
+            this.tableLayoutPanel2.TabIndex = 2;
             // 
-            // LoginPass
+            // label2
             // 
-            this.LoginPass.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.LoginPass.Location = new System.Drawing.Point(0, 0);
-            this.LoginPass.Name = "LoginPass";
-            this.LoginPass.Size = new System.Drawing.Size(192, 20);
-            this.LoginPass.TabIndex = 0;
+            this.label2.AutoSize = true;
+            this.label2.Location = new System.Drawing.Point(3, 0);
+            this.label2.Name = "label2";
+            this.label2.Size = new System.Drawing.Size(18, 13);
+            this.label2.TabIndex = 0;
+            this.label2.Text = "ID";
             // 
-            // StudLoginBtn
+            // label3
             // 
-            this.StudLoginBtn.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.StudLoginBtn.Location = new System.Drawing.Point(3, 153);
-            this.StudLoginBtn.Name = "StudLoginBtn";
-            this.StudLoginBtn.Size = new System.Drawing.Size(294, 44);
-            this.StudLoginBtn.TabIndex = 3;
-            this.StudLoginBtn.Text = "Login";
-            this.StudLoginBtn.UseVisualStyleBackColor = true;
+            this.label3.AutoSize = true;
+            this.label3.Location = new System.Drawing.Point(3, 88);
+            this.label3.Name = "label3";
+            this.label3.Size = new System.Drawing.Size(53, 13);
+            this.label3.TabIndex = 1;
+            this.label3.Text = "Password";
             // 
-            // button1
+            // IDBox
             // 
-            this.button1.Location = new System.Drawing.Point(3, 3);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(75, 23);
-            this.button1.TabIndex = 0;
-            this.button1.Text = "button1";
-            this.button1.UseVisualStyleBackColor = true;
+            this.IDBox.Location = new System.Drawing.Point(203, 3);
+            this.IDBox.Name = "IDBox";
+            this.IDBox.Size = new System.Drawing.Size(100, 20);
+            this.IDBox.TabIndex = 2;
             // 
-            // button2
+            // PasswordBox
             // 
-            this.button2.Location = new System.Drawing.Point(3, 103);
-            this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(75, 23);
-            this.button2.TabIndex = 0;
-            this.button2.Text = "button1";
-            this.button2.UseVisualStyleBackColor = true;
-            // 
-            // button3
-            // 
-            this.button3.Location = new System.Drawing.Point(3, 203);
-            this.button3.Name = "button3";
-            this.button3.Size = new System.Drawing.Size(75, 23);
-            this.button3.TabIndex = 0;
-            this.button3.Text = "button1";
-            this.button3.UseVisualStyleBackColor = true;
-            // 
-            // button4
-            // 
-            this.button4.Location = new System.Drawing.Point(3, 303);
-            this.button4.Name = "button4";
-            this.button4.Size = new System.Drawing.Size(75, 23);
-            this.button4.TabIndex = 0;
-            this.button4.Text = "button1";
-            this.button4.UseVisualStyleBackColor = true;
-            // 
-            // button5
-            // 
-            this.button5.Location = new System.Drawing.Point(3, 403);
-            this.button5.Name = "button5";
-            this.button5.Size = new System.Drawing.Size(75, 23);
-            this.button5.TabIndex = 0;
-            this.button5.Text = "button1";
-            this.button5.UseVisualStyleBackColor = true;
-            // 
-            // button6
-            // 
-            this.button6.Location = new System.Drawing.Point(3, 503);
-            this.button6.Name = "button6";
-            this.button6.Size = new System.Drawing.Size(75, 23);
-            this.button6.TabIndex = 0;
-            this.button6.Text = "button1";
-            this.button6.UseVisualStyleBackColor = true;
+            this.PasswordBox.Location = new System.Drawing.Point(203, 91);
+            this.PasswordBox.Name = "PasswordBox";
+            this.PasswordBox.Size = new System.Drawing.Size(100, 20);
+            this.PasswordBox.TabIndex = 3;
             // 
             // SignInForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
-            this.ClientSize = new System.Drawing.Size(1164, 661);
-            this.Controls.Add(this.LoginTblPanel1);
+            this.ClientSize = new System.Drawing.Size(1011, 642);
+            this.Location = new System.Drawing.Point(0, 0);
             this.Name = "SignInForm";
-            this.Controls.SetChildIndex(this.LoginTblPanel1, 0);
-            this.LoginTblPanel1.ResumeLayout(false);
-            this.LoginTblPanel1.PerformLayout();
-            this.IDContainer.Panel1.ResumeLayout(false);
-            this.IDContainer.Panel1.PerformLayout();
-            this.IDContainer.Panel2.ResumeLayout(false);
-            this.IDContainer.Panel2.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.IDContainer)).EndInit();
-            this.IDContainer.ResumeLayout(false);
-            this.PwdContainer.Panel1.ResumeLayout(false);
-            this.PwdContainer.Panel1.PerformLayout();
-            this.PwdContainer.Panel2.ResumeLayout(false);
-            this.PwdContainer.Panel2.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.PwdContainer)).EndInit();
-            this.PwdContainer.ResumeLayout(false);
+            this.IdPassContainer.ResumeLayout(false);
+            this.LabelContain.ResumeLayout(false);
+            this.LabelContain.PerformLayout();
+            this.tableLayoutPanel2.ResumeLayout(false);
+            this.tableLayoutPanel2.PerformLayout();
             this.ResumeLayout(false);
 
         }
 
         #endregion
-
-        private System.Windows.Forms.TableLayoutPanel LoginTblPanel1;
-        private System.Windows.Forms.Label StudentLoginLabel;
-        private System.Windows.Forms.SplitContainer IDContainer;
-        private System.Windows.Forms.SplitContainer PwdContainer;
-        private System.Windows.Forms.Button StudLoginBtn;
-        private System.Windows.Forms.Label StudUsernameLabel;
-        private System.Windows.Forms.TextBox LoginID;
-        private System.Windows.Forms.Label StudPassLabel;
-        private System.Windows.Forms.TextBox LoginPass;
-        private System.Windows.Forms.Button button1;
-        private System.Windows.Forms.Button button2;
-        private System.Windows.Forms.Button button3;
-        private System.Windows.Forms.Button button4;
-        private System.Windows.Forms.Button button5;
-        private System.Windows.Forms.Button button6;
+        private System.Windows.Forms.Button AdminLogin;
+        private System.Windows.Forms.Button StudLogin;
+        private System.Windows.Forms.Button TchLogin;
+        private System.Windows.Forms.Button OfcStfLogin;
+        private System.Windows.Forms.Button LibStfLogin;
+        private System.Windows.Forms.Button SignUpBtn;
+        private System.Windows.Forms.Panel IdPassContainer;
+        private System.Windows.Forms.TableLayoutPanel tableLayoutPanel2;
+        private System.Windows.Forms.Label label2;
+        private System.Windows.Forms.Label label3;
+        private System.Windows.Forms.TextBox IDBox;
+        private System.Windows.Forms.TextBox PasswordBox;
+        private System.Windows.Forms.Panel LabelContain;
+        private System.Windows.Forms.Label Label;
+        private System.Windows.Forms.Button LoginButton;
     }
 }
