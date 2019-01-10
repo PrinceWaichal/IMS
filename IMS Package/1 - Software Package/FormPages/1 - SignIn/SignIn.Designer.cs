@@ -30,11 +30,14 @@
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(SignIn));
             this.CentralContainerLogin = new System.Windows.Forms.Panel();
-            this.tableLayoutPanel1 = new System.Windows.Forms.TableLayoutPanel();
-            this.linkLabel1 = new System.Windows.Forms.LinkLabel();
-            this.linkLabel2 = new System.Windows.Forms.LinkLabel();
-            this.panel1 = new System.Windows.Forms.Panel();
-            this.label1 = new System.Windows.Forms.Label();
+            this.tableLayoutPanel2 = new System.Windows.Forms.TableLayoutPanel();
+            this.IDContainer = new System.Windows.Forms.SplitContainer();
+            this.UserNameLabel = new System.Windows.Forms.Label();
+            this.IDTextBox = new System.Windows.Forms.TextBox();
+            this.PasswordConatiner = new System.Windows.Forms.SplitContainer();
+            this.PasswordLabel = new System.Windows.Forms.Label();
+            this.PasswordTextBox = new System.Windows.Forms.TextBox();
+            this.LoginButton = new System.Windows.Forms.Button();
             this.ButtonPanel = new System.Windows.Forms.TableLayoutPanel();
             this.AdminButton = new System.Windows.Forms.Button();
             this.StudentButton = new System.Windows.Forms.Button();
@@ -42,18 +45,12 @@
             this.OfficeStaffButton = new System.Windows.Forms.Button();
             this.LibStaffButton = new System.Windows.Forms.Button();
             this.SignUpButton = new System.Windows.Forms.Button();
-            this.tableLayoutPanel2 = new System.Windows.Forms.TableLayoutPanel();
-            this.IDContainer = new System.Windows.Forms.SplitContainer();
-            this.PasswordConatiner = new System.Windows.Forms.SplitContainer();
-            this.LoginButton = new System.Windows.Forms.Button();
-            this.PasswordTextBox = new System.Windows.Forms.TextBox();
-            this.IDTextBox = new System.Windows.Forms.TextBox();
-            this.PasswordLabel = new System.Windows.Forms.Label();
-            this.UserNameLabel = new System.Windows.Forms.Label();
+            this.tableLayoutPanel1 = new System.Windows.Forms.TableLayoutPanel();
+            this.linkLabel1 = new System.Windows.Forms.LinkLabel();
+            this.linkLabel2 = new System.Windows.Forms.LinkLabel();
+            this.panel1 = new System.Windows.Forms.Panel();
+            this.label1 = new System.Windows.Forms.Label();
             this.CentralContainerLogin.SuspendLayout();
-            this.tableLayoutPanel1.SuspendLayout();
-            this.panel1.SuspendLayout();
-            this.ButtonPanel.SuspendLayout();
             this.tableLayoutPanel2.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.IDContainer)).BeginInit();
             this.IDContainer.Panel1.SuspendLayout();
@@ -63,6 +60,9 @@
             this.PasswordConatiner.Panel1.SuspendLayout();
             this.PasswordConatiner.Panel2.SuspendLayout();
             this.PasswordConatiner.SuspendLayout();
+            this.ButtonPanel.SuspendLayout();
+            this.tableLayoutPanel1.SuspendLayout();
+            this.panel1.SuspendLayout();
             this.SuspendLayout();
             // 
             // CentralContainerLogin
@@ -75,68 +75,103 @@
             this.CentralContainerLogin.Size = new System.Drawing.Size(991, 571);
             this.CentralContainerLogin.TabIndex = 8;
             // 
-            // tableLayoutPanel1
+            // tableLayoutPanel2
             // 
-            this.tableLayoutPanel1.ColumnCount = 2;
-            this.tableLayoutPanel1.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 50F));
-            this.tableLayoutPanel1.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 50F));
-            this.tableLayoutPanel1.Controls.Add(this.linkLabel1, 0, 0);
-            this.tableLayoutPanel1.Controls.Add(this.linkLabel2, 1, 0);
-            this.tableLayoutPanel1.Dock = System.Windows.Forms.DockStyle.Bottom;
-            this.tableLayoutPanel1.Location = new System.Drawing.Point(0, 597);
-            this.tableLayoutPanel1.Name = "tableLayoutPanel1";
-            this.tableLayoutPanel1.RowCount = 1;
-            this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 50F));
-            this.tableLayoutPanel1.Size = new System.Drawing.Size(991, 31);
-            this.tableLayoutPanel1.TabIndex = 5;
+            this.tableLayoutPanel2.ColumnCount = 1;
+            this.tableLayoutPanel2.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 100F));
+            this.tableLayoutPanel2.Controls.Add(this.IDContainer, 0, 1);
+            this.tableLayoutPanel2.Controls.Add(this.PasswordConatiner, 0, 2);
+            this.tableLayoutPanel2.Controls.Add(this.LoginButton, 0, 3);
+            this.tableLayoutPanel2.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.tableLayoutPanel2.Location = new System.Drawing.Point(200, 0);
+            this.tableLayoutPanel2.Name = "tableLayoutPanel2";
+            this.tableLayoutPanel2.RowCount = 4;
+            this.tableLayoutPanel2.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 25F));
+            this.tableLayoutPanel2.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 25F));
+            this.tableLayoutPanel2.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 25F));
+            this.tableLayoutPanel2.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 25F));
+            this.tableLayoutPanel2.Size = new System.Drawing.Size(791, 571);
+            this.tableLayoutPanel2.TabIndex = 5;
             // 
-            // linkLabel1
+            // IDContainer
             // 
-            this.linkLabel1.AutoSize = true;
-            this.linkLabel1.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.linkLabel1.ImeMode = System.Windows.Forms.ImeMode.NoControl;
-            this.linkLabel1.Location = new System.Drawing.Point(3, 0);
-            this.linkLabel1.Name = "linkLabel1";
-            this.linkLabel1.Size = new System.Drawing.Size(489, 31);
-            this.linkLabel1.TabIndex = 0;
-            this.linkLabel1.TabStop = true;
-            this.linkLabel1.Text = "About Us";
+            this.IDContainer.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.IDContainer.Location = new System.Drawing.Point(3, 145);
+            this.IDContainer.Name = "IDContainer";
             // 
-            // linkLabel2
+            // IDContainer.Panel1
             // 
-            this.linkLabel2.AutoSize = true;
-            this.linkLabel2.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.linkLabel2.ImeMode = System.Windows.Forms.ImeMode.NoControl;
-            this.linkLabel2.Location = new System.Drawing.Point(498, 0);
-            this.linkLabel2.Name = "linkLabel2";
-            this.linkLabel2.Size = new System.Drawing.Size(490, 31);
-            this.linkLabel2.TabIndex = 0;
-            this.linkLabel2.TabStop = true;
-            this.linkLabel2.Text = "Help And Feedback";
+            this.IDContainer.Panel1.Controls.Add(this.UserNameLabel);
             // 
-            // panel1
+            // IDContainer.Panel2
             // 
-            this.panel1.AccessibleRole = System.Windows.Forms.AccessibleRole.TitleBar;
-            this.panel1.Controls.Add(this.label1);
-            this.panel1.Dock = System.Windows.Forms.DockStyle.Top;
-            this.panel1.Location = new System.Drawing.Point(0, 0);
-            this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(991, 26);
-            this.panel1.TabIndex = 6;
+            this.IDContainer.Panel2.Controls.Add(this.IDTextBox);
+            this.IDContainer.Size = new System.Drawing.Size(785, 136);
+            this.IDContainer.SplitterDistance = 261;
+            this.IDContainer.TabIndex = 0;
             // 
-            // label1
+            // UserNameLabel
             // 
-            this.label1.AutoSize = true;
-            this.label1.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.label1.Font = new System.Drawing.Font("Lucida Calligraphy", 18.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Pixel);
-            this.label1.ImageAlign = System.Drawing.ContentAlignment.TopLeft;
-            this.label1.ImeMode = System.Windows.Forms.ImeMode.NoControl;
-            this.label1.Location = new System.Drawing.Point(0, 0);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(308, 24);
-            this.label1.TabIndex = 0;
-            this.label1.Text = "Student Management System";
-            this.label1.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.UserNameLabel.AutoSize = true;
+            this.UserNameLabel.Location = new System.Drawing.Point(108, 48);
+            this.UserNameLabel.Name = "UserNameLabel";
+            this.UserNameLabel.Size = new System.Drawing.Size(55, 13);
+            this.UserNameLabel.TabIndex = 0;
+            this.UserNameLabel.Text = "Username";
+            // 
+            // IDTextBox
+            // 
+            this.IDTextBox.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.IDTextBox.Location = new System.Drawing.Point(0, 0);
+            this.IDTextBox.Name = "IDTextBox";
+            this.IDTextBox.Size = new System.Drawing.Size(520, 20);
+            this.IDTextBox.TabIndex = 0;
+            // 
+            // PasswordConatiner
+            // 
+            this.PasswordConatiner.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.PasswordConatiner.Location = new System.Drawing.Point(3, 287);
+            this.PasswordConatiner.Name = "PasswordConatiner";
+            // 
+            // PasswordConatiner.Panel1
+            // 
+            this.PasswordConatiner.Panel1.Controls.Add(this.PasswordLabel);
+            // 
+            // PasswordConatiner.Panel2
+            // 
+            this.PasswordConatiner.Panel2.Controls.Add(this.PasswordTextBox);
+            this.PasswordConatiner.Size = new System.Drawing.Size(785, 136);
+            this.PasswordConatiner.SplitterDistance = 261;
+            this.PasswordConatiner.TabIndex = 1;
+            // 
+            // PasswordLabel
+            // 
+            this.PasswordLabel.AutoSize = true;
+            this.PasswordLabel.Location = new System.Drawing.Point(108, 39);
+            this.PasswordLabel.Name = "PasswordLabel";
+            this.PasswordLabel.Size = new System.Drawing.Size(53, 13);
+            this.PasswordLabel.TabIndex = 0;
+            this.PasswordLabel.Text = "Password";
+            this.PasswordLabel.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
+            // PasswordTextBox
+            // 
+            this.PasswordTextBox.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.PasswordTextBox.Location = new System.Drawing.Point(0, 0);
+            this.PasswordTextBox.Name = "PasswordTextBox";
+            this.PasswordTextBox.PasswordChar = '*';
+            this.PasswordTextBox.Size = new System.Drawing.Size(520, 20);
+            this.PasswordTextBox.TabIndex = 0;
+            // 
+            // LoginButton
+            // 
+            this.LoginButton.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.LoginButton.Location = new System.Drawing.Point(3, 429);
+            this.LoginButton.Name = "LoginButton";
+            this.LoginButton.Size = new System.Drawing.Size(785, 139);
+            this.LoginButton.TabIndex = 2;
+            this.LoginButton.Text = "Login";
+            this.LoginButton.UseVisualStyleBackColor = true;
             // 
             // ButtonPanel
             // 
@@ -222,103 +257,68 @@
             this.SignUpButton.Text = "Sign Up Page";
             this.SignUpButton.UseVisualStyleBackColor = true;
             // 
-            // tableLayoutPanel2
+            // tableLayoutPanel1
             // 
-            this.tableLayoutPanel2.ColumnCount = 1;
-            this.tableLayoutPanel2.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 100F));
-            this.tableLayoutPanel2.Controls.Add(this.IDContainer, 0, 1);
-            this.tableLayoutPanel2.Controls.Add(this.PasswordConatiner, 0, 2);
-            this.tableLayoutPanel2.Controls.Add(this.LoginButton, 0, 3);
-            this.tableLayoutPanel2.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.tableLayoutPanel2.Location = new System.Drawing.Point(200, 0);
-            this.tableLayoutPanel2.Name = "tableLayoutPanel2";
-            this.tableLayoutPanel2.RowCount = 4;
-            this.tableLayoutPanel2.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 25F));
-            this.tableLayoutPanel2.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 25F));
-            this.tableLayoutPanel2.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 25F));
-            this.tableLayoutPanel2.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 25F));
-            this.tableLayoutPanel2.Size = new System.Drawing.Size(791, 571);
-            this.tableLayoutPanel2.TabIndex = 5;
+            this.tableLayoutPanel1.ColumnCount = 2;
+            this.tableLayoutPanel1.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 50F));
+            this.tableLayoutPanel1.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 50F));
+            this.tableLayoutPanel1.Controls.Add(this.linkLabel1, 0, 0);
+            this.tableLayoutPanel1.Controls.Add(this.linkLabel2, 1, 0);
+            this.tableLayoutPanel1.Dock = System.Windows.Forms.DockStyle.Bottom;
+            this.tableLayoutPanel1.Location = new System.Drawing.Point(0, 597);
+            this.tableLayoutPanel1.Name = "tableLayoutPanel1";
+            this.tableLayoutPanel1.RowCount = 1;
+            this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 50F));
+            this.tableLayoutPanel1.Size = new System.Drawing.Size(991, 31);
+            this.tableLayoutPanel1.TabIndex = 5;
             // 
-            // IDContainer
+            // linkLabel1
             // 
-            this.IDContainer.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.IDContainer.Location = new System.Drawing.Point(3, 145);
-            this.IDContainer.Name = "IDContainer";
+            this.linkLabel1.AutoSize = true;
+            this.linkLabel1.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.linkLabel1.ImeMode = System.Windows.Forms.ImeMode.NoControl;
+            this.linkLabel1.Location = new System.Drawing.Point(3, 0);
+            this.linkLabel1.Name = "linkLabel1";
+            this.linkLabel1.Size = new System.Drawing.Size(489, 31);
+            this.linkLabel1.TabIndex = 0;
+            this.linkLabel1.TabStop = true;
+            this.linkLabel1.Text = "About Us";
             // 
-            // IDContainer.Panel1
+            // linkLabel2
             // 
-            this.IDContainer.Panel1.Controls.Add(this.UserNameLabel);
+            this.linkLabel2.AutoSize = true;
+            this.linkLabel2.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.linkLabel2.ImeMode = System.Windows.Forms.ImeMode.NoControl;
+            this.linkLabel2.Location = new System.Drawing.Point(498, 0);
+            this.linkLabel2.Name = "linkLabel2";
+            this.linkLabel2.Size = new System.Drawing.Size(490, 31);
+            this.linkLabel2.TabIndex = 0;
+            this.linkLabel2.TabStop = true;
+            this.linkLabel2.Text = "Help And Feedback";
             // 
-            // IDContainer.Panel2
+            // panel1
             // 
-            this.IDContainer.Panel2.Controls.Add(this.IDTextBox);
-            this.IDContainer.Size = new System.Drawing.Size(785, 136);
-            this.IDContainer.SplitterDistance = 261;
-            this.IDContainer.TabIndex = 0;
+            this.panel1.AccessibleRole = System.Windows.Forms.AccessibleRole.TitleBar;
+            this.panel1.Controls.Add(this.label1);
+            this.panel1.Dock = System.Windows.Forms.DockStyle.Top;
+            this.panel1.Location = new System.Drawing.Point(0, 0);
+            this.panel1.Name = "panel1";
+            this.panel1.Size = new System.Drawing.Size(991, 26);
+            this.panel1.TabIndex = 6;
             // 
-            // PasswordConatiner
+            // label1
             // 
-            this.PasswordConatiner.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.PasswordConatiner.Location = new System.Drawing.Point(3, 287);
-            this.PasswordConatiner.Name = "PasswordConatiner";
-            // 
-            // PasswordConatiner.Panel1
-            // 
-            this.PasswordConatiner.Panel1.Controls.Add(this.PasswordLabel);
-            // 
-            // PasswordConatiner.Panel2
-            // 
-            this.PasswordConatiner.Panel2.Controls.Add(this.PasswordTextBox);
-            this.PasswordConatiner.Size = new System.Drawing.Size(785, 136);
-            this.PasswordConatiner.SplitterDistance = 261;
-            this.PasswordConatiner.TabIndex = 1;
-            // 
-            // LoginButton
-            // 
-            this.LoginButton.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.LoginButton.Location = new System.Drawing.Point(3, 429);
-            this.LoginButton.Name = "LoginButton";
-            this.LoginButton.Size = new System.Drawing.Size(785, 139);
-            this.LoginButton.TabIndex = 2;
-            this.LoginButton.Text = "Login";
-            this.LoginButton.UseVisualStyleBackColor = true;
-            // 
-            // PasswordTextBox
-            // 
-            this.PasswordTextBox.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.PasswordTextBox.Location = new System.Drawing.Point(0, 0);
-            this.PasswordTextBox.Name = "PasswordTextBox";
-            this.PasswordTextBox.PasswordChar = '*';
-            this.PasswordTextBox.Size = new System.Drawing.Size(520, 20);
-            this.PasswordTextBox.TabIndex = 0;
-            // 
-            // IDTextBox
-            // 
-            this.IDTextBox.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.IDTextBox.Location = new System.Drawing.Point(0, 0);
-            this.IDTextBox.Name = "IDTextBox";
-            this.IDTextBox.Size = new System.Drawing.Size(520, 20);
-            this.IDTextBox.TabIndex = 0;
-            // 
-            // PasswordLabel
-            // 
-            this.PasswordLabel.AutoSize = true;
-            this.PasswordLabel.Location = new System.Drawing.Point(108, 39);
-            this.PasswordLabel.Name = "PasswordLabel";
-            this.PasswordLabel.Size = new System.Drawing.Size(53, 13);
-            this.PasswordLabel.TabIndex = 0;
-            this.PasswordLabel.Text = "Password";
-            this.PasswordLabel.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            // 
-            // UserNameLabel
-            // 
-            this.UserNameLabel.AutoSize = true;
-            this.UserNameLabel.Location = new System.Drawing.Point(108, 48);
-            this.UserNameLabel.Name = "UserNameLabel";
-            this.UserNameLabel.Size = new System.Drawing.Size(55, 13);
-            this.UserNameLabel.TabIndex = 0;
-            this.UserNameLabel.Text = "Username";
+            this.label1.AutoSize = true;
+            this.label1.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.label1.Font = new System.Drawing.Font("Lucida Calligraphy", 18.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Pixel);
+            this.label1.ImageAlign = System.Drawing.ContentAlignment.TopLeft;
+            this.label1.ImeMode = System.Windows.Forms.ImeMode.NoControl;
+            this.label1.Location = new System.Drawing.Point(0, 0);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(308, 24);
+            this.label1.TabIndex = 0;
+            this.label1.Text = "Student Management System";
+            this.label1.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // SignIn
             // 
@@ -333,11 +333,6 @@
             this.Text = "Sign In Window";
             this.WindowState = System.Windows.Forms.FormWindowState.Maximized;
             this.CentralContainerLogin.ResumeLayout(false);
-            this.tableLayoutPanel1.ResumeLayout(false);
-            this.tableLayoutPanel1.PerformLayout();
-            this.panel1.ResumeLayout(false);
-            this.panel1.PerformLayout();
-            this.ButtonPanel.ResumeLayout(false);
             this.tableLayoutPanel2.ResumeLayout(false);
             this.IDContainer.Panel1.ResumeLayout(false);
             this.IDContainer.Panel1.PerformLayout();
@@ -351,6 +346,11 @@
             this.PasswordConatiner.Panel2.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.PasswordConatiner)).EndInit();
             this.PasswordConatiner.ResumeLayout(false);
+            this.ButtonPanel.ResumeLayout(false);
+            this.tableLayoutPanel1.ResumeLayout(false);
+            this.tableLayoutPanel1.PerformLayout();
+            this.panel1.ResumeLayout(false);
+            this.panel1.PerformLayout();
             this.ResumeLayout(false);
 
         }

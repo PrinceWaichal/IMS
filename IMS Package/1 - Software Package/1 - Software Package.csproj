@@ -65,10 +65,10 @@
     <Compile Include="Base Form Application.Designer.cs">
       <DependentUpon>Base Form Application.cs</DependentUpon>
     </Compile>
-    <Compile Include="FormPages\SignIn.cs">
+    <Compile Include="FormPages\1 - SignIn\SignIn.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="FormPages\SignIn.Designer.cs">
+    <Compile Include="FormPages\1 - SignIn\SignIn.Designer.cs">
       <DependentUpon>SignIn.cs</DependentUpon>
     </Compile>
     <Compile Include="FormPages\SignUp_EducationalDetails.cs">
@@ -94,7 +94,7 @@
     <EmbeddedResource Include="Base Form Application.resx">
       <DependentUpon>Base Form Application.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="FormPages\SignIn.resx">
+    <EmbeddedResource Include="FormPages\1 - SignIn\SignIn.resx">
       <DependentUpon>SignIn.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="FormPages\SignUp_EducationalDetails.resx">
