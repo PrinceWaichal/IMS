@@ -172,6 +172,7 @@
             // 
             // ValidateButton
             // 
+            this.ValidateButton.AccessibleRole = System.Windows.Forms.AccessibleRole.CheckButton;
             this.ValidateButton.Dock = System.Windows.Forms.DockStyle.Bottom;
             this.ValidateButton.Location = new System.Drawing.Point(200, 532);
             this.ValidateButton.Name = "ValidateButton";
