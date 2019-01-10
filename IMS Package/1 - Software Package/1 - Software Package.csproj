@@ -71,6 +71,18 @@
     <Compile Include="FormPages\SignIn.Designer.cs">
       <DependentUpon>SignIn.cs</DependentUpon>
     </Compile>
+    <Compile Include="FormPages\SignUp_EducationalDetails.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormPages\SignUp_EducationalDetails.Designer.cs">
+      <DependentUpon>SignUp_EducationalDetails.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormPages\SignUp_MiscDetails.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormPages\SignUp_MiscDetails.Designer.cs">
+      <DependentUpon>SignUp_MiscDetails.cs</DependentUpon>
+    </Compile>
     <Compile Include="FormPages\SignUp_PrimaryDetails.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -84,6 +96,12 @@
     </EmbeddedResource>
     <EmbeddedResource Include="FormPages\SignIn.resx">
       <DependentUpon>SignIn.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormPages\SignUp_EducationalDetails.resx">
+      <DependentUpon>SignUp_EducationalDetails.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormPages\SignUp_MiscDetails.resx">
+      <DependentUpon>SignUp_MiscDetails.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="FormPages\SignUp_PrimaryDetails.resx">
       <DependentUpon>SignUp_PrimaryDetails.cs</DependentUpon>
