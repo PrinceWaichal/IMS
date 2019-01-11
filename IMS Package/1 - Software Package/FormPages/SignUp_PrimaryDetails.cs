@@ -15,5 +15,20 @@ namespace _1___Software_Package.FormPages
         {
             InitializeComponent();
         }
+
+        private void Stu_Name_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void First_Name_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void First_Name_Text(object sender, EventArgs e)
+        {
+
+        }
     }
 }
