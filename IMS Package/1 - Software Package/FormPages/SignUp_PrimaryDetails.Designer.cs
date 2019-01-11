@@ -40,10 +40,6 @@
             this.linkLabel2 = new System.Windows.Forms.LinkLabel();
             this.linkLabel1 = new System.Windows.Forms.LinkLabel();
             this.tableLayoutPanel1 = new System.Windows.Forms.TableLayoutPanel();
-            this.Stu_Name = new System.Windows.Forms.Label();
-            this.First_Name = new System.Windows.Forms.TextBox();
-            this.e_mail = new System.Windows.Forms.Label();
-            this.email_box = new System.Windows.Forms.TextBox();
             this.panel2.SuspendLayout();
             this.ButtonPanel.SuspendLayout();
             this.panel1.SuspendLayout();
@@ -52,12 +48,9 @@
             // 
             // panel2
             // 
-            this.panel2.Controls.Add(this.email_box);
-            this.panel2.Controls.Add(this.First_Name);
-            this.panel2.Controls.Add(this.e_mail);
-            this.panel2.Controls.Add(this.Stu_Name);
             this.panel2.Controls.Add(this.ValidateButton);
             this.panel2.Controls.Add(this.ButtonPanel);
+            this.panel2.Dock = System.Windows.Forms.DockStyle.Fill;
             this.panel2.Location = new System.Drawing.Point(0, 26);
             this.panel2.Name = "panel2";
             this.panel2.Size = new System.Drawing.Size(843, 555);
@@ -129,12 +122,12 @@
             // 
             this.label1.AutoSize = true;
             this.label1.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 18.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Pixel);
+            this.label1.Font = new System.Drawing.Font("Lucida Calligraphy", 18.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Pixel);
             this.label1.ImageAlign = System.Drawing.ContentAlignment.TopLeft;
             this.label1.ImeMode = System.Windows.Forms.ImeMode.NoControl;
             this.label1.Location = new System.Drawing.Point(0, 0);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(256, 24);
+            this.label1.Size = new System.Drawing.Size(308, 24);
             this.label1.TabIndex = 0;
             this.label1.Text = "Student Management System";
             this.label1.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -188,46 +181,6 @@
             this.tableLayoutPanel1.Size = new System.Drawing.Size(843, 31);
             this.tableLayoutPanel1.TabIndex = 5;
             // 
-            // Stu_Name
-            // 
-            this.Stu_Name.AutoSize = true;
-            this.Stu_Name.Location = new System.Drawing.Point(220, 41);
-            this.Stu_Name.Name = "Stu_Name";
-            this.Stu_Name.Size = new System.Drawing.Size(35, 13);
-            this.Stu_Name.TabIndex = 6;
-            this.Stu_Name.Text = "Name";
-            this.Stu_Name.Click += new System.EventHandler(this.Stu_Name_Click);
-            // 
-            // First_Name
-            // 
-            this.First_Name.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.First_Name.ForeColor = System.Drawing.SystemColors.GrayText;
-            this.First_Name.Location = new System.Drawing.Point(351, 34);
-            this.First_Name.Name = "First_Name";
-            this.First_Name.Size = new System.Drawing.Size(100, 20);
-            this.First_Name.TabIndex = 7;
-            this.First_Name.Text = "First Name";
-            this.First_Name.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
-            this.First_Name.TextChanged += new System.EventHandler(this.First_Name_TextChanged);
-            this.First_Name.Enter += new System.EventHandler(this.First_Name_Text);
-            // 
-            // e_mail
-            // 
-            this.e_mail.AutoSize = true;
-            this.e_mail.Location = new System.Drawing.Point(220, 76);
-            this.e_mail.Name = "e_mail";
-            this.e_mail.Size = new System.Drawing.Size(35, 13);
-            this.e_mail.TabIndex = 6;
-            this.e_mail.Text = "E-mail";
-            this.e_mail.Click += new System.EventHandler(this.Stu_Name_Click);
-            // 
-            // email_box
-            // 
-            this.email_box.Location = new System.Drawing.Point(351, 69);
-            this.email_box.Name = "email_box";
-            this.email_box.Size = new System.Drawing.Size(351, 20);
-            this.email_box.TabIndex = 7;
-            // 
             // SignUp_PrimaryDetails
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -240,7 +193,6 @@
             this.Name = "SignUp_PrimaryDetails";
             this.Text = "Primary Details";
             this.panel2.ResumeLayout(false);
-            this.panel2.PerformLayout();
             this.ButtonPanel.ResumeLayout(false);
             this.panel1.ResumeLayout(false);
             this.panel1.PerformLayout();
@@ -263,9 +215,5 @@
         private System.Windows.Forms.Button PrimeDButton;
         private System.Windows.Forms.Button EducationalDButton;
         private System.Windows.Forms.Button MiscDButton;
-        private System.Windows.Forms.Label Stu_Name;
-        private System.Windows.Forms.TextBox email_box;
-        private System.Windows.Forms.TextBox First_Name;
-        private System.Windows.Forms.Label e_mail;
     }
 }

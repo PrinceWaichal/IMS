@@ -7,11 +7,11 @@ using System.Linq;
 using System.Text;
 using System.Windows.Forms;
 
-namespace _1___Software_Package.FormPages
+namespace _1___Software_Package.FormPages._1___SignIn
 {
-    public partial class SignUp_PrimaryDetails : Form
+    public partial class AdminLoginWindow : Form
     {
-        public SignUp_PrimaryDetails()
+        public AdminLoginWindow()
         {
             InitializeComponent();
         }

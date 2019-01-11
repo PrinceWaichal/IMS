@@ -65,11 +65,41 @@
     <Compile Include="Base Form Application.Designer.cs">
       <DependentUpon>Base Form Application.cs</DependentUpon>
     </Compile>
+    <Compile Include="FormPages\1 - SignIn\AdminLoginWindow.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormPages\1 - SignIn\AdminLoginWindow.Designer.cs">
+      <DependentUpon>AdminLoginWindow.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormPages\1 - SignIn\LibraryStaffLogin.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormPages\1 - SignIn\LibraryStaffLogin.Designer.cs">
+      <DependentUpon>LibraryStaffLogin.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormPages\1 - SignIn\OfficeStaffLoginWindow.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormPages\1 - SignIn\OfficeStaffLoginWindow.Designer.cs">
+      <DependentUpon>OfficeStaffLoginWindow.cs</DependentUpon>
+    </Compile>
     <Compile Include="FormPages\1 - SignIn\SignIn.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="FormPages\1 - SignIn\SignIn.Designer.cs">
       <DependentUpon>SignIn.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormPages\1 - SignIn\StudentLoginWindow.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormPages\1 - SignIn\StudentLoginWindow.Designer.cs">
+      <DependentUpon>StudentLoginWindow.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormPages\1 - SignIn\TeachersLoginWindow.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormPages\1 - SignIn\TeachersLoginWindow.Designer.cs">
+      <DependentUpon>TeachersLoginWindow.cs</DependentUpon>
     </Compile>
     <Compile Include="FormPages\SignUp_EducationalDetails.cs">
       <SubType>Form</SubType>
@@ -94,8 +124,23 @@
     <EmbeddedResource Include="Base Form Application.resx">
       <DependentUpon>Base Form Application.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="FormPages\1 - SignIn\AdminLoginWindow.resx">
+      <DependentUpon>AdminLoginWindow.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormPages\1 - SignIn\LibraryStaffLogin.resx">
+      <DependentUpon>LibraryStaffLogin.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormPages\1 - SignIn\OfficeStaffLoginWindow.resx">
+      <DependentUpon>OfficeStaffLoginWindow.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="FormPages\1 - SignIn\SignIn.resx">
       <DependentUpon>SignIn.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormPages\1 - SignIn\StudentLoginWindow.resx">
+      <DependentUpon>StudentLoginWindow.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormPages\1 - SignIn\TeachersLoginWindow.resx">
+      <DependentUpon>TeachersLoginWindow.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="FormPages\SignUp_EducationalDetails.resx">
       <DependentUpon>SignUp_EducationalDetails.cs</DependentUpon>
