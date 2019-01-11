@@ -310,12 +310,12 @@
             // 
             this.label1.AutoSize = true;
             this.label1.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 18.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Pixel);
+            this.label1.Font = new System.Drawing.Font("Lucida Calligraphy", 18.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Pixel);
             this.label1.ImageAlign = System.Drawing.ContentAlignment.TopLeft;
             this.label1.ImeMode = System.Windows.Forms.ImeMode.NoControl;
             this.label1.Location = new System.Drawing.Point(0, 0);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(256, 24);
+            this.label1.Size = new System.Drawing.Size(308, 24);
             this.label1.TabIndex = 0;
             this.label1.Text = "Student Management System";
             this.label1.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
