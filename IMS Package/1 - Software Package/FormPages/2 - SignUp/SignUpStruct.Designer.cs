@@ -28,6 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(SignUpStruct));
             this.label1 = new System.Windows.Forms.Label();
             this.panel1 = new System.Windows.Forms.Panel();
             this.linkLabel2 = new System.Windows.Forms.LinkLabel();
@@ -39,6 +40,9 @@
             this.Button = new System.Windows.Forms.Button();
             this.EduDButton = new System.Windows.Forms.Button();
             this.MiscDButton = new System.Windows.Forms.Button();
+            this.LoginButton = new System.Windows.Forms.Button();
+            this.FilesButton = new System.Windows.Forms.Button();
+            this.ReviewButton = new System.Windows.Forms.Button();
             this.panel1.SuspendLayout();
             this.tableLayoutPanel1.SuspendLayout();
             this.ButtonPanel.SuspendLayout();
@@ -115,6 +119,9 @@
             this.ButtonPanel.Controls.Add(this.PrimeDButton, 0, 0);
             this.ButtonPanel.Controls.Add(this.EduDButton, 0, 1);
             this.ButtonPanel.Controls.Add(this.MiscDButton, 0, 2);
+            this.ButtonPanel.Controls.Add(this.LoginButton, 0, 5);
+            this.ButtonPanel.Controls.Add(this.FilesButton, 0, 3);
+            this.ButtonPanel.Controls.Add(this.ReviewButton, 0, 4);
             this.ButtonPanel.Cursor = System.Windows.Forms.Cursors.Arrow;
             this.ButtonPanel.Dock = System.Windows.Forms.DockStyle.Left;
             this.ButtonPanel.Location = new System.Drawing.Point(0, 26);
@@ -178,6 +185,36 @@
             this.MiscDButton.Text = "Miscellaneous Details";
             this.MiscDButton.UseVisualStyleBackColor = true;
             // 
+            // LoginButton
+            // 
+            this.LoginButton.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.LoginButton.Location = new System.Drawing.Point(3, 478);
+            this.LoginButton.Name = "LoginButton";
+            this.LoginButton.Size = new System.Drawing.Size(194, 91);
+            this.LoginButton.TabIndex = 3;
+            this.LoginButton.Text = "Login Button";
+            this.LoginButton.UseVisualStyleBackColor = true;
+            // 
+            // FilesButton
+            // 
+            this.FilesButton.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.FilesButton.Location = new System.Drawing.Point(3, 288);
+            this.FilesButton.Name = "FilesButton";
+            this.FilesButton.Size = new System.Drawing.Size(194, 89);
+            this.FilesButton.TabIndex = 4;
+            this.FilesButton.Text = "Upload Files";
+            this.FilesButton.UseVisualStyleBackColor = true;
+            // 
+            // ReviewButton
+            // 
+            this.ReviewButton.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.ReviewButton.Location = new System.Drawing.Point(3, 383);
+            this.ReviewButton.Name = "ReviewButton";
+            this.ReviewButton.Size = new System.Drawing.Size(194, 89);
+            this.ReviewButton.TabIndex = 5;
+            this.ReviewButton.Text = "Review Your Application";
+            this.ReviewButton.UseVisualStyleBackColor = true;
+            // 
             // SignUpStruct
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -187,6 +224,7 @@
             this.Controls.Add(this.ButtonPanel);
             this.Controls.Add(this.tableLayoutPanel1);
             this.Controls.Add(this.panel1);
+            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Name = "SignUpStruct";
             this.Text = "SignUpStruct";
             this.panel1.ResumeLayout(false);
@@ -211,5 +249,8 @@
         private System.Windows.Forms.Button EduDButton;
         private System.Windows.Forms.Button MiscDButton;
         private System.Windows.Forms.Button Button;
+        private System.Windows.Forms.Button LoginButton;
+        private System.Windows.Forms.Button FilesButton;
+        private System.Windows.Forms.Button ReviewButton;
     }
 }
