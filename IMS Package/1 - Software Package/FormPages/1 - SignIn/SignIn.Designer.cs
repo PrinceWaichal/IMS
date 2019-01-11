@@ -33,10 +33,8 @@
             this.tableLayoutPanel2 = new System.Windows.Forms.TableLayoutPanel();
             this.IDContainer = new System.Windows.Forms.SplitContainer();
             this.UserNameLabel = new System.Windows.Forms.Label();
-            this.IDTextBox = new System.Windows.Forms.TextBox();
             this.PasswordConatiner = new System.Windows.Forms.SplitContainer();
             this.PasswordLabel = new System.Windows.Forms.Label();
-            this.PasswordTextBox = new System.Windows.Forms.TextBox();
             this.LoginButton = new System.Windows.Forms.Button();
             this.ButtonPanel = new System.Windows.Forms.TableLayoutPanel();
             this.AdminButton = new System.Windows.Forms.Button();
@@ -54,11 +52,9 @@
             this.tableLayoutPanel2.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.IDContainer)).BeginInit();
             this.IDContainer.Panel1.SuspendLayout();
-            this.IDContainer.Panel2.SuspendLayout();
             this.IDContainer.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.PasswordConatiner)).BeginInit();
             this.PasswordConatiner.Panel1.SuspendLayout();
-            this.PasswordConatiner.Panel2.SuspendLayout();
             this.PasswordConatiner.SuspendLayout();
             this.ButtonPanel.SuspendLayout();
             this.tableLayoutPanel1.SuspendLayout();
@@ -102,10 +98,6 @@
             // IDContainer.Panel1
             // 
             this.IDContainer.Panel1.Controls.Add(this.UserNameLabel);
-            // 
-            // IDContainer.Panel2
-            // 
-            this.IDContainer.Panel2.Controls.Add(this.IDTextBox);
             this.IDContainer.Size = new System.Drawing.Size(785, 136);
             this.IDContainer.SplitterDistance = 261;
             this.IDContainer.TabIndex = 0;
@@ -113,19 +105,12 @@
             // UserNameLabel
             // 
             this.UserNameLabel.AutoSize = true;
-            this.UserNameLabel.Location = new System.Drawing.Point(108, 48);
+            this.UserNameLabel.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.UserNameLabel.Location = new System.Drawing.Point(0, 0);
             this.UserNameLabel.Name = "UserNameLabel";
             this.UserNameLabel.Size = new System.Drawing.Size(55, 13);
             this.UserNameLabel.TabIndex = 0;
             this.UserNameLabel.Text = "Username";
-            // 
-            // IDTextBox
-            // 
-            this.IDTextBox.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.IDTextBox.Location = new System.Drawing.Point(0, 0);
-            this.IDTextBox.Name = "IDTextBox";
-            this.IDTextBox.Size = new System.Drawing.Size(520, 20);
-            this.IDTextBox.TabIndex = 0;
             // 
             // PasswordConatiner
             // 
@@ -136,10 +121,6 @@
             // PasswordConatiner.Panel1
             // 
             this.PasswordConatiner.Panel1.Controls.Add(this.PasswordLabel);
-            // 
-            // PasswordConatiner.Panel2
-            // 
-            this.PasswordConatiner.Panel2.Controls.Add(this.PasswordTextBox);
             this.PasswordConatiner.Size = new System.Drawing.Size(785, 136);
             this.PasswordConatiner.SplitterDistance = 261;
             this.PasswordConatiner.TabIndex = 1;
@@ -147,21 +128,13 @@
             // PasswordLabel
             // 
             this.PasswordLabel.AutoSize = true;
-            this.PasswordLabel.Location = new System.Drawing.Point(108, 39);
+            this.PasswordLabel.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.PasswordLabel.Location = new System.Drawing.Point(0, 0);
             this.PasswordLabel.Name = "PasswordLabel";
             this.PasswordLabel.Size = new System.Drawing.Size(53, 13);
             this.PasswordLabel.TabIndex = 0;
             this.PasswordLabel.Text = "Password";
             this.PasswordLabel.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            // 
-            // PasswordTextBox
-            // 
-            this.PasswordTextBox.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.PasswordTextBox.Location = new System.Drawing.Point(0, 0);
-            this.PasswordTextBox.Name = "PasswordTextBox";
-            this.PasswordTextBox.PasswordChar = '*';
-            this.PasswordTextBox.Size = new System.Drawing.Size(520, 20);
-            this.PasswordTextBox.TabIndex = 0;
             // 
             // LoginButton
             // 
@@ -203,7 +176,7 @@
             this.AdminButton.Location = new System.Drawing.Point(3, 3);
             this.AdminButton.Name = "AdminButton";
             this.AdminButton.Size = new System.Drawing.Size(194, 89);
-            this.AdminButton.TabIndex = 0;
+            this.AdminButton.TabIndex = 3;
             this.AdminButton.Text = "Admin Login";
             this.AdminButton.UseVisualStyleBackColor = true;
             // 
@@ -213,7 +186,7 @@
             this.StudentButton.Location = new System.Drawing.Point(3, 98);
             this.StudentButton.Name = "StudentButton";
             this.StudentButton.Size = new System.Drawing.Size(194, 89);
-            this.StudentButton.TabIndex = 1;
+            this.StudentButton.TabIndex = 4;
             this.StudentButton.Text = "Student Login";
             this.StudentButton.UseVisualStyleBackColor = true;
             // 
@@ -223,7 +196,7 @@
             this.TeacherButton.Location = new System.Drawing.Point(3, 193);
             this.TeacherButton.Name = "TeacherButton";
             this.TeacherButton.Size = new System.Drawing.Size(194, 89);
-            this.TeacherButton.TabIndex = 2;
+            this.TeacherButton.TabIndex = 5;
             this.TeacherButton.Text = "Teachers Login";
             this.TeacherButton.UseVisualStyleBackColor = true;
             // 
@@ -233,7 +206,7 @@
             this.OfficeStaffButton.Location = new System.Drawing.Point(3, 288);
             this.OfficeStaffButton.Name = "OfficeStaffButton";
             this.OfficeStaffButton.Size = new System.Drawing.Size(194, 89);
-            this.OfficeStaffButton.TabIndex = 3;
+            this.OfficeStaffButton.TabIndex = 6;
             this.OfficeStaffButton.Text = "Office Staff Login";
             this.OfficeStaffButton.UseVisualStyleBackColor = true;
             // 
@@ -243,7 +216,7 @@
             this.LibStaffButton.Location = new System.Drawing.Point(3, 383);
             this.LibStaffButton.Name = "LibStaffButton";
             this.LibStaffButton.Size = new System.Drawing.Size(194, 89);
-            this.LibStaffButton.TabIndex = 4;
+            this.LibStaffButton.TabIndex = 7;
             this.LibStaffButton.Text = "Library Staff Login";
             this.LibStaffButton.UseVisualStyleBackColor = true;
             // 
@@ -253,7 +226,7 @@
             this.SignUpButton.Location = new System.Drawing.Point(3, 478);
             this.SignUpButton.Name = "SignUpButton";
             this.SignUpButton.Size = new System.Drawing.Size(194, 90);
-            this.SignUpButton.TabIndex = 5;
+            this.SignUpButton.TabIndex = 8;
             this.SignUpButton.Text = "Sign Up Page";
             this.SignUpButton.UseVisualStyleBackColor = true;
             // 
@@ -336,14 +309,10 @@
             this.tableLayoutPanel2.ResumeLayout(false);
             this.IDContainer.Panel1.ResumeLayout(false);
             this.IDContainer.Panel1.PerformLayout();
-            this.IDContainer.Panel2.ResumeLayout(false);
-            this.IDContainer.Panel2.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.IDContainer)).EndInit();
             this.IDContainer.ResumeLayout(false);
             this.PasswordConatiner.Panel1.ResumeLayout(false);
             this.PasswordConatiner.Panel1.PerformLayout();
-            this.PasswordConatiner.Panel2.ResumeLayout(false);
-            this.PasswordConatiner.Panel2.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.PasswordConatiner)).EndInit();
             this.PasswordConatiner.ResumeLayout(false);
             this.ButtonPanel.ResumeLayout(false);
@@ -372,9 +341,7 @@
         private System.Windows.Forms.Button SignUpButton;
         private System.Windows.Forms.TableLayoutPanel tableLayoutPanel2;
         private System.Windows.Forms.SplitContainer IDContainer;
-        private System.Windows.Forms.TextBox IDTextBox;
         private System.Windows.Forms.SplitContainer PasswordConatiner;
-        private System.Windows.Forms.TextBox PasswordTextBox;
         private System.Windows.Forms.Button LoginButton;
         private System.Windows.Forms.Label PasswordLabel;
         private System.Windows.Forms.Label UserNameLabel;
