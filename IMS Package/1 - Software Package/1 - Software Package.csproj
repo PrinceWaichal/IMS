@@ -59,12 +59,6 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Base Form Application.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="Base Form Application.Designer.cs">
-      <DependentUpon>Base Form Application.cs</DependentUpon>
-    </Compile>
     <Compile Include="FormPages\1 - SignIn\SignIn.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -91,9 +85,6 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <EmbeddedResource Include="Base Form Application.resx">
-      <DependentUpon>Base Form Application.cs</DependentUpon>
-    </EmbeddedResource>
     <EmbeddedResource Include="FormPages\1 - SignIn\SignIn.resx">
       <DependentUpon>SignIn.cs</DependentUpon>
     </EmbeddedResource>

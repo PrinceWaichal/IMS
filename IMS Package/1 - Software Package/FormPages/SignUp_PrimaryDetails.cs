@@ -23,10 +23,25 @@ namespace _1___Software_Package.FormPages
 
         private void First_Name_TextChanged(object sender, EventArgs e)
         {
-
+            
         }
 
         private void First_Name_Text(object sender, EventArgs e)
+        {
+
+        }
+
+        private void email_box_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void DOBpicker_ValueChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void label6_Click(object sender, EventArgs e)
         {
 
         }
