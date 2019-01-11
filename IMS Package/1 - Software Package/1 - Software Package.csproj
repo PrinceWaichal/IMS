@@ -83,11 +83,11 @@
     <Compile Include="FormPages\1 - SignIn\OfficeStaffLoginWindow.Designer.cs">
       <DependentUpon>OfficeStaffLoginWindow.cs</DependentUpon>
     </Compile>
-    <Compile Include="FormPages\1 - SignIn\SignIn.cs">
+    <Compile Include="FormPages\1 - SignIn\SignInStruct.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="FormPages\1 - SignIn\SignIn.Designer.cs">
-      <DependentUpon>SignIn.cs</DependentUpon>
+    <Compile Include="FormPages\1 - SignIn\SignInStruct.Designer.cs">
+      <DependentUpon>SignInStruct.cs</DependentUpon>
     </Compile>
     <Compile Include="FormPages\1 - SignIn\StudentLoginWindow.cs">
       <SubType>Form</SubType>
@@ -101,22 +101,28 @@
     <Compile Include="FormPages\1 - SignIn\TeachersLoginWindow.Designer.cs">
       <DependentUpon>TeachersLoginWindow.cs</DependentUpon>
     </Compile>
-    <Compile Include="FormPages\SignUp_EducationalDetails.cs">
+    <Compile Include="FormPages\2 - SignUp\SignUpStruct.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="FormPages\SignUp_EducationalDetails.Designer.cs">
+    <Compile Include="FormPages\2 - SignUp\SignUpStruct.Designer.cs">
+      <DependentUpon>SignUpStruct.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormPages\2 - SignUp\SignUp_EducationalDetails.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormPages\2 - SignUp\SignUp_EducationalDetails.Designer.cs">
       <DependentUpon>SignUp_EducationalDetails.cs</DependentUpon>
     </Compile>
-    <Compile Include="FormPages\SignUp_MiscDetails.cs">
+    <Compile Include="FormPages\2 - SignUp\SignUp_MiscDetails.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="FormPages\SignUp_MiscDetails.Designer.cs">
+    <Compile Include="FormPages\2 - SignUp\SignUp_MiscDetails.Designer.cs">
       <DependentUpon>SignUp_MiscDetails.cs</DependentUpon>
     </Compile>
-    <Compile Include="FormPages\SignUp_PrimaryDetails.cs">
+    <Compile Include="FormPages\2 - SignUp\SignUp_PrimaryDetails.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="FormPages\SignUp_PrimaryDetails.Designer.cs">
+    <Compile Include="FormPages\2 - SignUp\SignUp_PrimaryDetails.Designer.cs">
       <DependentUpon>SignUp_PrimaryDetails.cs</DependentUpon>
     </Compile>
     <Compile Include="Program.cs" />
@@ -133,8 +139,8 @@
     <EmbeddedResource Include="FormPages\1 - SignIn\OfficeStaffLoginWindow.resx">
       <DependentUpon>OfficeStaffLoginWindow.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="FormPages\1 - SignIn\SignIn.resx">
-      <DependentUpon>SignIn.cs</DependentUpon>
+    <EmbeddedResource Include="FormPages\1 - SignIn\SignInStruct.resx">
+      <DependentUpon>SignInStruct.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="FormPages\1 - SignIn\StudentLoginWindow.resx">
       <DependentUpon>StudentLoginWindow.cs</DependentUpon>
@@ -142,13 +148,16 @@
     <EmbeddedResource Include="FormPages\1 - SignIn\TeachersLoginWindow.resx">
       <DependentUpon>TeachersLoginWindow.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="FormPages\SignUp_EducationalDetails.resx">
+    <EmbeddedResource Include="FormPages\2 - SignUp\SignUpStruct.resx">
+      <DependentUpon>SignUpStruct.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormPages\2 - SignUp\SignUp_EducationalDetails.resx">
       <DependentUpon>SignUp_EducationalDetails.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="FormPages\SignUp_MiscDetails.resx">
+    <EmbeddedResource Include="FormPages\2 - SignUp\SignUp_MiscDetails.resx">
       <DependentUpon>SignUp_MiscDetails.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="FormPages\SignUp_PrimaryDetails.resx">
+    <EmbeddedResource Include="FormPages\2 - SignUp\SignUp_PrimaryDetails.resx">
       <DependentUpon>SignUp_PrimaryDetails.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
@@ -196,6 +205,7 @@
   <ItemGroup>
     <Content Include="Logo 1-1.ico" />
   </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
        Other similar extension points exist, see Microsoft.Common.targets.
