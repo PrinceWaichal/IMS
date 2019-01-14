@@ -101,11 +101,23 @@
     <Compile Include="FormPages\1 - SignIn\TeachersLoginWindow.Designer.cs">
       <DependentUpon>TeachersLoginWindow.cs</DependentUpon>
     </Compile>
+    <Compile Include="FormPages\2 - SignUp\SignUp_ReviewWindow.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormPages\2 - SignUp\SignUp_ReviewWindow.Designer.cs">
+      <DependentUpon>SignUp_ReviewWindow.cs</DependentUpon>
+    </Compile>
     <Compile Include="FormPages\2 - SignUp\SignUpStruct.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="FormPages\2 - SignUp\SignUpStruct.Designer.cs">
       <DependentUpon>SignUpStruct.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormPages\2 - SignUp\SignUpUploadFileWindow.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormPages\2 - SignUp\SignUpUploadFileWindow.Designer.cs">
+      <DependentUpon>SignUpUploadFileWindow.cs</DependentUpon>
     </Compile>
     <Compile Include="FormPages\2 - SignUp\SignUp_EducationalDetails.cs">
       <SubType>Form</SubType>
@@ -124,6 +136,12 @@
     </Compile>
     <Compile Include="FormPages\2 - SignUp\SignUp_PrimaryDetails.Designer.cs">
       <DependentUpon>SignUp_PrimaryDetails.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormPages\3 - DataEntry\DataEntryStruct.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormPages\3 - DataEntry\DataEntryStruct.Designer.cs">
+      <DependentUpon>DataEntryStruct.cs</DependentUpon>
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
@@ -148,8 +166,14 @@
     <EmbeddedResource Include="FormPages\1 - SignIn\TeachersLoginWindow.resx">
       <DependentUpon>TeachersLoginWindow.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="FormPages\2 - SignUp\SignUp_ReviewWindow.resx">
+      <DependentUpon>SignUp_ReviewWindow.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="FormPages\2 - SignUp\SignUpStruct.resx">
       <DependentUpon>SignUpStruct.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormPages\2 - SignUp\SignUpUploadFileWindow.resx">
+      <DependentUpon>SignUpUploadFileWindow.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="FormPages\2 - SignUp\SignUp_EducationalDetails.resx">
       <DependentUpon>SignUp_EducationalDetails.cs</DependentUpon>
@@ -159,6 +183,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="FormPages\2 - SignUp\SignUp_PrimaryDetails.resx">
       <DependentUpon>SignUp_PrimaryDetails.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormPages\3 - DataEntry\DataEntryStruct.resx">
+      <DependentUpon>DataEntryStruct.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
