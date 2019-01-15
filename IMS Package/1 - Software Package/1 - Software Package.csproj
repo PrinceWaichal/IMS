@@ -143,6 +143,54 @@
     <Compile Include="FormPages\3 - DataEntry\DataEntryStruct.Designer.cs">
       <DependentUpon>DataEntryStruct.cs</DependentUpon>
     </Compile>
+    <Compile Include="FormPages\3 - DataEntry\DataEntry_Activities.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormPages\3 - DataEntry\DataEntry_Activities.Designer.cs">
+      <DependentUpon>DataEntry_Activities.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormPages\3 - DataEntry\DataEntry_Attendance.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormPages\3 - DataEntry\DataEntry_Attendance.Designer.cs">
+      <DependentUpon>DataEntry_Attendance.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormPages\3 - DataEntry\DataEntry_Books.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormPages\3 - DataEntry\DataEntry_Books.Designer.cs">
+      <DependentUpon>DataEntry_Books.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormPages\3 - DataEntry\DataEntry_Exams.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormPages\3 - DataEntry\DataEntry_Exams.Designer.cs">
+      <DependentUpon>DataEntry_Exams.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormPages\3 - DataEntry\DataEntry_Fees.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormPages\3 - DataEntry\DataEntry_Fees.Designer.cs">
+      <DependentUpon>DataEntry_Fees.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormPages\3 - DataEntry\DataEntry_Marks.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormPages\3 - DataEntry\DataEntry_Marks.Designer.cs">
+      <DependentUpon>DataEntry_Marks.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormPages\3 - DataEntry\DataEntry_Reports.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormPages\3 - DataEntry\DataEntry_Reports.Designer.cs">
+      <DependentUpon>DataEntry_Reports.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormPages\3 - DataEntry\DataEntry_Schedule.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormPages\3 - DataEntry\DataEntry_Schedule.Designer.cs">
+      <DependentUpon>DataEntry_Schedule.cs</DependentUpon>
+    </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <EmbeddedResource Include="Base Form Application.resx">
@@ -186,6 +234,30 @@
     </EmbeddedResource>
     <EmbeddedResource Include="FormPages\3 - DataEntry\DataEntryStruct.resx">
       <DependentUpon>DataEntryStruct.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormPages\3 - DataEntry\DataEntry_Activities.resx">
+      <DependentUpon>DataEntry_Activities.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormPages\3 - DataEntry\DataEntry_Attendance.resx">
+      <DependentUpon>DataEntry_Attendance.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormPages\3 - DataEntry\DataEntry_Books.resx">
+      <DependentUpon>DataEntry_Books.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormPages\3 - DataEntry\DataEntry_Exams.resx">
+      <DependentUpon>DataEntry_Exams.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormPages\3 - DataEntry\DataEntry_Fees.resx">
+      <DependentUpon>DataEntry_Fees.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormPages\3 - DataEntry\DataEntry_Marks.resx">
+      <DependentUpon>DataEntry_Marks.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormPages\3 - DataEntry\DataEntry_Reports.resx">
+      <DependentUpon>DataEntry_Reports.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormPages\3 - DataEntry\DataEntry_Schedule.resx">
+      <DependentUpon>DataEntry_Schedule.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
