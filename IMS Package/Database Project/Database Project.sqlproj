@@ -57,6 +57,14 @@
   <Import Condition="'$(SQLDBExtensionsRefPath)' == ''" Project="$(MSBuildExtensionsPath)\Microsoft\VisualStudio\v$(VisualStudioVersion)\SSDT\Microsoft.Data.Tools.Schema.SqlTasks.targets" />
   <ItemGroup>
     <Folder Include="Properties" />
+    <Folder Include="Table Masters" />
+    <Folder Include="Table Masters\AddressMasters" />
+    <Folder Include="Table Masters\NameMasters" />
+    <Folder Include="Table Masters\GenderMasters" />
+    <Folder Include="Table Masters\eMailMasters" />
+    <Folder Include="Table Masters\PhoneMasters" />
+    <Folder Include="Table Masters\MiscMasters" />
+    <Folder Include="Table Masters\WorkExperienceMasters" />
   </ItemGroup>
   <ItemGroup>
     <Build Include="PrimeDetail Table.sql" />
@@ -70,6 +78,7 @@
     <Build Include="Activities.sql" />
     <Build Include="Simple_Table.sql" />
     <Build Include="LoginDetails.sql" />
+    <Build Include="Table Masters\AddressMasters\CityMaster.sql" />
   </ItemGroup>
   <ItemGroup>
     <RefactorLog Include="Database Project.refactorlog" />
