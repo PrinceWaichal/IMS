@@ -1,0 +1,5 @@
+﻿CREATE TABLE [dbo].[PINMaster]
+(
+	[PINID] INT NOT NULL PRIMARY KEY, 
+    [PINCode] NCHAR(6) NOT NULL 
+)

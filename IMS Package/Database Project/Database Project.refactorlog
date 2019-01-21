@@ -147,4 +147,32 @@
     <Property Name="ParentElementType" Value="SqlTable" />
     <Property Name="NewName" Value="Number" />
   </Operation>
+  <Operation Name="Rename Refactor" Key="a6cf7255-169c-440d-b4e6-ee4e1b4032a4" ChangeDateTime="01/21/2019 04:03:23">
+    <Property Name="ElementName" Value="[dbo].[CityMaster].[Id]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[dbo].[CityMaster]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="CityID" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="74d21473-2ff1-40d3-b495-d7b6a1b623f3" ChangeDateTime="01/21/2019 04:06:44">
+    <Property Name="ElementName" Value="[dbo].[PINMaster].[Id]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[dbo].[PINMaster]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="PINID" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="076609b4-d153-4d53-af8c-c3214512913e" ChangeDateTime="01/21/2019 04:07:46">
+    <Property Name="ElementName" Value="[dbo].[FK_PINMaster_ToCityMaster]" />
+    <Property Name="ElementType" Value="SqlForeignKeyConstraint" />
+    <Property Name="ParentElementName" Value="[dbo].[PINMaster]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="[FK_PINMaster_ToCityMaster_ToCID]" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="8848bbdd-1e61-45e8-a807-d68d2590f7de" ChangeDateTime="01/21/2019 04:07:57">
+    <Property Name="ElementName" Value="[dbo].[FK_PINMaster_ToCityMaster_ToCID]" />
+    <Property Name="ElementType" Value="SqlForeignKeyConstraint" />
+    <Property Name="ParentElementName" Value="[dbo].[PINMaster]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="[FK_PINMaster_ToCityMaster_ToCityID]" />
+  </Operation>
 </Operations>

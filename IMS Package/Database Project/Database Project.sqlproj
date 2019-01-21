@@ -79,6 +79,8 @@
     <Build Include="Simple_Table.sql" />
     <Build Include="LoginDetails.sql" />
     <Build Include="Table Masters\AddressMasters\CityMaster.sql" />
+    <Build Include="Table Masters\AddressMasters\PINMaster.sql" />
+    <Build Include="Table Masters\AddressMasters\PinIDFK.sql" />
   </ItemGroup>
   <ItemGroup>
     <RefactorLog Include="Database Project.refactorlog" />

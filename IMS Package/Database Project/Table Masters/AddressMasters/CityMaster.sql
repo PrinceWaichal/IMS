@@ -1,4 +1,7 @@
 ﻿CREATE TABLE [dbo].[CityMaster]
 (
-	[Id] INT NOT NULL PRIMARY KEY
+	[CityID] INT NOT NULL PRIMARY KEY, 
+    [CityName] TEXT NOT NULL, 
+    [Pin] INT NOT NULL 
+	
 )
