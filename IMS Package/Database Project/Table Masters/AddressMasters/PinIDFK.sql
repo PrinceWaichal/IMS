@@ -1,4 +1,0 @@
-﻿ALTER TABLE [dbo].[CityMaster]
-	ADD CONSTRAINT [PinIDFK]
-	FOREIGN KEY (Pin)
-	REFERENCES [PINMaster] (PINID)

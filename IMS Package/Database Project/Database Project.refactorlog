@@ -175,4 +175,18 @@
     <Property Name="ParentElementType" Value="SqlTable" />
     <Property Name="NewName" Value="[FK_PINMaster_ToCityMaster_ToCityID]" />
   </Operation>
+  <Operation Name="Rename Refactor" Key="8878b81e-cdfb-4d4a-92fc-b8429a923743" ChangeDateTime="01/21/2019 04:29:10">
+    <Property Name="ElementName" Value="[dbo].[StateMaster].[Id]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[dbo].[StateMaster]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="StateID" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="fd6e60d5-3293-4903-b872-17b5bd7a93f8" ChangeDateTime="01/21/2019 04:29:38">
+    <Property Name="ElementName" Value="[dbo].[LandmarkMaster].[Id]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[dbo].[LandmarkMaster]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="LandmarkID" />
+  </Operation>
 </Operations>
