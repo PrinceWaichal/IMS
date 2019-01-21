@@ -1,10 +1,10 @@
-﻿	ALTER TABLE [dbo].[CityMaster]
+﻿	ALTER TABLE [dbo].[StateMaster]
 	ADD CONSTRAINT [PinIDFK]
 	FOREIGN KEY (Pin)
 	REFERENCES [PINMaster] (PINID)
 
 	GO
-	ALTER TABLE [dbo].[CityMaster]
-	ADD CONSTRAINT [StateIDFK]
-	FOREIGN KEY (State)
-	REFERENCES [StateMaster](StateID)
+	ALTER TABLE [dbo].[StateMaster]
+	ADD CONSTRAINT [CityIDFK]
+	FOREIGN KEY (City)
+	REFERENCES [CityMaster](CityID)
