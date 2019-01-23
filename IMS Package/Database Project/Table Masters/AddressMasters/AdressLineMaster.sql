@@ -1,10 +1,10 @@
 ﻿CREATE TABLE [dbo].[AdressLineMaster]
 (
-	[AddressID] INT NOT NULL PRIMARY KEY, 
+	[AddressID] INT NOT NULL, 
     [AddressLineOne] NVARCHAR(50) NOT NULL, 
     [AddressLineTwo] NVARCHAR(50) NULL, 
-    [Landmark] INT NOT NULL, 
-    [City] INT NOT NULL, 
-    [Pin] INT NOT NULL, 
-    [State] INT NOT NULL
+    [LandmarkID] INT NOT NULL, 
+    [CityID] INT NOT NULL, 
+    [PinID] INT NOT NULL, 
+    [StateID] INT NOT NULL
 )

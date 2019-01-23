@@ -30,6 +30,9 @@
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(SignUp_PrimaryDetails));
             this.panel2 = new System.Windows.Forms.Panel();
+            this.text_comboBox3 = new System.Windows.Forms.ComboBox();
+            this.text_comboBox1 = new System.Windows.Forms.ComboBox();
+            this.text_comboBox2 = new System.Windows.Forms.ComboBox();
             this.textMobi_No = new System.Windows.Forms.Label();
             this.textPin = new System.Windows.Forms.Label();
             this.textLandmark = new System.Windows.Forms.Label();
@@ -45,15 +48,15 @@
             this.textMale = new System.Windows.Forms.RadioButton();
             this.dateTimePicker1 = new System.Windows.Forms.DateTimePicker();
             this.picImage = new System.Windows.Forms.PictureBox();
-            this.textBox3 = new System.Windows.Forms.TextBox();
-            this.textBox2 = new System.Windows.Forms.TextBox();
+            this.MiddleNameBox = new System.Windows.Forms.TextBox();
+            this.FirstNameBox = new System.Windows.Forms.TextBox();
             this.textBox7 = new System.Windows.Forms.TextBox();
             this.textBox6 = new System.Windows.Forms.TextBox();
             this.textBox5 = new System.Windows.Forms.TextBox();
-            this.textBox4 = new System.Windows.Forms.TextBox();
+            this.eMailAddBox = new System.Windows.Forms.TextBox();
             this.textBox9 = new System.Windows.Forms.TextBox();
             this.textBox8 = new System.Windows.Forms.TextBox();
-            this.textBox1 = new System.Windows.Forms.TextBox();
+            this.LastNameBox = new System.Windows.Forms.TextBox();
             this.textGender = new System.Windows.Forms.Label();
             this.textDOB = new System.Windows.Forms.Label();
             this.textEmail = new System.Windows.Forms.Label();
@@ -75,9 +78,7 @@
             this.LoginButton = new System.Windows.Forms.Button();
             this.FilesButton = new System.Windows.Forms.Button();
             this.ReviewButton = new System.Windows.Forms.Button();
-            this.text_comboBox2 = new System.Windows.Forms.ComboBox();
-            this.text_comboBox3 = new System.Windows.Forms.ComboBox();
-            this.text_comboBox1 = new System.Windows.Forms.ComboBox();
+            this.DomainComboBox = new System.Windows.Forms.ComboBox();
             this.panel2.SuspendLayout();
             this.textGenderbox.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.picImage)).BeginInit();
@@ -89,6 +90,7 @@
             // 
             // panel2
             // 
+            this.panel2.Controls.Add(this.DomainComboBox);
             this.panel2.Controls.Add(this.text_comboBox3);
             this.panel2.Controls.Add(this.text_comboBox1);
             this.panel2.Controls.Add(this.text_comboBox2);
@@ -104,15 +106,15 @@
             this.panel2.Controls.Add(this.textGenderbox);
             this.panel2.Controls.Add(this.dateTimePicker1);
             this.panel2.Controls.Add(this.picImage);
-            this.panel2.Controls.Add(this.textBox3);
-            this.panel2.Controls.Add(this.textBox2);
+            this.panel2.Controls.Add(this.MiddleNameBox);
+            this.panel2.Controls.Add(this.FirstNameBox);
             this.panel2.Controls.Add(this.textBox7);
             this.panel2.Controls.Add(this.textBox6);
             this.panel2.Controls.Add(this.textBox5);
-            this.panel2.Controls.Add(this.textBox4);
+            this.panel2.Controls.Add(this.eMailAddBox);
             this.panel2.Controls.Add(this.textBox9);
             this.panel2.Controls.Add(this.textBox8);
-            this.panel2.Controls.Add(this.textBox1);
+            this.panel2.Controls.Add(this.LastNameBox);
             this.panel2.Controls.Add(this.textGender);
             this.panel2.Controls.Add(this.textDOB);
             this.panel2.Controls.Add(this.textEmail);
@@ -125,10 +127,78 @@
             this.panel2.Size = new System.Drawing.Size(843, 555);
             this.panel2.TabIndex = 8;
             // 
+            // text_comboBox3
+            // 
+            this.text_comboBox3.FormattingEnabled = true;
+            this.text_comboBox3.Location = new System.Drawing.Point(598, 257);
+            this.text_comboBox3.Name = "text_comboBox3";
+            this.text_comboBox3.Size = new System.Drawing.Size(116, 21);
+            this.text_comboBox3.TabIndex = 13;
+            this.text_comboBox3.SelectedIndexChanged += new System.EventHandler(this.comboBox3_SelectedIndexChanged);
+            // 
+            // text_comboBox1
+            // 
+            this.text_comboBox1.FormattingEnabled = true;
+            this.text_comboBox1.Items.AddRange(new object[] {
+            "Afghanistan",
+            "Australia",
+            "Brazil",
+            "Canada",
+            "China",
+            "Egypt",
+            "England",
+            "Gernany",
+            "Iceland",
+            "India",
+            "Iraq",
+            "Japan",
+            "Kenya",
+            "Laos",
+            "Nepal",
+            "New Zealand",
+            "Norway",
+            "Pakistan",
+            "Peru",
+            "Poland",
+            "Scotland",
+            "South Africa",
+            "Sri Lanka",
+            "Swithzerland",
+            "Turkey",
+            "Thailand",
+            "Taiwan",
+            "United Kingdom",
+            "Venezuela",
+            "Wales",
+            "Zambia",
+            "Zimbabwe",
+            ""});
+            this.text_comboBox1.Location = new System.Drawing.Point(297, 257);
+            this.text_comboBox1.Name = "text_comboBox1";
+            this.text_comboBox1.Size = new System.Drawing.Size(107, 21);
+            this.text_comboBox1.TabIndex = 13;
+            // 
+            // text_comboBox2
+            // 
+            this.text_comboBox2.FormattingEnabled = true;
+            this.text_comboBox2.Items.AddRange(new object[] {
+            "Andhra Paradesh",
+            "Arunachal Pradesh",
+            "Assam",
+            "Bihar",
+            "Chattisgad",
+            "Goa",
+            "Gujarat"});
+            this.text_comboBox2.Location = new System.Drawing.Point(443, 257);
+            this.text_comboBox2.Name = "text_comboBox2";
+            this.text_comboBox2.Size = new System.Drawing.Size(120, 21);
+            this.text_comboBox2.TabIndex = 13;
+            this.text_comboBox2.SelectedIndexChanged += new System.EventHandler(this.text_comboBox2_SelectedIndexChanged);
+            // 
             // textMobi_No
             // 
             this.textMobi_No.AutoSize = true;
-            this.textMobi_No.Location = new System.Drawing.Point(215, 427);
+            this.textMobi_No.Location = new System.Drawing.Point(217, 418);
             this.textMobi_No.Name = "textMobi_No";
             this.textMobi_No.Size = new System.Drawing.Size(58, 13);
             this.textMobi_No.TabIndex = 12;
@@ -150,9 +220,9 @@
             this.textLandmark.AutoSize = true;
             this.textLandmark.Location = new System.Drawing.Point(217, 359);
             this.textLandmark.Name = "textLandmark";
-            this.textLandmark.Size = new System.Drawing.Size(50, 13);
+            this.textLandmark.Size = new System.Drawing.Size(54, 13);
             this.textLandmark.TabIndex = 12;
-            this.textLandmark.Text = "landmark";
+            this.textLandmark.Text = "Landmark";
             // 
             // textAdd2
             // 
@@ -175,7 +245,7 @@
             // textCity
             // 
             this.textCity.AutoSize = true;
-            this.textCity.Location = new System.Drawing.Point(569, 260);
+            this.textCity.Location = new System.Drawing.Point(568, 261);
             this.textCity.Name = "textCity";
             this.textCity.Size = new System.Drawing.Size(24, 13);
             this.textCity.TabIndex = 11;
@@ -185,7 +255,7 @@
             // textState
             // 
             this.textState.AutoSize = true;
-            this.textState.Location = new System.Drawing.Point(414, 260);
+            this.textState.Location = new System.Drawing.Point(409, 261);
             this.textState.Name = "textState";
             this.textState.Size = new System.Drawing.Size(32, 13);
             this.textState.TabIndex = 11;
@@ -224,7 +294,7 @@
             // textTransgender
             // 
             this.textTransgender.AutoSize = true;
-            this.textTransgender.Location = new System.Drawing.Point(20, 66);
+            this.textTransgender.Location = new System.Drawing.Point(20, 48);
             this.textTransgender.Name = "textTransgender";
             this.textTransgender.Size = new System.Drawing.Size(108, 17);
             this.textTransgender.TabIndex = 0;
@@ -235,7 +305,7 @@
             // textFemle
             // 
             this.textFemle.AutoSize = true;
-            this.textFemle.Location = new System.Drawing.Point(20, 43);
+            this.textFemle.Location = new System.Drawing.Point(20, 30);
             this.textFemle.Name = "textFemle";
             this.textFemle.Size = new System.Drawing.Size(59, 17);
             this.textFemle.TabIndex = 0;
@@ -246,7 +316,7 @@
             // textMale
             // 
             this.textMale.AutoSize = true;
-            this.textMale.Location = new System.Drawing.Point(20, 20);
+            this.textMale.Location = new System.Drawing.Point(20, 12);
             this.textMale.Name = "textMale";
             this.textMale.Size = new System.Drawing.Size(48, 17);
             this.textMale.TabIndex = 0;
@@ -271,19 +341,21 @@
             this.picImage.TabStop = false;
             this.picImage.Tag = "photograph";
             // 
-            // textBox3
+            // MiddleNameBox
             // 
-            this.textBox3.Location = new System.Drawing.Point(578, 16);
-            this.textBox3.Name = "textBox3";
-            this.textBox3.Size = new System.Drawing.Size(137, 20);
-            this.textBox3.TabIndex = 7;
+            this.MiddleNameBox.Location = new System.Drawing.Point(578, 16);
+            this.MiddleNameBox.Name = "MiddleNameBox";
+            this.MiddleNameBox.Size = new System.Drawing.Size(137, 20);
+            this.MiddleNameBox.TabIndex = 7;
+            this.MiddleNameBox.Text = "Middle Name";
             // 
-            // textBox2
+            // FirstNameBox
             // 
-            this.textBox2.Location = new System.Drawing.Point(443, 16);
-            this.textBox2.Name = "textBox2";
-            this.textBox2.Size = new System.Drawing.Size(129, 20);
-            this.textBox2.TabIndex = 7;
+            this.FirstNameBox.Location = new System.Drawing.Point(443, 16);
+            this.FirstNameBox.Name = "FirstNameBox";
+            this.FirstNameBox.Size = new System.Drawing.Size(129, 20);
+            this.FirstNameBox.TabIndex = 7;
+            this.FirstNameBox.Text = "First Name";
             // 
             // textBox7
             // 
@@ -311,13 +383,13 @@
             this.textBox5.TabIndex = 7;
             this.textBox5.TextChanged += new System.EventHandler(this.textBox1_TextChanged);
             // 
-            // textBox4
+            // eMailAddBox
             // 
-            this.textBox4.Location = new System.Drawing.Point(295, 52);
-            this.textBox4.Name = "textBox4";
-            this.textBox4.Size = new System.Drawing.Size(351, 20);
-            this.textBox4.TabIndex = 7;
-            this.textBox4.TextChanged += new System.EventHandler(this.textBox1_TextChanged);
+            this.eMailAddBox.Location = new System.Drawing.Point(295, 52);
+            this.eMailAddBox.Name = "eMailAddBox";
+            this.eMailAddBox.Size = new System.Drawing.Size(277, 20);
+            this.eMailAddBox.TabIndex = 7;
+            this.eMailAddBox.TextChanged += new System.EventHandler(this.textBox1_TextChanged);
             // 
             // textBox9
             // 
@@ -335,18 +407,19 @@
             this.textBox8.TabIndex = 7;
             this.textBox8.TextChanged += new System.EventHandler(this.textBox1_TextChanged);
             // 
-            // textBox1
+            // LastNameBox
             // 
-            this.textBox1.Location = new System.Drawing.Point(296, 16);
-            this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(141, 20);
-            this.textBox1.TabIndex = 7;
-            this.textBox1.TextChanged += new System.EventHandler(this.textBox1_TextChanged);
+            this.LastNameBox.Location = new System.Drawing.Point(296, 16);
+            this.LastNameBox.Name = "LastNameBox";
+            this.LastNameBox.Size = new System.Drawing.Size(141, 20);
+            this.LastNameBox.TabIndex = 7;
+            this.LastNameBox.Text = "Last Name";
+            this.LastNameBox.TextChanged += new System.EventHandler(this.textBox1_TextChanged);
             // 
             // textGender
             // 
             this.textGender.AutoSize = true;
-            this.textGender.Location = new System.Drawing.Point(220, 121);
+            this.textGender.Location = new System.Drawing.Point(220, 129);
             this.textGender.Name = "textGender";
             this.textGender.Size = new System.Drawing.Size(42, 13);
             this.textGender.TabIndex = 6;
@@ -590,73 +663,13 @@
             this.ReviewButton.Text = "Review Your Application";
             this.ReviewButton.UseVisualStyleBackColor = true;
             // 
-            // text_comboBox2
+            // DomainComboBox
             // 
-            this.text_comboBox2.FormattingEnabled = true;
-            this.text_comboBox2.Items.AddRange(new object[] {
-            "Andhra Paradesh",
-            "Arunachal Pradesh",
-            "Assam",
-            "Bihar",
-            "Chattisgad",
-            "Goa",
-            "Gujarat"});
-            this.text_comboBox2.Location = new System.Drawing.Point(443, 257);
-            this.text_comboBox2.Name = "text_comboBox2";
-            this.text_comboBox2.Size = new System.Drawing.Size(120, 21);
-            this.text_comboBox2.TabIndex = 13;
-            this.text_comboBox2.SelectedIndexChanged += new System.EventHandler(this.text_comboBox2_SelectedIndexChanged);
-            // 
-            // text_comboBox3
-            // 
-            this.text_comboBox3.FormattingEnabled = true;
-            this.text_comboBox3.Location = new System.Drawing.Point(599, 257);
-            this.text_comboBox3.Name = "text_comboBox3";
-            this.text_comboBox3.Size = new System.Drawing.Size(116, 21);
-            this.text_comboBox3.TabIndex = 13;
-            this.text_comboBox3.SelectedIndexChanged += new System.EventHandler(this.comboBox3_SelectedIndexChanged);
-            // 
-            // text_comboBox1
-            // 
-            this.text_comboBox1.FormattingEnabled = true;
-            this.text_comboBox1.Items.AddRange(new object[] {
-            "Afghanistan",
-            "Australia",
-            "Brazil",
-            "Canada",
-            "China",
-            "Egypt",
-            "England",
-            "Gernany",
-            "Iceland",
-            "India",
-            "Iraq",
-            "Japan",
-            "Kenya",
-            "Laos",
-            "Nepal",
-            "New Zealand",
-            "Norway",
-            "Pakistan",
-            "Peru",
-            "Poland",
-            "Scotland",
-            "South Africa",
-            "Sri Lanka",
-            "Swithzerland",
-            "Turkey",
-            "Thailand",
-            "Taiwan",
-            "United Kingdom",
-            "Venezuela",
-            "Wales",
-            "Zambia",
-            "Zimbabwe",
-            ""});
-            this.text_comboBox1.Location = new System.Drawing.Point(297, 257);
-            this.text_comboBox1.Name = "text_comboBox1";
-            this.text_comboBox1.Size = new System.Drawing.Size(107, 21);
-            this.text_comboBox1.TabIndex = 13;
+            this.DomainComboBox.FormattingEnabled = true;
+            this.DomainComboBox.Location = new System.Drawing.Point(579, 52);
+            this.DomainComboBox.Name = "DomainComboBox";
+            this.DomainComboBox.Size = new System.Drawing.Size(121, 21);
+            this.DomainComboBox.TabIndex = 15;
             // 
             // SignUp_PrimaryDetails
             // 
@@ -707,14 +720,14 @@
         private System.Windows.Forms.Button FilesButton;
         private System.Windows.Forms.Button ReviewButton;
         private System.Windows.Forms.Label textlabel;
-        private System.Windows.Forms.TextBox textBox3;
-        private System.Windows.Forms.TextBox textBox2;
-        private System.Windows.Forms.TextBox textBox1;
+        private System.Windows.Forms.TextBox MiddleNameBox;
+        private System.Windows.Forms.TextBox FirstNameBox;
+        private System.Windows.Forms.TextBox LastNameBox;
         private System.Windows.Forms.Label textGender;
         private System.Windows.Forms.Label textDOB;
         private System.Windows.Forms.Label textEmail;
         private System.Windows.Forms.PictureBox picImage;
-        private System.Windows.Forms.TextBox textBox4;
+        private System.Windows.Forms.TextBox eMailAddBox;
         private System.Windows.Forms.GroupBox textGenderbox;
         private System.Windows.Forms.RadioButton textTransgender;
         private System.Windows.Forms.RadioButton textFemle;
@@ -737,5 +750,6 @@
         private System.Windows.Forms.ComboBox text_comboBox3;
         private System.Windows.Forms.ComboBox text_comboBox2;
         private System.Windows.Forms.ComboBox text_comboBox1;
+        private System.Windows.Forms.ComboBox DomainComboBox;
     }
 }
