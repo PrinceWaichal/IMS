@@ -30,6 +30,34 @@
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(SignUp_PrimaryDetails));
             this.panel2 = new System.Windows.Forms.Panel();
+            this.textMobi_No = new System.Windows.Forms.Label();
+            this.textPin = new System.Windows.Forms.Label();
+            this.textLandmark = new System.Windows.Forms.Label();
+            this.textAdd2 = new System.Windows.Forms.Label();
+            this.textAdd1 = new System.Windows.Forms.Label();
+            this.textCity = new System.Windows.Forms.Label();
+            this.textState = new System.Windows.Forms.Label();
+            this.textNationality = new System.Windows.Forms.Label();
+            this.textContact = new System.Windows.Forms.Label();
+            this.textGenderbox = new System.Windows.Forms.GroupBox();
+            this.textTransgender = new System.Windows.Forms.RadioButton();
+            this.textFemle = new System.Windows.Forms.RadioButton();
+            this.textMale = new System.Windows.Forms.RadioButton();
+            this.dateTimePicker1 = new System.Windows.Forms.DateTimePicker();
+            this.picImage = new System.Windows.Forms.PictureBox();
+            this.textBox3 = new System.Windows.Forms.TextBox();
+            this.textBox2 = new System.Windows.Forms.TextBox();
+            this.textBox7 = new System.Windows.Forms.TextBox();
+            this.textBox6 = new System.Windows.Forms.TextBox();
+            this.textBox5 = new System.Windows.Forms.TextBox();
+            this.textBox4 = new System.Windows.Forms.TextBox();
+            this.textBox9 = new System.Windows.Forms.TextBox();
+            this.textBox8 = new System.Windows.Forms.TextBox();
+            this.textBox1 = new System.Windows.Forms.TextBox();
+            this.textGender = new System.Windows.Forms.Label();
+            this.textDOB = new System.Windows.Forms.Label();
+            this.textEmail = new System.Windows.Forms.Label();
+            this.textlabel = new System.Windows.Forms.Label();
             this.ValidateButton = new System.Windows.Forms.Button();
             this.ButtonPanel = new System.Windows.Forms.TableLayoutPanel();
             this.PrimeDButton = new System.Windows.Forms.Button();
@@ -47,45 +75,23 @@
             this.LoginButton = new System.Windows.Forms.Button();
             this.FilesButton = new System.Windows.Forms.Button();
             this.ReviewButton = new System.Windows.Forms.Button();
-            this.textlabel = new System.Windows.Forms.Label();
-            this.textEmail = new System.Windows.Forms.Label();
-            this.textDOB = new System.Windows.Forms.Label();
-            this.textGender = new System.Windows.Forms.Label();
-            this.textBox1 = new System.Windows.Forms.TextBox();
-            this.textBox2 = new System.Windows.Forms.TextBox();
-            this.textBox3 = new System.Windows.Forms.TextBox();
-            this.textBox4 = new System.Windows.Forms.TextBox();
-            this.picImage = new System.Windows.Forms.PictureBox();
-            this.dateTimePicker1 = new System.Windows.Forms.DateTimePicker();
-            this.textGenderbox = new System.Windows.Forms.GroupBox();
-            this.textMale = new System.Windows.Forms.RadioButton();
-            this.textFemle = new System.Windows.Forms.RadioButton();
-            this.textTransgender = new System.Windows.Forms.RadioButton();
-            this.textContact = new System.Windows.Forms.Label();
-            this.textNationality = new System.Windows.Forms.Label();
-            this.textAdd1 = new System.Windows.Forms.Label();
-            this.textAdd2 = new System.Windows.Forms.Label();
-            this.textState = new System.Windows.Forms.Label();
-            this.textCity = new System.Windows.Forms.Label();
-            this.textLandmark = new System.Windows.Forms.Label();
-            this.textPin = new System.Windows.Forms.Label();
-            this.textMobi_No = new System.Windows.Forms.Label();
-            this.textBox5 = new System.Windows.Forms.TextBox();
-            this.textBox6 = new System.Windows.Forms.TextBox();
-            this.textBox7 = new System.Windows.Forms.TextBox();
-            this.textBox8 = new System.Windows.Forms.TextBox();
-            this.textBox9 = new System.Windows.Forms.TextBox();
+            this.text_comboBox2 = new System.Windows.Forms.ComboBox();
+            this.text_comboBox3 = new System.Windows.Forms.ComboBox();
+            this.text_comboBox1 = new System.Windows.Forms.ComboBox();
             this.panel2.SuspendLayout();
+            this.textGenderbox.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.picImage)).BeginInit();
             this.ButtonPanel.SuspendLayout();
             this.panel1.SuspendLayout();
             this.tableLayoutPanel1.SuspendLayout();
             this.tableLayoutPanel2.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.picImage)).BeginInit();
-            this.textGenderbox.SuspendLayout();
             this.SuspendLayout();
             // 
             // panel2
             // 
+            this.panel2.Controls.Add(this.text_comboBox3);
+            this.panel2.Controls.Add(this.text_comboBox1);
+            this.panel2.Controls.Add(this.text_comboBox2);
             this.panel2.Controls.Add(this.textMobi_No);
             this.panel2.Controls.Add(this.textPin);
             this.panel2.Controls.Add(this.textLandmark);
@@ -118,6 +124,261 @@
             this.panel2.Name = "panel2";
             this.panel2.Size = new System.Drawing.Size(843, 555);
             this.panel2.TabIndex = 8;
+            // 
+            // textMobi_No
+            // 
+            this.textMobi_No.AutoSize = true;
+            this.textMobi_No.Location = new System.Drawing.Point(215, 427);
+            this.textMobi_No.Name = "textMobi_No";
+            this.textMobi_No.Size = new System.Drawing.Size(58, 13);
+            this.textMobi_No.TabIndex = 12;
+            this.textMobi_No.Text = "Mobile No.";
+            this.textMobi_No.Click += new System.EventHandler(this.label3_Click_1);
+            // 
+            // textPin
+            // 
+            this.textPin.AutoSize = true;
+            this.textPin.Location = new System.Drawing.Point(217, 392);
+            this.textPin.Name = "textPin";
+            this.textPin.Size = new System.Drawing.Size(25, 13);
+            this.textPin.TabIndex = 12;
+            this.textPin.Text = "PIN";
+            this.textPin.Click += new System.EventHandler(this.label3_Click_1);
+            // 
+            // textLandmark
+            // 
+            this.textLandmark.AutoSize = true;
+            this.textLandmark.Location = new System.Drawing.Point(217, 359);
+            this.textLandmark.Name = "textLandmark";
+            this.textLandmark.Size = new System.Drawing.Size(50, 13);
+            this.textLandmark.TabIndex = 12;
+            this.textLandmark.Text = "landmark";
+            // 
+            // textAdd2
+            // 
+            this.textAdd2.AutoSize = true;
+            this.textAdd2.Location = new System.Drawing.Point(214, 326);
+            this.textAdd2.Name = "textAdd2";
+            this.textAdd2.Size = new System.Drawing.Size(77, 13);
+            this.textAdd2.TabIndex = 11;
+            this.textAdd2.Text = "Address Line 2";
+            // 
+            // textAdd1
+            // 
+            this.textAdd1.AutoSize = true;
+            this.textAdd1.Location = new System.Drawing.Point(214, 294);
+            this.textAdd1.Name = "textAdd1";
+            this.textAdd1.Size = new System.Drawing.Size(77, 13);
+            this.textAdd1.TabIndex = 11;
+            this.textAdd1.Text = "Address Line 1";
+            // 
+            // textCity
+            // 
+            this.textCity.AutoSize = true;
+            this.textCity.Location = new System.Drawing.Point(569, 260);
+            this.textCity.Name = "textCity";
+            this.textCity.Size = new System.Drawing.Size(24, 13);
+            this.textCity.TabIndex = 11;
+            this.textCity.Text = "City";
+            this.textCity.Click += new System.EventHandler(this.textCity_Click);
+            // 
+            // textState
+            // 
+            this.textState.AutoSize = true;
+            this.textState.Location = new System.Drawing.Point(414, 260);
+            this.textState.Name = "textState";
+            this.textState.Size = new System.Drawing.Size(32, 13);
+            this.textState.TabIndex = 11;
+            this.textState.Text = "State";
+            this.textState.Click += new System.EventHandler(this.textState_Click);
+            // 
+            // textNationality
+            // 
+            this.textNationality.AutoSize = true;
+            this.textNationality.Location = new System.Drawing.Point(214, 260);
+            this.textNationality.Name = "textNationality";
+            this.textNationality.Size = new System.Drawing.Size(56, 13);
+            this.textNationality.TabIndex = 11;
+            this.textNationality.Text = "Nationality";
+            // 
+            // textContact
+            // 
+            this.textContact.AutoSize = true;
+            this.textContact.Location = new System.Drawing.Point(214, 220);
+            this.textContact.Name = "textContact";
+            this.textContact.Size = new System.Drawing.Size(79, 13);
+            this.textContact.TabIndex = 11;
+            this.textContact.Text = "Contact Details";
+            // 
+            // textGenderbox
+            // 
+            this.textGenderbox.Controls.Add(this.textTransgender);
+            this.textGenderbox.Controls.Add(this.textFemle);
+            this.textGenderbox.Controls.Add(this.textMale);
+            this.textGenderbox.Location = new System.Drawing.Point(295, 121);
+            this.textGenderbox.Name = "textGenderbox";
+            this.textGenderbox.Size = new System.Drawing.Size(142, 85);
+            this.textGenderbox.TabIndex = 10;
+            this.textGenderbox.TabStop = false;
+            // 
+            // textTransgender
+            // 
+            this.textTransgender.AutoSize = true;
+            this.textTransgender.Location = new System.Drawing.Point(20, 66);
+            this.textTransgender.Name = "textTransgender";
+            this.textTransgender.Size = new System.Drawing.Size(108, 17);
+            this.textTransgender.TabIndex = 0;
+            this.textTransgender.TabStop = true;
+            this.textTransgender.Text = "Denial to disclose";
+            this.textTransgender.UseVisualStyleBackColor = true;
+            // 
+            // textFemle
+            // 
+            this.textFemle.AutoSize = true;
+            this.textFemle.Location = new System.Drawing.Point(20, 43);
+            this.textFemle.Name = "textFemle";
+            this.textFemle.Size = new System.Drawing.Size(59, 17);
+            this.textFemle.TabIndex = 0;
+            this.textFemle.TabStop = true;
+            this.textFemle.Text = "Female";
+            this.textFemle.UseVisualStyleBackColor = true;
+            // 
+            // textMale
+            // 
+            this.textMale.AutoSize = true;
+            this.textMale.Location = new System.Drawing.Point(20, 20);
+            this.textMale.Name = "textMale";
+            this.textMale.Size = new System.Drawing.Size(48, 17);
+            this.textMale.TabIndex = 0;
+            this.textMale.TabStop = true;
+            this.textMale.Text = "Male";
+            this.textMale.UseVisualStyleBackColor = true;
+            // 
+            // dateTimePicker1
+            // 
+            this.dateTimePicker1.Location = new System.Drawing.Point(297, 88);
+            this.dateTimePicker1.Name = "dateTimePicker1";
+            this.dateTimePicker1.Size = new System.Drawing.Size(140, 20);
+            this.dateTimePicker1.TabIndex = 9;
+            // 
+            // picImage
+            // 
+            this.picImage.Location = new System.Drawing.Point(731, 6);
+            this.picImage.Name = "picImage";
+            this.picImage.Size = new System.Drawing.Size(100, 104);
+            this.picImage.SizeMode = System.Windows.Forms.PictureBoxSizeMode.CenterImage;
+            this.picImage.TabIndex = 8;
+            this.picImage.TabStop = false;
+            this.picImage.Tag = "photograph";
+            // 
+            // textBox3
+            // 
+            this.textBox3.Location = new System.Drawing.Point(578, 16);
+            this.textBox3.Name = "textBox3";
+            this.textBox3.Size = new System.Drawing.Size(137, 20);
+            this.textBox3.TabIndex = 7;
+            // 
+            // textBox2
+            // 
+            this.textBox2.Location = new System.Drawing.Point(443, 16);
+            this.textBox2.Name = "textBox2";
+            this.textBox2.Size = new System.Drawing.Size(129, 20);
+            this.textBox2.TabIndex = 7;
+            // 
+            // textBox7
+            // 
+            this.textBox7.Location = new System.Drawing.Point(296, 352);
+            this.textBox7.Name = "textBox7";
+            this.textBox7.Size = new System.Drawing.Size(419, 20);
+            this.textBox7.TabIndex = 7;
+            this.textBox7.TextChanged += new System.EventHandler(this.textBox1_TextChanged);
+            // 
+            // textBox6
+            // 
+            this.textBox6.Location = new System.Drawing.Point(297, 323);
+            this.textBox6.Multiline = true;
+            this.textBox6.Name = "textBox6";
+            this.textBox6.Size = new System.Drawing.Size(418, 20);
+            this.textBox6.TabIndex = 7;
+            this.textBox6.TextChanged += new System.EventHandler(this.textBox1_TextChanged);
+            // 
+            // textBox5
+            // 
+            this.textBox5.Location = new System.Drawing.Point(296, 294);
+            this.textBox5.Multiline = true;
+            this.textBox5.Name = "textBox5";
+            this.textBox5.Size = new System.Drawing.Size(419, 20);
+            this.textBox5.TabIndex = 7;
+            this.textBox5.TextChanged += new System.EventHandler(this.textBox1_TextChanged);
+            // 
+            // textBox4
+            // 
+            this.textBox4.Location = new System.Drawing.Point(295, 52);
+            this.textBox4.Name = "textBox4";
+            this.textBox4.Size = new System.Drawing.Size(351, 20);
+            this.textBox4.TabIndex = 7;
+            this.textBox4.TextChanged += new System.EventHandler(this.textBox1_TextChanged);
+            // 
+            // textBox9
+            // 
+            this.textBox9.Location = new System.Drawing.Point(296, 415);
+            this.textBox9.Name = "textBox9";
+            this.textBox9.Size = new System.Drawing.Size(137, 20);
+            this.textBox9.TabIndex = 7;
+            this.textBox9.TextChanged += new System.EventHandler(this.textBox1_TextChanged);
+            // 
+            // textBox8
+            // 
+            this.textBox8.Location = new System.Drawing.Point(297, 385);
+            this.textBox8.Name = "textBox8";
+            this.textBox8.Size = new System.Drawing.Size(136, 20);
+            this.textBox8.TabIndex = 7;
+            this.textBox8.TextChanged += new System.EventHandler(this.textBox1_TextChanged);
+            // 
+            // textBox1
+            // 
+            this.textBox1.Location = new System.Drawing.Point(296, 16);
+            this.textBox1.Name = "textBox1";
+            this.textBox1.Size = new System.Drawing.Size(141, 20);
+            this.textBox1.TabIndex = 7;
+            this.textBox1.TextChanged += new System.EventHandler(this.textBox1_TextChanged);
+            // 
+            // textGender
+            // 
+            this.textGender.AutoSize = true;
+            this.textGender.Location = new System.Drawing.Point(220, 121);
+            this.textGender.Name = "textGender";
+            this.textGender.Size = new System.Drawing.Size(42, 13);
+            this.textGender.TabIndex = 6;
+            this.textGender.Text = "Gender";
+            // 
+            // textDOB
+            // 
+            this.textDOB.AutoSize = true;
+            this.textDOB.Location = new System.Drawing.Point(220, 95);
+            this.textDOB.Name = "textDOB";
+            this.textDOB.Size = new System.Drawing.Size(30, 13);
+            this.textDOB.TabIndex = 6;
+            this.textDOB.Text = "DOB";
+            // 
+            // textEmail
+            // 
+            this.textEmail.AutoSize = true;
+            this.textEmail.Location = new System.Drawing.Point(220, 59);
+            this.textEmail.Name = "textEmail";
+            this.textEmail.Size = new System.Drawing.Size(35, 13);
+            this.textEmail.TabIndex = 6;
+            this.textEmail.Text = "E-mail";
+            this.textEmail.Click += new System.EventHandler(this.label3_Click);
+            // 
+            // textlabel
+            // 
+            this.textlabel.AutoSize = true;
+            this.textlabel.Location = new System.Drawing.Point(220, 24);
+            this.textlabel.Name = "textlabel";
+            this.textlabel.Size = new System.Drawing.Size(35, 13);
+            this.textlabel.TabIndex = 6;
+            this.textlabel.Text = "Name";
             // 
             // ValidateButton
             // 
@@ -329,257 +590,73 @@
             this.ReviewButton.Text = "Review Your Application";
             this.ReviewButton.UseVisualStyleBackColor = true;
             // 
-            // textlabel
+            // text_comboBox2
             // 
-            this.textlabel.AutoSize = true;
-            this.textlabel.Location = new System.Drawing.Point(220, 24);
-            this.textlabel.Name = "textlabel";
-            this.textlabel.Size = new System.Drawing.Size(35, 13);
-            this.textlabel.TabIndex = 6;
-            this.textlabel.Text = "Name";
+            this.text_comboBox2.FormattingEnabled = true;
+            this.text_comboBox2.Items.AddRange(new object[] {
+            "Andhra Paradesh",
+            "Arunachal Pradesh",
+            "Assam",
+            "Bihar",
+            "Chattisgad",
+            "Goa",
+            "Gujarat"});
+            this.text_comboBox2.Location = new System.Drawing.Point(443, 257);
+            this.text_comboBox2.Name = "text_comboBox2";
+            this.text_comboBox2.Size = new System.Drawing.Size(120, 21);
+            this.text_comboBox2.TabIndex = 13;
+            this.text_comboBox2.SelectedIndexChanged += new System.EventHandler(this.text_comboBox2_SelectedIndexChanged);
             // 
-            // textEmail
+            // text_comboBox3
             // 
-            this.textEmail.AutoSize = true;
-            this.textEmail.Location = new System.Drawing.Point(220, 59);
-            this.textEmail.Name = "textEmail";
-            this.textEmail.Size = new System.Drawing.Size(35, 13);
-            this.textEmail.TabIndex = 6;
-            this.textEmail.Text = "E-mail";
-            this.textEmail.Click += new System.EventHandler(this.label3_Click);
+            this.text_comboBox3.FormattingEnabled = true;
+            this.text_comboBox3.Location = new System.Drawing.Point(599, 257);
+            this.text_comboBox3.Name = "text_comboBox3";
+            this.text_comboBox3.Size = new System.Drawing.Size(116, 21);
+            this.text_comboBox3.TabIndex = 13;
+            this.text_comboBox3.SelectedIndexChanged += new System.EventHandler(this.comboBox3_SelectedIndexChanged);
             // 
-            // textDOB
+            // text_comboBox1
             // 
-            this.textDOB.AutoSize = true;
-            this.textDOB.Location = new System.Drawing.Point(220, 95);
-            this.textDOB.Name = "textDOB";
-            this.textDOB.Size = new System.Drawing.Size(30, 13);
-            this.textDOB.TabIndex = 6;
-            this.textDOB.Text = "DOB";
-            // 
-            // textGender
-            // 
-            this.textGender.AutoSize = true;
-            this.textGender.Location = new System.Drawing.Point(220, 121);
-            this.textGender.Name = "textGender";
-            this.textGender.Size = new System.Drawing.Size(42, 13);
-            this.textGender.TabIndex = 6;
-            this.textGender.Text = "Gender";
-            // 
-            // textBox1
-            // 
-            this.textBox1.Location = new System.Drawing.Point(276, 16);
-            this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(100, 20);
-            this.textBox1.TabIndex = 7;
-            this.textBox1.TextChanged += new System.EventHandler(this.textBox1_TextChanged);
-            // 
-            // textBox2
-            // 
-            this.textBox2.Location = new System.Drawing.Point(416, 16);
-            this.textBox2.Name = "textBox2";
-            this.textBox2.Size = new System.Drawing.Size(100, 20);
-            this.textBox2.TabIndex = 7;
-            // 
-            // textBox3
-            // 
-            this.textBox3.Location = new System.Drawing.Point(568, 16);
-            this.textBox3.Name = "textBox3";
-            this.textBox3.Size = new System.Drawing.Size(100, 20);
-            this.textBox3.TabIndex = 7;
-            // 
-            // textBox4
-            // 
-            this.textBox4.Location = new System.Drawing.Point(276, 52);
-            this.textBox4.Name = "textBox4";
-            this.textBox4.Size = new System.Drawing.Size(351, 20);
-            this.textBox4.TabIndex = 7;
-            this.textBox4.TextChanged += new System.EventHandler(this.textBox1_TextChanged);
-            // 
-            // picImage
-            // 
-            this.picImage.Location = new System.Drawing.Point(703, 16);
-            this.picImage.Name = "picImage";
-            this.picImage.Size = new System.Drawing.Size(100, 104);
-            this.picImage.TabIndex = 8;
-            this.picImage.TabStop = false;
-            this.picImage.Tag = "photograph";
-            // 
-            // dateTimePicker1
-            // 
-            this.dateTimePicker1.Location = new System.Drawing.Point(276, 87);
-            this.dateTimePicker1.Name = "dateTimePicker1";
-            this.dateTimePicker1.Size = new System.Drawing.Size(200, 20);
-            this.dateTimePicker1.TabIndex = 9;
-            // 
-            // textGenderbox
-            // 
-            this.textGenderbox.Controls.Add(this.textTransgender);
-            this.textGenderbox.Controls.Add(this.textFemle);
-            this.textGenderbox.Controls.Add(this.textMale);
-            this.textGenderbox.Location = new System.Drawing.Point(276, 121);
-            this.textGenderbox.Name = "textGenderbox";
-            this.textGenderbox.Size = new System.Drawing.Size(142, 85);
-            this.textGenderbox.TabIndex = 10;
-            this.textGenderbox.TabStop = false;
-            // 
-            // textMale
-            // 
-            this.textMale.AutoSize = true;
-            this.textMale.Location = new System.Drawing.Point(20, 20);
-            this.textMale.Name = "textMale";
-            this.textMale.Size = new System.Drawing.Size(48, 17);
-            this.textMale.TabIndex = 0;
-            this.textMale.TabStop = true;
-            this.textMale.Text = "Male";
-            this.textMale.UseVisualStyleBackColor = true;
-            // 
-            // textFemle
-            // 
-            this.textFemle.AutoSize = true;
-            this.textFemle.Location = new System.Drawing.Point(20, 43);
-            this.textFemle.Name = "textFemle";
-            this.textFemle.Size = new System.Drawing.Size(59, 17);
-            this.textFemle.TabIndex = 0;
-            this.textFemle.TabStop = true;
-            this.textFemle.Text = "Female";
-            this.textFemle.UseVisualStyleBackColor = true;
-            // 
-            // textTransgender
-            // 
-            this.textTransgender.AutoSize = true;
-            this.textTransgender.Location = new System.Drawing.Point(20, 66);
-            this.textTransgender.Name = "textTransgender";
-            this.textTransgender.Size = new System.Drawing.Size(108, 17);
-            this.textTransgender.TabIndex = 0;
-            this.textTransgender.TabStop = true;
-            this.textTransgender.Text = "Denial to disclose";
-            this.textTransgender.UseVisualStyleBackColor = true;
-            // 
-            // textContact
-            // 
-            this.textContact.AutoSize = true;
-            this.textContact.Location = new System.Drawing.Point(214, 220);
-            this.textContact.Name = "textContact";
-            this.textContact.Size = new System.Drawing.Size(79, 13);
-            this.textContact.TabIndex = 11;
-            this.textContact.Text = "Contact Details";
-            // 
-            // textNationality
-            // 
-            this.textNationality.AutoSize = true;
-            this.textNationality.Location = new System.Drawing.Point(214, 260);
-            this.textNationality.Name = "textNationality";
-            this.textNationality.Size = new System.Drawing.Size(56, 13);
-            this.textNationality.TabIndex = 11;
-            this.textNationality.Text = "Nationality";
-            // 
-            // textAdd1
-            // 
-            this.textAdd1.AutoSize = true;
-            this.textAdd1.Location = new System.Drawing.Point(214, 294);
-            this.textAdd1.Name = "textAdd1";
-            this.textAdd1.Size = new System.Drawing.Size(77, 13);
-            this.textAdd1.TabIndex = 11;
-            this.textAdd1.Text = "Address Line 1";
-            // 
-            // textAdd2
-            // 
-            this.textAdd2.AutoSize = true;
-            this.textAdd2.Location = new System.Drawing.Point(214, 326);
-            this.textAdd2.Name = "textAdd2";
-            this.textAdd2.Size = new System.Drawing.Size(77, 13);
-            this.textAdd2.TabIndex = 11;
-            this.textAdd2.Text = "Address Line 2";
-            // 
-            // textState
-            // 
-            this.textState.AutoSize = true;
-            this.textState.Location = new System.Drawing.Point(383, 260);
-            this.textState.Name = "textState";
-            this.textState.Size = new System.Drawing.Size(32, 13);
-            this.textState.TabIndex = 11;
-            this.textState.Text = "State";
-            // 
-            // textCity
-            // 
-            this.textCity.AutoSize = true;
-            this.textCity.Location = new System.Drawing.Point(546, 260);
-            this.textCity.Name = "textCity";
-            this.textCity.Size = new System.Drawing.Size(24, 13);
-            this.textCity.TabIndex = 11;
-            this.textCity.Text = "City";
-            // 
-            // textLandmark
-            // 
-            this.textLandmark.AutoSize = true;
-            this.textLandmark.Location = new System.Drawing.Point(217, 359);
-            this.textLandmark.Name = "textLandmark";
-            this.textLandmark.Size = new System.Drawing.Size(50, 13);
-            this.textLandmark.TabIndex = 12;
-            this.textLandmark.Text = "landmark";
-            // 
-            // textPin
-            // 
-            this.textPin.AutoSize = true;
-            this.textPin.Location = new System.Drawing.Point(217, 392);
-            this.textPin.Name = "textPin";
-            this.textPin.Size = new System.Drawing.Size(25, 13);
-            this.textPin.TabIndex = 12;
-            this.textPin.Text = "PIN";
-            this.textPin.Click += new System.EventHandler(this.label3_Click_1);
-            // 
-            // textMobi_No
-            // 
-            this.textMobi_No.AutoSize = true;
-            this.textMobi_No.Location = new System.Drawing.Point(215, 427);
-            this.textMobi_No.Name = "textMobi_No";
-            this.textMobi_No.Size = new System.Drawing.Size(58, 13);
-            this.textMobi_No.TabIndex = 12;
-            this.textMobi_No.Text = "Mobile No.";
-            this.textMobi_No.Click += new System.EventHandler(this.label3_Click_1);
-            // 
-            // textBox5
-            // 
-            this.textBox5.Location = new System.Drawing.Point(296, 294);
-            this.textBox5.Multiline = true;
-            this.textBox5.Name = "textBox5";
-            this.textBox5.Size = new System.Drawing.Size(351, 20);
-            this.textBox5.TabIndex = 7;
-            this.textBox5.TextChanged += new System.EventHandler(this.textBox1_TextChanged);
-            // 
-            // textBox6
-            // 
-            this.textBox6.Location = new System.Drawing.Point(297, 323);
-            this.textBox6.Multiline = true;
-            this.textBox6.Name = "textBox6";
-            this.textBox6.Size = new System.Drawing.Size(351, 20);
-            this.textBox6.TabIndex = 7;
-            this.textBox6.TextChanged += new System.EventHandler(this.textBox1_TextChanged);
-            // 
-            // textBox7
-            // 
-            this.textBox7.Location = new System.Drawing.Point(296, 352);
-            this.textBox7.Name = "textBox7";
-            this.textBox7.Size = new System.Drawing.Size(351, 20);
-            this.textBox7.TabIndex = 7;
-            this.textBox7.TextChanged += new System.EventHandler(this.textBox1_TextChanged);
-            // 
-            // textBox8
-            // 
-            this.textBox8.Location = new System.Drawing.Point(297, 385);
-            this.textBox8.Name = "textBox8";
-            this.textBox8.Size = new System.Drawing.Size(136, 20);
-            this.textBox8.TabIndex = 7;
-            this.textBox8.TextChanged += new System.EventHandler(this.textBox1_TextChanged);
-            // 
-            // textBox9
-            // 
-            this.textBox9.Location = new System.Drawing.Point(296, 415);
-            this.textBox9.Name = "textBox9";
-            this.textBox9.Size = new System.Drawing.Size(137, 20);
-            this.textBox9.TabIndex = 7;
-            this.textBox9.TextChanged += new System.EventHandler(this.textBox1_TextChanged);
+            this.text_comboBox1.FormattingEnabled = true;
+            this.text_comboBox1.Items.AddRange(new object[] {
+            "Afghanistan",
+            "Australia",
+            "Brazil",
+            "Canada",
+            "China",
+            "Egypt",
+            "England",
+            "Gernany",
+            "Iceland",
+            "India",
+            "Iraq",
+            "Japan",
+            "Kenya",
+            "Laos",
+            "Nepal",
+            "New Zealand",
+            "Norway",
+            "Pakistan",
+            "Peru",
+            "Poland",
+            "Scotland",
+            "South Africa",
+            "Sri Lanka",
+            "Swithzerland",
+            "Turkey",
+            "Thailand",
+            "Taiwan",
+            "United Kingdom",
+            "Venezuela",
+            "Wales",
+            "Zambia",
+            "Zimbabwe",
+            ""});
+            this.text_comboBox1.Location = new System.Drawing.Point(297, 257);
+            this.text_comboBox1.Name = "text_comboBox1";
+            this.text_comboBox1.Size = new System.Drawing.Size(107, 21);
+            this.text_comboBox1.TabIndex = 13;
             // 
             // SignUp_PrimaryDetails
             // 
@@ -596,15 +673,15 @@
             this.Load += new System.EventHandler(this.SignUp_PrimaryDetails_Load);
             this.panel2.ResumeLayout(false);
             this.panel2.PerformLayout();
+            this.textGenderbox.ResumeLayout(false);
+            this.textGenderbox.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.picImage)).EndInit();
             this.ButtonPanel.ResumeLayout(false);
             this.panel1.ResumeLayout(false);
             this.panel1.PerformLayout();
             this.tableLayoutPanel1.ResumeLayout(false);
             this.tableLayoutPanel1.PerformLayout();
             this.tableLayoutPanel2.ResumeLayout(false);
-            ((System.ComponentModel.ISupportInitialize)(this.picImage)).EndInit();
-            this.textGenderbox.ResumeLayout(false);
-            this.textGenderbox.PerformLayout();
             this.ResumeLayout(false);
 
         }
@@ -657,5 +734,8 @@
         private System.Windows.Forms.TextBox textBox5;
         private System.Windows.Forms.TextBox textBox9;
         private System.Windows.Forms.TextBox textBox8;
+        private System.Windows.Forms.ComboBox text_comboBox3;
+        private System.Windows.Forms.ComboBox text_comboBox2;
+        private System.Windows.Forms.ComboBox text_comboBox1;
     }
 }

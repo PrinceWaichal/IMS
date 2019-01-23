@@ -40,5 +40,25 @@ namespace _1___Software_Package.FormPages
         {
 
         }
+
+        private void comboBox3_SelectedIndexChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void textCity_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void textState_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void text_comboBox2_SelectedIndexChanged(object sender, EventArgs e)
+        {
+
+        }
     }
 }
