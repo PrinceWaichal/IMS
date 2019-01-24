@@ -65,6 +65,7 @@
     <Folder Include="Table Masters\PhoneMasters" />
     <Folder Include="Table Masters\MiscMasters" />
     <Folder Include="Table Masters\WorkExperienceMasters" />
+    <Folder Include="Table Masters\LoginMasters" />
   </ItemGroup>
   <ItemGroup>
     <Build Include="PrimeDetail Table.sql" />
@@ -93,6 +94,10 @@
     <Build Include="Table Masters\NameMasters\FirstName.sql" />
     <Build Include="Table Masters\NameMasters\MiddleName.sql" />
     <Build Include="Table Masters\NameMasters\NameConstraint.sql" />
+    <Build Include="Table Masters\LoginMasters\LoginMaster.sql" />
+    <Build Include="Table Masters\PhoneMasters\MobileMaster.sql" />
+    <Build Include="Table Masters\PhoneMasters\LandlineMaster.sql" />
+    <Build Include="Table Masters\PhoneMasters\PhoneConstraints.sql" />
   </ItemGroup>
   <ItemGroup>
     <RefactorLog Include="Database Project.refactorlog" />
