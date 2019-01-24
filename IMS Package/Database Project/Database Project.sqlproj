@@ -66,6 +66,8 @@
     <Folder Include="Table Masters\MiscMasters" />
     <Folder Include="Table Masters\WorkExperienceMasters" />
     <Folder Include="Table Masters\LoginMasters" />
+    <Folder Include="Table Masters\ActivitiesMasters" />
+    <Folder Include="Table Masters\MarkingMaster" />
   </ItemGroup>
   <ItemGroup>
     <Build Include="PrimeDetail Table.sql" />
@@ -99,6 +101,11 @@
     <Build Include="Table Masters\PhoneMasters\LandlineMaster.sql" />
     <Build Include="Table Masters\PhoneMasters\PhoneConstraints.sql" />
     <Build Include="Table Masters\MiscMasters\NationalityMaster.sql" />
+    <Build Include="Table Masters\ActivitiesMasters\ActivitiesMaster.sql" />
+    <Build Include="Table Masters\ActivitiesMasters\ExamMaster.sql" />
+    <Build Include="Table Masters\MarkingMaster\InternalMarksMaster.sql" />
+    <Build Include="Table Masters\MarkingMaster\ExternalMarksMaster.sql" />
+    <Build Include="Table Masters\MarkingMaster\MarksConstraintFile.sql" />
   </ItemGroup>
   <ItemGroup>
     <RefactorLog Include="Database Project.refactorlog" />
