@@ -22,11 +22,11 @@ References [AdressLineMaster](PinID)
 
 --2.2) Mobile Master
 Go
-/*Alter Table dbo.MobileMaster
+Alter Table dbo.MobileMaster
 Add Constraint [ISD Foreign Key]
 Foreign Key (NationalityID)
-References [](NationalityID)
-*/
+References [NationalityMaster](NationalityID)
+
 
 --3) Unique Key
 --3.1) Landline Master

@@ -98,6 +98,7 @@
     <Build Include="Table Masters\PhoneMasters\MobileMaster.sql" />
     <Build Include="Table Masters\PhoneMasters\LandlineMaster.sql" />
     <Build Include="Table Masters\PhoneMasters\PhoneConstraints.sql" />
+    <Build Include="Table Masters\MiscMasters\NationalityMaster.sql" />
   </ItemGroup>
   <ItemGroup>
     <RefactorLog Include="Database Project.refactorlog" />
