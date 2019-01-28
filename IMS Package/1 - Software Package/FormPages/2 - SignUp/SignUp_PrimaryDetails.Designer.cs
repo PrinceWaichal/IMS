@@ -30,6 +30,7 @@
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(SignUp_PrimaryDetails));
             this.panel2 = new System.Windows.Forms.Panel();
+            this.DomainComboBox = new System.Windows.Forms.ComboBox();
             this.text_comboBox3 = new System.Windows.Forms.ComboBox();
             this.text_comboBox1 = new System.Windows.Forms.ComboBox();
             this.text_comboBox2 = new System.Windows.Forms.ComboBox();
@@ -78,7 +79,6 @@
             this.LoginButton = new System.Windows.Forms.Button();
             this.FilesButton = new System.Windows.Forms.Button();
             this.ReviewButton = new System.Windows.Forms.Button();
-            this.DomainComboBox = new System.Windows.Forms.ComboBox();
             this.panel2.SuspendLayout();
             this.textGenderbox.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.picImage)).BeginInit();
@@ -126,6 +126,14 @@
             this.panel2.Name = "panel2";
             this.panel2.Size = new System.Drawing.Size(843, 555);
             this.panel2.TabIndex = 8;
+            // 
+            // DomainComboBox
+            // 
+            this.DomainComboBox.FormattingEnabled = true;
+            this.DomainComboBox.Location = new System.Drawing.Point(579, 52);
+            this.DomainComboBox.Name = "DomainComboBox";
+            this.DomainComboBox.Size = new System.Drawing.Size(121, 21);
+            this.DomainComboBox.TabIndex = 15;
             // 
             // text_comboBox3
             // 
@@ -662,14 +670,6 @@
             this.ReviewButton.TabIndex = 5;
             this.ReviewButton.Text = "Review Your Application";
             this.ReviewButton.UseVisualStyleBackColor = true;
-            // 
-            // DomainComboBox
-            // 
-            this.DomainComboBox.FormattingEnabled = true;
-            this.DomainComboBox.Location = new System.Drawing.Point(579, 52);
-            this.DomainComboBox.Name = "DomainComboBox";
-            this.DomainComboBox.Size = new System.Drawing.Size(121, 21);
-            this.DomainComboBox.TabIndex = 15;
             // 
             // SignUp_PrimaryDetails
             // 
