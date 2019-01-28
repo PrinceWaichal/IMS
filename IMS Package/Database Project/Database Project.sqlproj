@@ -68,6 +68,7 @@
     <Folder Include="Table Masters\LoginMasters" />
     <Folder Include="Table Masters\ActivitiesMasters" />
     <Folder Include="Table Masters\MarkingMaster" />
+    <Folder Include="Table Masters\UserMasters" />
   </ItemGroup>
   <ItemGroup>
     <Build Include="PrimeDetail Table.sql" />
@@ -106,6 +107,9 @@
     <Build Include="Table Masters\MarkingMaster\InternalMarksMaster.sql" />
     <Build Include="Table Masters\MarkingMaster\ExternalMarksMaster.sql" />
     <Build Include="Table Masters\MarkingMaster\MarksConstraintFile.sql" />
+    <Build Include="Table Masters\UserMasters\UserNameMaster.sql" />
+    <Build Include="Table Masters\UserMasters\UserPasswordMaster.sql" />
+    <Build Include="Table Masters\UserMasters\UserMastersConstraints.sql" />
   </ItemGroup>
   <ItemGroup>
     <RefactorLog Include="Database Project.refactorlog" />

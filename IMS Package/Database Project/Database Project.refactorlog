@@ -378,4 +378,25 @@
     <Property Name="ParentElementType" Value="SqlTable" />
     <Property Name="NewName" Value="LandlineNumber" />
   </Operation>
+  <Operation Name="Rename Refactor" Key="ad577895-e18f-4ffd-912d-2ac592108eda" ChangeDateTime="01/28/2019 07:17:57">
+    <Property Name="ElementName" Value="[dbo].[UserPasswordMaster].[Id]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[dbo].[UserPasswordMaster]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="UserPassID" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="142c1a9f-b789-4f54-a516-53023fe65726" ChangeDateTime="01/28/2019 07:18:22">
+    <Property Name="ElementName" Value="[dbo].[UserNameMaster].[Id]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[dbo].[UserNameMaster]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="UserNameID" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="68844003-b099-4449-a030-49f0a76bba45" ChangeDateTime="01/28/2019 07:18:35">
+    <Property Name="ElementName" Value="[dbo].[UserNameMaster].[UserPassID]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[dbo].[UserNameMaster]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="UserPasswordID" />
+  </Operation>
 </Operations>
