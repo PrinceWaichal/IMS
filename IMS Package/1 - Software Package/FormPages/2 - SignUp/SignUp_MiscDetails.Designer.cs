@@ -30,6 +30,27 @@
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(SignUp_MiscDetails));
             this.panel2 = new System.Windows.Forms.Panel();
+            this.texPContNo = new System.Windows.Forms.TextBox();
+            this.texMFirstNam = new System.Windows.Forms.TextBox();
+            this.texAdharNo = new System.Windows.Forms.TextBox();
+            this.texMMiddleNam = new System.Windows.Forms.TextBox();
+            this.texGMiddleNam = new System.Windows.Forms.TextBox();
+            this.texGFirstNam = new System.Windows.Forms.TextBox();
+            this.texMLastNam = new System.Windows.Forms.TextBox();
+            this.texGLastName = new System.Windows.Forms.TextBox();
+            this.BoxCast = new System.Windows.Forms.ComboBox();
+            this.BoxPhyDisab = new System.Windows.Forms.ComboBox();
+            this.BoxMariralStat = new System.Windows.Forms.ComboBox();
+            this.BoxCategory = new System.Windows.Forms.ComboBox();
+            this.labPhyDisab = new System.Windows.Forms.Label();
+            this.labCast = new System.Windows.Forms.Label();
+            this.labAdharCard = new System.Windows.Forms.Label();
+            this.labParetsContNo = new System.Windows.Forms.Label();
+            this.labCategory = new System.Windows.Forms.Label();
+            this.labMaritalSta = new System.Windows.Forms.Label();
+            this.labGuardName = new System.Windows.Forms.Label();
+            this.labMotherNam = new System.Windows.Forms.Label();
+            this.labOtherPDetail = new System.Windows.Forms.Label();
             this.ValidateButton = new System.Windows.Forms.Button();
             this.ButtonPanel = new System.Windows.Forms.TableLayoutPanel();
             this.PrimeDButton = new System.Windows.Forms.Button();
@@ -49,6 +70,8 @@
             this.LoginButton = new System.Windows.Forms.Button();
             this.FilesButton = new System.Windows.Forms.Button();
             this.ReviewButton = new System.Windows.Forms.Button();
+            this.labReligion = new System.Windows.Forms.Label();
+            this.comboBox1 = new System.Windows.Forms.ComboBox();
             this.panel2.SuspendLayout();
             this.ButtonPanel.SuspendLayout();
             this.panel1.SuspendLayout();
@@ -59,6 +82,29 @@
             // 
             // panel2
             // 
+            this.panel2.Controls.Add(this.texPContNo);
+            this.panel2.Controls.Add(this.texMFirstNam);
+            this.panel2.Controls.Add(this.texAdharNo);
+            this.panel2.Controls.Add(this.texMMiddleNam);
+            this.panel2.Controls.Add(this.texGMiddleNam);
+            this.panel2.Controls.Add(this.texGFirstNam);
+            this.panel2.Controls.Add(this.texMLastNam);
+            this.panel2.Controls.Add(this.texGLastName);
+            this.panel2.Controls.Add(this.comboBox1);
+            this.panel2.Controls.Add(this.BoxCast);
+            this.panel2.Controls.Add(this.BoxPhyDisab);
+            this.panel2.Controls.Add(this.BoxMariralStat);
+            this.panel2.Controls.Add(this.BoxCategory);
+            this.panel2.Controls.Add(this.labPhyDisab);
+            this.panel2.Controls.Add(this.labReligion);
+            this.panel2.Controls.Add(this.labCast);
+            this.panel2.Controls.Add(this.labAdharCard);
+            this.panel2.Controls.Add(this.labParetsContNo);
+            this.panel2.Controls.Add(this.labCategory);
+            this.panel2.Controls.Add(this.labMaritalSta);
+            this.panel2.Controls.Add(this.labGuardName);
+            this.panel2.Controls.Add(this.labMotherNam);
+            this.panel2.Controls.Add(this.labOtherPDetail);
             this.panel2.Controls.Add(this.ValidateButton);
             this.panel2.Controls.Add(this.ButtonPanel);
             this.panel2.Dock = System.Windows.Forms.DockStyle.Fill;
@@ -66,6 +112,211 @@
             this.panel2.Name = "panel2";
             this.panel2.Size = new System.Drawing.Size(822, 538);
             this.panel2.TabIndex = 14;
+            // 
+            // texPContNo
+            // 
+            this.texPContNo.Location = new System.Drawing.Point(459, 120);
+            this.texPContNo.MaxLength = 10;
+            this.texPContNo.Name = "texPContNo";
+            this.texPContNo.Size = new System.Drawing.Size(100, 20);
+            this.texPContNo.TabIndex = 8;
+            this.texPContNo.TextChanged += new System.EventHandler(this.textBox7_TextChanged);
+            // 
+            // texMFirstNam
+            // 
+            this.texMFirstNam.Location = new System.Drawing.Point(576, 85);
+            this.texMFirstNam.Name = "texMFirstNam";
+            this.texMFirstNam.Size = new System.Drawing.Size(100, 20);
+            this.texMFirstNam.TabIndex = 8;
+            this.texMFirstNam.Text = "First Name";
+            // 
+            // texAdharNo
+            // 
+            this.texAdharNo.Location = new System.Drawing.Point(459, 244);
+            this.texAdharNo.MaxLength = 12;
+            this.texAdharNo.Name = "texAdharNo";
+            this.texAdharNo.Size = new System.Drawing.Size(121, 20);
+            this.texAdharNo.TabIndex = 8;
+            this.texAdharNo.TextChanged += new System.EventHandler(this.textBox6_TextChanged);
+            // 
+            // texMMiddleNam
+            // 
+            this.texMMiddleNam.Location = new System.Drawing.Point(697, 85);
+            this.texMMiddleNam.Name = "texMMiddleNam";
+            this.texMMiddleNam.Size = new System.Drawing.Size(100, 20);
+            this.texMMiddleNam.TabIndex = 8;
+            this.texMMiddleNam.Text = "Middle Name";
+            // 
+            // texGMiddleNam
+            // 
+            this.texGMiddleNam.Location = new System.Drawing.Point(697, 49);
+            this.texGMiddleNam.Name = "texGMiddleNam";
+            this.texGMiddleNam.Size = new System.Drawing.Size(100, 20);
+            this.texGMiddleNam.TabIndex = 8;
+            this.texGMiddleNam.Text = "Middle Name";
+            this.texGMiddleNam.TextChanged += new System.EventHandler(this.textBox1_TextChanged);
+            // 
+            // texGFirstNam
+            // 
+            this.texGFirstNam.Location = new System.Drawing.Point(576, 49);
+            this.texGFirstNam.Name = "texGFirstNam";
+            this.texGFirstNam.Size = new System.Drawing.Size(100, 20);
+            this.texGFirstNam.TabIndex = 8;
+            this.texGFirstNam.Text = "First Name";
+            this.texGFirstNam.TextChanged += new System.EventHandler(this.textBox1_TextChanged);
+            // 
+            // texMLastNam
+            // 
+            this.texMLastNam.Location = new System.Drawing.Point(459, 85);
+            this.texMLastNam.Name = "texMLastNam";
+            this.texMLastNam.Size = new System.Drawing.Size(100, 20);
+            this.texMLastNam.TabIndex = 8;
+            this.texMLastNam.Text = "Last Name";
+            // 
+            // texGLastName
+            // 
+            this.texGLastName.Location = new System.Drawing.Point(459, 49);
+            this.texGLastName.Name = "texGLastName";
+            this.texGLastName.Size = new System.Drawing.Size(100, 20);
+            this.texGLastName.TabIndex = 8;
+            this.texGLastName.Text = "Last Name";
+            this.texGLastName.TextChanged += new System.EventHandler(this.textBox1_TextChanged);
+            // 
+            // BoxCast
+            // 
+            this.BoxCast.FormattingEnabled = true;
+            this.BoxCast.Location = new System.Drawing.Point(459, 270);
+            this.BoxCast.Name = "BoxCast";
+            this.BoxCast.Size = new System.Drawing.Size(121, 21);
+            this.BoxCast.TabIndex = 7;
+            // 
+            // BoxPhyDisab
+            // 
+            this.BoxPhyDisab.FormattingEnabled = true;
+            this.BoxPhyDisab.Items.AddRange(new object[] {
+            "Yes",
+            "No"});
+            this.BoxPhyDisab.Location = new System.Drawing.Point(459, 217);
+            this.BoxPhyDisab.Name = "BoxPhyDisab";
+            this.BoxPhyDisab.Size = new System.Drawing.Size(121, 21);
+            this.BoxPhyDisab.TabIndex = 7;
+            // 
+            // BoxMariralStat
+            // 
+            this.BoxMariralStat.FormattingEnabled = true;
+            this.BoxMariralStat.Location = new System.Drawing.Point(459, 190);
+            this.BoxMariralStat.Name = "BoxMariralStat";
+            this.BoxMariralStat.Size = new System.Drawing.Size(121, 21);
+            this.BoxMariralStat.TabIndex = 7;
+            this.BoxMariralStat.SelectedIndexChanged += new System.EventHandler(this.comboBox2_SelectedIndexChanged);
+            // 
+            // BoxCategory
+            // 
+            this.BoxCategory.FormattingEnabled = true;
+            this.BoxCategory.Items.AddRange(new object[] {
+            "Open",
+            "SC",
+            "ST",
+            "OBC",
+            "SBC",
+            "BJ",
+            "NT-B",
+            "NT-C",
+            "NT-D"});
+            this.BoxCategory.Location = new System.Drawing.Point(459, 162);
+            this.BoxCategory.Name = "BoxCategory";
+            this.BoxCategory.Size = new System.Drawing.Size(121, 21);
+            this.BoxCategory.TabIndex = 7;
+            // 
+            // labPhyDisab
+            // 
+            this.labPhyDisab.AutoSize = true;
+            this.labPhyDisab.Location = new System.Drawing.Point(221, 225);
+            this.labPhyDisab.Name = "labPhyDisab";
+            this.labPhyDisab.Size = new System.Drawing.Size(90, 13);
+            this.labPhyDisab.TabIndex = 6;
+            this.labPhyDisab.Text = "Physical Disability";
+            this.labPhyDisab.Click += new System.EventHandler(this.label3_Click);
+            // 
+            // labCast
+            // 
+            this.labCast.AutoSize = true;
+            this.labCast.Location = new System.Drawing.Point(221, 278);
+            this.labCast.Name = "labCast";
+            this.labCast.Size = new System.Drawing.Size(28, 13);
+            this.labCast.TabIndex = 6;
+            this.labCast.Text = "Cast";
+            this.labCast.Click += new System.EventHandler(this.label3_Click);
+            // 
+            // labAdharCard
+            // 
+            this.labAdharCard.AutoSize = true;
+            this.labAdharCard.Location = new System.Drawing.Point(221, 251);
+            this.labAdharCard.Name = "labAdharCard";
+            this.labAdharCard.Size = new System.Drawing.Size(84, 13);
+            this.labAdharCard.TabIndex = 6;
+            this.labAdharCard.Text = "Adhar Chard no.";
+            this.labAdharCard.Click += new System.EventHandler(this.label3_Click);
+            // 
+            // labParetsContNo
+            // 
+            this.labParetsContNo.AutoSize = true;
+            this.labParetsContNo.Location = new System.Drawing.Point(221, 127);
+            this.labParetsContNo.Name = "labParetsContNo";
+            this.labParetsContNo.Size = new System.Drawing.Size(105, 13);
+            this.labParetsContNo.TabIndex = 6;
+            this.labParetsContNo.Text = "Parent\'s Contact No.";
+            this.labParetsContNo.Click += new System.EventHandler(this.label3_Click);
+            // 
+            // labCategory
+            // 
+            this.labCategory.AutoSize = true;
+            this.labCategory.Location = new System.Drawing.Point(221, 170);
+            this.labCategory.Name = "labCategory";
+            this.labCategory.Size = new System.Drawing.Size(49, 13);
+            this.labCategory.TabIndex = 6;
+            this.labCategory.Text = "Category";
+            this.labCategory.Click += new System.EventHandler(this.label3_Click);
+            // 
+            // labMaritalSta
+            // 
+            this.labMaritalSta.AutoSize = true;
+            this.labMaritalSta.Location = new System.Drawing.Point(221, 198);
+            this.labMaritalSta.Name = "labMaritalSta";
+            this.labMaritalSta.Size = new System.Drawing.Size(71, 13);
+            this.labMaritalSta.TabIndex = 6;
+            this.labMaritalSta.Text = "Marital Status";
+            this.labMaritalSta.Click += new System.EventHandler(this.label3_Click);
+            // 
+            // labGuardName
+            // 
+            this.labGuardName.AutoSize = true;
+            this.labGuardName.Location = new System.Drawing.Point(221, 56);
+            this.labGuardName.Name = "labGuardName";
+            this.labGuardName.Size = new System.Drawing.Size(195, 13);
+            this.labGuardName.TabIndex = 6;
+            this.labGuardName.Text = "Father\'s /Husband\'s /Guardinan\'s name";
+            this.labGuardName.Click += new System.EventHandler(this.label3_Click);
+            // 
+            // labMotherNam
+            // 
+            this.labMotherNam.AutoSize = true;
+            this.labMotherNam.Location = new System.Drawing.Point(221, 92);
+            this.labMotherNam.Name = "labMotherNam";
+            this.labMotherNam.Size = new System.Drawing.Size(78, 13);
+            this.labMotherNam.TabIndex = 6;
+            this.labMotherNam.Text = "Mother\'s Name";
+            this.labMotherNam.Click += new System.EventHandler(this.label3_Click);
+            // 
+            // labOtherPDetail
+            // 
+            this.labOtherPDetail.AutoSize = true;
+            this.labOtherPDetail.Location = new System.Drawing.Point(221, 17);
+            this.labOtherPDetail.Name = "labOtherPDetail";
+            this.labOtherPDetail.Size = new System.Drawing.Size(112, 13);
+            this.labOtherPDetail.TabIndex = 6;
+            this.labOtherPDetail.Text = "Other Personal Details";
+            this.labOtherPDetail.Click += new System.EventHandler(this.label3_Click);
             // 
             // ValidateButton
             // 
@@ -154,12 +405,12 @@
             // 
             this.label2.AutoSize = true;
             this.label2.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.label2.Font = new System.Drawing.Font("Lucida Calligraphy", 18.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Pixel);
+            this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 18.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Pixel);
             this.label2.ImageAlign = System.Drawing.ContentAlignment.TopLeft;
             this.label2.ImeMode = System.Windows.Forms.ImeMode.NoControl;
             this.label2.Location = new System.Drawing.Point(0, 0);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(308, 24);
+            this.label2.Size = new System.Drawing.Size(256, 24);
             this.label2.TabIndex = 0;
             this.label2.Text = "Student Management System";
             this.label2.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -301,6 +552,34 @@
             this.ReviewButton.Text = "Review Your Application";
             this.ReviewButton.UseVisualStyleBackColor = true;
             // 
+            // labReligion
+            // 
+            this.labReligion.AccessibleRole = System.Windows.Forms.AccessibleRole.Grip;
+            this.labReligion.AutoSize = true;
+            this.labReligion.Location = new System.Drawing.Point(221, 305);
+            this.labReligion.Name = "labReligion";
+            this.labReligion.Size = new System.Drawing.Size(45, 13);
+            this.labReligion.TabIndex = 6;
+            this.labReligion.Text = "Religion";
+            this.labReligion.Click += new System.EventHandler(this.label3_Click);
+            // 
+            // comboBox1
+            // 
+            this.comboBox1.FormattingEnabled = true;
+            this.comboBox1.Items.AddRange(new object[] {
+            "Hindu",
+            "Islam",
+            "Christianity",
+            "Sikhism",
+            "Buddhism",
+            "Jainism",
+            "Zoroastrianism",
+            "Judaism "});
+            this.comboBox1.Location = new System.Drawing.Point(459, 297);
+            this.comboBox1.Name = "comboBox1";
+            this.comboBox1.Size = new System.Drawing.Size(121, 21);
+            this.comboBox1.TabIndex = 7;
+            // 
             // SignUp_MiscDetails
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -314,6 +593,7 @@
             this.Name = "SignUp_MiscDetails";
             this.Text = "Miscellaneuos Details";
             this.panel2.ResumeLayout(false);
+            this.panel2.PerformLayout();
             this.ButtonPanel.ResumeLayout(false);
             this.panel1.ResumeLayout(false);
             this.panel1.PerformLayout();
@@ -348,5 +628,28 @@
         private System.Windows.Forms.Button ReviewButton;
         private System.Windows.Forms.Panel panel3;
         private System.Windows.Forms.Label label2;
+        private System.Windows.Forms.Label labOtherPDetail;
+        private System.Windows.Forms.Label labParetsContNo;
+        private System.Windows.Forms.Label labGuardName;
+        private System.Windows.Forms.Label labMotherNam;
+        private System.Windows.Forms.Label labAdharCard;
+        private System.Windows.Forms.Label labCategory;
+        private System.Windows.Forms.Label labMaritalSta;
+        private System.Windows.Forms.TextBox texPContNo;
+        private System.Windows.Forms.TextBox texMFirstNam;
+        private System.Windows.Forms.TextBox texAdharNo;
+        private System.Windows.Forms.TextBox texMMiddleNam;
+        private System.Windows.Forms.TextBox texMLastNam;
+        private System.Windows.Forms.ComboBox BoxPhyDisab;
+        private System.Windows.Forms.ComboBox BoxMariralStat;
+        private System.Windows.Forms.ComboBox BoxCategory;
+        private System.Windows.Forms.Label labPhyDisab;
+        private System.Windows.Forms.TextBox texGMiddleNam;
+        private System.Windows.Forms.TextBox texGFirstNam;
+        private System.Windows.Forms.TextBox texGLastName;
+        private System.Windows.Forms.ComboBox BoxCast;
+        private System.Windows.Forms.Label labCast;
+        private System.Windows.Forms.ComboBox comboBox1;
+        private System.Windows.Forms.Label labReligion;
     }
 }
