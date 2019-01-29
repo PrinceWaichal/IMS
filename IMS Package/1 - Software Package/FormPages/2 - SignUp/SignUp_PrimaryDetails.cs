@@ -18,7 +18,7 @@ namespace _1___Software_Package.FormPages
 
         private void SignUp_PrimaryDetails_Load(object sender, EventArgs e)
         {
-            //LastNameBox.
+            
         }
 
         private void OpenLogin(object sender, EventArgs e)
