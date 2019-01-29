@@ -18,7 +18,7 @@ Go
 Alter Table dbo.LandlineMaster
 Add Constraint [Pin Code Foreign Key]
 Foreign Key (PinID)
-References [AdressLineMaster](PinID)
+References [PINMaster](PINID)
 
 --2.2) Mobile Master
 Go

@@ -43,14 +43,14 @@
             this.SignUpButton = new System.Windows.Forms.Button();
             this.PasswordLabel = new System.Windows.Forms.Label();
             this.PasswordConatiner = new System.Windows.Forms.SplitContainer();
+            this.StudPass = new System.Windows.Forms.TextBox();
             this.UserNameLabel = new System.Windows.Forms.Label();
             this.IDContainer = new System.Windows.Forms.SplitContainer();
+            this.StudID = new System.Windows.Forms.TextBox();
             this.CentralContainerLogin = new System.Windows.Forms.Panel();
             this.tableLayoutPanel2 = new System.Windows.Forms.TableLayoutPanel();
             this.LoginButton = new System.Windows.Forms.Button();
             this.label2 = new System.Windows.Forms.Label();
-            this.StudID = new System.Windows.Forms.TextBox();
-            this.StudPass = new System.Windows.Forms.TextBox();
             this.tableLayoutPanel1.SuspendLayout();
             this.panel1.SuspendLayout();
             this.ButtonPanel.SuspendLayout();
@@ -241,6 +241,15 @@
             this.PasswordConatiner.SplitterDistance = 233;
             this.PasswordConatiner.TabIndex = 1;
             // 
+            // StudPass
+            // 
+            this.StudPass.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.StudPass.Location = new System.Drawing.Point(0, 0);
+            this.StudPass.Name = "StudPass";
+            this.StudPass.PasswordChar = '*';
+            this.StudPass.Size = new System.Drawing.Size(464, 20);
+            this.StudPass.TabIndex = 1;
+            // 
             // UserNameLabel
             // 
             this.UserNameLabel.AutoSize = true;
@@ -267,6 +276,14 @@
             this.IDContainer.Size = new System.Drawing.Size(701, 141);
             this.IDContainer.SplitterDistance = 233;
             this.IDContainer.TabIndex = 0;
+            // 
+            // StudID
+            // 
+            this.StudID.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.StudID.Location = new System.Drawing.Point(0, 0);
+            this.StudID.Name = "StudID";
+            this.StudID.Size = new System.Drawing.Size(464, 20);
+            this.StudID.TabIndex = 0;
             // 
             // CentralContainerLogin
             // 
@@ -316,23 +333,6 @@
             this.label2.Size = new System.Drawing.Size(271, 44);
             this.label2.TabIndex = 3;
             this.label2.Text = "Student Login";
-            // 
-            // StudID
-            // 
-            this.StudID.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.StudID.Location = new System.Drawing.Point(0, 0);
-            this.StudID.Name = "StudID";
-            this.StudID.Size = new System.Drawing.Size(464, 20);
-            this.StudID.TabIndex = 0;
-            // 
-            // StudPass
-            // 
-            this.StudPass.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.StudPass.Location = new System.Drawing.Point(0, 0);
-            this.StudPass.Name = "StudPass";
-            this.StudPass.PasswordChar = '*';
-            this.StudPass.Size = new System.Drawing.Size(464, 20);
-            this.StudPass.TabIndex = 1;
             // 
             // StudentLoginWindow
             // 

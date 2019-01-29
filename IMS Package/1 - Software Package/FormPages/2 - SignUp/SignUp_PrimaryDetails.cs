@@ -16,49 +16,17 @@ namespace _1___Software_Package.FormPages
             InitializeComponent();
         }
 
-        private void label1_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void textBox1_TextChanged(object sender, EventArgs e)
-        {
-
-        }
-
-        private void label3_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void label3_Click_1(object sender, EventArgs e)
-        {
-
-        }
-
         private void SignUp_PrimaryDetails_Load(object sender, EventArgs e)
         {
-
+            //LastNameBox.
         }
 
-        private void comboBox3_SelectedIndexChanged(object sender, EventArgs e)
+        private void OpenLogin(object sender, EventArgs e)
         {
-
-        }
-
-        private void textCity_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void textState_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void text_comboBox2_SelectedIndexChanged(object sender, EventArgs e)
-        {
-
+            this.Hide();
+            var StudSignIn = new _1___SignIn.StudentLoginWindow();
+            StudSignIn.Closed += (s, args) => this.Close(); // This is a lambda function
+            StudSignIn.Show();
         }
     }
 }
