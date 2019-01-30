@@ -24,9 +24,11 @@ namespace _1___Software_Package.FormPages
         private void OpenLogin(object sender, EventArgs e)
         {
             this.Hide();
-            var StudSignIn = new _1___SignIn.StudentLoginWindow();
-            StudSignIn.Closed += (s, args) => this.Close(); // This is a lambda function
-            StudSignIn.Show();
+            // var StudSignIn = new _1___SignIn.StudentLoginWindow();
+            // StudSignIn.Closed += (s, args) => this.Close(); // This is a lambda function
+            //  StudSignIn.Show();
+            _1___SignIn.StudentLoginWindow LogInWindow = new _1___SignIn.StudentLoginWindow();
+            LogInWindow.Show();
         }
     }
 }
