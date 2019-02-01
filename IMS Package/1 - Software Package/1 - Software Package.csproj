@@ -341,6 +341,13 @@
       <DependentUpon>DbProj.mdf</DependentUpon>
     </Content>
     <Content Include="Logo 1-1.ico" />
+    <Content Include="UserMaster.mdf">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="UserMaster_log.ldf">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+      <DependentUpon>UserMaster.mdf</DependentUpon>
+    </Content>
   </ItemGroup>
   <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
