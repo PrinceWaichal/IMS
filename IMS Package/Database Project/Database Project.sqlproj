@@ -69,19 +69,9 @@
     <Folder Include="Table Masters\ActivitiesMasters" />
     <Folder Include="Table Masters\MarkingMaster" />
     <Folder Include="Table Masters\UserMasters" />
+    <Folder Include="OldDbFiles" />
   </ItemGroup>
   <ItemGroup>
-    <Build Include="PrimeDetail Table.sql" />
-    <Build Include="EduDetails Table.sql" />
-    <Build Include="Work Experience Table.sql" />
-    <Build Include="Resume.sql" />
-    <Build Include="Attendance.sql" />
-    <Build Include="Marks.sql" />
-    <Build Include="Liabrary.sql" />
-    <Build Include="Office.sql" />
-    <Build Include="Activities.sql" />
-    <Build Include="Simple_Table.sql" />
-    <Build Include="LoginDetails.sql" />
     <Build Include="Table Masters\AddressMasters\CityMaster.sql" />
     <Build Include="Table Masters\AddressMasters\PINMaster.sql" />
     <Build Include="Table Masters\AddressMasters\AddressConstraintsFile.sql" />
@@ -110,8 +100,21 @@
     <Build Include="Table Masters\UserMasters\UserNameMaster.sql" />
     <Build Include="Table Masters\UserMasters\UserPasswordMaster.sql" />
     <Build Include="Table Masters\UserMasters\UserMastersConstraints.sql" />
+    <Build Include="OldDbFiles\Activities.sql" />
+    <Build Include="OldDbFiles\Attendance.sql" />
+    <Build Include="OldDbFiles\EduDetails Table.sql" />
+    <Build Include="OldDbFiles\Liabrary.sql" />
+    <Build Include="OldDbFiles\LoginDetails.sql" />
+    <Build Include="OldDbFiles\Marks.sql" />
+    <Build Include="OldDbFiles\Office.sql" />
+    <Build Include="OldDbFiles\Resume.sql" />
+    <Build Include="OldDbFiles\Simple_Table.sql" />
+    <Build Include="OldDbFiles\PrimeDetail Table.sql" />
   </ItemGroup>
   <ItemGroup>
     <RefactorLog Include="Database Project.refactorlog" />
+  </ItemGroup>
+  <ItemGroup>
+    <Build Include="OldDbFiles\Work Experience Table.sql" />
   </ItemGroup>
 </Project>
