@@ -35,5 +35,10 @@ namespace _1___Software_Package.FormPages
         {
 
         }
+
+        private void DateTimeSSC_ValueChanged(object sender, EventArgs e)
+        {
+
+        }
     }
 }

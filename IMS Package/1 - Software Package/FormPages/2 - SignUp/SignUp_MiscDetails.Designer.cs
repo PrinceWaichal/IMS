@@ -38,11 +38,13 @@
             this.texGFirstNam = new System.Windows.Forms.TextBox();
             this.texMLastNam = new System.Windows.Forms.TextBox();
             this.texGLastName = new System.Windows.Forms.TextBox();
+            this.comboBox1 = new System.Windows.Forms.ComboBox();
             this.BoxCast = new System.Windows.Forms.ComboBox();
             this.BoxPhyDisab = new System.Windows.Forms.ComboBox();
             this.BoxMariralStat = new System.Windows.Forms.ComboBox();
             this.BoxCategory = new System.Windows.Forms.ComboBox();
             this.labPhyDisab = new System.Windows.Forms.Label();
+            this.labReligion = new System.Windows.Forms.Label();
             this.labCast = new System.Windows.Forms.Label();
             this.labAdharCard = new System.Windows.Forms.Label();
             this.labParetsContNo = new System.Windows.Forms.Label();
@@ -70,8 +72,6 @@
             this.LoginButton = new System.Windows.Forms.Button();
             this.FilesButton = new System.Windows.Forms.Button();
             this.ReviewButton = new System.Windows.Forms.Button();
-            this.labReligion = new System.Windows.Forms.Label();
-            this.comboBox1 = new System.Windows.Forms.ComboBox();
             this.panel2.SuspendLayout();
             this.ButtonPanel.SuspendLayout();
             this.panel1.SuspendLayout();
@@ -182,6 +182,23 @@
             this.texGLastName.Text = "Last Name";
             this.texGLastName.TextChanged += new System.EventHandler(this.textBox1_TextChanged);
             // 
+            // comboBox1
+            // 
+            this.comboBox1.FormattingEnabled = true;
+            this.comboBox1.Items.AddRange(new object[] {
+            "Hindu",
+            "Islam",
+            "Christianity",
+            "Sikhism",
+            "Buddhism",
+            "Jainism",
+            "Zoroastrianism",
+            "Judaism "});
+            this.comboBox1.Location = new System.Drawing.Point(459, 297);
+            this.comboBox1.Name = "comboBox1";
+            this.comboBox1.Size = new System.Drawing.Size(121, 21);
+            this.comboBox1.TabIndex = 7;
+            // 
             // BoxCast
             // 
             this.BoxCast.FormattingEnabled = true;
@@ -237,6 +254,17 @@
             this.labPhyDisab.TabIndex = 6;
             this.labPhyDisab.Text = "Physical Disability";
             this.labPhyDisab.Click += new System.EventHandler(this.label3_Click);
+            // 
+            // labReligion
+            // 
+            this.labReligion.AccessibleRole = System.Windows.Forms.AccessibleRole.Grip;
+            this.labReligion.AutoSize = true;
+            this.labReligion.Location = new System.Drawing.Point(221, 305);
+            this.labReligion.Name = "labReligion";
+            this.labReligion.Size = new System.Drawing.Size(45, 13);
+            this.labReligion.TabIndex = 6;
+            this.labReligion.Text = "Religion";
+            this.labReligion.Click += new System.EventHandler(this.label3_Click);
             // 
             // labCast
             // 
@@ -551,34 +579,6 @@
             this.ReviewButton.TabIndex = 5;
             this.ReviewButton.Text = "Review Your Application";
             this.ReviewButton.UseVisualStyleBackColor = true;
-            // 
-            // labReligion
-            // 
-            this.labReligion.AccessibleRole = System.Windows.Forms.AccessibleRole.Grip;
-            this.labReligion.AutoSize = true;
-            this.labReligion.Location = new System.Drawing.Point(221, 305);
-            this.labReligion.Name = "labReligion";
-            this.labReligion.Size = new System.Drawing.Size(45, 13);
-            this.labReligion.TabIndex = 6;
-            this.labReligion.Text = "Religion";
-            this.labReligion.Click += new System.EventHandler(this.label3_Click);
-            // 
-            // comboBox1
-            // 
-            this.comboBox1.FormattingEnabled = true;
-            this.comboBox1.Items.AddRange(new object[] {
-            "Hindu",
-            "Islam",
-            "Christianity",
-            "Sikhism",
-            "Buddhism",
-            "Jainism",
-            "Zoroastrianism",
-            "Judaism "});
-            this.comboBox1.Location = new System.Drawing.Point(459, 297);
-            this.comboBox1.Name = "comboBox1";
-            this.comboBox1.Size = new System.Drawing.Size(121, 21);
-            this.comboBox1.TabIndex = 7;
             // 
             // SignUp_MiscDetails
             // 
