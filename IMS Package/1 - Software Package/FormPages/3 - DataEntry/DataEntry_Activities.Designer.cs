@@ -30,10 +30,10 @@
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(DataEntry_Activities));
             this.tableLayoutPanel2 = new System.Windows.Forms.TableLayoutPanel();
-            this.ExamsButton = new System.Windows.Forms.Button();
-            this.ScheduleButton = new System.Windows.Forms.Button();
-            this.BooksButton = new System.Windows.Forms.Button();
             this.FeesButton = new System.Windows.Forms.Button();
+            this.BooksButton = new System.Windows.Forms.Button();
+            this.ScheduleButton = new System.Windows.Forms.Button();
+            this.ExamsButton = new System.Windows.Forms.Button();
             this.ReportsButton = new System.Windows.Forms.Button();
             this.LogOutButton = new System.Windows.Forms.Button();
             this.ActivitiesButton = new System.Windows.Forms.Button();
@@ -74,25 +74,15 @@
             this.tableLayoutPanel2.Size = new System.Drawing.Size(194, 64);
             this.tableLayoutPanel2.TabIndex = 6;
             // 
-            // ExamsButton
+            // FeesButton
             // 
-            this.ExamsButton.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.ExamsButton.Location = new System.Drawing.Point(100, 35);
-            this.ExamsButton.Name = "ExamsButton";
-            this.ExamsButton.Size = new System.Drawing.Size(91, 26);
-            this.ExamsButton.TabIndex = 3;
-            this.ExamsButton.Text = "Exam";
-            this.ExamsButton.UseVisualStyleBackColor = true;
-            // 
-            // ScheduleButton
-            // 
-            this.ScheduleButton.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.ScheduleButton.Location = new System.Drawing.Point(3, 35);
-            this.ScheduleButton.Name = "ScheduleButton";
-            this.ScheduleButton.Size = new System.Drawing.Size(91, 26);
-            this.ScheduleButton.TabIndex = 2;
-            this.ScheduleButton.Text = "Schedule";
-            this.ScheduleButton.UseVisualStyleBackColor = true;
+            this.FeesButton.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.FeesButton.Location = new System.Drawing.Point(3, 3);
+            this.FeesButton.Name = "FeesButton";
+            this.FeesButton.Size = new System.Drawing.Size(91, 26);
+            this.FeesButton.TabIndex = 0;
+            this.FeesButton.Text = "Fees";
+            this.FeesButton.UseVisualStyleBackColor = true;
             // 
             // BooksButton
             // 
@@ -104,15 +94,25 @@
             this.BooksButton.Text = "Books";
             this.BooksButton.UseVisualStyleBackColor = true;
             // 
-            // FeesButton
+            // ScheduleButton
             // 
-            this.FeesButton.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.FeesButton.Location = new System.Drawing.Point(3, 3);
-            this.FeesButton.Name = "FeesButton";
-            this.FeesButton.Size = new System.Drawing.Size(91, 26);
-            this.FeesButton.TabIndex = 0;
-            this.FeesButton.Text = "Fees";
-            this.FeesButton.UseVisualStyleBackColor = true;
+            this.ScheduleButton.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.ScheduleButton.Location = new System.Drawing.Point(3, 35);
+            this.ScheduleButton.Name = "ScheduleButton";
+            this.ScheduleButton.Size = new System.Drawing.Size(91, 26);
+            this.ScheduleButton.TabIndex = 2;
+            this.ScheduleButton.Text = "Schedule";
+            this.ScheduleButton.UseVisualStyleBackColor = true;
+            // 
+            // ExamsButton
+            // 
+            this.ExamsButton.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.ExamsButton.Location = new System.Drawing.Point(100, 35);
+            this.ExamsButton.Name = "ExamsButton";
+            this.ExamsButton.Size = new System.Drawing.Size(91, 26);
+            this.ExamsButton.TabIndex = 3;
+            this.ExamsButton.Text = "Exam";
+            this.ExamsButton.UseVisualStyleBackColor = true;
             // 
             // ReportsButton
             // 

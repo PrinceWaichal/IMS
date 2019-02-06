@@ -29,43 +29,6 @@
         private void InitializeComponent()
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(SignUp_PrimaryDetails));
-            this.panel2 = new System.Windows.Forms.Panel();
-            this.DomainComboBox = new System.Windows.Forms.ComboBox();
-            this.text_comboBox3 = new System.Windows.Forms.ComboBox();
-            this.text_comboBox1 = new System.Windows.Forms.ComboBox();
-            this.text_comboBox2 = new System.Windows.Forms.ComboBox();
-            this.textMobi_No = new System.Windows.Forms.Label();
-            this.textPin = new System.Windows.Forms.Label();
-            this.textLandmark = new System.Windows.Forms.Label();
-            this.textAdd2 = new System.Windows.Forms.Label();
-            this.textAdd1 = new System.Windows.Forms.Label();
-            this.textCity = new System.Windows.Forms.Label();
-            this.textState = new System.Windows.Forms.Label();
-            this.textNationality = new System.Windows.Forms.Label();
-            this.textContact = new System.Windows.Forms.Label();
-            this.textGenderbox = new System.Windows.Forms.GroupBox();
-            this.textTransgender = new System.Windows.Forms.RadioButton();
-            this.textFemle = new System.Windows.Forms.RadioButton();
-            this.textMale = new System.Windows.Forms.RadioButton();
-            this.dateTimePicker1 = new System.Windows.Forms.DateTimePicker();
-            this.MiddleNameBox = new System.Windows.Forms.TextBox();
-            this.FirstNameBox = new System.Windows.Forms.TextBox();
-            this.textBox7 = new System.Windows.Forms.TextBox();
-            this.textBox6 = new System.Windows.Forms.TextBox();
-            this.textBox5 = new System.Windows.Forms.TextBox();
-            this.eMailAddBox = new System.Windows.Forms.TextBox();
-            this.textBox9 = new System.Windows.Forms.TextBox();
-            this.textBox8 = new System.Windows.Forms.TextBox();
-            this.LastNameBox = new System.Windows.Forms.TextBox();
-            this.textGender = new System.Windows.Forms.Label();
-            this.textDOB = new System.Windows.Forms.Label();
-            this.textEmail = new System.Windows.Forms.Label();
-            this.textlabel = new System.Windows.Forms.Label();
-            this.ValidateButton = new System.Windows.Forms.Button();
-            this.ButtonPanel = new System.Windows.Forms.TableLayoutPanel();
-            this.PrimeDButton = new System.Windows.Forms.Button();
-            this.EducationalDButton = new System.Windows.Forms.Button();
-            this.MiscDButton = new System.Windows.Forms.Button();
             this.label1 = new System.Windows.Forms.Label();
             this.panel1 = new System.Windows.Forms.Panel();
             this.linkLabel2 = new System.Windows.Forms.LinkLabel();
@@ -78,423 +41,90 @@
             this.LoginButton = new System.Windows.Forms.Button();
             this.FilesButton = new System.Windows.Forms.Button();
             this.ReviewButton = new System.Windows.Forms.Button();
-            this.panel2.SuspendLayout();
-            this.textGenderbox.SuspendLayout();
-            this.ButtonPanel.SuspendLayout();
+            this.ButtonPanel = new System.Windows.Forms.TableLayoutPanel();
+            this.MiscDButton = new System.Windows.Forms.Button();
+            this.EducationalDButton = new System.Windows.Forms.Button();
+            this.PrimeDButton = new System.Windows.Forms.Button();
+            this.ValidateButton = new System.Windows.Forms.Button();
+            this.textBox8 = new System.Windows.Forms.TextBox();
+            this.textBox9 = new System.Windows.Forms.TextBox();
+            this.textBox5 = new System.Windows.Forms.TextBox();
+            this.textBox6 = new System.Windows.Forms.TextBox();
+            this.textBox7 = new System.Windows.Forms.TextBox();
+            this.textContact = new System.Windows.Forms.Label();
+            this.textNationality = new System.Windows.Forms.Label();
+            this.textState = new System.Windows.Forms.Label();
+            this.textCity = new System.Windows.Forms.Label();
+            this.textAdd1 = new System.Windows.Forms.Label();
+            this.textAdd2 = new System.Windows.Forms.Label();
+            this.textLandmark = new System.Windows.Forms.Label();
+            this.textPin = new System.Windows.Forms.Label();
+            this.textMobi_No = new System.Windows.Forms.Label();
+            this.text_comboBox2 = new System.Windows.Forms.ComboBox();
+            this.text_comboBox1 = new System.Windows.Forms.ComboBox();
+            this.text_comboBox3 = new System.Windows.Forms.ComboBox();
+            this.splitContainer1 = new System.Windows.Forms.SplitContainer();
+            this.splitContainer2 = new System.Windows.Forms.SplitContainer();
+            this.DomainComboBox = new System.Windows.Forms.ComboBox();
+            this.MiddleNameBox = new System.Windows.Forms.TextBox();
+            this.textGenderbox = new System.Windows.Forms.GroupBox();
+            this.textMale = new System.Windows.Forms.RadioButton();
+            this.textFemle = new System.Windows.Forms.RadioButton();
+            this.textTransgender = new System.Windows.Forms.RadioButton();
+            this.eMailAddBox = new System.Windows.Forms.TextBox();
+            this.dateTimePicker1 = new System.Windows.Forms.DateTimePicker();
+            this.FirstNameBox = new System.Windows.Forms.TextBox();
+            this.LastNameBox = new System.Windows.Forms.TextBox();
+            this.textGender = new System.Windows.Forms.Label();
+            this.textDOB = new System.Windows.Forms.Label();
+            this.textEmail = new System.Windows.Forms.Label();
+            this.textlabel = new System.Windows.Forms.Label();
+            this.panel2 = new System.Windows.Forms.Panel();
+            this.splitContainer3 = new System.Windows.Forms.SplitContainer();
+            this.label2 = new System.Windows.Forms.Label();
+            this.label3 = new System.Windows.Forms.Label();
+            this.label4 = new System.Windows.Forms.Label();
+            this.label5 = new System.Windows.Forms.Label();
+            this.splitContainer4 = new System.Windows.Forms.SplitContainer();
+            this.textBox1 = new System.Windows.Forms.TextBox();
+            this.textBox2 = new System.Windows.Forms.TextBox();
+            this.dateTimePicker2 = new System.Windows.Forms.DateTimePicker();
+            this.textBox3 = new System.Windows.Forms.TextBox();
+            this.groupBox1 = new System.Windows.Forms.GroupBox();
+            this.radioButton1 = new System.Windows.Forms.RadioButton();
+            this.radioButton2 = new System.Windows.Forms.RadioButton();
+            this.radioButton3 = new System.Windows.Forms.RadioButton();
+            this.textBox4 = new System.Windows.Forms.TextBox();
+            this.comboBox1 = new System.Windows.Forms.ComboBox();
+            this.splitContainer5 = new System.Windows.Forms.SplitContainer();
             this.panel1.SuspendLayout();
             this.tableLayoutPanel1.SuspendLayout();
             this.tableLayoutPanel2.SuspendLayout();
+            this.ButtonPanel.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.splitContainer1)).BeginInit();
+            this.splitContainer1.Panel1.SuspendLayout();
+            this.splitContainer1.Panel2.SuspendLayout();
+            this.splitContainer1.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.splitContainer2)).BeginInit();
+            this.splitContainer2.Panel1.SuspendLayout();
+            this.splitContainer2.Panel2.SuspendLayout();
+            this.splitContainer2.SuspendLayout();
+            this.textGenderbox.SuspendLayout();
+            this.panel2.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.splitContainer3)).BeginInit();
+            this.splitContainer3.Panel1.SuspendLayout();
+            this.splitContainer3.Panel2.SuspendLayout();
+            this.splitContainer3.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.splitContainer4)).BeginInit();
+            this.splitContainer4.Panel1.SuspendLayout();
+            this.splitContainer4.Panel2.SuspendLayout();
+            this.splitContainer4.SuspendLayout();
+            this.groupBox1.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.splitContainer5)).BeginInit();
+            this.splitContainer5.Panel1.SuspendLayout();
+            this.splitContainer5.Panel2.SuspendLayout();
+            this.splitContainer5.SuspendLayout();
             this.SuspendLayout();
-            // 
-            // panel2
-            // 
-            this.panel2.Controls.Add(this.DomainComboBox);
-            this.panel2.Controls.Add(this.text_comboBox3);
-            this.panel2.Controls.Add(this.text_comboBox1);
-            this.panel2.Controls.Add(this.text_comboBox2);
-            this.panel2.Controls.Add(this.textMobi_No);
-            this.panel2.Controls.Add(this.textPin);
-            this.panel2.Controls.Add(this.textLandmark);
-            this.panel2.Controls.Add(this.textAdd2);
-            this.panel2.Controls.Add(this.textAdd1);
-            this.panel2.Controls.Add(this.textCity);
-            this.panel2.Controls.Add(this.textState);
-            this.panel2.Controls.Add(this.textNationality);
-            this.panel2.Controls.Add(this.textContact);
-            this.panel2.Controls.Add(this.textGenderbox);
-            this.panel2.Controls.Add(this.dateTimePicker1);
-            this.panel2.Controls.Add(this.MiddleNameBox);
-            this.panel2.Controls.Add(this.FirstNameBox);
-            this.panel2.Controls.Add(this.textBox7);
-            this.panel2.Controls.Add(this.textBox6);
-            this.panel2.Controls.Add(this.textBox5);
-            this.panel2.Controls.Add(this.eMailAddBox);
-            this.panel2.Controls.Add(this.textBox9);
-            this.panel2.Controls.Add(this.textBox8);
-            this.panel2.Controls.Add(this.LastNameBox);
-            this.panel2.Controls.Add(this.textGender);
-            this.panel2.Controls.Add(this.textDOB);
-            this.panel2.Controls.Add(this.textEmail);
-            this.panel2.Controls.Add(this.textlabel);
-            this.panel2.Controls.Add(this.ValidateButton);
-            this.panel2.Controls.Add(this.ButtonPanel);
-            this.panel2.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.panel2.Location = new System.Drawing.Point(0, 26);
-            this.panel2.Name = "panel2";
-            this.panel2.Size = new System.Drawing.Size(843, 555);
-            this.panel2.TabIndex = 8;
-            // 
-            // DomainComboBox
-            // 
-            this.DomainComboBox.FormattingEnabled = true;
-            this.DomainComboBox.Location = new System.Drawing.Point(579, 52);
-            this.DomainComboBox.Name = "DomainComboBox";
-            this.DomainComboBox.Size = new System.Drawing.Size(121, 21);
-            this.DomainComboBox.TabIndex = 4;
-            // 
-            // text_comboBox3
-            // 
-            this.text_comboBox3.FormattingEnabled = true;
-            this.text_comboBox3.Location = new System.Drawing.Point(598, 257);
-            this.text_comboBox3.Name = "text_comboBox3";
-            this.text_comboBox3.Size = new System.Drawing.Size(116, 21);
-            this.text_comboBox3.TabIndex = 9;
-            // 
-            // text_comboBox1
-            // 
-            this.text_comboBox1.FormattingEnabled = true;
-            this.text_comboBox1.Items.AddRange(new object[] {
-            "Afghanistan",
-            "Australia",
-            "Brazil",
-            "Canada",
-            "China",
-            "Egypt",
-            "England",
-            "Gernany",
-            "Iceland",
-            "India",
-            "Iraq",
-            "Japan",
-            "Kenya",
-            "Laos",
-            "Nepal",
-            "New Zealand",
-            "Norway",
-            "Pakistan",
-            "Peru",
-            "Poland",
-            "Scotland",
-            "South Africa",
-            "Sri Lanka",
-            "Swithzerland",
-            "Turkey",
-            "Thailand",
-            "Taiwan",
-            "United Kingdom",
-            "Venezuela",
-            "Wales",
-            "Zambia",
-            "Zimbabwe",
-            ""});
-            this.text_comboBox1.Location = new System.Drawing.Point(297, 257);
-            this.text_comboBox1.Name = "text_comboBox1";
-            this.text_comboBox1.Size = new System.Drawing.Size(107, 21);
-            this.text_comboBox1.TabIndex = 7;
-            // 
-            // text_comboBox2
-            // 
-            this.text_comboBox2.FormattingEnabled = true;
-            this.text_comboBox2.Items.AddRange(new object[] {
-            "Andhra Paradesh",
-            "Arunachal Pradesh",
-            "Assam",
-            "Bihar",
-            "Chattisgad",
-            "Goa",
-            "Gujarat"});
-            this.text_comboBox2.Location = new System.Drawing.Point(443, 257);
-            this.text_comboBox2.Name = "text_comboBox2";
-            this.text_comboBox2.Size = new System.Drawing.Size(120, 21);
-            this.text_comboBox2.TabIndex = 8;
-            // 
-            // textMobi_No
-            // 
-            this.textMobi_No.AutoSize = true;
-            this.textMobi_No.Location = new System.Drawing.Point(217, 418);
-            this.textMobi_No.Name = "textMobi_No";
-            this.textMobi_No.Size = new System.Drawing.Size(58, 13);
-            this.textMobi_No.TabIndex = 12;
-            this.textMobi_No.Text = "Mobile No.";
-            // 
-            // textPin
-            // 
-            this.textPin.AutoSize = true;
-            this.textPin.Location = new System.Drawing.Point(217, 392);
-            this.textPin.Name = "textPin";
-            this.textPin.Size = new System.Drawing.Size(25, 13);
-            this.textPin.TabIndex = 12;
-            this.textPin.Text = "PIN";
-            // 
-            // textLandmark
-            // 
-            this.textLandmark.AutoSize = true;
-            this.textLandmark.Location = new System.Drawing.Point(217, 359);
-            this.textLandmark.Name = "textLandmark";
-            this.textLandmark.Size = new System.Drawing.Size(54, 13);
-            this.textLandmark.TabIndex = 12;
-            this.textLandmark.Text = "Landmark";
-            // 
-            // textAdd2
-            // 
-            this.textAdd2.AutoSize = true;
-            this.textAdd2.Location = new System.Drawing.Point(214, 326);
-            this.textAdd2.Name = "textAdd2";
-            this.textAdd2.Size = new System.Drawing.Size(77, 13);
-            this.textAdd2.TabIndex = 11;
-            this.textAdd2.Text = "Address Line 2";
-            // 
-            // textAdd1
-            // 
-            this.textAdd1.AutoSize = true;
-            this.textAdd1.Location = new System.Drawing.Point(214, 294);
-            this.textAdd1.Name = "textAdd1";
-            this.textAdd1.Size = new System.Drawing.Size(77, 13);
-            this.textAdd1.TabIndex = 11;
-            this.textAdd1.Text = "Address Line 1";
-            // 
-            // textCity
-            // 
-            this.textCity.AutoSize = true;
-            this.textCity.Location = new System.Drawing.Point(568, 261);
-            this.textCity.Name = "textCity";
-            this.textCity.Size = new System.Drawing.Size(24, 13);
-            this.textCity.TabIndex = 11;
-            this.textCity.Text = "City";
-            // 
-            // textState
-            // 
-            this.textState.AutoSize = true;
-            this.textState.Location = new System.Drawing.Point(409, 261);
-            this.textState.Name = "textState";
-            this.textState.Size = new System.Drawing.Size(32, 13);
-            this.textState.TabIndex = 11;
-            this.textState.Text = "State";
-            // 
-            // textNationality
-            // 
-            this.textNationality.AutoSize = true;
-            this.textNationality.Location = new System.Drawing.Point(214, 260);
-            this.textNationality.Name = "textNationality";
-            this.textNationality.Size = new System.Drawing.Size(56, 13);
-            this.textNationality.TabIndex = 11;
-            this.textNationality.Text = "Nationality";
-            // 
-            // textContact
-            // 
-            this.textContact.AutoSize = true;
-            this.textContact.Location = new System.Drawing.Point(214, 220);
-            this.textContact.Name = "textContact";
-            this.textContact.Size = new System.Drawing.Size(79, 13);
-            this.textContact.TabIndex = 11;
-            this.textContact.Text = "Contact Details";
-            // 
-            // textGenderbox
-            // 
-            this.textGenderbox.Controls.Add(this.textTransgender);
-            this.textGenderbox.Controls.Add(this.textFemle);
-            this.textGenderbox.Controls.Add(this.textMale);
-            this.textGenderbox.Location = new System.Drawing.Point(295, 121);
-            this.textGenderbox.Name = "textGenderbox";
-            this.textGenderbox.Size = new System.Drawing.Size(142, 85);
-            this.textGenderbox.TabIndex = 6;
-            this.textGenderbox.TabStop = false;
-            // 
-            // textTransgender
-            // 
-            this.textTransgender.AutoSize = true;
-            this.textTransgender.Location = new System.Drawing.Point(20, 48);
-            this.textTransgender.Name = "textTransgender";
-            this.textTransgender.Size = new System.Drawing.Size(108, 17);
-            this.textTransgender.TabIndex = 2;
-            this.textTransgender.TabStop = true;
-            this.textTransgender.Text = "Denial to disclose";
-            this.textTransgender.UseVisualStyleBackColor = true;
-            // 
-            // textFemle
-            // 
-            this.textFemle.AutoSize = true;
-            this.textFemle.Location = new System.Drawing.Point(20, 30);
-            this.textFemle.Name = "textFemle";
-            this.textFemle.Size = new System.Drawing.Size(59, 17);
-            this.textFemle.TabIndex = 1;
-            this.textFemle.TabStop = true;
-            this.textFemle.Text = "Female";
-            this.textFemle.UseVisualStyleBackColor = true;
-            // 
-            // textMale
-            // 
-            this.textMale.AutoSize = true;
-            this.textMale.Location = new System.Drawing.Point(20, 12);
-            this.textMale.Name = "textMale";
-            this.textMale.Size = new System.Drawing.Size(48, 17);
-            this.textMale.TabIndex = 0;
-            this.textMale.TabStop = true;
-            this.textMale.Text = "Male";
-            this.textMale.UseVisualStyleBackColor = true;
-            // 
-            // dateTimePicker1
-            // 
-            this.dateTimePicker1.Location = new System.Drawing.Point(297, 88);
-            this.dateTimePicker1.Name = "dateTimePicker1";
-            this.dateTimePicker1.Size = new System.Drawing.Size(140, 20);
-            this.dateTimePicker1.TabIndex = 5;
-            // 
-            // MiddleNameBox
-            // 
-            this.MiddleNameBox.Location = new System.Drawing.Point(578, 16);
-            this.MiddleNameBox.Name = "MiddleNameBox";
-            this.MiddleNameBox.Size = new System.Drawing.Size(137, 20);
-            this.MiddleNameBox.TabIndex = 2;
-            this.MiddleNameBox.Text = "Middle Name";
-            // 
-            // FirstNameBox
-            // 
-            this.FirstNameBox.Location = new System.Drawing.Point(443, 16);
-            this.FirstNameBox.Name = "FirstNameBox";
-            this.FirstNameBox.Size = new System.Drawing.Size(129, 20);
-            this.FirstNameBox.TabIndex = 1;
-            this.FirstNameBox.Text = "First Name";
-            // 
-            // textBox7
-            // 
-            this.textBox7.Location = new System.Drawing.Point(296, 352);
-            this.textBox7.Name = "textBox7";
-            this.textBox7.Size = new System.Drawing.Size(419, 20);
-            this.textBox7.TabIndex = 12;
-            // 
-            // textBox6
-            // 
-            this.textBox6.Location = new System.Drawing.Point(297, 323);
-            this.textBox6.Multiline = true;
-            this.textBox6.Name = "textBox6";
-            this.textBox6.Size = new System.Drawing.Size(418, 20);
-            this.textBox6.TabIndex = 11;
-            // 
-            // textBox5
-            // 
-            this.textBox5.Location = new System.Drawing.Point(296, 294);
-            this.textBox5.Multiline = true;
-            this.textBox5.Name = "textBox5";
-            this.textBox5.Size = new System.Drawing.Size(419, 20);
-            this.textBox5.TabIndex = 10;
-            // 
-            // eMailAddBox
-            // 
-            this.eMailAddBox.Location = new System.Drawing.Point(295, 52);
-            this.eMailAddBox.Name = "eMailAddBox";
-            this.eMailAddBox.Size = new System.Drawing.Size(277, 20);
-            this.eMailAddBox.TabIndex = 3;
-            // 
-            // textBox9
-            // 
-            this.textBox9.Location = new System.Drawing.Point(296, 415);
-            this.textBox9.Name = "textBox9";
-            this.textBox9.Size = new System.Drawing.Size(137, 20);
-            this.textBox9.TabIndex = 14;
-            // 
-            // textBox8
-            // 
-            this.textBox8.Location = new System.Drawing.Point(297, 385);
-            this.textBox8.Name = "textBox8";
-            this.textBox8.Size = new System.Drawing.Size(136, 20);
-            this.textBox8.TabIndex = 13;
-            // 
-            // LastNameBox
-            // 
-            this.LastNameBox.Location = new System.Drawing.Point(296, 16);
-            this.LastNameBox.Name = "LastNameBox";
-            this.LastNameBox.Size = new System.Drawing.Size(141, 20);
-            this.LastNameBox.TabIndex = 0;
-            this.LastNameBox.Text = "Last Name";
-            // 
-            // textGender
-            // 
-            this.textGender.AutoSize = true;
-            this.textGender.Location = new System.Drawing.Point(220, 129);
-            this.textGender.Name = "textGender";
-            this.textGender.Size = new System.Drawing.Size(42, 13);
-            this.textGender.TabIndex = 6;
-            this.textGender.Text = "Gender";
-            // 
-            // textDOB
-            // 
-            this.textDOB.AutoSize = true;
-            this.textDOB.Location = new System.Drawing.Point(220, 95);
-            this.textDOB.Name = "textDOB";
-            this.textDOB.Size = new System.Drawing.Size(30, 13);
-            this.textDOB.TabIndex = 6;
-            this.textDOB.Text = "DOB";
-            // 
-            // textEmail
-            // 
-            this.textEmail.AutoSize = true;
-            this.textEmail.Location = new System.Drawing.Point(220, 59);
-            this.textEmail.Name = "textEmail";
-            this.textEmail.Size = new System.Drawing.Size(35, 13);
-            this.textEmail.TabIndex = 6;
-            this.textEmail.Text = "E-mail";
-            // 
-            // textlabel
-            // 
-            this.textlabel.AutoSize = true;
-            this.textlabel.Location = new System.Drawing.Point(220, 24);
-            this.textlabel.Name = "textlabel";
-            this.textlabel.Size = new System.Drawing.Size(35, 13);
-            this.textlabel.TabIndex = 6;
-            this.textlabel.Text = "Name";
-            // 
-            // ValidateButton
-            // 
-            this.ValidateButton.AccessibleRole = System.Windows.Forms.AccessibleRole.CheckButton;
-            this.ValidateButton.Dock = System.Windows.Forms.DockStyle.Bottom;
-            this.ValidateButton.Location = new System.Drawing.Point(200, 532);
-            this.ValidateButton.Name = "ValidateButton";
-            this.ValidateButton.Size = new System.Drawing.Size(643, 23);
-            this.ValidateButton.TabIndex = 15;
-            this.ValidateButton.Text = "Validate";
-            this.ValidateButton.UseVisualStyleBackColor = true;
-            // 
-            // ButtonPanel
-            // 
-            this.ButtonPanel.ColumnCount = 1;
-            this.ButtonPanel.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 100F));
-            this.ButtonPanel.Controls.Add(this.PrimeDButton, 0, 0);
-            this.ButtonPanel.Controls.Add(this.EducationalDButton, 0, 1);
-            this.ButtonPanel.Controls.Add(this.MiscDButton, 0, 2);
-            this.ButtonPanel.Cursor = System.Windows.Forms.Cursors.Arrow;
-            this.ButtonPanel.Dock = System.Windows.Forms.DockStyle.Left;
-            this.ButtonPanel.Location = new System.Drawing.Point(0, 0);
-            this.ButtonPanel.Name = "ButtonPanel";
-            this.ButtonPanel.RowCount = 6;
-            this.ButtonPanel.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 16.66667F));
-            this.ButtonPanel.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 16.66667F));
-            this.ButtonPanel.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 16.66667F));
-            this.ButtonPanel.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 16.66667F));
-            this.ButtonPanel.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 16.66667F));
-            this.ButtonPanel.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 16.66667F));
-            this.ButtonPanel.Size = new System.Drawing.Size(200, 555);
-            this.ButtonPanel.TabIndex = 4;
-            // 
-            // PrimeDButton
-            // 
-            this.PrimeDButton.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.PrimeDButton.Location = new System.Drawing.Point(3, 3);
-            this.PrimeDButton.Name = "PrimeDButton";
-            this.PrimeDButton.Size = new System.Drawing.Size(194, 86);
-            this.PrimeDButton.TabIndex = 0;
-            this.PrimeDButton.Text = "Primary Details";
-            this.PrimeDButton.UseVisualStyleBackColor = true;
-            // 
-            // EducationalDButton
-            // 
-            this.EducationalDButton.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.EducationalDButton.Location = new System.Drawing.Point(3, 95);
-            this.EducationalDButton.Name = "EducationalDButton";
-            this.EducationalDButton.Size = new System.Drawing.Size(194, 86);
-            this.EducationalDButton.TabIndex = 1;
-            this.EducationalDButton.Text = "Educational Details";
-            this.EducationalDButton.UseVisualStyleBackColor = true;
-            // 
-            // MiscDButton
-            // 
-            this.MiscDButton.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.MiscDButton.Location = new System.Drawing.Point(3, 187);
-            this.MiscDButton.Name = "MiscDButton";
-            this.MiscDButton.Size = new System.Drawing.Size(194, 86);
-            this.MiscDButton.TabIndex = 2;
-            this.MiscDButton.Text = "Miscellaneous Details";
-            this.MiscDButton.UseVisualStyleBackColor = true;
             // 
             // label1
             // 
@@ -644,6 +274,643 @@
             this.ReviewButton.Text = "Review Your Application";
             this.ReviewButton.UseVisualStyleBackColor = true;
             // 
+            // ButtonPanel
+            // 
+            this.ButtonPanel.ColumnCount = 1;
+            this.ButtonPanel.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 100F));
+            this.ButtonPanel.Controls.Add(this.PrimeDButton, 0, 0);
+            this.ButtonPanel.Controls.Add(this.EducationalDButton, 0, 1);
+            this.ButtonPanel.Controls.Add(this.MiscDButton, 0, 2);
+            this.ButtonPanel.Cursor = System.Windows.Forms.Cursors.Arrow;
+            this.ButtonPanel.Dock = System.Windows.Forms.DockStyle.Left;
+            this.ButtonPanel.Location = new System.Drawing.Point(0, 0);
+            this.ButtonPanel.Name = "ButtonPanel";
+            this.ButtonPanel.RowCount = 6;
+            this.ButtonPanel.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 16.66667F));
+            this.ButtonPanel.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 16.66667F));
+            this.ButtonPanel.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 16.66667F));
+            this.ButtonPanel.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 16.66667F));
+            this.ButtonPanel.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 16.66667F));
+            this.ButtonPanel.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 16.66667F));
+            this.ButtonPanel.Size = new System.Drawing.Size(200, 555);
+            this.ButtonPanel.TabIndex = 4;
+            // 
+            // MiscDButton
+            // 
+            this.MiscDButton.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.MiscDButton.Location = new System.Drawing.Point(3, 187);
+            this.MiscDButton.Name = "MiscDButton";
+            this.MiscDButton.Size = new System.Drawing.Size(194, 86);
+            this.MiscDButton.TabIndex = 2;
+            this.MiscDButton.Text = "Miscellaneous Details";
+            this.MiscDButton.UseVisualStyleBackColor = true;
+            // 
+            // EducationalDButton
+            // 
+            this.EducationalDButton.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.EducationalDButton.Location = new System.Drawing.Point(3, 95);
+            this.EducationalDButton.Name = "EducationalDButton";
+            this.EducationalDButton.Size = new System.Drawing.Size(194, 86);
+            this.EducationalDButton.TabIndex = 1;
+            this.EducationalDButton.Text = "Educational Details";
+            this.EducationalDButton.UseVisualStyleBackColor = true;
+            // 
+            // PrimeDButton
+            // 
+            this.PrimeDButton.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.PrimeDButton.Location = new System.Drawing.Point(3, 3);
+            this.PrimeDButton.Name = "PrimeDButton";
+            this.PrimeDButton.Size = new System.Drawing.Size(194, 86);
+            this.PrimeDButton.TabIndex = 0;
+            this.PrimeDButton.Text = "Primary Details";
+            this.PrimeDButton.UseVisualStyleBackColor = true;
+            // 
+            // ValidateButton
+            // 
+            this.ValidateButton.AccessibleRole = System.Windows.Forms.AccessibleRole.CheckButton;
+            this.ValidateButton.Dock = System.Windows.Forms.DockStyle.Bottom;
+            this.ValidateButton.Location = new System.Drawing.Point(200, 532);
+            this.ValidateButton.Name = "ValidateButton";
+            this.ValidateButton.Size = new System.Drawing.Size(643, 23);
+            this.ValidateButton.TabIndex = 15;
+            this.ValidateButton.Text = "Validate";
+            this.ValidateButton.UseVisualStyleBackColor = true;
+            // 
+            // textBox8
+            // 
+            this.textBox8.Location = new System.Drawing.Point(3, 130);
+            this.textBox8.Name = "textBox8";
+            this.textBox8.Size = new System.Drawing.Size(136, 20);
+            this.textBox8.TabIndex = 13;
+            // 
+            // textBox9
+            // 
+            this.textBox9.Location = new System.Drawing.Point(4, 160);
+            this.textBox9.Name = "textBox9";
+            this.textBox9.Size = new System.Drawing.Size(137, 20);
+            this.textBox9.TabIndex = 14;
+            // 
+            // textBox5
+            // 
+            this.textBox5.Location = new System.Drawing.Point(3, 13);
+            this.textBox5.Multiline = true;
+            this.textBox5.Name = "textBox5";
+            this.textBox5.Size = new System.Drawing.Size(430, 20);
+            this.textBox5.TabIndex = 10;
+            // 
+            // textBox6
+            // 
+            this.textBox6.Location = new System.Drawing.Point(4, 39);
+            this.textBox6.Multiline = true;
+            this.textBox6.Name = "textBox6";
+            this.textBox6.Size = new System.Drawing.Size(429, 20);
+            this.textBox6.TabIndex = 11;
+            // 
+            // textBox7
+            // 
+            this.textBox7.Location = new System.Drawing.Point(4, 65);
+            this.textBox7.Name = "textBox7";
+            this.textBox7.Size = new System.Drawing.Size(429, 20);
+            this.textBox7.TabIndex = 12;
+            // 
+            // textContact
+            // 
+            this.textContact.AutoSize = true;
+            this.textContact.Location = new System.Drawing.Point(214, 220);
+            this.textContact.Name = "textContact";
+            this.textContact.Size = new System.Drawing.Size(79, 13);
+            this.textContact.TabIndex = 11;
+            this.textContact.Text = "Contact Details";
+            // 
+            // textNationality
+            // 
+            this.textNationality.AutoSize = true;
+            this.textNationality.Location = new System.Drawing.Point(10, 107);
+            this.textNationality.Name = "textNationality";
+            this.textNationality.Size = new System.Drawing.Size(56, 13);
+            this.textNationality.TabIndex = 11;
+            this.textNationality.Text = "Nationality";
+            // 
+            // textState
+            // 
+            this.textState.AutoSize = true;
+            this.textState.Location = new System.Drawing.Point(120, 99);
+            this.textState.Name = "textState";
+            this.textState.Size = new System.Drawing.Size(32, 13);
+            this.textState.TabIndex = 11;
+            this.textState.Text = "State";
+            // 
+            // textCity
+            // 
+            this.textCity.AutoSize = true;
+            this.textCity.Location = new System.Drawing.Point(287, 99);
+            this.textCity.Name = "textCity";
+            this.textCity.Size = new System.Drawing.Size(24, 13);
+            this.textCity.TabIndex = 11;
+            this.textCity.Text = "City";
+            // 
+            // textAdd1
+            // 
+            this.textAdd1.AutoSize = true;
+            this.textAdd1.Location = new System.Drawing.Point(10, 20);
+            this.textAdd1.Name = "textAdd1";
+            this.textAdd1.Size = new System.Drawing.Size(77, 13);
+            this.textAdd1.TabIndex = 11;
+            this.textAdd1.Text = "Address Line 1";
+            // 
+            // textAdd2
+            // 
+            this.textAdd2.AutoSize = true;
+            this.textAdd2.Location = new System.Drawing.Point(10, 49);
+            this.textAdd2.Name = "textAdd2";
+            this.textAdd2.Size = new System.Drawing.Size(77, 13);
+            this.textAdd2.TabIndex = 11;
+            this.textAdd2.Text = "Address Line 2";
+            // 
+            // textLandmark
+            // 
+            this.textLandmark.AutoSize = true;
+            this.textLandmark.Location = new System.Drawing.Point(10, 78);
+            this.textLandmark.Name = "textLandmark";
+            this.textLandmark.Size = new System.Drawing.Size(54, 13);
+            this.textLandmark.TabIndex = 12;
+            this.textLandmark.Text = "Landmark";
+            this.textLandmark.Click += new System.EventHandler(this.textLandmark_Click);
+            // 
+            // textPin
+            // 
+            this.textPin.AutoSize = true;
+            this.textPin.Location = new System.Drawing.Point(10, 136);
+            this.textPin.Name = "textPin";
+            this.textPin.Size = new System.Drawing.Size(25, 13);
+            this.textPin.TabIndex = 12;
+            this.textPin.Text = "PIN";
+            // 
+            // textMobi_No
+            // 
+            this.textMobi_No.AutoSize = true;
+            this.textMobi_No.Location = new System.Drawing.Point(10, 165);
+            this.textMobi_No.Name = "textMobi_No";
+            this.textMobi_No.Size = new System.Drawing.Size(58, 13);
+            this.textMobi_No.TabIndex = 12;
+            this.textMobi_No.Text = "Mobile No.";
+            // 
+            // text_comboBox2
+            // 
+            this.text_comboBox2.FormattingEnabled = true;
+            this.text_comboBox2.Items.AddRange(new object[] {
+            "Andhra Paradesh",
+            "Arunachal Pradesh",
+            "Assam",
+            "Bihar",
+            "Chattisgad",
+            "Goa",
+            "Gujarat"});
+            this.text_comboBox2.Location = new System.Drawing.Point(161, 96);
+            this.text_comboBox2.Name = "text_comboBox2";
+            this.text_comboBox2.Size = new System.Drawing.Size(120, 21);
+            this.text_comboBox2.TabIndex = 8;
+            // 
+            // text_comboBox1
+            // 
+            this.text_comboBox1.FormattingEnabled = true;
+            this.text_comboBox1.Items.AddRange(new object[] {
+            "Afghanistan",
+            "Australia",
+            "Brazil",
+            "Canada",
+            "China",
+            "Egypt",
+            "England",
+            "Gernany",
+            "Iceland",
+            "India",
+            "Iraq",
+            "Japan",
+            "Kenya",
+            "Laos",
+            "Nepal",
+            "New Zealand",
+            "Norway",
+            "Pakistan",
+            "Peru",
+            "Poland",
+            "Scotland",
+            "South Africa",
+            "Sri Lanka",
+            "Swithzerland",
+            "Turkey",
+            "Thailand",
+            "Taiwan",
+            "United Kingdom",
+            "Venezuela",
+            "Wales",
+            "Zambia",
+            "Zimbabwe",
+            ""});
+            this.text_comboBox1.Location = new System.Drawing.Point(3, 99);
+            this.text_comboBox1.Name = "text_comboBox1";
+            this.text_comboBox1.Size = new System.Drawing.Size(107, 21);
+            this.text_comboBox1.TabIndex = 7;
+            // 
+            // text_comboBox3
+            // 
+            this.text_comboBox3.FormattingEnabled = true;
+            this.text_comboBox3.Location = new System.Drawing.Point(317, 96);
+            this.text_comboBox3.Name = "text_comboBox3";
+            this.text_comboBox3.Size = new System.Drawing.Size(116, 21);
+            this.text_comboBox3.TabIndex = 9;
+            // 
+            // splitContainer1
+            // 
+            this.splitContainer1.Location = new System.Drawing.Point(220, 6);
+            this.splitContainer1.Name = "splitContainer1";
+            // 
+            // splitContainer1.Panel1
+            // 
+            this.splitContainer1.Panel1.Controls.Add(this.textlabel);
+            this.splitContainer1.Panel1.Controls.Add(this.textEmail);
+            this.splitContainer1.Panel1.Controls.Add(this.textDOB);
+            this.splitContainer1.Panel1.Controls.Add(this.textGender);
+            // 
+            // splitContainer1.Panel2
+            // 
+            this.splitContainer1.Panel2.Controls.Add(this.splitContainer2);
+            this.splitContainer1.Size = new System.Drawing.Size(557, 195);
+            this.splitContainer1.SplitterDistance = 98;
+            this.splitContainer1.TabIndex = 16;
+            // 
+            // splitContainer2
+            // 
+            this.splitContainer2.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.splitContainer2.Location = new System.Drawing.Point(0, 0);
+            this.splitContainer2.Name = "splitContainer2";
+            // 
+            // splitContainer2.Panel1
+            // 
+            this.splitContainer2.Panel1.Controls.Add(this.LastNameBox);
+            this.splitContainer2.Panel1.Controls.Add(this.FirstNameBox);
+            this.splitContainer2.Panel1.Controls.Add(this.dateTimePicker1);
+            this.splitContainer2.Panel1.Controls.Add(this.eMailAddBox);
+            this.splitContainer2.Panel1.Controls.Add(this.textGenderbox);
+            this.splitContainer2.Panel1.Paint += new System.Windows.Forms.PaintEventHandler(this.splitContainer2_Panel1_Paint);
+            // 
+            // splitContainer2.Panel2
+            // 
+            this.splitContainer2.Panel2.Controls.Add(this.MiddleNameBox);
+            this.splitContainer2.Panel2.Controls.Add(this.DomainComboBox);
+            this.splitContainer2.Panel2.Paint += new System.Windows.Forms.PaintEventHandler(this.splitContainer2_Panel2_Paint);
+            this.splitContainer2.Size = new System.Drawing.Size(455, 195);
+            this.splitContainer2.SplitterDistance = 285;
+            this.splitContainer2.TabIndex = 0;
+            // 
+            // DomainComboBox
+            // 
+            this.DomainComboBox.FormattingEnabled = true;
+            this.DomainComboBox.Location = new System.Drawing.Point(3, 44);
+            this.DomainComboBox.Name = "DomainComboBox";
+            this.DomainComboBox.Size = new System.Drawing.Size(121, 21);
+            this.DomainComboBox.TabIndex = 4;
+            // 
+            // MiddleNameBox
+            // 
+            this.MiddleNameBox.Location = new System.Drawing.Point(3, 8);
+            this.MiddleNameBox.Name = "MiddleNameBox";
+            this.MiddleNameBox.Size = new System.Drawing.Size(137, 20);
+            this.MiddleNameBox.TabIndex = 2;
+            this.MiddleNameBox.Text = "Middle Name";
+            this.MiddleNameBox.TextChanged += new System.EventHandler(this.MiddleNameBox_TextChanged);
+            // 
+            // textGenderbox
+            // 
+            this.textGenderbox.Controls.Add(this.textTransgender);
+            this.textGenderbox.Controls.Add(this.textFemle);
+            this.textGenderbox.Controls.Add(this.textMale);
+            this.textGenderbox.Location = new System.Drawing.Point(3, 97);
+            this.textGenderbox.Name = "textGenderbox";
+            this.textGenderbox.Size = new System.Drawing.Size(142, 85);
+            this.textGenderbox.TabIndex = 6;
+            this.textGenderbox.TabStop = false;
+            // 
+            // textMale
+            // 
+            this.textMale.AutoSize = true;
+            this.textMale.Location = new System.Drawing.Point(20, 12);
+            this.textMale.Name = "textMale";
+            this.textMale.Size = new System.Drawing.Size(48, 17);
+            this.textMale.TabIndex = 0;
+            this.textMale.TabStop = true;
+            this.textMale.Text = "Male";
+            this.textMale.UseVisualStyleBackColor = true;
+            // 
+            // textFemle
+            // 
+            this.textFemle.AutoSize = true;
+            this.textFemle.Location = new System.Drawing.Point(20, 30);
+            this.textFemle.Name = "textFemle";
+            this.textFemle.Size = new System.Drawing.Size(59, 17);
+            this.textFemle.TabIndex = 1;
+            this.textFemle.TabStop = true;
+            this.textFemle.Text = "Female";
+            this.textFemle.UseVisualStyleBackColor = true;
+            // 
+            // textTransgender
+            // 
+            this.textTransgender.AutoSize = true;
+            this.textTransgender.Location = new System.Drawing.Point(20, 48);
+            this.textTransgender.Name = "textTransgender";
+            this.textTransgender.Size = new System.Drawing.Size(108, 17);
+            this.textTransgender.TabIndex = 2;
+            this.textTransgender.TabStop = true;
+            this.textTransgender.Text = "Denial to disclose";
+            this.textTransgender.UseVisualStyleBackColor = true;
+            // 
+            // eMailAddBox
+            // 
+            this.eMailAddBox.Location = new System.Drawing.Point(3, 44);
+            this.eMailAddBox.Name = "eMailAddBox";
+            this.eMailAddBox.Size = new System.Drawing.Size(277, 20);
+            this.eMailAddBox.TabIndex = 3;
+            // 
+            // dateTimePicker1
+            // 
+            this.dateTimePicker1.Location = new System.Drawing.Point(3, 71);
+            this.dateTimePicker1.Name = "dateTimePicker1";
+            this.dateTimePicker1.Size = new System.Drawing.Size(140, 20);
+            this.dateTimePicker1.TabIndex = 5;
+            this.dateTimePicker1.ValueChanged += new System.EventHandler(this.dateTimePicker1_ValueChanged);
+            // 
+            // FirstNameBox
+            // 
+            this.FirstNameBox.Location = new System.Drawing.Point(153, 8);
+            this.FirstNameBox.Name = "FirstNameBox";
+            this.FirstNameBox.Size = new System.Drawing.Size(129, 20);
+            this.FirstNameBox.TabIndex = 1;
+            this.FirstNameBox.Text = "First Name";
+            // 
+            // LastNameBox
+            // 
+            this.LastNameBox.Location = new System.Drawing.Point(0, 8);
+            this.LastNameBox.Name = "LastNameBox";
+            this.LastNameBox.Size = new System.Drawing.Size(137, 20);
+            this.LastNameBox.TabIndex = 0;
+            this.LastNameBox.Text = "Last Name";
+            // 
+            // textGender
+            // 
+            this.textGender.AutoSize = true;
+            this.textGender.Location = new System.Drawing.Point(3, 107);
+            this.textGender.Name = "textGender";
+            this.textGender.Size = new System.Drawing.Size(42, 13);
+            this.textGender.TabIndex = 6;
+            this.textGender.Text = "Gender";
+            // 
+            // textDOB
+            // 
+            this.textDOB.AutoSize = true;
+            this.textDOB.Location = new System.Drawing.Point(3, 77);
+            this.textDOB.Name = "textDOB";
+            this.textDOB.Size = new System.Drawing.Size(30, 13);
+            this.textDOB.TabIndex = 6;
+            this.textDOB.Text = "DOB";
+            this.textDOB.Click += new System.EventHandler(this.textDOB_Click);
+            // 
+            // textEmail
+            // 
+            this.textEmail.AutoSize = true;
+            this.textEmail.Location = new System.Drawing.Point(3, 44);
+            this.textEmail.Name = "textEmail";
+            this.textEmail.Size = new System.Drawing.Size(35, 13);
+            this.textEmail.TabIndex = 6;
+            this.textEmail.Text = "E-mail";
+            this.textEmail.Click += new System.EventHandler(this.textEmail_Click);
+            // 
+            // textlabel
+            // 
+            this.textlabel.AutoSize = true;
+            this.textlabel.Location = new System.Drawing.Point(3, 15);
+            this.textlabel.Name = "textlabel";
+            this.textlabel.Size = new System.Drawing.Size(35, 13);
+            this.textlabel.TabIndex = 6;
+            this.textlabel.Text = "Name";
+            // 
+            // panel2
+            // 
+            this.panel2.Controls.Add(this.splitContainer5);
+            this.panel2.Controls.Add(this.splitContainer3);
+            this.panel2.Controls.Add(this.splitContainer1);
+            this.panel2.Controls.Add(this.textContact);
+            this.panel2.Controls.Add(this.ValidateButton);
+            this.panel2.Controls.Add(this.ButtonPanel);
+            this.panel2.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.panel2.Location = new System.Drawing.Point(0, 26);
+            this.panel2.Name = "panel2";
+            this.panel2.Size = new System.Drawing.Size(843, 555);
+            this.panel2.TabIndex = 8;
+            // 
+            // splitContainer3
+            // 
+            this.splitContainer3.Location = new System.Drawing.Point(220, 6);
+            this.splitContainer3.Name = "splitContainer3";
+            // 
+            // splitContainer3.Panel1
+            // 
+            this.splitContainer3.Panel1.Controls.Add(this.label2);
+            this.splitContainer3.Panel1.Controls.Add(this.label3);
+            this.splitContainer3.Panel1.Controls.Add(this.label4);
+            this.splitContainer3.Panel1.Controls.Add(this.label5);
+            // 
+            // splitContainer3.Panel2
+            // 
+            this.splitContainer3.Panel2.Controls.Add(this.splitContainer4);
+            this.splitContainer3.Size = new System.Drawing.Size(557, 195);
+            this.splitContainer3.SplitterDistance = 98;
+            this.splitContainer3.TabIndex = 16;
+            // 
+            // label2
+            // 
+            this.label2.AutoSize = true;
+            this.label2.Location = new System.Drawing.Point(3, 15);
+            this.label2.Name = "label2";
+            this.label2.Size = new System.Drawing.Size(35, 13);
+            this.label2.TabIndex = 6;
+            this.label2.Text = "Name";
+            // 
+            // label3
+            // 
+            this.label3.AutoSize = true;
+            this.label3.Location = new System.Drawing.Point(3, 44);
+            this.label3.Name = "label3";
+            this.label3.Size = new System.Drawing.Size(35, 13);
+            this.label3.TabIndex = 6;
+            this.label3.Text = "E-mail";
+            this.label3.Click += new System.EventHandler(this.textEmail_Click);
+            // 
+            // label4
+            // 
+            this.label4.AutoSize = true;
+            this.label4.Location = new System.Drawing.Point(3, 77);
+            this.label4.Name = "label4";
+            this.label4.Size = new System.Drawing.Size(30, 13);
+            this.label4.TabIndex = 6;
+            this.label4.Text = "DOB";
+            this.label4.Click += new System.EventHandler(this.textDOB_Click);
+            // 
+            // label5
+            // 
+            this.label5.AutoSize = true;
+            this.label5.Location = new System.Drawing.Point(3, 107);
+            this.label5.Name = "label5";
+            this.label5.Size = new System.Drawing.Size(42, 13);
+            this.label5.TabIndex = 6;
+            this.label5.Text = "Gender";
+            // 
+            // splitContainer4
+            // 
+            this.splitContainer4.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.splitContainer4.Location = new System.Drawing.Point(0, 0);
+            this.splitContainer4.Name = "splitContainer4";
+            // 
+            // splitContainer4.Panel1
+            // 
+            this.splitContainer4.Panel1.Controls.Add(this.textBox1);
+            this.splitContainer4.Panel1.Controls.Add(this.textBox2);
+            this.splitContainer4.Panel1.Controls.Add(this.dateTimePicker2);
+            this.splitContainer4.Panel1.Controls.Add(this.textBox3);
+            this.splitContainer4.Panel1.Controls.Add(this.groupBox1);
+            this.splitContainer4.Panel1.Paint += new System.Windows.Forms.PaintEventHandler(this.splitContainer2_Panel1_Paint);
+            // 
+            // splitContainer4.Panel2
+            // 
+            this.splitContainer4.Panel2.Controls.Add(this.textBox4);
+            this.splitContainer4.Panel2.Controls.Add(this.comboBox1);
+            this.splitContainer4.Panel2.Paint += new System.Windows.Forms.PaintEventHandler(this.splitContainer2_Panel2_Paint);
+            this.splitContainer4.Size = new System.Drawing.Size(455, 195);
+            this.splitContainer4.SplitterDistance = 285;
+            this.splitContainer4.TabIndex = 0;
+            // 
+            // textBox1
+            // 
+            this.textBox1.Location = new System.Drawing.Point(3, 8);
+            this.textBox1.Name = "textBox1";
+            this.textBox1.Size = new System.Drawing.Size(137, 20);
+            this.textBox1.TabIndex = 0;
+            this.textBox1.Text = "Last Name";
+            // 
+            // textBox2
+            // 
+            this.textBox2.Location = new System.Drawing.Point(153, 8);
+            this.textBox2.Name = "textBox2";
+            this.textBox2.Size = new System.Drawing.Size(129, 20);
+            this.textBox2.TabIndex = 1;
+            this.textBox2.Text = "First Name";
+            // 
+            // dateTimePicker2
+            // 
+            this.dateTimePicker2.Location = new System.Drawing.Point(3, 71);
+            this.dateTimePicker2.Name = "dateTimePicker2";
+            this.dateTimePicker2.Size = new System.Drawing.Size(140, 20);
+            this.dateTimePicker2.TabIndex = 5;
+            this.dateTimePicker2.ValueChanged += new System.EventHandler(this.dateTimePicker1_ValueChanged);
+            // 
+            // textBox3
+            // 
+            this.textBox3.Location = new System.Drawing.Point(3, 34);
+            this.textBox3.Name = "textBox3";
+            this.textBox3.Size = new System.Drawing.Size(277, 20);
+            this.textBox3.TabIndex = 3;
+            // 
+            // groupBox1
+            // 
+            this.groupBox1.Controls.Add(this.radioButton1);
+            this.groupBox1.Controls.Add(this.radioButton2);
+            this.groupBox1.Controls.Add(this.radioButton3);
+            this.groupBox1.Location = new System.Drawing.Point(3, 97);
+            this.groupBox1.Name = "groupBox1";
+            this.groupBox1.Size = new System.Drawing.Size(142, 85);
+            this.groupBox1.TabIndex = 6;
+            this.groupBox1.TabStop = false;
+            // 
+            // radioButton1
+            // 
+            this.radioButton1.AutoSize = true;
+            this.radioButton1.Location = new System.Drawing.Point(20, 48);
+            this.radioButton1.Name = "radioButton1";
+            this.radioButton1.Size = new System.Drawing.Size(108, 17);
+            this.radioButton1.TabIndex = 2;
+            this.radioButton1.TabStop = true;
+            this.radioButton1.Text = "Denial to disclose";
+            this.radioButton1.UseVisualStyleBackColor = true;
+            // 
+            // radioButton2
+            // 
+            this.radioButton2.AutoSize = true;
+            this.radioButton2.Location = new System.Drawing.Point(20, 30);
+            this.radioButton2.Name = "radioButton2";
+            this.radioButton2.Size = new System.Drawing.Size(59, 17);
+            this.radioButton2.TabIndex = 1;
+            this.radioButton2.TabStop = true;
+            this.radioButton2.Text = "Female";
+            this.radioButton2.UseVisualStyleBackColor = true;
+            // 
+            // radioButton3
+            // 
+            this.radioButton3.AutoSize = true;
+            this.radioButton3.Location = new System.Drawing.Point(20, 12);
+            this.radioButton3.Name = "radioButton3";
+            this.radioButton3.Size = new System.Drawing.Size(48, 17);
+            this.radioButton3.TabIndex = 0;
+            this.radioButton3.TabStop = true;
+            this.radioButton3.Text = "Male";
+            this.radioButton3.UseVisualStyleBackColor = true;
+            // 
+            // textBox4
+            // 
+            this.textBox4.Location = new System.Drawing.Point(3, 8);
+            this.textBox4.Name = "textBox4";
+            this.textBox4.Size = new System.Drawing.Size(137, 20);
+            this.textBox4.TabIndex = 2;
+            this.textBox4.Text = "Middle Name";
+            this.textBox4.TextChanged += new System.EventHandler(this.MiddleNameBox_TextChanged);
+            // 
+            // comboBox1
+            // 
+            this.comboBox1.FormattingEnabled = true;
+            this.comboBox1.Location = new System.Drawing.Point(3, 34);
+            this.comboBox1.Name = "comboBox1";
+            this.comboBox1.Size = new System.Drawing.Size(137, 21);
+            this.comboBox1.TabIndex = 4;
+            // 
+            // splitContainer5
+            // 
+            this.splitContainer5.Location = new System.Drawing.Point(211, 236);
+            this.splitContainer5.Name = "splitContainer5";
+            // 
+            // splitContainer5.Panel1
+            // 
+            this.splitContainer5.Panel1.Controls.Add(this.textAdd1);
+            this.splitContainer5.Panel1.Controls.Add(this.textAdd2);
+            this.splitContainer5.Panel1.Controls.Add(this.textLandmark);
+            this.splitContainer5.Panel1.Controls.Add(this.textMobi_No);
+            this.splitContainer5.Panel1.Controls.Add(this.textNationality);
+            this.splitContainer5.Panel1.Controls.Add(this.textPin);
+            // 
+            // splitContainer5.Panel2
+            // 
+            this.splitContainer5.Panel2.Controls.Add(this.textBox5);
+            this.splitContainer5.Panel2.Controls.Add(this.textBox6);
+            this.splitContainer5.Panel2.Controls.Add(this.textBox7);
+            this.splitContainer5.Panel2.Controls.Add(this.text_comboBox3);
+            this.splitContainer5.Panel2.Controls.Add(this.textBox9);
+            this.splitContainer5.Panel2.Controls.Add(this.text_comboBox1);
+            this.splitContainer5.Panel2.Controls.Add(this.text_comboBox2);
+            this.splitContainer5.Panel2.Controls.Add(this.textBox8);
+            this.splitContainer5.Panel2.Controls.Add(this.textState);
+            this.splitContainer5.Panel2.Controls.Add(this.textCity);
+            this.splitContainer5.Size = new System.Drawing.Size(566, 217);
+            this.splitContainer5.SplitterDistance = 103;
+            this.splitContainer5.TabIndex = 17;
+            // 
             // SignUp_PrimaryDetails
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -657,33 +924,56 @@
             this.Name = "SignUp_PrimaryDetails";
             this.Text = "Primary Details";
             this.Load += new System.EventHandler(this.SignUp_PrimaryDetails_Load);
-            this.panel2.ResumeLayout(false);
-            this.panel2.PerformLayout();
-            this.textGenderbox.ResumeLayout(false);
-            this.textGenderbox.PerformLayout();
-            this.ButtonPanel.ResumeLayout(false);
             this.panel1.ResumeLayout(false);
             this.panel1.PerformLayout();
             this.tableLayoutPanel1.ResumeLayout(false);
             this.tableLayoutPanel1.PerformLayout();
             this.tableLayoutPanel2.ResumeLayout(false);
+            this.ButtonPanel.ResumeLayout(false);
+            this.splitContainer1.Panel1.ResumeLayout(false);
+            this.splitContainer1.Panel1.PerformLayout();
+            this.splitContainer1.Panel2.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)(this.splitContainer1)).EndInit();
+            this.splitContainer1.ResumeLayout(false);
+            this.splitContainer2.Panel1.ResumeLayout(false);
+            this.splitContainer2.Panel1.PerformLayout();
+            this.splitContainer2.Panel2.ResumeLayout(false);
+            this.splitContainer2.Panel2.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.splitContainer2)).EndInit();
+            this.splitContainer2.ResumeLayout(false);
+            this.textGenderbox.ResumeLayout(false);
+            this.textGenderbox.PerformLayout();
+            this.panel2.ResumeLayout(false);
+            this.panel2.PerformLayout();
+            this.splitContainer3.Panel1.ResumeLayout(false);
+            this.splitContainer3.Panel1.PerformLayout();
+            this.splitContainer3.Panel2.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)(this.splitContainer3)).EndInit();
+            this.splitContainer3.ResumeLayout(false);
+            this.splitContainer4.Panel1.ResumeLayout(false);
+            this.splitContainer4.Panel1.PerformLayout();
+            this.splitContainer4.Panel2.ResumeLayout(false);
+            this.splitContainer4.Panel2.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.splitContainer4)).EndInit();
+            this.splitContainer4.ResumeLayout(false);
+            this.groupBox1.ResumeLayout(false);
+            this.groupBox1.PerformLayout();
+            this.splitContainer5.Panel1.ResumeLayout(false);
+            this.splitContainer5.Panel1.PerformLayout();
+            this.splitContainer5.Panel2.ResumeLayout(false);
+            this.splitContainer5.Panel2.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.splitContainer5)).EndInit();
+            this.splitContainer5.ResumeLayout(false);
             this.ResumeLayout(false);
 
         }
 
         #endregion
-
-        private System.Windows.Forms.Panel panel2;
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Panel panel1;
         private System.Windows.Forms.LinkLabel linkLabel2;
         private System.Windows.Forms.LinkLabel linkLabel1;
         private System.Windows.Forms.TableLayoutPanel tableLayoutPanel1;
-        private System.Windows.Forms.Button ValidateButton;
-        private System.Windows.Forms.TableLayoutPanel ButtonPanel;
-        private System.Windows.Forms.Button PrimeDButton;
-        private System.Windows.Forms.Button EducationalDButton;
-        private System.Windows.Forms.Button MiscDButton;
         private System.Windows.Forms.TableLayoutPanel tableLayoutPanel2;
         private System.Windows.Forms.Button button1;
         private System.Windows.Forms.Button EduDButton;
@@ -691,36 +981,61 @@
         private System.Windows.Forms.Button LoginButton;
         private System.Windows.Forms.Button FilesButton;
         private System.Windows.Forms.Button ReviewButton;
+        private System.Windows.Forms.TableLayoutPanel ButtonPanel;
+        private System.Windows.Forms.Button PrimeDButton;
+        private System.Windows.Forms.Button EducationalDButton;
+        private System.Windows.Forms.Button MiscDButton;
+        private System.Windows.Forms.Button ValidateButton;
+        private System.Windows.Forms.TextBox textBox8;
+        private System.Windows.Forms.TextBox textBox9;
+        private System.Windows.Forms.TextBox textBox5;
+        private System.Windows.Forms.TextBox textBox6;
+        private System.Windows.Forms.TextBox textBox7;
+        private System.Windows.Forms.Label textContact;
+        private System.Windows.Forms.Label textNationality;
+        private System.Windows.Forms.Label textState;
+        private System.Windows.Forms.Label textCity;
+        private System.Windows.Forms.Label textAdd1;
+        private System.Windows.Forms.Label textAdd2;
+        private System.Windows.Forms.Label textLandmark;
+        private System.Windows.Forms.Label textPin;
+        private System.Windows.Forms.Label textMobi_No;
+        private System.Windows.Forms.ComboBox text_comboBox2;
+        private System.Windows.Forms.ComboBox text_comboBox1;
+        private System.Windows.Forms.ComboBox text_comboBox3;
+        private System.Windows.Forms.SplitContainer splitContainer1;
         private System.Windows.Forms.Label textlabel;
-        private System.Windows.Forms.TextBox MiddleNameBox;
-        private System.Windows.Forms.TextBox FirstNameBox;
-        private System.Windows.Forms.TextBox LastNameBox;
-        private System.Windows.Forms.Label textGender;
-        private System.Windows.Forms.Label textDOB;
         private System.Windows.Forms.Label textEmail;
+        private System.Windows.Forms.Label textDOB;
+        private System.Windows.Forms.Label textGender;
+        private System.Windows.Forms.SplitContainer splitContainer2;
+        private System.Windows.Forms.TextBox LastNameBox;
+        private System.Windows.Forms.TextBox FirstNameBox;
+        private System.Windows.Forms.DateTimePicker dateTimePicker1;
         private System.Windows.Forms.TextBox eMailAddBox;
         private System.Windows.Forms.GroupBox textGenderbox;
         private System.Windows.Forms.RadioButton textTransgender;
         private System.Windows.Forms.RadioButton textFemle;
         private System.Windows.Forms.RadioButton textMale;
-        private System.Windows.Forms.DateTimePicker dateTimePicker1;
-        private System.Windows.Forms.Label textPin;
-        private System.Windows.Forms.Label textLandmark;
-        private System.Windows.Forms.Label textAdd2;
-        private System.Windows.Forms.Label textAdd1;
-        private System.Windows.Forms.Label textCity;
-        private System.Windows.Forms.Label textState;
-        private System.Windows.Forms.Label textNationality;
-        private System.Windows.Forms.Label textContact;
-        private System.Windows.Forms.Label textMobi_No;
-        private System.Windows.Forms.TextBox textBox7;
-        private System.Windows.Forms.TextBox textBox6;
-        private System.Windows.Forms.TextBox textBox5;
-        private System.Windows.Forms.TextBox textBox9;
-        private System.Windows.Forms.TextBox textBox8;
-        private System.Windows.Forms.ComboBox text_comboBox3;
-        private System.Windows.Forms.ComboBox text_comboBox2;
-        private System.Windows.Forms.ComboBox text_comboBox1;
+        private System.Windows.Forms.TextBox MiddleNameBox;
         private System.Windows.Forms.ComboBox DomainComboBox;
+        private System.Windows.Forms.Panel panel2;
+        private System.Windows.Forms.SplitContainer splitContainer5;
+        private System.Windows.Forms.SplitContainer splitContainer3;
+        private System.Windows.Forms.Label label2;
+        private System.Windows.Forms.Label label3;
+        private System.Windows.Forms.Label label4;
+        private System.Windows.Forms.Label label5;
+        private System.Windows.Forms.SplitContainer splitContainer4;
+        private System.Windows.Forms.TextBox textBox1;
+        private System.Windows.Forms.TextBox textBox2;
+        private System.Windows.Forms.DateTimePicker dateTimePicker2;
+        private System.Windows.Forms.TextBox textBox3;
+        private System.Windows.Forms.GroupBox groupBox1;
+        private System.Windows.Forms.RadioButton radioButton1;
+        private System.Windows.Forms.RadioButton radioButton2;
+        private System.Windows.Forms.RadioButton radioButton3;
+        private System.Windows.Forms.TextBox textBox4;
+        private System.Windows.Forms.ComboBox comboBox1;
     }
 }
