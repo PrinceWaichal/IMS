@@ -50,5 +50,55 @@ namespace _1___Software_Package.FormPages
         {
 
         }
+
+        private void splitContainer2_Panel2_Paint(object sender, PaintEventArgs e)
+        {
+
+        }
+
+        private void textBox1_TextChanged_1(object sender, EventArgs e)
+        {
+
+        }
+
+        private void panel2_Paint(object sender, PaintEventArgs e)
+        {
+
+        }
+
+        private void splitter2_SplitterMoved(object sender, SplitterEventArgs e)
+        {
+
+        }
+
+        private void splitter1_SplitterMoved(object sender, SplitterEventArgs e)
+        {
+
+        }
+
+        private void labOtherCourses_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void labExperiance_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void labJobStatus_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void textBox1_TextChanged_2(object sender, EventArgs e)
+        {
+
+        }
+
+        private void textWorkPlace_TextChanged(object sender, EventArgs e)
+        {
+
+        }
     }
 }

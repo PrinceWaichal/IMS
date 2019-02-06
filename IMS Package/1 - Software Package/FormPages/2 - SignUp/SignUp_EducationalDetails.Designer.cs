@@ -34,9 +34,8 @@
             this.labDegree = new System.Windows.Forms.Label();
             this.labSSC = new System.Windows.Forms.Label();
             this.labHSC = new System.Windows.Forms.Label();
-            this.labFY = new System.Windows.Forms.Label();
-            this.labSY = new System.Windows.Forms.Label();
-            this.labTY = new System.Windows.Forms.Label();
+            this.labFY_UG = new System.Windows.Forms.Label();
+            this.labSY_UG = new System.Windows.Forms.Label();
             this.labUniversity = new System.Windows.Forms.Label();
             this.labYearComple = new System.Windows.Forms.Label();
             this.labSchCollege = new System.Windows.Forms.Label();
@@ -44,27 +43,22 @@
             this.labMaxmark = new System.Windows.Forms.Label();
             this.textUniverSSC = new System.Windows.Forms.TextBox();
             this.textUniversHSC = new System.Windows.Forms.TextBox();
-            this.textUniverFY = new System.Windows.Forms.TextBox();
-            this.textUniverSY = new System.Windows.Forms.TextBox();
-            this.textUniverTY = new System.Windows.Forms.TextBox();
+            this.textUniverFY_UG = new System.Windows.Forms.TextBox();
+            this.textUniverSY_UG = new System.Windows.Forms.TextBox();
             this.DateTimeSSC = new System.Windows.Forms.DateTimePicker();
             this.dateTimeHSC = new System.Windows.Forms.DateTimePicker();
-            this.dateTimeFY = new System.Windows.Forms.DateTimePicker();
-            this.dateTimeSY = new System.Windows.Forms.DateTimePicker();
-            this.dateTimeTY = new System.Windows.Forms.DateTimePicker();
+            this.dateTimeFY_UG = new System.Windows.Forms.DateTimePicker();
+            this.dateTimeSY_UG = new System.Windows.Forms.DateTimePicker();
             this.textSchColleNamSSC = new System.Windows.Forms.TextBox();
             this.textSchColleNamHSC = new System.Windows.Forms.TextBox();
-            this.textSchColleNamFY = new System.Windows.Forms.TextBox();
-            this.textSchColleNamSY = new System.Windows.Forms.TextBox();
-            this.textSchColleNamTY = new System.Windows.Forms.TextBox();
+            this.textColleNamFY_UG = new System.Windows.Forms.TextBox();
+            this.textColleNamSY_UG = new System.Windows.Forms.TextBox();
             this.textMaxMarkSSC = new System.Windows.Forms.TextBox();
             this.textMaxMarkHSC = new System.Windows.Forms.TextBox();
-            this.textMaxMarkFY = new System.Windows.Forms.TextBox();
-            this.textMaxMarkSY = new System.Windows.Forms.TextBox();
-            this.textMaxMarkTY = new System.Windows.Forms.TextBox();
-            this.textMarkObtainTY = new System.Windows.Forms.TextBox();
-            this.textMarkObtainSY = new System.Windows.Forms.TextBox();
-            this.textMarkObtainFY = new System.Windows.Forms.TextBox();
+            this.textMaxMarkFY_UG = new System.Windows.Forms.TextBox();
+            this.textMaxMarkSY_UG = new System.Windows.Forms.TextBox();
+            this.textMarkObtainSY_UG = new System.Windows.Forms.TextBox();
+            this.textMarkObtainFY_UG = new System.Windows.Forms.TextBox();
             this.textMarkObtainHSC = new System.Windows.Forms.TextBox();
             this.textMarkObtainSSC = new System.Windows.Forms.TextBox();
             this.ValidateButton = new System.Windows.Forms.Button();
@@ -86,6 +80,44 @@
             this.LoginButton = new System.Windows.Forms.Button();
             this.FilesButton = new System.Windows.Forms.Button();
             this.ReviewButton = new System.Windows.Forms.Button();
+            this.textMarkObtainTY_UG = new System.Windows.Forms.TextBox();
+            this.textMaxMarkTY_UG = new System.Windows.Forms.TextBox();
+            this.textColleNamTY_UG = new System.Windows.Forms.TextBox();
+            this.dateTimeTY_UG = new System.Windows.Forms.DateTimePicker();
+            this.textUniverTY_UG = new System.Windows.Forms.TextBox();
+            this.labTY_UG = new System.Windows.Forms.Label();
+            this.labGraduationDetails = new System.Windows.Forms.Label();
+            this.labPostGraduationDetails = new System.Windows.Forms.Label();
+            this.labLY_UG = new System.Windows.Forms.Label();
+            this.textUniversityLY_UG = new System.Windows.Forms.TextBox();
+            this.dateTimeLY_UG = new System.Windows.Forms.DateTimePicker();
+            this.textColleNamLY_UG = new System.Windows.Forms.TextBox();
+            this.textMaxMarkLY_UG = new System.Windows.Forms.TextBox();
+            this.textMarkObtainLY_UG = new System.Windows.Forms.TextBox();
+            this.labFY_PG = new System.Windows.Forms.Label();
+            this.labSY_PG = new System.Windows.Forms.Label();
+            this.labTY_PG = new System.Windows.Forms.Label();
+            this.labLY_PG = new System.Windows.Forms.Label();
+            this.textUniverFY_PG = new System.Windows.Forms.TextBox();
+            this.textUniverSY_PG = new System.Windows.Forms.TextBox();
+            this.textUniverTY_PG = new System.Windows.Forms.TextBox();
+            this.textUniverLY_PG = new System.Windows.Forms.TextBox();
+            this.dateTimeFY_PG = new System.Windows.Forms.DateTimePicker();
+            this.dateTimeSY_PG = new System.Windows.Forms.DateTimePicker();
+            this.dateTimeTY_PG = new System.Windows.Forms.DateTimePicker();
+            this.dateTimeLY_PG = new System.Windows.Forms.DateTimePicker();
+            this.textColleNamFY_PG = new System.Windows.Forms.TextBox();
+            this.textColleNamSY_PG = new System.Windows.Forms.TextBox();
+            this.textColleNamTY_PG = new System.Windows.Forms.TextBox();
+            this.textColleNamLY_PG = new System.Windows.Forms.TextBox();
+            this.textMaxMarkFY_PG = new System.Windows.Forms.TextBox();
+            this.textMaxMarkSY_PG = new System.Windows.Forms.TextBox();
+            this.textMaxMarkTY_PG = new System.Windows.Forms.TextBox();
+            this.textMaxMarkLY_PG = new System.Windows.Forms.TextBox();
+            this.textMarkObtainFY_PG = new System.Windows.Forms.TextBox();
+            this.textMarkObtainSY_PG = new System.Windows.Forms.TextBox();
+            this.textMarkObtainTY_PG = new System.Windows.Forms.TextBox();
+            this.textMarkObtainLY_PG = new System.Windows.Forms.TextBox();
             this.panel2.SuspendLayout();
             this.Tablepan_EduDetail.SuspendLayout();
             this.ButtonPanel.SuspendLayout();
@@ -119,9 +151,9 @@
             this.Tablepan_EduDetail.Controls.Add(this.labDegree, 0, 0);
             this.Tablepan_EduDetail.Controls.Add(this.labSSC, 0, 1);
             this.Tablepan_EduDetail.Controls.Add(this.labHSC, 0, 2);
-            this.Tablepan_EduDetail.Controls.Add(this.labFY, 0, 3);
-            this.Tablepan_EduDetail.Controls.Add(this.labSY, 0, 4);
-            this.Tablepan_EduDetail.Controls.Add(this.labTY, 0, 5);
+            this.Tablepan_EduDetail.Controls.Add(this.labFY_UG, 0, 4);
+            this.Tablepan_EduDetail.Controls.Add(this.labSY_UG, 0, 5);
+            this.Tablepan_EduDetail.Controls.Add(this.labTY_UG, 0, 6);
             this.Tablepan_EduDetail.Controls.Add(this.labUniversity, 1, 0);
             this.Tablepan_EduDetail.Controls.Add(this.labYearComple, 2, 0);
             this.Tablepan_EduDetail.Controls.Add(this.labSchCollege, 3, 0);
@@ -129,39 +161,78 @@
             this.Tablepan_EduDetail.Controls.Add(this.labMaxmark, 4, 0);
             this.Tablepan_EduDetail.Controls.Add(this.textUniverSSC, 1, 1);
             this.Tablepan_EduDetail.Controls.Add(this.textUniversHSC, 1, 2);
-            this.Tablepan_EduDetail.Controls.Add(this.textUniverFY, 1, 3);
-            this.Tablepan_EduDetail.Controls.Add(this.textUniverSY, 1, 4);
-            this.Tablepan_EduDetail.Controls.Add(this.textUniverTY, 1, 5);
+            this.Tablepan_EduDetail.Controls.Add(this.textUniverSY_UG, 1, 5);
+            this.Tablepan_EduDetail.Controls.Add(this.textUniverTY_UG, 1, 6);
             this.Tablepan_EduDetail.Controls.Add(this.DateTimeSSC, 2, 1);
             this.Tablepan_EduDetail.Controls.Add(this.dateTimeHSC, 2, 2);
-            this.Tablepan_EduDetail.Controls.Add(this.dateTimeFY, 2, 3);
-            this.Tablepan_EduDetail.Controls.Add(this.dateTimeSY, 2, 4);
-            this.Tablepan_EduDetail.Controls.Add(this.dateTimeTY, 2, 5);
+            this.Tablepan_EduDetail.Controls.Add(this.dateTimeSY_UG, 2, 5);
             this.Tablepan_EduDetail.Controls.Add(this.textSchColleNamSSC, 3, 1);
             this.Tablepan_EduDetail.Controls.Add(this.textSchColleNamHSC, 3, 2);
-            this.Tablepan_EduDetail.Controls.Add(this.textSchColleNamFY, 3, 3);
-            this.Tablepan_EduDetail.Controls.Add(this.textSchColleNamSY, 3, 4);
-            this.Tablepan_EduDetail.Controls.Add(this.textSchColleNamTY, 3, 5);
+            this.Tablepan_EduDetail.Controls.Add(this.textColleNamFY_UG, 3, 4);
+            this.Tablepan_EduDetail.Controls.Add(this.textColleNamSY_UG, 3, 5);
+            this.Tablepan_EduDetail.Controls.Add(this.textColleNamTY_UG, 3, 6);
             this.Tablepan_EduDetail.Controls.Add(this.textMaxMarkSSC, 4, 1);
             this.Tablepan_EduDetail.Controls.Add(this.textMaxMarkHSC, 4, 2);
-            this.Tablepan_EduDetail.Controls.Add(this.textMaxMarkFY, 4, 3);
-            this.Tablepan_EduDetail.Controls.Add(this.textMaxMarkSY, 4, 4);
-            this.Tablepan_EduDetail.Controls.Add(this.textMaxMarkTY, 4, 5);
-            this.Tablepan_EduDetail.Controls.Add(this.textMarkObtainTY, 5, 5);
-            this.Tablepan_EduDetail.Controls.Add(this.textMarkObtainSY, 5, 4);
-            this.Tablepan_EduDetail.Controls.Add(this.textMarkObtainFY, 5, 3);
+            this.Tablepan_EduDetail.Controls.Add(this.textMaxMarkFY_UG, 4, 4);
+            this.Tablepan_EduDetail.Controls.Add(this.textMaxMarkSY_UG, 4, 5);
+            this.Tablepan_EduDetail.Controls.Add(this.textMarkObtainTY_UG, 5, 6);
+            this.Tablepan_EduDetail.Controls.Add(this.textMarkObtainSY_UG, 5, 5);
+            this.Tablepan_EduDetail.Controls.Add(this.textMarkObtainFY_UG, 5, 4);
             this.Tablepan_EduDetail.Controls.Add(this.textMarkObtainHSC, 5, 2);
             this.Tablepan_EduDetail.Controls.Add(this.textMarkObtainSSC, 5, 1);
-            this.Tablepan_EduDetail.Location = new System.Drawing.Point(222, 71);
+            this.Tablepan_EduDetail.Controls.Add(this.labGraduationDetails, 0, 3);
+            this.Tablepan_EduDetail.Controls.Add(this.labPostGraduationDetails, 0, 8);
+            this.Tablepan_EduDetail.Controls.Add(this.labLY_UG, 0, 7);
+            this.Tablepan_EduDetail.Controls.Add(this.textUniversityLY_UG, 1, 7);
+            this.Tablepan_EduDetail.Controls.Add(this.dateTimeTY_UG, 2, 6);
+            this.Tablepan_EduDetail.Controls.Add(this.dateTimeLY_UG, 2, 7);
+            this.Tablepan_EduDetail.Controls.Add(this.textColleNamLY_UG, 3, 7);
+            this.Tablepan_EduDetail.Controls.Add(this.textMaxMarkTY_UG, 4, 6);
+            this.Tablepan_EduDetail.Controls.Add(this.textMaxMarkLY_UG, 4, 7);
+            this.Tablepan_EduDetail.Controls.Add(this.textMarkObtainLY_UG, 5, 7);
+            this.Tablepan_EduDetail.Controls.Add(this.labFY_PG, 0, 9);
+            this.Tablepan_EduDetail.Controls.Add(this.labSY_PG, 0, 10);
+            this.Tablepan_EduDetail.Controls.Add(this.labTY_PG, 0, 11);
+            this.Tablepan_EduDetail.Controls.Add(this.labLY_PG, 0, 12);
+            this.Tablepan_EduDetail.Controls.Add(this.textUniverFY_UG, 1, 4);
+            this.Tablepan_EduDetail.Controls.Add(this.textUniverFY_PG, 1, 9);
+            this.Tablepan_EduDetail.Controls.Add(this.textUniverSY_PG, 1, 10);
+            this.Tablepan_EduDetail.Controls.Add(this.textUniverTY_PG, 1, 11);
+            this.Tablepan_EduDetail.Controls.Add(this.textUniverLY_PG, 1, 12);
+            this.Tablepan_EduDetail.Controls.Add(this.dateTimeFY_UG, 2, 4);
+            this.Tablepan_EduDetail.Controls.Add(this.dateTimeFY_PG, 2, 9);
+            this.Tablepan_EduDetail.Controls.Add(this.dateTimeSY_PG, 2, 10);
+            this.Tablepan_EduDetail.Controls.Add(this.dateTimeTY_PG, 2, 11);
+            this.Tablepan_EduDetail.Controls.Add(this.dateTimeLY_PG, 2, 12);
+            this.Tablepan_EduDetail.Controls.Add(this.textColleNamFY_PG, 3, 9);
+            this.Tablepan_EduDetail.Controls.Add(this.textColleNamSY_PG, 3, 10);
+            this.Tablepan_EduDetail.Controls.Add(this.textColleNamTY_PG, 3, 11);
+            this.Tablepan_EduDetail.Controls.Add(this.textColleNamLY_PG, 3, 12);
+            this.Tablepan_EduDetail.Controls.Add(this.textMaxMarkFY_PG, 4, 9);
+            this.Tablepan_EduDetail.Controls.Add(this.textMaxMarkSY_PG, 4, 10);
+            this.Tablepan_EduDetail.Controls.Add(this.textMaxMarkTY_PG, 4, 11);
+            this.Tablepan_EduDetail.Controls.Add(this.textMaxMarkLY_PG, 4, 12);
+            this.Tablepan_EduDetail.Controls.Add(this.textMarkObtainFY_PG, 5, 9);
+            this.Tablepan_EduDetail.Controls.Add(this.textMarkObtainSY_PG, 5, 10);
+            this.Tablepan_EduDetail.Controls.Add(this.textMarkObtainTY_PG, 5, 11);
+            this.Tablepan_EduDetail.Controls.Add(this.textMarkObtainLY_PG, 5, 12);
+            this.Tablepan_EduDetail.Location = new System.Drawing.Point(203, 85);
             this.Tablepan_EduDetail.Name = "Tablepan_EduDetail";
-            this.Tablepan_EduDetail.RowCount = 6;
-            this.Tablepan_EduDetail.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 16.66667F));
-            this.Tablepan_EduDetail.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 16.66667F));
-            this.Tablepan_EduDetail.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 16.66667F));
-            this.Tablepan_EduDetail.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 16.66667F));
-            this.Tablepan_EduDetail.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 16.66667F));
-            this.Tablepan_EduDetail.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 16.66667F));
-            this.Tablepan_EduDetail.Size = new System.Drawing.Size(568, 202);
+            this.Tablepan_EduDetail.RowCount = 13;
+            this.Tablepan_EduDetail.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 8.333541F));
+            this.Tablepan_EduDetail.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 8.333542F));
+            this.Tablepan_EduDetail.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 8.333542F));
+            this.Tablepan_EduDetail.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 25.00062F));
+            this.Tablepan_EduDetail.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 8.333542F));
+            this.Tablepan_EduDetail.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 8.333542F));
+            this.Tablepan_EduDetail.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 8.333542F));
+            this.Tablepan_EduDetail.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 20F));
+            this.Tablepan_EduDetail.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 24.99813F));
+            this.Tablepan_EduDetail.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 20F));
+            this.Tablepan_EduDetail.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 20F));
+            this.Tablepan_EduDetail.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 20F));
+            this.Tablepan_EduDetail.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 20F));
+            this.Tablepan_EduDetail.Size = new System.Drawing.Size(625, 346);
             this.Tablepan_EduDetail.TabIndex = 6;
             this.Tablepan_EduDetail.Paint += new System.Windows.Forms.PaintEventHandler(this.tableLayoutPanel3_Paint);
             // 
@@ -169,7 +240,7 @@
             // 
             this.labDegree.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.labDegree.AutoSize = true;
-            this.labDegree.Location = new System.Drawing.Point(26, 10);
+            this.labDegree.Location = new System.Drawing.Point(31, 3);
             this.labDegree.Name = "labDegree";
             this.labDegree.Size = new System.Drawing.Size(42, 13);
             this.labDegree.TabIndex = 7;
@@ -179,7 +250,7 @@
             // 
             this.labSSC.Anchor = System.Windows.Forms.AnchorStyles.Left;
             this.labSSC.AutoSize = true;
-            this.labSSC.Location = new System.Drawing.Point(3, 43);
+            this.labSSC.Location = new System.Drawing.Point(3, 23);
             this.labSSC.Name = "labSSC";
             this.labSSC.Size = new System.Drawing.Size(28, 13);
             this.labSSC.TabIndex = 7;
@@ -189,47 +260,37 @@
             // 
             this.labHSC.Anchor = System.Windows.Forms.AnchorStyles.Left;
             this.labHSC.AutoSize = true;
-            this.labHSC.Location = new System.Drawing.Point(3, 76);
+            this.labHSC.Location = new System.Drawing.Point(3, 43);
             this.labHSC.Name = "labHSC";
             this.labHSC.Size = new System.Drawing.Size(29, 13);
             this.labHSC.TabIndex = 7;
             this.labHSC.Text = "HSC";
             // 
-            // labFY
+            // labFY_UG
             // 
-            this.labFY.Anchor = System.Windows.Forms.AnchorStyles.Left;
-            this.labFY.AutoSize = true;
-            this.labFY.Location = new System.Drawing.Point(3, 109);
-            this.labFY.Name = "labFY";
-            this.labFY.Size = new System.Drawing.Size(49, 13);
-            this.labFY.TabIndex = 7;
-            this.labFY.Text = "First year";
+            this.labFY_UG.Anchor = System.Windows.Forms.AnchorStyles.Left;
+            this.labFY_UG.AutoSize = true;
+            this.labFY_UG.Location = new System.Drawing.Point(3, 124);
+            this.labFY_UG.Name = "labFY_UG";
+            this.labFY_UG.Size = new System.Drawing.Size(49, 13);
+            this.labFY_UG.TabIndex = 7;
+            this.labFY_UG.Text = "First year";
             // 
-            // labSY
+            // labSY_UG
             // 
-            this.labSY.Anchor = System.Windows.Forms.AnchorStyles.Left;
-            this.labSY.AutoSize = true;
-            this.labSY.Location = new System.Drawing.Point(3, 142);
-            this.labSY.Name = "labSY";
-            this.labSY.Size = new System.Drawing.Size(67, 13);
-            this.labSY.TabIndex = 7;
-            this.labSY.Text = "Second year";
-            // 
-            // labTY
-            // 
-            this.labTY.Anchor = System.Windows.Forms.AnchorStyles.Left;
-            this.labTY.AutoSize = true;
-            this.labTY.Location = new System.Drawing.Point(3, 177);
-            this.labTY.Name = "labTY";
-            this.labTY.Size = new System.Drawing.Size(54, 13);
-            this.labTY.TabIndex = 7;
-            this.labTY.Text = "Third year";
+            this.labSY_UG.Anchor = System.Windows.Forms.AnchorStyles.Left;
+            this.labSY_UG.AutoSize = true;
+            this.labSY_UG.Location = new System.Drawing.Point(3, 144);
+            this.labSY_UG.Name = "labSY_UG";
+            this.labSY_UG.Size = new System.Drawing.Size(67, 13);
+            this.labSY_UG.TabIndex = 7;
+            this.labSY_UG.Text = "Second year";
             // 
             // labUniversity
             // 
             this.labUniversity.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.labUniversity.AutoSize = true;
-            this.labUniversity.Location = new System.Drawing.Point(114, 10);
+            this.labUniversity.Location = new System.Drawing.Point(129, 3);
             this.labUniversity.Name = "labUniversity";
             this.labUniversity.Size = new System.Drawing.Size(53, 13);
             this.labUniversity.TabIndex = 7;
@@ -239,9 +300,9 @@
             // 
             this.labYearComple.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.labYearComple.AutoSize = true;
-            this.labYearComple.Location = new System.Drawing.Point(206, 3);
+            this.labYearComple.Location = new System.Drawing.Point(212, 3);
             this.labYearComple.Name = "labYearComple";
-            this.labYearComple.Size = new System.Drawing.Size(58, 26);
+            this.labYearComple.Size = new System.Drawing.Size(96, 13);
             this.labYearComple.TabIndex = 7;
             this.labYearComple.Text = "Date of completion";
             // 
@@ -249,7 +310,7 @@
             // 
             this.labSchCollege.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.labSchCollege.AutoSize = true;
-            this.labSchCollege.Location = new System.Drawing.Point(289, 10);
+            this.labSchCollege.Location = new System.Drawing.Point(324, 3);
             this.labSchCollege.Name = "labSchCollege";
             this.labSchCollege.Size = new System.Drawing.Size(79, 13);
             this.labSchCollege.TabIndex = 7;
@@ -259,7 +320,7 @@
             // 
             this.labMarkObtain.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.labMarkObtain.AutoSize = true;
-            this.labMarkObtain.Location = new System.Drawing.Point(478, 10);
+            this.labMarkObtain.Location = new System.Drawing.Point(531, 3);
             this.labMarkObtain.Name = "labMarkObtain";
             this.labMarkObtain.Size = new System.Drawing.Size(82, 13);
             this.labMarkObtain.TabIndex = 7;
@@ -269,7 +330,7 @@
             // 
             this.labMaxmark.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.labMaxmark.AutoSize = true;
-            this.labMaxmark.Location = new System.Drawing.Point(381, 10);
+            this.labMaxmark.Location = new System.Drawing.Point(426, 3);
             this.labMaxmark.Name = "labMaxmark";
             this.labMaxmark.Size = new System.Drawing.Size(83, 13);
             this.labMaxmark.TabIndex = 7;
@@ -278,7 +339,7 @@
             // textUniverSSC
             // 
             this.textUniverSSC.Anchor = System.Windows.Forms.AnchorStyles.Left;
-            this.textUniverSSC.Location = new System.Drawing.Point(97, 39);
+            this.textUniverSSC.Location = new System.Drawing.Point(107, 23);
             this.textUniverSSC.Name = "textUniverSSC";
             this.textUniverSSC.Size = new System.Drawing.Size(88, 20);
             this.textUniverSSC.TabIndex = 1;
@@ -286,40 +347,32 @@
             // textUniversHSC
             // 
             this.textUniversHSC.Anchor = System.Windows.Forms.AnchorStyles.Left;
-            this.textUniversHSC.Location = new System.Drawing.Point(97, 72);
+            this.textUniversHSC.Location = new System.Drawing.Point(107, 43);
             this.textUniversHSC.Name = "textUniversHSC";
             this.textUniversHSC.Size = new System.Drawing.Size(88, 20);
             this.textUniversHSC.TabIndex = 6;
             // 
-            // textUniverFY
+            // textUniverFY_UG
             // 
-            this.textUniverFY.Anchor = System.Windows.Forms.AnchorStyles.Left;
-            this.textUniverFY.Location = new System.Drawing.Point(97, 105);
-            this.textUniverFY.Name = "textUniverFY";
-            this.textUniverFY.Size = new System.Drawing.Size(88, 20);
-            this.textUniverFY.TabIndex = 11;
+            this.textUniverFY_UG.Anchor = System.Windows.Forms.AnchorStyles.Left;
+            this.textUniverFY_UG.Location = new System.Drawing.Point(107, 124);
+            this.textUniverFY_UG.Name = "textUniverFY_UG";
+            this.textUniverFY_UG.Size = new System.Drawing.Size(88, 20);
+            this.textUniverFY_UG.TabIndex = 11;
             // 
-            // textUniverSY
+            // textUniverSY_UG
             // 
-            this.textUniverSY.Anchor = System.Windows.Forms.AnchorStyles.Left;
-            this.textUniverSY.Location = new System.Drawing.Point(97, 138);
-            this.textUniverSY.Name = "textUniverSY";
-            this.textUniverSY.Size = new System.Drawing.Size(88, 20);
-            this.textUniverSY.TabIndex = 16;
-            // 
-            // textUniverTY
-            // 
-            this.textUniverTY.Anchor = System.Windows.Forms.AnchorStyles.Left;
-            this.textUniverTY.Location = new System.Drawing.Point(97, 173);
-            this.textUniverTY.Name = "textUniverTY";
-            this.textUniverTY.Size = new System.Drawing.Size(88, 20);
-            this.textUniverTY.TabIndex = 21;
+            this.textUniverSY_UG.Anchor = System.Windows.Forms.AnchorStyles.Left;
+            this.textUniverSY_UG.Location = new System.Drawing.Point(107, 144);
+            this.textUniverSY_UG.Name = "textUniverSY_UG";
+            this.textUniverSY_UG.Size = new System.Drawing.Size(88, 20);
+            this.textUniverSY_UG.TabIndex = 16;
             // 
             // DateTimeSSC
             // 
             this.DateTimeSSC.Anchor = System.Windows.Forms.AnchorStyles.Left;
             this.DateTimeSSC.Format = System.Windows.Forms.DateTimePickerFormat.Short;
-            this.DateTimeSSC.Location = new System.Drawing.Point(191, 39);
+            this.DateTimeSSC.Location = new System.Drawing.Point(211, 23);
             this.DateTimeSSC.Name = "DateTimeSSC";
             this.DateTimeSSC.Size = new System.Drawing.Size(88, 20);
             this.DateTimeSSC.TabIndex = 2;
@@ -329,42 +382,33 @@
             // 
             this.dateTimeHSC.Anchor = System.Windows.Forms.AnchorStyles.Left;
             this.dateTimeHSC.Format = System.Windows.Forms.DateTimePickerFormat.Custom;
-            this.dateTimeHSC.Location = new System.Drawing.Point(191, 72);
+            this.dateTimeHSC.Location = new System.Drawing.Point(211, 43);
             this.dateTimeHSC.Name = "dateTimeHSC";
             this.dateTimeHSC.Size = new System.Drawing.Size(88, 20);
             this.dateTimeHSC.TabIndex = 7;
             // 
-            // dateTimeFY
+            // dateTimeFY_UG
             // 
-            this.dateTimeFY.Anchor = System.Windows.Forms.AnchorStyles.Left;
-            this.dateTimeFY.Format = System.Windows.Forms.DateTimePickerFormat.Custom;
-            this.dateTimeFY.Location = new System.Drawing.Point(191, 105);
-            this.dateTimeFY.Name = "dateTimeFY";
-            this.dateTimeFY.Size = new System.Drawing.Size(88, 20);
-            this.dateTimeFY.TabIndex = 12;
+            this.dateTimeFY_UG.Anchor = System.Windows.Forms.AnchorStyles.Left;
+            this.dateTimeFY_UG.Format = System.Windows.Forms.DateTimePickerFormat.Custom;
+            this.dateTimeFY_UG.Location = new System.Drawing.Point(211, 124);
+            this.dateTimeFY_UG.Name = "dateTimeFY_UG";
+            this.dateTimeFY_UG.Size = new System.Drawing.Size(88, 20);
+            this.dateTimeFY_UG.TabIndex = 12;
             // 
-            // dateTimeSY
+            // dateTimeSY_UG
             // 
-            this.dateTimeSY.Anchor = System.Windows.Forms.AnchorStyles.Left;
-            this.dateTimeSY.Format = System.Windows.Forms.DateTimePickerFormat.Custom;
-            this.dateTimeSY.Location = new System.Drawing.Point(191, 138);
-            this.dateTimeSY.Name = "dateTimeSY";
-            this.dateTimeSY.Size = new System.Drawing.Size(88, 20);
-            this.dateTimeSY.TabIndex = 17;
-            // 
-            // dateTimeTY
-            // 
-            this.dateTimeTY.Anchor = System.Windows.Forms.AnchorStyles.Left;
-            this.dateTimeTY.Format = System.Windows.Forms.DateTimePickerFormat.Custom;
-            this.dateTimeTY.Location = new System.Drawing.Point(191, 173);
-            this.dateTimeTY.Name = "dateTimeTY";
-            this.dateTimeTY.Size = new System.Drawing.Size(88, 20);
-            this.dateTimeTY.TabIndex = 22;
+            this.dateTimeSY_UG.Anchor = System.Windows.Forms.AnchorStyles.Left;
+            this.dateTimeSY_UG.Format = System.Windows.Forms.DateTimePickerFormat.Custom;
+            this.dateTimeSY_UG.Location = new System.Drawing.Point(211, 144);
+            this.dateTimeSY_UG.Name = "dateTimeSY_UG";
+            this.dateTimeSY_UG.Size = new System.Drawing.Size(88, 20);
+            this.dateTimeSY_UG.TabIndex = 17;
             // 
             // textSchColleNamSSC
             // 
             this.textSchColleNamSSC.Anchor = System.Windows.Forms.AnchorStyles.Left;
-            this.textSchColleNamSSC.Location = new System.Drawing.Point(285, 39);
+            this.textSchColleNamSSC.Location = new System.Drawing.Point(315, 23);
             this.textSchColleNamSSC.Name = "textSchColleNamSSC";
             this.textSchColleNamSSC.Size = new System.Drawing.Size(88, 20);
             this.textSchColleNamSSC.TabIndex = 3;
@@ -372,39 +416,31 @@
             // textSchColleNamHSC
             // 
             this.textSchColleNamHSC.Anchor = System.Windows.Forms.AnchorStyles.Left;
-            this.textSchColleNamHSC.Location = new System.Drawing.Point(285, 72);
+            this.textSchColleNamHSC.Location = new System.Drawing.Point(315, 43);
             this.textSchColleNamHSC.Name = "textSchColleNamHSC";
             this.textSchColleNamHSC.Size = new System.Drawing.Size(88, 20);
             this.textSchColleNamHSC.TabIndex = 8;
             // 
-            // textSchColleNamFY
+            // textColleNamFY_UG
             // 
-            this.textSchColleNamFY.Anchor = System.Windows.Forms.AnchorStyles.Left;
-            this.textSchColleNamFY.Location = new System.Drawing.Point(285, 105);
-            this.textSchColleNamFY.Name = "textSchColleNamFY";
-            this.textSchColleNamFY.Size = new System.Drawing.Size(88, 20);
-            this.textSchColleNamFY.TabIndex = 13;
+            this.textColleNamFY_UG.Anchor = System.Windows.Forms.AnchorStyles.Left;
+            this.textColleNamFY_UG.Location = new System.Drawing.Point(315, 124);
+            this.textColleNamFY_UG.Name = "textColleNamFY_UG";
+            this.textColleNamFY_UG.Size = new System.Drawing.Size(88, 20);
+            this.textColleNamFY_UG.TabIndex = 13;
             // 
-            // textSchColleNamSY
+            // textColleNamSY_UG
             // 
-            this.textSchColleNamSY.Anchor = System.Windows.Forms.AnchorStyles.Left;
-            this.textSchColleNamSY.Location = new System.Drawing.Point(285, 138);
-            this.textSchColleNamSY.Name = "textSchColleNamSY";
-            this.textSchColleNamSY.Size = new System.Drawing.Size(88, 20);
-            this.textSchColleNamSY.TabIndex = 18;
-            // 
-            // textSchColleNamTY
-            // 
-            this.textSchColleNamTY.Anchor = System.Windows.Forms.AnchorStyles.Left;
-            this.textSchColleNamTY.Location = new System.Drawing.Point(285, 173);
-            this.textSchColleNamTY.Name = "textSchColleNamTY";
-            this.textSchColleNamTY.Size = new System.Drawing.Size(88, 20);
-            this.textSchColleNamTY.TabIndex = 23;
+            this.textColleNamSY_UG.Anchor = System.Windows.Forms.AnchorStyles.Left;
+            this.textColleNamSY_UG.Location = new System.Drawing.Point(315, 144);
+            this.textColleNamSY_UG.Name = "textColleNamSY_UG";
+            this.textColleNamSY_UG.Size = new System.Drawing.Size(88, 20);
+            this.textColleNamSY_UG.TabIndex = 18;
             // 
             // textMaxMarkSSC
             // 
             this.textMaxMarkSSC.Anchor = System.Windows.Forms.AnchorStyles.Left;
-            this.textMaxMarkSSC.Location = new System.Drawing.Point(379, 39);
+            this.textMaxMarkSSC.Location = new System.Drawing.Point(419, 23);
             this.textMaxMarkSSC.Name = "textMaxMarkSSC";
             this.textMaxMarkSSC.Size = new System.Drawing.Size(88, 20);
             this.textMaxMarkSSC.TabIndex = 4;
@@ -413,67 +449,49 @@
             // textMaxMarkHSC
             // 
             this.textMaxMarkHSC.Anchor = System.Windows.Forms.AnchorStyles.Left;
-            this.textMaxMarkHSC.Location = new System.Drawing.Point(379, 72);
+            this.textMaxMarkHSC.Location = new System.Drawing.Point(419, 43);
             this.textMaxMarkHSC.Name = "textMaxMarkHSC";
             this.textMaxMarkHSC.Size = new System.Drawing.Size(88, 20);
             this.textMaxMarkHSC.TabIndex = 9;
             // 
-            // textMaxMarkFY
+            // textMaxMarkFY_UG
             // 
-            this.textMaxMarkFY.Anchor = System.Windows.Forms.AnchorStyles.Left;
-            this.textMaxMarkFY.Location = new System.Drawing.Point(379, 105);
-            this.textMaxMarkFY.Name = "textMaxMarkFY";
-            this.textMaxMarkFY.Size = new System.Drawing.Size(88, 20);
-            this.textMaxMarkFY.TabIndex = 14;
+            this.textMaxMarkFY_UG.Anchor = System.Windows.Forms.AnchorStyles.Left;
+            this.textMaxMarkFY_UG.Location = new System.Drawing.Point(419, 124);
+            this.textMaxMarkFY_UG.Name = "textMaxMarkFY_UG";
+            this.textMaxMarkFY_UG.Size = new System.Drawing.Size(88, 20);
+            this.textMaxMarkFY_UG.TabIndex = 14;
             // 
-            // textMaxMarkSY
+            // textMaxMarkSY_UG
             // 
-            this.textMaxMarkSY.Anchor = System.Windows.Forms.AnchorStyles.Left;
-            this.textMaxMarkSY.Location = new System.Drawing.Point(379, 138);
-            this.textMaxMarkSY.Name = "textMaxMarkSY";
-            this.textMaxMarkSY.Size = new System.Drawing.Size(88, 20);
-            this.textMaxMarkSY.TabIndex = 19;
+            this.textMaxMarkSY_UG.Anchor = System.Windows.Forms.AnchorStyles.Left;
+            this.textMaxMarkSY_UG.Location = new System.Drawing.Point(419, 144);
+            this.textMaxMarkSY_UG.Name = "textMaxMarkSY_UG";
+            this.textMaxMarkSY_UG.Size = new System.Drawing.Size(88, 20);
+            this.textMaxMarkSY_UG.TabIndex = 19;
             // 
-            // textMaxMarkTY
+            // textMarkObtainSY_UG
             // 
-            this.textMaxMarkTY.Anchor = System.Windows.Forms.AnchorStyles.Left;
-            this.textMaxMarkTY.Location = new System.Drawing.Point(379, 173);
-            this.textMaxMarkTY.Name = "textMaxMarkTY";
-            this.textMaxMarkTY.Size = new System.Drawing.Size(88, 20);
-            this.textMaxMarkTY.TabIndex = 24;
-            this.textMaxMarkTY.TextChanged += new System.EventHandler(this.textBox5_TextChanged);
+            this.textMarkObtainSY_UG.Anchor = System.Windows.Forms.AnchorStyles.Left;
+            this.textMarkObtainSY_UG.Location = new System.Drawing.Point(523, 144);
+            this.textMarkObtainSY_UG.Name = "textMarkObtainSY_UG";
+            this.textMarkObtainSY_UG.Size = new System.Drawing.Size(88, 20);
+            this.textMarkObtainSY_UG.TabIndex = 20;
+            this.textMarkObtainSY_UG.TextChanged += new System.EventHandler(this.textBox5_TextChanged);
             // 
-            // textMarkObtainTY
+            // textMarkObtainFY_UG
             // 
-            this.textMarkObtainTY.Anchor = System.Windows.Forms.AnchorStyles.Left;
-            this.textMarkObtainTY.Location = new System.Drawing.Point(473, 173);
-            this.textMarkObtainTY.Name = "textMarkObtainTY";
-            this.textMarkObtainTY.Size = new System.Drawing.Size(88, 20);
-            this.textMarkObtainTY.TabIndex = 25;
-            this.textMarkObtainTY.TextChanged += new System.EventHandler(this.textBox5_TextChanged);
-            // 
-            // textMarkObtainSY
-            // 
-            this.textMarkObtainSY.Anchor = System.Windows.Forms.AnchorStyles.Left;
-            this.textMarkObtainSY.Location = new System.Drawing.Point(473, 138);
-            this.textMarkObtainSY.Name = "textMarkObtainSY";
-            this.textMarkObtainSY.Size = new System.Drawing.Size(88, 20);
-            this.textMarkObtainSY.TabIndex = 20;
-            this.textMarkObtainSY.TextChanged += new System.EventHandler(this.textBox5_TextChanged);
-            // 
-            // textMarkObtainFY
-            // 
-            this.textMarkObtainFY.Anchor = System.Windows.Forms.AnchorStyles.Left;
-            this.textMarkObtainFY.Location = new System.Drawing.Point(473, 105);
-            this.textMarkObtainFY.Name = "textMarkObtainFY";
-            this.textMarkObtainFY.Size = new System.Drawing.Size(88, 20);
-            this.textMarkObtainFY.TabIndex = 15;
-            this.textMarkObtainFY.TextChanged += new System.EventHandler(this.textBox5_TextChanged);
+            this.textMarkObtainFY_UG.Anchor = System.Windows.Forms.AnchorStyles.Left;
+            this.textMarkObtainFY_UG.Location = new System.Drawing.Point(523, 124);
+            this.textMarkObtainFY_UG.Name = "textMarkObtainFY_UG";
+            this.textMarkObtainFY_UG.Size = new System.Drawing.Size(88, 20);
+            this.textMarkObtainFY_UG.TabIndex = 15;
+            this.textMarkObtainFY_UG.TextChanged += new System.EventHandler(this.textBox5_TextChanged);
             // 
             // textMarkObtainHSC
             // 
             this.textMarkObtainHSC.Anchor = System.Windows.Forms.AnchorStyles.Left;
-            this.textMarkObtainHSC.Location = new System.Drawing.Point(473, 72);
+            this.textMarkObtainHSC.Location = new System.Drawing.Point(523, 43);
             this.textMarkObtainHSC.Name = "textMarkObtainHSC";
             this.textMarkObtainHSC.Size = new System.Drawing.Size(88, 20);
             this.textMarkObtainHSC.TabIndex = 10;
@@ -482,7 +500,7 @@
             // textMarkObtainSSC
             // 
             this.textMarkObtainSSC.Anchor = System.Windows.Forms.AnchorStyles.Left;
-            this.textMarkObtainSSC.Location = new System.Drawing.Point(473, 39);
+            this.textMarkObtainSSC.Location = new System.Drawing.Point(523, 23);
             this.textMarkObtainSSC.Name = "textMarkObtainSSC";
             this.textMarkObtainSSC.Size = new System.Drawing.Size(88, 20);
             this.textMarkObtainSSC.TabIndex = 5;
@@ -722,6 +740,336 @@
             this.ReviewButton.Text = "Review Your Application";
             this.ReviewButton.UseVisualStyleBackColor = true;
             // 
+            // textMarkObtainTY_UG
+            // 
+            this.textMarkObtainTY_UG.Anchor = System.Windows.Forms.AnchorStyles.Left;
+            this.textMarkObtainTY_UG.Location = new System.Drawing.Point(523, 164);
+            this.textMarkObtainTY_UG.Name = "textMarkObtainTY_UG";
+            this.textMarkObtainTY_UG.Size = new System.Drawing.Size(88, 20);
+            this.textMarkObtainTY_UG.TabIndex = 25;
+            this.textMarkObtainTY_UG.TextChanged += new System.EventHandler(this.textBox5_TextChanged);
+            // 
+            // textMaxMarkTY_UG
+            // 
+            this.textMaxMarkTY_UG.Anchor = System.Windows.Forms.AnchorStyles.Left;
+            this.textMaxMarkTY_UG.Location = new System.Drawing.Point(419, 164);
+            this.textMaxMarkTY_UG.Name = "textMaxMarkTY_UG";
+            this.textMaxMarkTY_UG.Size = new System.Drawing.Size(88, 20);
+            this.textMaxMarkTY_UG.TabIndex = 24;
+            this.textMaxMarkTY_UG.TextChanged += new System.EventHandler(this.textBox5_TextChanged);
+            // 
+            // textColleNamTY_UG
+            // 
+            this.textColleNamTY_UG.Anchor = System.Windows.Forms.AnchorStyles.Left;
+            this.textColleNamTY_UG.Location = new System.Drawing.Point(315, 164);
+            this.textColleNamTY_UG.Name = "textColleNamTY_UG";
+            this.textColleNamTY_UG.Size = new System.Drawing.Size(88, 20);
+            this.textColleNamTY_UG.TabIndex = 23;
+            // 
+            // dateTimeTY_UG
+            // 
+            this.dateTimeTY_UG.Anchor = System.Windows.Forms.AnchorStyles.Left;
+            this.dateTimeTY_UG.Format = System.Windows.Forms.DateTimePickerFormat.Custom;
+            this.dateTimeTY_UG.Location = new System.Drawing.Point(211, 164);
+            this.dateTimeTY_UG.Name = "dateTimeTY_UG";
+            this.dateTimeTY_UG.Size = new System.Drawing.Size(88, 20);
+            this.dateTimeTY_UG.TabIndex = 22;
+            // 
+            // textUniverTY_UG
+            // 
+            this.textUniverTY_UG.Anchor = System.Windows.Forms.AnchorStyles.Left;
+            this.textUniverTY_UG.Location = new System.Drawing.Point(107, 164);
+            this.textUniverTY_UG.Name = "textUniverTY_UG";
+            this.textUniverTY_UG.Size = new System.Drawing.Size(88, 20);
+            this.textUniverTY_UG.TabIndex = 21;
+            // 
+            // labTY_UG
+            // 
+            this.labTY_UG.Anchor = System.Windows.Forms.AnchorStyles.Left;
+            this.labTY_UG.AutoSize = true;
+            this.labTY_UG.Location = new System.Drawing.Point(3, 164);
+            this.labTY_UG.Name = "labTY_UG";
+            this.labTY_UG.Size = new System.Drawing.Size(54, 13);
+            this.labTY_UG.TabIndex = 7;
+            this.labTY_UG.Text = "Third year";
+            // 
+            // labGraduationDetails
+            // 
+            this.labGraduationDetails.Anchor = System.Windows.Forms.AnchorStyles.Left;
+            this.labGraduationDetails.AutoSize = true;
+            this.labGraduationDetails.Location = new System.Drawing.Point(3, 84);
+            this.labGraduationDetails.Name = "labGraduationDetails";
+            this.labGraduationDetails.Size = new System.Drawing.Size(94, 13);
+            this.labGraduationDetails.TabIndex = 26;
+            this.labGraduationDetails.Text = "Graduation Details";
+            // 
+            // labPostGraduationDetails
+            // 
+            this.labPostGraduationDetails.Anchor = System.Windows.Forms.AnchorStyles.Left;
+            this.labPostGraduationDetails.AutoSize = true;
+            this.labPostGraduationDetails.Location = new System.Drawing.Point(3, 218);
+            this.labPostGraduationDetails.Name = "labPostGraduationDetails";
+            this.labPostGraduationDetails.Size = new System.Drawing.Size(86, 26);
+            this.labPostGraduationDetails.TabIndex = 27;
+            this.labPostGraduationDetails.Text = "Post Graduation Details";
+            // 
+            // labLY_UG
+            // 
+            this.labLY_UG.Anchor = System.Windows.Forms.AnchorStyles.Left;
+            this.labLY_UG.AutoSize = true;
+            this.labLY_UG.Location = new System.Drawing.Point(3, 184);
+            this.labLY_UG.Name = "labLY_UG";
+            this.labLY_UG.Size = new System.Drawing.Size(50, 13);
+            this.labLY_UG.TabIndex = 28;
+            this.labLY_UG.Text = "Last year";
+            // 
+            // textUniversityLY_UG
+            // 
+            this.textUniversityLY_UG.Anchor = System.Windows.Forms.AnchorStyles.Left;
+            this.textUniversityLY_UG.Location = new System.Drawing.Point(107, 184);
+            this.textUniversityLY_UG.Name = "textUniversityLY_UG";
+            this.textUniversityLY_UG.Size = new System.Drawing.Size(88, 20);
+            this.textUniversityLY_UG.TabIndex = 29;
+            // 
+            // dateTimeLY_UG
+            // 
+            this.dateTimeLY_UG.Anchor = System.Windows.Forms.AnchorStyles.Left;
+            this.dateTimeLY_UG.Format = System.Windows.Forms.DateTimePickerFormat.Custom;
+            this.dateTimeLY_UG.Location = new System.Drawing.Point(211, 184);
+            this.dateTimeLY_UG.Name = "dateTimeLY_UG";
+            this.dateTimeLY_UG.Size = new System.Drawing.Size(88, 20);
+            this.dateTimeLY_UG.TabIndex = 22;
+            // 
+            // textColleNamLY_UG
+            // 
+            this.textColleNamLY_UG.Anchor = System.Windows.Forms.AnchorStyles.Left;
+            this.textColleNamLY_UG.Location = new System.Drawing.Point(315, 184);
+            this.textColleNamLY_UG.Name = "textColleNamLY_UG";
+            this.textColleNamLY_UG.Size = new System.Drawing.Size(88, 20);
+            this.textColleNamLY_UG.TabIndex = 23;
+            // 
+            // textMaxMarkLY_UG
+            // 
+            this.textMaxMarkLY_UG.Anchor = System.Windows.Forms.AnchorStyles.Left;
+            this.textMaxMarkLY_UG.Location = new System.Drawing.Point(419, 184);
+            this.textMaxMarkLY_UG.Name = "textMaxMarkLY_UG";
+            this.textMaxMarkLY_UG.Size = new System.Drawing.Size(88, 20);
+            this.textMaxMarkLY_UG.TabIndex = 24;
+            this.textMaxMarkLY_UG.TextChanged += new System.EventHandler(this.textBox5_TextChanged);
+            // 
+            // textMarkObtainLY_UG
+            // 
+            this.textMarkObtainLY_UG.Anchor = System.Windows.Forms.AnchorStyles.Left;
+            this.textMarkObtainLY_UG.Location = new System.Drawing.Point(523, 184);
+            this.textMarkObtainLY_UG.Name = "textMarkObtainLY_UG";
+            this.textMarkObtainLY_UG.Size = new System.Drawing.Size(88, 20);
+            this.textMarkObtainLY_UG.TabIndex = 25;
+            this.textMarkObtainLY_UG.TextChanged += new System.EventHandler(this.textBox5_TextChanged);
+            // 
+            // labFY_PG
+            // 
+            this.labFY_PG.AutoSize = true;
+            this.labFY_PG.Location = new System.Drawing.Point(3, 262);
+            this.labFY_PG.Name = "labFY_PG";
+            this.labFY_PG.Size = new System.Drawing.Size(51, 13);
+            this.labFY_PG.TabIndex = 30;
+            this.labFY_PG.Text = "First Year";
+            // 
+            // labSY_PG
+            // 
+            this.labSY_PG.AutoSize = true;
+            this.labSY_PG.Location = new System.Drawing.Point(3, 282);
+            this.labSY_PG.Name = "labSY_PG";
+            this.labSY_PG.Size = new System.Drawing.Size(69, 13);
+            this.labSY_PG.TabIndex = 31;
+            this.labSY_PG.Text = "Second Year";
+            // 
+            // labTY_PG
+            // 
+            this.labTY_PG.AutoSize = true;
+            this.labTY_PG.Location = new System.Drawing.Point(3, 302);
+            this.labTY_PG.Name = "labTY_PG";
+            this.labTY_PG.Size = new System.Drawing.Size(56, 13);
+            this.labTY_PG.TabIndex = 32;
+            this.labTY_PG.Text = "Third Year";
+            // 
+            // labLY_PG
+            // 
+            this.labLY_PG.AutoSize = true;
+            this.labLY_PG.Location = new System.Drawing.Point(3, 322);
+            this.labLY_PG.Name = "labLY_PG";
+            this.labLY_PG.Size = new System.Drawing.Size(52, 13);
+            this.labLY_PG.TabIndex = 33;
+            this.labLY_PG.Text = "Last Year";
+            // 
+            // textUniverFY_PG
+            // 
+            this.textUniverFY_PG.Anchor = System.Windows.Forms.AnchorStyles.Left;
+            this.textUniverFY_PG.Location = new System.Drawing.Point(107, 265);
+            this.textUniverFY_PG.Name = "textUniverFY_PG";
+            this.textUniverFY_PG.Size = new System.Drawing.Size(88, 20);
+            this.textUniverFY_PG.TabIndex = 11;
+            // 
+            // textUniverSY_PG
+            // 
+            this.textUniverSY_PG.Anchor = System.Windows.Forms.AnchorStyles.Left;
+            this.textUniverSY_PG.Location = new System.Drawing.Point(107, 285);
+            this.textUniverSY_PG.Name = "textUniverSY_PG";
+            this.textUniverSY_PG.Size = new System.Drawing.Size(88, 20);
+            this.textUniverSY_PG.TabIndex = 11;
+            // 
+            // textUniverTY_PG
+            // 
+            this.textUniverTY_PG.Anchor = System.Windows.Forms.AnchorStyles.Left;
+            this.textUniverTY_PG.Location = new System.Drawing.Point(107, 305);
+            this.textUniverTY_PG.Name = "textUniverTY_PG";
+            this.textUniverTY_PG.Size = new System.Drawing.Size(88, 20);
+            this.textUniverTY_PG.TabIndex = 11;
+            // 
+            // textUniverLY_PG
+            // 
+            this.textUniverLY_PG.Anchor = System.Windows.Forms.AnchorStyles.Left;
+            this.textUniverLY_PG.Location = new System.Drawing.Point(107, 325);
+            this.textUniverLY_PG.Name = "textUniverLY_PG";
+            this.textUniverLY_PG.Size = new System.Drawing.Size(88, 20);
+            this.textUniverLY_PG.TabIndex = 11;
+            // 
+            // dateTimeFY_PG
+            // 
+            this.dateTimeFY_PG.Anchor = System.Windows.Forms.AnchorStyles.Left;
+            this.dateTimeFY_PG.Format = System.Windows.Forms.DateTimePickerFormat.Custom;
+            this.dateTimeFY_PG.Location = new System.Drawing.Point(211, 265);
+            this.dateTimeFY_PG.Name = "dateTimeFY_PG";
+            this.dateTimeFY_PG.Size = new System.Drawing.Size(88, 20);
+            this.dateTimeFY_PG.TabIndex = 12;
+            // 
+            // dateTimeSY_PG
+            // 
+            this.dateTimeSY_PG.Anchor = System.Windows.Forms.AnchorStyles.Left;
+            this.dateTimeSY_PG.Format = System.Windows.Forms.DateTimePickerFormat.Custom;
+            this.dateTimeSY_PG.Location = new System.Drawing.Point(211, 285);
+            this.dateTimeSY_PG.Name = "dateTimeSY_PG";
+            this.dateTimeSY_PG.Size = new System.Drawing.Size(88, 20);
+            this.dateTimeSY_PG.TabIndex = 12;
+            // 
+            // dateTimeTY_PG
+            // 
+            this.dateTimeTY_PG.Anchor = System.Windows.Forms.AnchorStyles.Left;
+            this.dateTimeTY_PG.Format = System.Windows.Forms.DateTimePickerFormat.Custom;
+            this.dateTimeTY_PG.Location = new System.Drawing.Point(211, 305);
+            this.dateTimeTY_PG.Name = "dateTimeTY_PG";
+            this.dateTimeTY_PG.Size = new System.Drawing.Size(88, 20);
+            this.dateTimeTY_PG.TabIndex = 12;
+            // 
+            // dateTimeLY_PG
+            // 
+            this.dateTimeLY_PG.Anchor = System.Windows.Forms.AnchorStyles.Left;
+            this.dateTimeLY_PG.Format = System.Windows.Forms.DateTimePickerFormat.Custom;
+            this.dateTimeLY_PG.Location = new System.Drawing.Point(211, 325);
+            this.dateTimeLY_PG.Name = "dateTimeLY_PG";
+            this.dateTimeLY_PG.Size = new System.Drawing.Size(88, 20);
+            this.dateTimeLY_PG.TabIndex = 12;
+            // 
+            // textColleNamFY_PG
+            // 
+            this.textColleNamFY_PG.Anchor = System.Windows.Forms.AnchorStyles.Left;
+            this.textColleNamFY_PG.Location = new System.Drawing.Point(315, 265);
+            this.textColleNamFY_PG.Name = "textColleNamFY_PG";
+            this.textColleNamFY_PG.Size = new System.Drawing.Size(88, 20);
+            this.textColleNamFY_PG.TabIndex = 13;
+            // 
+            // textColleNamSY_PG
+            // 
+            this.textColleNamSY_PG.Anchor = System.Windows.Forms.AnchorStyles.Left;
+            this.textColleNamSY_PG.Location = new System.Drawing.Point(315, 285);
+            this.textColleNamSY_PG.Name = "textColleNamSY_PG";
+            this.textColleNamSY_PG.Size = new System.Drawing.Size(88, 20);
+            this.textColleNamSY_PG.TabIndex = 13;
+            // 
+            // textColleNamTY_PG
+            // 
+            this.textColleNamTY_PG.Anchor = System.Windows.Forms.AnchorStyles.Left;
+            this.textColleNamTY_PG.Location = new System.Drawing.Point(315, 305);
+            this.textColleNamTY_PG.Name = "textColleNamTY_PG";
+            this.textColleNamTY_PG.Size = new System.Drawing.Size(88, 20);
+            this.textColleNamTY_PG.TabIndex = 13;
+            // 
+            // textColleNamLY_PG
+            // 
+            this.textColleNamLY_PG.Anchor = System.Windows.Forms.AnchorStyles.Left;
+            this.textColleNamLY_PG.Location = new System.Drawing.Point(315, 325);
+            this.textColleNamLY_PG.Name = "textColleNamLY_PG";
+            this.textColleNamLY_PG.Size = new System.Drawing.Size(88, 20);
+            this.textColleNamLY_PG.TabIndex = 13;
+            // 
+            // textMaxMarkFY_PG
+            // 
+            this.textMaxMarkFY_PG.Anchor = System.Windows.Forms.AnchorStyles.Left;
+            this.textMaxMarkFY_PG.Location = new System.Drawing.Point(419, 265);
+            this.textMaxMarkFY_PG.Name = "textMaxMarkFY_PG";
+            this.textMaxMarkFY_PG.Size = new System.Drawing.Size(88, 20);
+            this.textMaxMarkFY_PG.TabIndex = 14;
+            // 
+            // textMaxMarkSY_PG
+            // 
+            this.textMaxMarkSY_PG.Anchor = System.Windows.Forms.AnchorStyles.Left;
+            this.textMaxMarkSY_PG.Location = new System.Drawing.Point(419, 285);
+            this.textMaxMarkSY_PG.Name = "textMaxMarkSY_PG";
+            this.textMaxMarkSY_PG.Size = new System.Drawing.Size(88, 20);
+            this.textMaxMarkSY_PG.TabIndex = 14;
+            // 
+            // textMaxMarkTY_PG
+            // 
+            this.textMaxMarkTY_PG.Anchor = System.Windows.Forms.AnchorStyles.Left;
+            this.textMaxMarkTY_PG.Location = new System.Drawing.Point(419, 305);
+            this.textMaxMarkTY_PG.Name = "textMaxMarkTY_PG";
+            this.textMaxMarkTY_PG.Size = new System.Drawing.Size(88, 20);
+            this.textMaxMarkTY_PG.TabIndex = 14;
+            // 
+            // textMaxMarkLY_PG
+            // 
+            this.textMaxMarkLY_PG.Anchor = System.Windows.Forms.AnchorStyles.Left;
+            this.textMaxMarkLY_PG.Location = new System.Drawing.Point(419, 325);
+            this.textMaxMarkLY_PG.Name = "textMaxMarkLY_PG";
+            this.textMaxMarkLY_PG.Size = new System.Drawing.Size(88, 20);
+            this.textMaxMarkLY_PG.TabIndex = 14;
+            // 
+            // textMarkObtainFY_PG
+            // 
+            this.textMarkObtainFY_PG.Anchor = System.Windows.Forms.AnchorStyles.Left;
+            this.textMarkObtainFY_PG.Location = new System.Drawing.Point(523, 265);
+            this.textMarkObtainFY_PG.Name = "textMarkObtainFY_PG";
+            this.textMarkObtainFY_PG.Size = new System.Drawing.Size(88, 20);
+            this.textMarkObtainFY_PG.TabIndex = 15;
+            this.textMarkObtainFY_PG.TextChanged += new System.EventHandler(this.textBox5_TextChanged);
+            // 
+            // textMarkObtainSY_PG
+            // 
+            this.textMarkObtainSY_PG.Anchor = System.Windows.Forms.AnchorStyles.Left;
+            this.textMarkObtainSY_PG.Location = new System.Drawing.Point(523, 285);
+            this.textMarkObtainSY_PG.Name = "textMarkObtainSY_PG";
+            this.textMarkObtainSY_PG.Size = new System.Drawing.Size(88, 20);
+            this.textMarkObtainSY_PG.TabIndex = 15;
+            this.textMarkObtainSY_PG.TextChanged += new System.EventHandler(this.textBox5_TextChanged);
+            // 
+            // textMarkObtainTY_PG
+            // 
+            this.textMarkObtainTY_PG.Anchor = System.Windows.Forms.AnchorStyles.Left;
+            this.textMarkObtainTY_PG.Location = new System.Drawing.Point(523, 305);
+            this.textMarkObtainTY_PG.Name = "textMarkObtainTY_PG";
+            this.textMarkObtainTY_PG.Size = new System.Drawing.Size(88, 20);
+            this.textMarkObtainTY_PG.TabIndex = 15;
+            this.textMarkObtainTY_PG.TextChanged += new System.EventHandler(this.textBox5_TextChanged);
+            // 
+            // textMarkObtainLY_PG
+            // 
+            this.textMarkObtainLY_PG.Anchor = System.Windows.Forms.AnchorStyles.Left;
+            this.textMarkObtainLY_PG.Location = new System.Drawing.Point(523, 325);
+            this.textMarkObtainLY_PG.Name = "textMarkObtainLY_PG";
+            this.textMarkObtainLY_PG.Size = new System.Drawing.Size(88, 20);
+            this.textMarkObtainLY_PG.TabIndex = 15;
+            this.textMarkObtainLY_PG.TextChanged += new System.EventHandler(this.textBox5_TextChanged);
+            // 
             // SignUp_EducationalDetails
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -779,34 +1127,66 @@
         private System.Windows.Forms.Label labMarkObtain;
         private System.Windows.Forms.Label labSSC;
         private System.Windows.Forms.Label labHSC;
-        private System.Windows.Forms.Label labFY;
-        private System.Windows.Forms.Label labSY;
-        private System.Windows.Forms.Label labTY;
+        private System.Windows.Forms.Label labFY_UG;
+        private System.Windows.Forms.Label labSY_UG;
         private System.Windows.Forms.Label labMaxmark;
         private System.Windows.Forms.TextBox textUniverSSC;
         private System.Windows.Forms.TextBox textUniversHSC;
-        private System.Windows.Forms.TextBox textUniverFY;
-        private System.Windows.Forms.TextBox textUniverSY;
-        private System.Windows.Forms.TextBox textUniverTY;
+        private System.Windows.Forms.TextBox textUniverFY_UG;
+        private System.Windows.Forms.TextBox textUniverSY_UG;
         private System.Windows.Forms.DateTimePicker DateTimeSSC;
         private System.Windows.Forms.DateTimePicker dateTimeHSC;
-        private System.Windows.Forms.DateTimePicker dateTimeFY;
-        private System.Windows.Forms.DateTimePicker dateTimeSY;
-        private System.Windows.Forms.DateTimePicker dateTimeTY;
+        private System.Windows.Forms.DateTimePicker dateTimeFY_UG;
+        private System.Windows.Forms.DateTimePicker dateTimeSY_UG;
         private System.Windows.Forms.TextBox textSchColleNamSSC;
         private System.Windows.Forms.TextBox textSchColleNamHSC;
-        private System.Windows.Forms.TextBox textSchColleNamFY;
-        private System.Windows.Forms.TextBox textSchColleNamSY;
-        private System.Windows.Forms.TextBox textSchColleNamTY;
+        private System.Windows.Forms.TextBox textColleNamFY_UG;
+        private System.Windows.Forms.TextBox textColleNamSY_UG;
         private System.Windows.Forms.TextBox textMaxMarkSSC;
         private System.Windows.Forms.TextBox textMaxMarkHSC;
-        private System.Windows.Forms.TextBox textMaxMarkFY;
-        private System.Windows.Forms.TextBox textMaxMarkSY;
-        private System.Windows.Forms.TextBox textMaxMarkTY;
-        private System.Windows.Forms.TextBox textMarkObtainTY;
-        private System.Windows.Forms.TextBox textMarkObtainSY;
-        private System.Windows.Forms.TextBox textMarkObtainFY;
+        private System.Windows.Forms.TextBox textMaxMarkFY_UG;
+        private System.Windows.Forms.TextBox textMaxMarkSY_UG;
+        private System.Windows.Forms.TextBox textMarkObtainSY_UG;
+        private System.Windows.Forms.TextBox textMarkObtainFY_UG;
         private System.Windows.Forms.TextBox textMarkObtainHSC;
         private System.Windows.Forms.TextBox textMarkObtainSSC;
+        private System.Windows.Forms.Label labTY_UG;
+        private System.Windows.Forms.TextBox textUniverTY_UG;
+        private System.Windows.Forms.DateTimePicker dateTimeTY_UG;
+        private System.Windows.Forms.TextBox textColleNamTY_UG;
+        private System.Windows.Forms.TextBox textMaxMarkTY_UG;
+        private System.Windows.Forms.TextBox textMarkObtainTY_UG;
+        private System.Windows.Forms.Label labGraduationDetails;
+        private System.Windows.Forms.Label labPostGraduationDetails;
+        private System.Windows.Forms.Label labLY_UG;
+        private System.Windows.Forms.TextBox textUniversityLY_UG;
+        private System.Windows.Forms.DateTimePicker dateTimeLY_UG;
+        private System.Windows.Forms.TextBox textColleNamLY_UG;
+        private System.Windows.Forms.TextBox textMaxMarkLY_UG;
+        private System.Windows.Forms.TextBox textMarkObtainLY_UG;
+        private System.Windows.Forms.Label labFY_PG;
+        private System.Windows.Forms.Label labSY_PG;
+        private System.Windows.Forms.Label labTY_PG;
+        private System.Windows.Forms.Label labLY_PG;
+        private System.Windows.Forms.TextBox textUniverFY_PG;
+        private System.Windows.Forms.TextBox textUniverSY_PG;
+        private System.Windows.Forms.TextBox textUniverTY_PG;
+        private System.Windows.Forms.TextBox textUniverLY_PG;
+        private System.Windows.Forms.DateTimePicker dateTimeFY_PG;
+        private System.Windows.Forms.DateTimePicker dateTimeSY_PG;
+        private System.Windows.Forms.DateTimePicker dateTimeTY_PG;
+        private System.Windows.Forms.DateTimePicker dateTimeLY_PG;
+        private System.Windows.Forms.TextBox textColleNamFY_PG;
+        private System.Windows.Forms.TextBox textColleNamSY_PG;
+        private System.Windows.Forms.TextBox textColleNamTY_PG;
+        private System.Windows.Forms.TextBox textColleNamLY_PG;
+        private System.Windows.Forms.TextBox textMaxMarkFY_PG;
+        private System.Windows.Forms.TextBox textMaxMarkSY_PG;
+        private System.Windows.Forms.TextBox textMaxMarkTY_PG;
+        private System.Windows.Forms.TextBox textMaxMarkLY_PG;
+        private System.Windows.Forms.TextBox textMarkObtainFY_PG;
+        private System.Windows.Forms.TextBox textMarkObtainSY_PG;
+        private System.Windows.Forms.TextBox textMarkObtainTY_PG;
+        private System.Windows.Forms.TextBox textMarkObtainLY_PG;
     }
 }

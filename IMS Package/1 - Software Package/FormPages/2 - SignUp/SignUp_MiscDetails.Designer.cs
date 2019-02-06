@@ -30,34 +30,34 @@
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(SignUp_MiscDetails));
             this.panel2 = new System.Windows.Forms.Panel();
-            this.texPContNo = new System.Windows.Forms.TextBox();
-            this.texMFirstNam = new System.Windows.Forms.TextBox();
-            this.texAdharNo = new System.Windows.Forms.TextBox();
-            this.texMMiddleNam = new System.Windows.Forms.TextBox();
-            this.texGMiddleNam = new System.Windows.Forms.TextBox();
-            this.texGFirstNam = new System.Windows.Forms.TextBox();
-            this.texMLastNam = new System.Windows.Forms.TextBox();
-            this.texGLastName = new System.Windows.Forms.TextBox();
-            this.comboBox1 = new System.Windows.Forms.ComboBox();
-            this.BoxCast = new System.Windows.Forms.ComboBox();
-            this.BoxPhyDisab = new System.Windows.Forms.ComboBox();
-            this.BoxMariralStat = new System.Windows.Forms.ComboBox();
-            this.BoxCategory = new System.Windows.Forms.ComboBox();
-            this.labPhyDisab = new System.Windows.Forms.Label();
-            this.labReligion = new System.Windows.Forms.Label();
-            this.labCast = new System.Windows.Forms.Label();
-            this.labAdharCard = new System.Windows.Forms.Label();
-            this.labParetsContNo = new System.Windows.Forms.Label();
             this.labCategory = new System.Windows.Forms.Label();
             this.labMaritalSta = new System.Windows.Forms.Label();
-            this.labGuardName = new System.Windows.Forms.Label();
-            this.labMotherNam = new System.Windows.Forms.Label();
+            this.labPhyDisab = new System.Windows.Forms.Label();
+            this.labAdharCard = new System.Windows.Forms.Label();
+            this.labCast = new System.Windows.Forms.Label();
+            this.labReligion = new System.Windows.Forms.Label();
+            this.BoxCategory = new System.Windows.Forms.ComboBox();
+            this.comboBox1 = new System.Windows.Forms.ComboBox();
+            this.texAdharNo = new System.Windows.Forms.TextBox();
+            this.BoxCast = new System.Windows.Forms.ComboBox();
+            this.BoxMariralStat = new System.Windows.Forms.ComboBox();
+            this.BoxPhyDisab = new System.Windows.Forms.ComboBox();
             this.labOtherPDetail = new System.Windows.Forms.Label();
             this.ValidateButton = new System.Windows.Forms.Button();
             this.ButtonPanel = new System.Windows.Forms.TableLayoutPanel();
             this.PrimeDButton = new System.Windows.Forms.Button();
             this.EducationalDButton = new System.Windows.Forms.Button();
             this.MiscDButton = new System.Windows.Forms.Button();
+            this.labGuardName = new System.Windows.Forms.Label();
+            this.labMotherNam = new System.Windows.Forms.Label();
+            this.labParetsContNo = new System.Windows.Forms.Label();
+            this.texGFirstNam = new System.Windows.Forms.TextBox();
+            this.texMFirstNam = new System.Windows.Forms.TextBox();
+            this.texPContNo = new System.Windows.Forms.TextBox();
+            this.texGLastName = new System.Windows.Forms.TextBox();
+            this.texGMiddleNam = new System.Windows.Forms.TextBox();
+            this.texMMiddleNam = new System.Windows.Forms.TextBox();
+            this.texMLastNam = new System.Windows.Forms.TextBox();
             this.panel1 = new System.Windows.Forms.Panel();
             this.panel3 = new System.Windows.Forms.Panel();
             this.label2 = new System.Windows.Forms.Label();
@@ -72,163 +72,129 @@
             this.LoginButton = new System.Windows.Forms.Button();
             this.FilesButton = new System.Windows.Forms.Button();
             this.ReviewButton = new System.Windows.Forms.Button();
+            this.tableLayoutPanel3 = new System.Windows.Forms.TableLayoutPanel();
+            this.tableLayoutPanel4 = new System.Windows.Forms.TableLayoutPanel();
+            this.labOtherCourses = new System.Windows.Forms.Label();
+            this.labCourseName = new System.Windows.Forms.Label();
+            this.labScore = new System.Windows.Forms.Label();
+            this.texCourseName1 = new System.Windows.Forms.TextBox();
+            this.texCourseName2 = new System.Windows.Forms.TextBox();
+            this.texCourseName3 = new System.Windows.Forms.TextBox();
+            this.texCourseName4 = new System.Windows.Forms.TextBox();
+            this.texCourseName5 = new System.Windows.Forms.TextBox();
+            this.textScore1 = new System.Windows.Forms.TextBox();
+            this.textScore2 = new System.Windows.Forms.TextBox();
+            this.textScore3 = new System.Windows.Forms.TextBox();
+            this.textScore4 = new System.Windows.Forms.TextBox();
+            this.textScore5 = new System.Windows.Forms.TextBox();
+            this.labExperiance = new System.Windows.Forms.Label();
+            this.tableLayoutPanel5 = new System.Windows.Forms.TableLayoutPanel();
+            this.labJobStatus = new System.Windows.Forms.Label();
+            this.textJobStatus1 = new System.Windows.Forms.TextBox();
+            this.labYearExperiance = new System.Windows.Forms.Label();
+            this.textYearExperiance1 = new System.Windows.Forms.TextBox();
+            this.labWorkPlace = new System.Windows.Forms.Label();
+            this.textWorkPlace1 = new System.Windows.Forms.TextBox();
+            this.textWorkPlace2 = new System.Windows.Forms.TextBox();
+            this.textJobStatus2 = new System.Windows.Forms.TextBox();
+            this.textYearExperiance2 = new System.Windows.Forms.TextBox();
             this.panel2.SuspendLayout();
             this.ButtonPanel.SuspendLayout();
             this.panel1.SuspendLayout();
             this.panel3.SuspendLayout();
             this.tableLayoutPanel1.SuspendLayout();
             this.tableLayoutPanel2.SuspendLayout();
+            this.tableLayoutPanel3.SuspendLayout();
+            this.tableLayoutPanel4.SuspendLayout();
+            this.tableLayoutPanel5.SuspendLayout();
             this.SuspendLayout();
             // 
             // panel2
             // 
-            this.panel2.Controls.Add(this.texPContNo);
-            this.panel2.Controls.Add(this.texMFirstNam);
-            this.panel2.Controls.Add(this.texAdharNo);
-            this.panel2.Controls.Add(this.texMMiddleNam);
-            this.panel2.Controls.Add(this.texGMiddleNam);
-            this.panel2.Controls.Add(this.texGFirstNam);
-            this.panel2.Controls.Add(this.texMLastNam);
-            this.panel2.Controls.Add(this.texGLastName);
-            this.panel2.Controls.Add(this.comboBox1);
-            this.panel2.Controls.Add(this.BoxCast);
-            this.panel2.Controls.Add(this.BoxPhyDisab);
-            this.panel2.Controls.Add(this.BoxMariralStat);
-            this.panel2.Controls.Add(this.BoxCategory);
-            this.panel2.Controls.Add(this.labPhyDisab);
-            this.panel2.Controls.Add(this.labReligion);
-            this.panel2.Controls.Add(this.labCast);
-            this.panel2.Controls.Add(this.labAdharCard);
-            this.panel2.Controls.Add(this.labParetsContNo);
-            this.panel2.Controls.Add(this.labCategory);
-            this.panel2.Controls.Add(this.labMaritalSta);
-            this.panel2.Controls.Add(this.labGuardName);
-            this.panel2.Controls.Add(this.labMotherNam);
+            this.panel2.Controls.Add(this.tableLayoutPanel5);
+            this.panel2.Controls.Add(this.labExperiance);
+            this.panel2.Controls.Add(this.labOtherCourses);
+            this.panel2.Controls.Add(this.tableLayoutPanel4);
+            this.panel2.Controls.Add(this.tableLayoutPanel3);
             this.panel2.Controls.Add(this.labOtherPDetail);
             this.panel2.Controls.Add(this.ValidateButton);
             this.panel2.Controls.Add(this.ButtonPanel);
-            this.panel2.Dock = System.Windows.Forms.DockStyle.Fill;
             this.panel2.Location = new System.Drawing.Point(0, 26);
             this.panel2.Name = "panel2";
             this.panel2.Size = new System.Drawing.Size(822, 538);
             this.panel2.TabIndex = 14;
+            this.panel2.Paint += new System.Windows.Forms.PaintEventHandler(this.panel2_Paint);
             // 
-            // texPContNo
+            // labCategory
             // 
-            this.texPContNo.Location = new System.Drawing.Point(459, 120);
-            this.texPContNo.MaxLength = 10;
-            this.texPContNo.Name = "texPContNo";
-            this.texPContNo.Size = new System.Drawing.Size(100, 20);
-            this.texPContNo.TabIndex = 8;
-            this.texPContNo.TextChanged += new System.EventHandler(this.textBox7_TextChanged);
+            this.labCategory.Anchor = System.Windows.Forms.AnchorStyles.Left;
+            this.labCategory.AutoSize = true;
+            this.labCategory.Location = new System.Drawing.Point(3, 91);
+            this.labCategory.Name = "labCategory";
+            this.labCategory.Size = new System.Drawing.Size(49, 13);
+            this.labCategory.TabIndex = 6;
+            this.labCategory.Text = "Category";
+            this.labCategory.Click += new System.EventHandler(this.label3_Click);
             // 
-            // texMFirstNam
+            // labMaritalSta
             // 
-            this.texMFirstNam.Location = new System.Drawing.Point(576, 85);
-            this.texMFirstNam.Name = "texMFirstNam";
-            this.texMFirstNam.Size = new System.Drawing.Size(100, 20);
-            this.texMFirstNam.TabIndex = 8;
-            this.texMFirstNam.Text = "First Name";
+            this.labMaritalSta.Anchor = System.Windows.Forms.AnchorStyles.Left;
+            this.labMaritalSta.AutoSize = true;
+            this.labMaritalSta.Location = new System.Drawing.Point(3, 149);
+            this.labMaritalSta.Name = "labMaritalSta";
+            this.labMaritalSta.Size = new System.Drawing.Size(71, 13);
+            this.labMaritalSta.TabIndex = 6;
+            this.labMaritalSta.Text = "Marital Status";
+            this.labMaritalSta.Click += new System.EventHandler(this.label3_Click);
             // 
-            // texAdharNo
+            // labPhyDisab
             // 
-            this.texAdharNo.Location = new System.Drawing.Point(459, 244);
-            this.texAdharNo.MaxLength = 12;
-            this.texAdharNo.Name = "texAdharNo";
-            this.texAdharNo.Size = new System.Drawing.Size(121, 20);
-            this.texAdharNo.TabIndex = 8;
-            this.texAdharNo.TextChanged += new System.EventHandler(this.textBox6_TextChanged);
+            this.labPhyDisab.Anchor = System.Windows.Forms.AnchorStyles.Left;
+            this.labPhyDisab.AutoSize = true;
+            this.labPhyDisab.Location = new System.Drawing.Point(3, 119);
+            this.labPhyDisab.Name = "labPhyDisab";
+            this.labPhyDisab.Size = new System.Drawing.Size(90, 13);
+            this.labPhyDisab.TabIndex = 6;
+            this.labPhyDisab.Text = "Physical Disability";
+            this.labPhyDisab.Click += new System.EventHandler(this.label3_Click);
             // 
-            // texMMiddleNam
+            // labAdharCard
             // 
-            this.texMMiddleNam.Location = new System.Drawing.Point(697, 85);
-            this.texMMiddleNam.Name = "texMMiddleNam";
-            this.texMMiddleNam.Size = new System.Drawing.Size(100, 20);
-            this.texMMiddleNam.TabIndex = 8;
-            this.texMMiddleNam.Text = "Middle Name";
+            this.labAdharCard.Anchor = System.Windows.Forms.AnchorStyles.Left;
+            this.labAdharCard.AutoSize = true;
+            this.labAdharCard.Location = new System.Drawing.Point(295, 91);
+            this.labAdharCard.Name = "labAdharCard";
+            this.labAdharCard.Size = new System.Drawing.Size(78, 13);
+            this.labAdharCard.TabIndex = 6;
+            this.labAdharCard.Text = "Adhar Card no.";
+            this.labAdharCard.Click += new System.EventHandler(this.label3_Click);
             // 
-            // texGMiddleNam
+            // labCast
             // 
-            this.texGMiddleNam.Location = new System.Drawing.Point(697, 49);
-            this.texGMiddleNam.Name = "texGMiddleNam";
-            this.texGMiddleNam.Size = new System.Drawing.Size(100, 20);
-            this.texGMiddleNam.TabIndex = 8;
-            this.texGMiddleNam.Text = "Middle Name";
-            this.texGMiddleNam.TextChanged += new System.EventHandler(this.textBox1_TextChanged);
+            this.labCast.Anchor = System.Windows.Forms.AnchorStyles.Left;
+            this.labCast.AutoSize = true;
+            this.labCast.Location = new System.Drawing.Point(295, 119);
+            this.labCast.Name = "labCast";
+            this.labCast.Size = new System.Drawing.Size(28, 13);
+            this.labCast.TabIndex = 6;
+            this.labCast.Text = "Cast";
+            this.labCast.Click += new System.EventHandler(this.label3_Click);
             // 
-            // texGFirstNam
+            // labReligion
             // 
-            this.texGFirstNam.Location = new System.Drawing.Point(576, 49);
-            this.texGFirstNam.Name = "texGFirstNam";
-            this.texGFirstNam.Size = new System.Drawing.Size(100, 20);
-            this.texGFirstNam.TabIndex = 8;
-            this.texGFirstNam.Text = "First Name";
-            this.texGFirstNam.TextChanged += new System.EventHandler(this.textBox1_TextChanged);
-            // 
-            // texMLastNam
-            // 
-            this.texMLastNam.Location = new System.Drawing.Point(459, 85);
-            this.texMLastNam.Name = "texMLastNam";
-            this.texMLastNam.Size = new System.Drawing.Size(100, 20);
-            this.texMLastNam.TabIndex = 8;
-            this.texMLastNam.Text = "Last Name";
-            // 
-            // texGLastName
-            // 
-            this.texGLastName.Location = new System.Drawing.Point(459, 49);
-            this.texGLastName.Name = "texGLastName";
-            this.texGLastName.Size = new System.Drawing.Size(100, 20);
-            this.texGLastName.TabIndex = 8;
-            this.texGLastName.Text = "Last Name";
-            this.texGLastName.TextChanged += new System.EventHandler(this.textBox1_TextChanged);
-            // 
-            // comboBox1
-            // 
-            this.comboBox1.FormattingEnabled = true;
-            this.comboBox1.Items.AddRange(new object[] {
-            "Hindu",
-            "Islam",
-            "Christianity",
-            "Sikhism",
-            "Buddhism",
-            "Jainism",
-            "Zoroastrianism",
-            "Judaism "});
-            this.comboBox1.Location = new System.Drawing.Point(459, 297);
-            this.comboBox1.Name = "comboBox1";
-            this.comboBox1.Size = new System.Drawing.Size(121, 21);
-            this.comboBox1.TabIndex = 7;
-            // 
-            // BoxCast
-            // 
-            this.BoxCast.FormattingEnabled = true;
-            this.BoxCast.Location = new System.Drawing.Point(459, 270);
-            this.BoxCast.Name = "BoxCast";
-            this.BoxCast.Size = new System.Drawing.Size(121, 21);
-            this.BoxCast.TabIndex = 7;
-            // 
-            // BoxPhyDisab
-            // 
-            this.BoxPhyDisab.FormattingEnabled = true;
-            this.BoxPhyDisab.Items.AddRange(new object[] {
-            "Yes",
-            "No"});
-            this.BoxPhyDisab.Location = new System.Drawing.Point(459, 217);
-            this.BoxPhyDisab.Name = "BoxPhyDisab";
-            this.BoxPhyDisab.Size = new System.Drawing.Size(121, 21);
-            this.BoxPhyDisab.TabIndex = 7;
-            // 
-            // BoxMariralStat
-            // 
-            this.BoxMariralStat.FormattingEnabled = true;
-            this.BoxMariralStat.Location = new System.Drawing.Point(459, 190);
-            this.BoxMariralStat.Name = "BoxMariralStat";
-            this.BoxMariralStat.Size = new System.Drawing.Size(121, 21);
-            this.BoxMariralStat.TabIndex = 7;
-            this.BoxMariralStat.SelectedIndexChanged += new System.EventHandler(this.comboBox2_SelectedIndexChanged);
+            this.labReligion.AccessibleRole = System.Windows.Forms.AccessibleRole.Grip;
+            this.labReligion.Anchor = System.Windows.Forms.AnchorStyles.Left;
+            this.labReligion.AutoSize = true;
+            this.labReligion.Location = new System.Drawing.Point(295, 149);
+            this.labReligion.Name = "labReligion";
+            this.labReligion.Size = new System.Drawing.Size(45, 13);
+            this.labReligion.TabIndex = 6;
+            this.labReligion.Text = "Religion";
+            this.labReligion.Click += new System.EventHandler(this.label3_Click);
             // 
             // BoxCategory
             // 
+            this.BoxCategory.Dock = System.Windows.Forms.DockStyle.Fill;
             this.BoxCategory.FormattingEnabled = true;
             this.BoxCategory.Items.AddRange(new object[] {
             "Open",
@@ -240,106 +206,74 @@
             "NT-B",
             "NT-C",
             "NT-D"});
-            this.BoxCategory.Location = new System.Drawing.Point(459, 162);
+            this.BoxCategory.Location = new System.Drawing.Point(149, 87);
             this.BoxCategory.Name = "BoxCategory";
-            this.BoxCategory.Size = new System.Drawing.Size(121, 21);
-            this.BoxCategory.TabIndex = 7;
+            this.BoxCategory.Size = new System.Drawing.Size(140, 21);
+            this.BoxCategory.TabIndex = 8;
             // 
-            // labPhyDisab
+            // comboBox1
             // 
-            this.labPhyDisab.AutoSize = true;
-            this.labPhyDisab.Location = new System.Drawing.Point(221, 225);
-            this.labPhyDisab.Name = "labPhyDisab";
-            this.labPhyDisab.Size = new System.Drawing.Size(90, 13);
-            this.labPhyDisab.TabIndex = 6;
-            this.labPhyDisab.Text = "Physical Disability";
-            this.labPhyDisab.Click += new System.EventHandler(this.label3_Click);
+            this.comboBox1.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.comboBox1.FormattingEnabled = true;
+            this.comboBox1.Items.AddRange(new object[] {
+            "Hindu",
+            "Islam",
+            "Christianity",
+            "Sikhism",
+            "Buddhism",
+            "Jainism",
+            "Zoroastrianism",
+            "Judaism "});
+            this.comboBox1.Location = new System.Drawing.Point(441, 143);
+            this.comboBox1.Name = "comboBox1";
+            this.comboBox1.Size = new System.Drawing.Size(142, 21);
+            this.comboBox1.TabIndex = 13;
             // 
-            // labReligion
+            // texAdharNo
             // 
-            this.labReligion.AccessibleRole = System.Windows.Forms.AccessibleRole.Grip;
-            this.labReligion.AutoSize = true;
-            this.labReligion.Location = new System.Drawing.Point(221, 305);
-            this.labReligion.Name = "labReligion";
-            this.labReligion.Size = new System.Drawing.Size(45, 13);
-            this.labReligion.TabIndex = 6;
-            this.labReligion.Text = "Religion";
-            this.labReligion.Click += new System.EventHandler(this.label3_Click);
+            this.texAdharNo.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.texAdharNo.Location = new System.Drawing.Point(441, 87);
+            this.texAdharNo.MaxLength = 12;
+            this.texAdharNo.Name = "texAdharNo";
+            this.texAdharNo.Size = new System.Drawing.Size(142, 20);
+            this.texAdharNo.TabIndex = 11;
+            this.texAdharNo.TextChanged += new System.EventHandler(this.textBox6_TextChanged);
             // 
-            // labCast
+            // BoxCast
             // 
-            this.labCast.AutoSize = true;
-            this.labCast.Location = new System.Drawing.Point(221, 278);
-            this.labCast.Name = "labCast";
-            this.labCast.Size = new System.Drawing.Size(28, 13);
-            this.labCast.TabIndex = 6;
-            this.labCast.Text = "Cast";
-            this.labCast.Click += new System.EventHandler(this.label3_Click);
+            this.BoxCast.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.BoxCast.FormattingEnabled = true;
+            this.BoxCast.Location = new System.Drawing.Point(441, 115);
+            this.BoxCast.Name = "BoxCast";
+            this.BoxCast.Size = new System.Drawing.Size(142, 21);
+            this.BoxCast.TabIndex = 12;
             // 
-            // labAdharCard
+            // BoxMariralStat
             // 
-            this.labAdharCard.AutoSize = true;
-            this.labAdharCard.Location = new System.Drawing.Point(221, 251);
-            this.labAdharCard.Name = "labAdharCard";
-            this.labAdharCard.Size = new System.Drawing.Size(84, 13);
-            this.labAdharCard.TabIndex = 6;
-            this.labAdharCard.Text = "Adhar Chard no.";
-            this.labAdharCard.Click += new System.EventHandler(this.label3_Click);
+            this.BoxMariralStat.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.BoxMariralStat.FormattingEnabled = true;
+            this.BoxMariralStat.Location = new System.Drawing.Point(149, 143);
+            this.BoxMariralStat.Name = "BoxMariralStat";
+            this.BoxMariralStat.Size = new System.Drawing.Size(140, 21);
+            this.BoxMariralStat.TabIndex = 9;
+            this.BoxMariralStat.SelectedIndexChanged += new System.EventHandler(this.comboBox2_SelectedIndexChanged);
             // 
-            // labParetsContNo
+            // BoxPhyDisab
             // 
-            this.labParetsContNo.AutoSize = true;
-            this.labParetsContNo.Location = new System.Drawing.Point(221, 127);
-            this.labParetsContNo.Name = "labParetsContNo";
-            this.labParetsContNo.Size = new System.Drawing.Size(105, 13);
-            this.labParetsContNo.TabIndex = 6;
-            this.labParetsContNo.Text = "Parent\'s Contact No.";
-            this.labParetsContNo.Click += new System.EventHandler(this.label3_Click);
-            // 
-            // labCategory
-            // 
-            this.labCategory.AutoSize = true;
-            this.labCategory.Location = new System.Drawing.Point(221, 170);
-            this.labCategory.Name = "labCategory";
-            this.labCategory.Size = new System.Drawing.Size(49, 13);
-            this.labCategory.TabIndex = 6;
-            this.labCategory.Text = "Category";
-            this.labCategory.Click += new System.EventHandler(this.label3_Click);
-            // 
-            // labMaritalSta
-            // 
-            this.labMaritalSta.AutoSize = true;
-            this.labMaritalSta.Location = new System.Drawing.Point(221, 198);
-            this.labMaritalSta.Name = "labMaritalSta";
-            this.labMaritalSta.Size = new System.Drawing.Size(71, 13);
-            this.labMaritalSta.TabIndex = 6;
-            this.labMaritalSta.Text = "Marital Status";
-            this.labMaritalSta.Click += new System.EventHandler(this.label3_Click);
-            // 
-            // labGuardName
-            // 
-            this.labGuardName.AutoSize = true;
-            this.labGuardName.Location = new System.Drawing.Point(221, 56);
-            this.labGuardName.Name = "labGuardName";
-            this.labGuardName.Size = new System.Drawing.Size(195, 13);
-            this.labGuardName.TabIndex = 6;
-            this.labGuardName.Text = "Father\'s /Husband\'s /Guardinan\'s name";
-            this.labGuardName.Click += new System.EventHandler(this.label3_Click);
-            // 
-            // labMotherNam
-            // 
-            this.labMotherNam.AutoSize = true;
-            this.labMotherNam.Location = new System.Drawing.Point(221, 92);
-            this.labMotherNam.Name = "labMotherNam";
-            this.labMotherNam.Size = new System.Drawing.Size(78, 13);
-            this.labMotherNam.TabIndex = 6;
-            this.labMotherNam.Text = "Mother\'s Name";
-            this.labMotherNam.Click += new System.EventHandler(this.label3_Click);
+            this.BoxPhyDisab.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.BoxPhyDisab.FormattingEnabled = true;
+            this.BoxPhyDisab.Items.AddRange(new object[] {
+            "Yes",
+            "No"});
+            this.BoxPhyDisab.Location = new System.Drawing.Point(149, 115);
+            this.BoxPhyDisab.Name = "BoxPhyDisab";
+            this.BoxPhyDisab.Size = new System.Drawing.Size(140, 21);
+            this.BoxPhyDisab.TabIndex = 10;
             // 
             // labOtherPDetail
             // 
             this.labOtherPDetail.AutoSize = true;
-            this.labOtherPDetail.Location = new System.Drawing.Point(221, 17);
+            this.labOtherPDetail.Location = new System.Drawing.Point(215, 3);
             this.labOtherPDetail.Name = "labOtherPDetail";
             this.labOtherPDetail.Size = new System.Drawing.Size(112, 13);
             this.labOtherPDetail.TabIndex = 6;
@@ -407,6 +341,106 @@
             this.MiscDButton.TabIndex = 2;
             this.MiscDButton.Text = "Miscellaneous Details";
             this.MiscDButton.UseVisualStyleBackColor = true;
+            // 
+            // labGuardName
+            // 
+            this.labGuardName.Anchor = System.Windows.Forms.AnchorStyles.Left;
+            this.labGuardName.AutoSize = true;
+            this.labGuardName.Location = new System.Drawing.Point(3, 1);
+            this.labGuardName.Name = "labGuardName";
+            this.labGuardName.Size = new System.Drawing.Size(105, 26);
+            this.labGuardName.TabIndex = 6;
+            this.labGuardName.Text = "Father\'s /Husband\'s /Guardinan\'s name";
+            this.labGuardName.Click += new System.EventHandler(this.label3_Click);
+            // 
+            // labMotherNam
+            // 
+            this.labMotherNam.Anchor = System.Windows.Forms.AnchorStyles.Left;
+            this.labMotherNam.AutoSize = true;
+            this.labMotherNam.Location = new System.Drawing.Point(3, 35);
+            this.labMotherNam.Name = "labMotherNam";
+            this.labMotherNam.Size = new System.Drawing.Size(78, 13);
+            this.labMotherNam.TabIndex = 6;
+            this.labMotherNam.Text = "Mother\'s Name";
+            this.labMotherNam.Click += new System.EventHandler(this.label3_Click);
+            // 
+            // labParetsContNo
+            // 
+            this.labParetsContNo.Anchor = System.Windows.Forms.AnchorStyles.Left;
+            this.labParetsContNo.AutoSize = true;
+            this.labParetsContNo.Location = new System.Drawing.Point(3, 63);
+            this.labParetsContNo.Name = "labParetsContNo";
+            this.labParetsContNo.Size = new System.Drawing.Size(105, 13);
+            this.labParetsContNo.TabIndex = 6;
+            this.labParetsContNo.Text = "Parent\'s Contact No.";
+            this.labParetsContNo.Click += new System.EventHandler(this.label3_Click);
+            // 
+            // texGFirstNam
+            // 
+            this.texGFirstNam.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.texGFirstNam.Location = new System.Drawing.Point(295, 3);
+            this.texGFirstNam.Name = "texGFirstNam";
+            this.texGFirstNam.Size = new System.Drawing.Size(140, 20);
+            this.texGFirstNam.TabIndex = 2;
+            this.texGFirstNam.Text = "First Name";
+            this.texGFirstNam.TextChanged += new System.EventHandler(this.textBox1_TextChanged);
+            // 
+            // texMFirstNam
+            // 
+            this.texMFirstNam.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.texMFirstNam.Location = new System.Drawing.Point(295, 31);
+            this.texMFirstNam.Name = "texMFirstNam";
+            this.texMFirstNam.Size = new System.Drawing.Size(140, 20);
+            this.texMFirstNam.TabIndex = 5;
+            this.texMFirstNam.Text = "First Name";
+            // 
+            // texPContNo
+            // 
+            this.texPContNo.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.texPContNo.Location = new System.Drawing.Point(149, 59);
+            this.texPContNo.MaxLength = 10;
+            this.texPContNo.Name = "texPContNo";
+            this.texPContNo.Size = new System.Drawing.Size(140, 20);
+            this.texPContNo.TabIndex = 7;
+            this.texPContNo.TextChanged += new System.EventHandler(this.textBox7_TextChanged);
+            // 
+            // texGLastName
+            // 
+            this.texGLastName.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.texGLastName.Location = new System.Drawing.Point(149, 3);
+            this.texGLastName.Name = "texGLastName";
+            this.texGLastName.Size = new System.Drawing.Size(140, 20);
+            this.texGLastName.TabIndex = 1;
+            this.texGLastName.Text = "Last Name";
+            this.texGLastName.TextChanged += new System.EventHandler(this.textBox1_TextChanged);
+            // 
+            // texGMiddleNam
+            // 
+            this.texGMiddleNam.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.texGMiddleNam.Location = new System.Drawing.Point(441, 3);
+            this.texGMiddleNam.Name = "texGMiddleNam";
+            this.texGMiddleNam.Size = new System.Drawing.Size(142, 20);
+            this.texGMiddleNam.TabIndex = 3;
+            this.texGMiddleNam.Text = "Middle Name";
+            this.texGMiddleNam.TextChanged += new System.EventHandler(this.textBox1_TextChanged);
+            // 
+            // texMMiddleNam
+            // 
+            this.texMMiddleNam.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.texMMiddleNam.Location = new System.Drawing.Point(441, 31);
+            this.texMMiddleNam.Name = "texMMiddleNam";
+            this.texMMiddleNam.Size = new System.Drawing.Size(142, 20);
+            this.texMMiddleNam.TabIndex = 6;
+            this.texMMiddleNam.Text = "Middle Name";
+            // 
+            // texMLastNam
+            // 
+            this.texMLastNam.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.texMLastNam.Location = new System.Drawing.Point(149, 31);
+            this.texMLastNam.Name = "texMLastNam";
+            this.texMLastNam.Size = new System.Drawing.Size(140, 20);
+            this.texMLastNam.TabIndex = 4;
+            this.texMLastNam.Text = "Last Name";
             // 
             // panel1
             // 
@@ -580,6 +614,312 @@
             this.ReviewButton.Text = "Review Your Application";
             this.ReviewButton.UseVisualStyleBackColor = true;
             // 
+            // tableLayoutPanel3
+            // 
+            this.tableLayoutPanel3.ColumnCount = 4;
+            this.tableLayoutPanel3.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 25F));
+            this.tableLayoutPanel3.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 25F));
+            this.tableLayoutPanel3.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 25F));
+            this.tableLayoutPanel3.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 25F));
+            this.tableLayoutPanel3.Controls.Add(this.texPContNo, 1, 2);
+            this.tableLayoutPanel3.Controls.Add(this.BoxCast, 3, 4);
+            this.tableLayoutPanel3.Controls.Add(this.comboBox1, 3, 5);
+            this.tableLayoutPanel3.Controls.Add(this.BoxMariralStat, 1, 5);
+            this.tableLayoutPanel3.Controls.Add(this.labReligion, 2, 5);
+            this.tableLayoutPanel3.Controls.Add(this.texGFirstNam, 2, 0);
+            this.tableLayoutPanel3.Controls.Add(this.labMaritalSta, 0, 5);
+            this.tableLayoutPanel3.Controls.Add(this.labParetsContNo, 0, 2);
+            this.tableLayoutPanel3.Controls.Add(this.texGMiddleNam, 3, 0);
+            this.tableLayoutPanel3.Controls.Add(this.texMMiddleNam, 3, 1);
+            this.tableLayoutPanel3.Controls.Add(this.labGuardName, 0, 0);
+            this.tableLayoutPanel3.Controls.Add(this.texGLastName, 1, 0);
+            this.tableLayoutPanel3.Controls.Add(this.labCategory, 0, 3);
+            this.tableLayoutPanel3.Controls.Add(this.BoxCategory, 1, 3);
+            this.tableLayoutPanel3.Controls.Add(this.texMFirstNam, 2, 1);
+            this.tableLayoutPanel3.Controls.Add(this.texAdharNo, 3, 3);
+            this.tableLayoutPanel3.Controls.Add(this.labMotherNam, 0, 1);
+            this.tableLayoutPanel3.Controls.Add(this.texMLastNam, 1, 1);
+            this.tableLayoutPanel3.Controls.Add(this.labPhyDisab, 0, 4);
+            this.tableLayoutPanel3.Controls.Add(this.BoxPhyDisab, 1, 4);
+            this.tableLayoutPanel3.Controls.Add(this.labCast, 2, 4);
+            this.tableLayoutPanel3.Controls.Add(this.labAdharCard, 2, 3);
+            this.tableLayoutPanel3.Location = new System.Drawing.Point(215, 33);
+            this.tableLayoutPanel3.Name = "tableLayoutPanel3";
+            this.tableLayoutPanel3.RowCount = 6;
+            this.tableLayoutPanel3.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 16.66667F));
+            this.tableLayoutPanel3.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 16.66667F));
+            this.tableLayoutPanel3.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 16.66667F));
+            this.tableLayoutPanel3.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 16.66667F));
+            this.tableLayoutPanel3.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 16.66667F));
+            this.tableLayoutPanel3.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 16.66667F));
+            this.tableLayoutPanel3.Size = new System.Drawing.Size(586, 171);
+            this.tableLayoutPanel3.TabIndex = 11;
+            // 
+            // tableLayoutPanel4
+            // 
+            this.tableLayoutPanel4.ColumnCount = 2;
+            this.tableLayoutPanel4.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 75F));
+            this.tableLayoutPanel4.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 25F));
+            this.tableLayoutPanel4.Controls.Add(this.labCourseName, 0, 0);
+            this.tableLayoutPanel4.Controls.Add(this.labScore, 1, 0);
+            this.tableLayoutPanel4.Controls.Add(this.texCourseName1, 0, 1);
+            this.tableLayoutPanel4.Controls.Add(this.texCourseName2, 0, 2);
+            this.tableLayoutPanel4.Controls.Add(this.texCourseName3, 0, 3);
+            this.tableLayoutPanel4.Controls.Add(this.texCourseName4, 0, 4);
+            this.tableLayoutPanel4.Controls.Add(this.texCourseName5, 0, 5);
+            this.tableLayoutPanel4.Controls.Add(this.textScore1, 1, 1);
+            this.tableLayoutPanel4.Controls.Add(this.textScore2, 1, 2);
+            this.tableLayoutPanel4.Controls.Add(this.textScore3, 1, 3);
+            this.tableLayoutPanel4.Controls.Add(this.textScore4, 1, 4);
+            this.tableLayoutPanel4.Controls.Add(this.textScore5, 1, 5);
+            this.tableLayoutPanel4.Location = new System.Drawing.Point(218, 241);
+            this.tableLayoutPanel4.Name = "tableLayoutPanel4";
+            this.tableLayoutPanel4.RowCount = 6;
+            this.tableLayoutPanel4.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 16.66667F));
+            this.tableLayoutPanel4.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 16.66667F));
+            this.tableLayoutPanel4.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 16.66667F));
+            this.tableLayoutPanel4.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 16.66667F));
+            this.tableLayoutPanel4.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 16.66667F));
+            this.tableLayoutPanel4.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 16.66667F));
+            this.tableLayoutPanel4.Size = new System.Drawing.Size(580, 134);
+            this.tableLayoutPanel4.TabIndex = 12;
+            // 
+            // labOtherCourses
+            // 
+            this.labOtherCourses.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.labOtherCourses.AutoSize = true;
+            this.labOtherCourses.Location = new System.Drawing.Point(216, 216);
+            this.labOtherCourses.Name = "labOtherCourses";
+            this.labOtherCourses.Size = new System.Drawing.Size(73, 13);
+            this.labOtherCourses.TabIndex = 0;
+            this.labOtherCourses.Text = "Other courses";
+            this.labOtherCourses.Click += new System.EventHandler(this.labOtherCourses_Click);
+            // 
+            // labCourseName
+            // 
+            this.labCourseName.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.labCourseName.AutoSize = true;
+            this.labCourseName.Location = new System.Drawing.Point(173, 4);
+            this.labCourseName.Name = "labCourseName";
+            this.labCourseName.Size = new System.Drawing.Size(88, 13);
+            this.labCourseName.TabIndex = 0;
+            this.labCourseName.Text = "Name of Courses";
+            // 
+            // labScore
+            // 
+            this.labScore.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.labScore.AutoSize = true;
+            this.labScore.Location = new System.Drawing.Point(490, 4);
+            this.labScore.Name = "labScore";
+            this.labScore.Size = new System.Drawing.Size(35, 13);
+            this.labScore.TabIndex = 0;
+            this.labScore.Text = "Score";
+            // 
+            // texCourseName1
+            // 
+            this.texCourseName1.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.texCourseName1.Location = new System.Drawing.Point(3, 25);
+            this.texCourseName1.Name = "texCourseName1";
+            this.texCourseName1.Size = new System.Drawing.Size(429, 20);
+            this.texCourseName1.TabIndex = 1;
+            this.texCourseName1.TextChanged += new System.EventHandler(this.textBox1_TextChanged_1);
+            // 
+            // texCourseName2
+            // 
+            this.texCourseName2.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.texCourseName2.Location = new System.Drawing.Point(3, 47);
+            this.texCourseName2.Name = "texCourseName2";
+            this.texCourseName2.Size = new System.Drawing.Size(429, 20);
+            this.texCourseName2.TabIndex = 1;
+            // 
+            // texCourseName3
+            // 
+            this.texCourseName3.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.texCourseName3.Location = new System.Drawing.Point(3, 69);
+            this.texCourseName3.Name = "texCourseName3";
+            this.texCourseName3.Size = new System.Drawing.Size(429, 20);
+            this.texCourseName3.TabIndex = 1;
+            // 
+            // texCourseName4
+            // 
+            this.texCourseName4.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.texCourseName4.Location = new System.Drawing.Point(3, 91);
+            this.texCourseName4.Name = "texCourseName4";
+            this.texCourseName4.Size = new System.Drawing.Size(429, 20);
+            this.texCourseName4.TabIndex = 1;
+            // 
+            // texCourseName5
+            // 
+            this.texCourseName5.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.texCourseName5.Location = new System.Drawing.Point(3, 113);
+            this.texCourseName5.Name = "texCourseName5";
+            this.texCourseName5.Size = new System.Drawing.Size(429, 20);
+            this.texCourseName5.TabIndex = 1;
+            // 
+            // textScore1
+            // 
+            this.textScore1.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.textScore1.Location = new System.Drawing.Point(438, 25);
+            this.textScore1.Name = "textScore1";
+            this.textScore1.Size = new System.Drawing.Size(139, 20);
+            this.textScore1.TabIndex = 1;
+            this.textScore1.TextChanged += new System.EventHandler(this.textBox1_TextChanged_1);
+            // 
+            // textScore2
+            // 
+            this.textScore2.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.textScore2.Location = new System.Drawing.Point(438, 47);
+            this.textScore2.Name = "textScore2";
+            this.textScore2.Size = new System.Drawing.Size(139, 20);
+            this.textScore2.TabIndex = 1;
+            this.textScore2.TextChanged += new System.EventHandler(this.textBox1_TextChanged_1);
+            // 
+            // textScore3
+            // 
+            this.textScore3.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.textScore3.Location = new System.Drawing.Point(438, 69);
+            this.textScore3.Name = "textScore3";
+            this.textScore3.Size = new System.Drawing.Size(139, 20);
+            this.textScore3.TabIndex = 1;
+            this.textScore3.TextChanged += new System.EventHandler(this.textBox1_TextChanged_1);
+            // 
+            // textScore4
+            // 
+            this.textScore4.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.textScore4.Location = new System.Drawing.Point(438, 91);
+            this.textScore4.Name = "textScore4";
+            this.textScore4.Size = new System.Drawing.Size(139, 20);
+            this.textScore4.TabIndex = 1;
+            this.textScore4.TextChanged += new System.EventHandler(this.textBox1_TextChanged_1);
+            // 
+            // textScore5
+            // 
+            this.textScore5.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.textScore5.Location = new System.Drawing.Point(438, 113);
+            this.textScore5.Name = "textScore5";
+            this.textScore5.Size = new System.Drawing.Size(139, 20);
+            this.textScore5.TabIndex = 1;
+            this.textScore5.TextChanged += new System.EventHandler(this.textBox1_TextChanged_1);
+            // 
+            // labExperiance
+            // 
+            this.labExperiance.AutoSize = true;
+            this.labExperiance.Location = new System.Drawing.Point(215, 394);
+            this.labExperiance.Name = "labExperiance";
+            this.labExperiance.Size = new System.Drawing.Size(89, 13);
+            this.labExperiance.TabIndex = 13;
+            this.labExperiance.Text = "Work Experiance";
+            this.labExperiance.Click += new System.EventHandler(this.labExperiance_Click);
+            // 
+            // tableLayoutPanel5
+            // 
+            this.tableLayoutPanel5.ColumnCount = 3;
+            this.tableLayoutPanel5.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 33.33333F));
+            this.tableLayoutPanel5.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 33.33334F));
+            this.tableLayoutPanel5.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 33.33334F));
+            this.tableLayoutPanel5.Controls.Add(this.labJobStatus, 1, 0);
+            this.tableLayoutPanel5.Controls.Add(this.textJobStatus1, 1, 1);
+            this.tableLayoutPanel5.Controls.Add(this.labYearExperiance, 2, 0);
+            this.tableLayoutPanel5.Controls.Add(this.textYearExperiance1, 2, 1);
+            this.tableLayoutPanel5.Controls.Add(this.labWorkPlace, 0, 0);
+            this.tableLayoutPanel5.Controls.Add(this.textWorkPlace1, 0, 1);
+            this.tableLayoutPanel5.Controls.Add(this.textWorkPlace2, 0, 2);
+            this.tableLayoutPanel5.Controls.Add(this.textJobStatus2, 1, 2);
+            this.tableLayoutPanel5.Controls.Add(this.textYearExperiance2, 2, 2);
+            this.tableLayoutPanel5.Location = new System.Drawing.Point(218, 410);
+            this.tableLayoutPanel5.Name = "tableLayoutPanel5";
+            this.tableLayoutPanel5.RowCount = 3;
+            this.tableLayoutPanel5.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 33.33333F));
+            this.tableLayoutPanel5.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 33.33333F));
+            this.tableLayoutPanel5.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 33.33333F));
+            this.tableLayoutPanel5.Size = new System.Drawing.Size(441, 78);
+            this.tableLayoutPanel5.TabIndex = 14;
+            // 
+            // labJobStatus
+            // 
+            this.labJobStatus.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.labJobStatus.AutoSize = true;
+            this.labJobStatus.Location = new System.Drawing.Point(191, 6);
+            this.labJobStatus.Name = "labJobStatus";
+            this.labJobStatus.Size = new System.Drawing.Size(57, 13);
+            this.labJobStatus.TabIndex = 0;
+            this.labJobStatus.Text = "Job Status";
+            this.labJobStatus.Click += new System.EventHandler(this.labJobStatus_Click);
+            // 
+            // textJobStatus1
+            // 
+            this.textJobStatus1.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.textJobStatus1.Location = new System.Drawing.Point(149, 28);
+            this.textJobStatus1.Name = "textJobStatus1";
+            this.textJobStatus1.Size = new System.Drawing.Size(141, 20);
+            this.textJobStatus1.TabIndex = 1;
+            this.textJobStatus1.TextChanged += new System.EventHandler(this.textBox1_TextChanged_2);
+            // 
+            // labYearExperiance
+            // 
+            this.labYearExperiance.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.labYearExperiance.AutoSize = true;
+            this.labYearExperiance.Location = new System.Drawing.Point(316, 6);
+            this.labYearExperiance.Name = "labYearExperiance";
+            this.labYearExperiance.Size = new System.Drawing.Size(101, 13);
+            this.labYearExperiance.TabIndex = 0;
+            this.labYearExperiance.Text = "Years of experiance";
+            this.labYearExperiance.Click += new System.EventHandler(this.labJobStatus_Click);
+            // 
+            // textYearExperiance1
+            // 
+            this.textYearExperiance1.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.textYearExperiance1.Location = new System.Drawing.Point(296, 28);
+            this.textYearExperiance1.MaxLength = 3;
+            this.textYearExperiance1.Name = "textYearExperiance1";
+            this.textYearExperiance1.Size = new System.Drawing.Size(142, 20);
+            this.textYearExperiance1.TabIndex = 1;
+            this.textYearExperiance1.TextChanged += new System.EventHandler(this.textBox1_TextChanged_2);
+            // 
+            // labWorkPlace
+            // 
+            this.labWorkPlace.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.labWorkPlace.AutoSize = true;
+            this.labWorkPlace.Location = new System.Drawing.Point(41, 6);
+            this.labWorkPlace.Name = "labWorkPlace";
+            this.labWorkPlace.Size = new System.Drawing.Size(63, 13);
+            this.labWorkPlace.TabIndex = 0;
+            this.labWorkPlace.Text = "Work Place";
+            this.labWorkPlace.Click += new System.EventHandler(this.labJobStatus_Click);
+            // 
+            // textWorkPlace1
+            // 
+            this.textWorkPlace1.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.textWorkPlace1.Location = new System.Drawing.Point(3, 28);
+            this.textWorkPlace1.Name = "textWorkPlace1";
+            this.textWorkPlace1.Size = new System.Drawing.Size(140, 20);
+            this.textWorkPlace1.TabIndex = 2;
+            this.textWorkPlace1.TextChanged += new System.EventHandler(this.textWorkPlace_TextChanged);
+            // 
+            // textWorkPlace2
+            // 
+            this.textWorkPlace2.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.textWorkPlace2.Location = new System.Drawing.Point(3, 53);
+            this.textWorkPlace2.Name = "textWorkPlace2";
+            this.textWorkPlace2.Size = new System.Drawing.Size(140, 20);
+            this.textWorkPlace2.TabIndex = 3;
+            // 
+            // textJobStatus2
+            // 
+            this.textJobStatus2.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.textJobStatus2.Location = new System.Drawing.Point(149, 53);
+            this.textJobStatus2.Name = "textJobStatus2";
+            this.textJobStatus2.Size = new System.Drawing.Size(141, 20);
+            this.textJobStatus2.TabIndex = 3;
+            // 
+            // textYearExperiance2
+            // 
+            this.textYearExperiance2.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.textYearExperiance2.Location = new System.Drawing.Point(296, 53);
+            this.textYearExperiance2.Name = "textYearExperiance2";
+            this.textYearExperiance2.Size = new System.Drawing.Size(142, 20);
+            this.textYearExperiance2.TabIndex = 3;
+            // 
             // SignUp_MiscDetails
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -602,6 +942,12 @@
             this.tableLayoutPanel1.ResumeLayout(false);
             this.tableLayoutPanel1.PerformLayout();
             this.tableLayoutPanel2.ResumeLayout(false);
+            this.tableLayoutPanel3.ResumeLayout(false);
+            this.tableLayoutPanel3.PerformLayout();
+            this.tableLayoutPanel4.ResumeLayout(false);
+            this.tableLayoutPanel4.PerformLayout();
+            this.tableLayoutPanel5.ResumeLayout(false);
+            this.tableLayoutPanel5.PerformLayout();
             this.ResumeLayout(false);
 
         }
@@ -651,5 +997,31 @@
         private System.Windows.Forms.Label labCast;
         private System.Windows.Forms.ComboBox comboBox1;
         private System.Windows.Forms.Label labReligion;
+        private System.Windows.Forms.Label labOtherCourses;
+        private System.Windows.Forms.TableLayoutPanel tableLayoutPanel4;
+        private System.Windows.Forms.Label labCourseName;
+        private System.Windows.Forms.Label labScore;
+        private System.Windows.Forms.TableLayoutPanel tableLayoutPanel3;
+        private System.Windows.Forms.TextBox texCourseName1;
+        private System.Windows.Forms.TextBox texCourseName2;
+        private System.Windows.Forms.TextBox texCourseName3;
+        private System.Windows.Forms.TextBox texCourseName4;
+        private System.Windows.Forms.TextBox texCourseName5;
+        private System.Windows.Forms.TextBox textScore1;
+        private System.Windows.Forms.TextBox textScore2;
+        private System.Windows.Forms.TextBox textScore3;
+        private System.Windows.Forms.TextBox textScore4;
+        private System.Windows.Forms.TextBox textScore5;
+        private System.Windows.Forms.Label labExperiance;
+        private System.Windows.Forms.TableLayoutPanel tableLayoutPanel5;
+        private System.Windows.Forms.Label labJobStatus;
+        private System.Windows.Forms.TextBox textJobStatus1;
+        private System.Windows.Forms.Label labYearExperiance;
+        private System.Windows.Forms.TextBox textYearExperiance1;
+        private System.Windows.Forms.Label labWorkPlace;
+        private System.Windows.Forms.TextBox textWorkPlace1;
+        private System.Windows.Forms.TextBox textWorkPlace2;
+        private System.Windows.Forms.TextBox textJobStatus2;
+        private System.Windows.Forms.TextBox textYearExperiance2;
     }
 }
