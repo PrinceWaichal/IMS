@@ -43,14 +43,14 @@
             this.SignUpButton = new System.Windows.Forms.Button();
             this.PasswordLabel = new System.Windows.Forms.Label();
             this.PasswordConatiner = new System.Windows.Forms.SplitContainer();
+            this.LibPass = new System.Windows.Forms.TextBox();
             this.UserNameLabel = new System.Windows.Forms.Label();
             this.IDContainer = new System.Windows.Forms.SplitContainer();
+            this.LibID = new System.Windows.Forms.TextBox();
             this.CentralContainerLogin = new System.Windows.Forms.Panel();
             this.tableLayoutPanel2 = new System.Windows.Forms.TableLayoutPanel();
             this.LoginButton = new System.Windows.Forms.Button();
             this.label2 = new System.Windows.Forms.Label();
-            this.LibID = new System.Windows.Forms.TextBox();
-            this.LibPass = new System.Windows.Forms.TextBox();
             this.tableLayoutPanel1.SuspendLayout();
             this.panel1.SuspendLayout();
             this.ButtonPanel.SuspendLayout();
@@ -241,6 +241,14 @@
             this.PasswordConatiner.SplitterDistance = 232;
             this.PasswordConatiner.TabIndex = 1;
             // 
+            // LibPass
+            // 
+            this.LibPass.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.LibPass.Location = new System.Drawing.Point(0, 0);
+            this.LibPass.Name = "LibPass";
+            this.LibPass.Size = new System.Drawing.Size(462, 20);
+            this.LibPass.TabIndex = 1;
+            // 
             // UserNameLabel
             // 
             this.UserNameLabel.AutoSize = true;
@@ -267,6 +275,14 @@
             this.IDContainer.Size = new System.Drawing.Size(698, 145);
             this.IDContainer.SplitterDistance = 232;
             this.IDContainer.TabIndex = 0;
+            // 
+            // LibID
+            // 
+            this.LibID.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.LibID.Location = new System.Drawing.Point(0, 0);
+            this.LibID.Name = "LibID";
+            this.LibID.Size = new System.Drawing.Size(462, 20);
+            this.LibID.TabIndex = 0;
             // 
             // CentralContainerLogin
             // 
@@ -316,22 +332,6 @@
             this.label2.Size = new System.Drawing.Size(371, 44);
             this.label2.TabIndex = 3;
             this.label2.Text = "Library Staff Login";
-            // 
-            // LibID
-            // 
-            this.LibID.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.LibID.Location = new System.Drawing.Point(0, 0);
-            this.LibID.Name = "LibID";
-            this.LibID.Size = new System.Drawing.Size(462, 20);
-            this.LibID.TabIndex = 0;
-            // 
-            // LibPass
-            // 
-            this.LibPass.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.LibPass.Location = new System.Drawing.Point(0, 0);
-            this.LibPass.Name = "LibPass";
-            this.LibPass.Size = new System.Drawing.Size(462, 20);
-            this.LibPass.TabIndex = 1;
             // 
             // LibraryStaffLogin
             // 

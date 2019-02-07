@@ -43,14 +43,14 @@
             this.SignUpButton = new System.Windows.Forms.Button();
             this.PasswordLabel = new System.Windows.Forms.Label();
             this.PasswordConatiner = new System.Windows.Forms.SplitContainer();
+            this.AdminPass = new System.Windows.Forms.TextBox();
             this.UserNameLabel = new System.Windows.Forms.Label();
             this.IDContainer = new System.Windows.Forms.SplitContainer();
+            this.AdminID = new System.Windows.Forms.TextBox();
             this.CentralContainerLogin = new System.Windows.Forms.Panel();
             this.tableLayoutPanel2 = new System.Windows.Forms.TableLayoutPanel();
             this.LoginButton = new System.Windows.Forms.Button();
             this.AdminLoginLabel = new System.Windows.Forms.Label();
-            this.AdminID = new System.Windows.Forms.TextBox();
-            this.AdminPass = new System.Windows.Forms.TextBox();
             this.tableLayoutPanel1.SuspendLayout();
             this.panel1.SuspendLayout();
             this.ButtonPanel.SuspendLayout();
@@ -241,6 +241,15 @@
             this.PasswordConatiner.SplitterDistance = 218;
             this.PasswordConatiner.TabIndex = 1;
             // 
+            // AdminPass
+            // 
+            this.AdminPass.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.AdminPass.Location = new System.Drawing.Point(0, 0);
+            this.AdminPass.Name = "AdminPass";
+            this.AdminPass.PasswordChar = '*';
+            this.AdminPass.Size = new System.Drawing.Size(436, 20);
+            this.AdminPass.TabIndex = 0;
+            // 
             // UserNameLabel
             // 
             this.UserNameLabel.AutoSize = true;
@@ -267,6 +276,14 @@
             this.IDContainer.Size = new System.Drawing.Size(658, 142);
             this.IDContainer.SplitterDistance = 218;
             this.IDContainer.TabIndex = 0;
+            // 
+            // AdminID
+            // 
+            this.AdminID.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.AdminID.Location = new System.Drawing.Point(0, 0);
+            this.AdminID.Name = "AdminID";
+            this.AdminID.Size = new System.Drawing.Size(436, 20);
+            this.AdminID.TabIndex = 0;
             // 
             // CentralContainerLogin
             // 
@@ -316,23 +333,6 @@
             this.AdminLoginLabel.Size = new System.Drawing.Size(399, 44);
             this.AdminLoginLabel.TabIndex = 3;
             this.AdminLoginLabel.Text = "Administrator Login";
-            // 
-            // AdminID
-            // 
-            this.AdminID.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.AdminID.Location = new System.Drawing.Point(0, 0);
-            this.AdminID.Name = "AdminID";
-            this.AdminID.Size = new System.Drawing.Size(436, 20);
-            this.AdminID.TabIndex = 0;
-            // 
-            // AdminPass
-            // 
-            this.AdminPass.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.AdminPass.Location = new System.Drawing.Point(0, 0);
-            this.AdminPass.Name = "AdminPass";
-            this.AdminPass.PasswordChar = '*';
-            this.AdminPass.Size = new System.Drawing.Size(436, 20);
-            this.AdminPass.TabIndex = 0;
             // 
             // AdminLoginWindow
             // 
