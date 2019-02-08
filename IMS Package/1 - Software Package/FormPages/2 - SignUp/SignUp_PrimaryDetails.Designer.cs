@@ -529,6 +529,7 @@
             // splitContainer1.Panel1
             // 
             this.splitContainer1.Panel1.Controls.Add(this.textlabel);
+            this.splitContainer1.Panel1.Controls.Add(this.splitContainer3);
             this.splitContainer1.Panel1.Controls.Add(this.textEmail);
             this.splitContainer1.Panel1.Controls.Add(this.textDOB);
             this.splitContainer1.Panel1.Controls.Add(this.textGender);
@@ -697,7 +698,6 @@
             // panel2
             // 
             this.panel2.Controls.Add(this.splitContainer5);
-            this.panel2.Controls.Add(this.splitContainer3);
             this.panel2.Controls.Add(this.splitContainer1);
             this.panel2.Controls.Add(this.textContact);
             this.panel2.Controls.Add(this.ValidateButton);
@@ -740,7 +740,7 @@
             // 
             // splitContainer3
             // 
-            this.splitContainer3.Location = new System.Drawing.Point(220, 6);
+            this.splitContainer3.Location = new System.Drawing.Point(0, 0);
             this.splitContainer3.Name = "splitContainer3";
             // 
             // splitContainer3.Panel1
