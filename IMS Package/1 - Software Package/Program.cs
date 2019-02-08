@@ -15,7 +15,7 @@ namespace _1___Software_Package
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new FormPages.SignUp_PrimaryDetails());
+            Application.Run(new FormPages._2___SignUp.SignUpReviewWindow());
         }
     }
 }

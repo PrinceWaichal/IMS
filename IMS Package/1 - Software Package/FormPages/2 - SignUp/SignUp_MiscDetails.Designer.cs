@@ -419,7 +419,7 @@
             this.tableLayoutPanel3.Controls.Add(this.BoxPhyDisab, 1, 4);
             this.tableLayoutPanel3.Controls.Add(this.labCast, 2, 4);
             this.tableLayoutPanel3.Controls.Add(this.labAdharCard, 2, 3);
-            this.tableLayoutPanel3.Location = new System.Drawing.Point(215, 33);
+            this.tableLayoutPanel3.Location = new System.Drawing.Point(218, 33);
             this.tableLayoutPanel3.Name = "tableLayoutPanel3";
             this.tableLayoutPanel3.RowCount = 6;
             this.tableLayoutPanel3.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 16.66667F));
@@ -762,6 +762,7 @@
             // panel3
             // 
             this.panel3.AccessibleRole = System.Windows.Forms.AccessibleRole.TitleBar;
+            this.panel3.AutoScroll = true;
             this.panel3.Controls.Add(this.label2);
             this.panel3.Dock = System.Windows.Forms.DockStyle.Top;
             this.panel3.Location = new System.Drawing.Point(0, 0);
