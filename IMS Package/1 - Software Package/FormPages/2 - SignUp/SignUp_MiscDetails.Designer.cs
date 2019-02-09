@@ -38,11 +38,13 @@
             this.texGFirstNam = new System.Windows.Forms.TextBox();
             this.texMLastNam = new System.Windows.Forms.TextBox();
             this.texGLastName = new System.Windows.Forms.TextBox();
+            this.comboBox1 = new System.Windows.Forms.ComboBox();
             this.BoxCast = new System.Windows.Forms.ComboBox();
             this.BoxPhyDisab = new System.Windows.Forms.ComboBox();
             this.BoxMariralStat = new System.Windows.Forms.ComboBox();
             this.BoxCategory = new System.Windows.Forms.ComboBox();
             this.labPhyDisab = new System.Windows.Forms.Label();
+            this.labReligion = new System.Windows.Forms.Label();
             this.labCast = new System.Windows.Forms.Label();
             this.labAdharCard = new System.Windows.Forms.Label();
             this.labParetsContNo = new System.Windows.Forms.Label();
@@ -70,8 +72,6 @@
             this.LoginButton = new System.Windows.Forms.Button();
             this.FilesButton = new System.Windows.Forms.Button();
             this.ReviewButton = new System.Windows.Forms.Button();
-            this.labReligion = new System.Windows.Forms.Label();
-            this.comboBox1 = new System.Windows.Forms.ComboBox();
             this.panel2.SuspendLayout();
             this.ButtonPanel.SuspendLayout();
             this.panel1.SuspendLayout();
@@ -120,7 +120,6 @@
             this.texPContNo.Name = "texPContNo";
             this.texPContNo.Size = new System.Drawing.Size(100, 20);
             this.texPContNo.TabIndex = 8;
-            this.texPContNo.TextChanged += new System.EventHandler(this.textBox7_TextChanged);
             // 
             // texMFirstNam
             // 
@@ -137,7 +136,6 @@
             this.texAdharNo.Name = "texAdharNo";
             this.texAdharNo.Size = new System.Drawing.Size(121, 20);
             this.texAdharNo.TabIndex = 8;
-            this.texAdharNo.TextChanged += new System.EventHandler(this.textBox6_TextChanged);
             // 
             // texMMiddleNam
             // 
@@ -154,7 +152,6 @@
             this.texGMiddleNam.Size = new System.Drawing.Size(100, 20);
             this.texGMiddleNam.TabIndex = 8;
             this.texGMiddleNam.Text = "Middle Name";
-            this.texGMiddleNam.TextChanged += new System.EventHandler(this.textBox1_TextChanged);
             // 
             // texGFirstNam
             // 
@@ -163,7 +160,6 @@
             this.texGFirstNam.Size = new System.Drawing.Size(100, 20);
             this.texGFirstNam.TabIndex = 8;
             this.texGFirstNam.Text = "First Name";
-            this.texGFirstNam.TextChanged += new System.EventHandler(this.textBox1_TextChanged);
             // 
             // texMLastNam
             // 
@@ -180,7 +176,23 @@
             this.texGLastName.Size = new System.Drawing.Size(100, 20);
             this.texGLastName.TabIndex = 8;
             this.texGLastName.Text = "Last Name";
-            this.texGLastName.TextChanged += new System.EventHandler(this.textBox1_TextChanged);
+            // 
+            // comboBox1
+            // 
+            this.comboBox1.FormattingEnabled = true;
+            this.comboBox1.Items.AddRange(new object[] {
+            "Hindu",
+            "Islam",
+            "Christianity",
+            "Sikhism",
+            "Buddhism",
+            "Jainism",
+            "Zoroastrianism",
+            "Judaism "});
+            this.comboBox1.Location = new System.Drawing.Point(459, 297);
+            this.comboBox1.Name = "comboBox1";
+            this.comboBox1.Size = new System.Drawing.Size(121, 21);
+            this.comboBox1.TabIndex = 7;
             // 
             // BoxCast
             // 
@@ -208,7 +220,6 @@
             this.BoxMariralStat.Name = "BoxMariralStat";
             this.BoxMariralStat.Size = new System.Drawing.Size(121, 21);
             this.BoxMariralStat.TabIndex = 7;
-            this.BoxMariralStat.SelectedIndexChanged += new System.EventHandler(this.comboBox2_SelectedIndexChanged);
             // 
             // BoxCategory
             // 
@@ -236,7 +247,16 @@
             this.labPhyDisab.Size = new System.Drawing.Size(90, 13);
             this.labPhyDisab.TabIndex = 6;
             this.labPhyDisab.Text = "Physical Disability";
-            this.labPhyDisab.Click += new System.EventHandler(this.label3_Click);
+            // 
+            // labReligion
+            // 
+            this.labReligion.AccessibleRole = System.Windows.Forms.AccessibleRole.Grip;
+            this.labReligion.AutoSize = true;
+            this.labReligion.Location = new System.Drawing.Point(221, 305);
+            this.labReligion.Name = "labReligion";
+            this.labReligion.Size = new System.Drawing.Size(45, 13);
+            this.labReligion.TabIndex = 6;
+            this.labReligion.Text = "Religion";
             // 
             // labCast
             // 
@@ -246,7 +266,6 @@
             this.labCast.Size = new System.Drawing.Size(28, 13);
             this.labCast.TabIndex = 6;
             this.labCast.Text = "Cast";
-            this.labCast.Click += new System.EventHandler(this.label3_Click);
             // 
             // labAdharCard
             // 
@@ -256,7 +275,6 @@
             this.labAdharCard.Size = new System.Drawing.Size(84, 13);
             this.labAdharCard.TabIndex = 6;
             this.labAdharCard.Text = "Adhar Chard no.";
-            this.labAdharCard.Click += new System.EventHandler(this.label3_Click);
             // 
             // labParetsContNo
             // 
@@ -266,7 +284,6 @@
             this.labParetsContNo.Size = new System.Drawing.Size(105, 13);
             this.labParetsContNo.TabIndex = 6;
             this.labParetsContNo.Text = "Parent\'s Contact No.";
-            this.labParetsContNo.Click += new System.EventHandler(this.label3_Click);
             // 
             // labCategory
             // 
@@ -276,7 +293,6 @@
             this.labCategory.Size = new System.Drawing.Size(49, 13);
             this.labCategory.TabIndex = 6;
             this.labCategory.Text = "Category";
-            this.labCategory.Click += new System.EventHandler(this.label3_Click);
             // 
             // labMaritalSta
             // 
@@ -286,7 +302,6 @@
             this.labMaritalSta.Size = new System.Drawing.Size(71, 13);
             this.labMaritalSta.TabIndex = 6;
             this.labMaritalSta.Text = "Marital Status";
-            this.labMaritalSta.Click += new System.EventHandler(this.label3_Click);
             // 
             // labGuardName
             // 
@@ -296,7 +311,6 @@
             this.labGuardName.Size = new System.Drawing.Size(195, 13);
             this.labGuardName.TabIndex = 6;
             this.labGuardName.Text = "Father\'s /Husband\'s /Guardinan\'s name";
-            this.labGuardName.Click += new System.EventHandler(this.label3_Click);
             // 
             // labMotherNam
             // 
@@ -306,7 +320,6 @@
             this.labMotherNam.Size = new System.Drawing.Size(78, 13);
             this.labMotherNam.TabIndex = 6;
             this.labMotherNam.Text = "Mother\'s Name";
-            this.labMotherNam.Click += new System.EventHandler(this.label3_Click);
             // 
             // labOtherPDetail
             // 
@@ -316,7 +329,6 @@
             this.labOtherPDetail.Size = new System.Drawing.Size(112, 13);
             this.labOtherPDetail.TabIndex = 6;
             this.labOtherPDetail.Text = "Other Personal Details";
-            this.labOtherPDetail.Click += new System.EventHandler(this.label3_Click);
             // 
             // ValidateButton
             // 
@@ -551,34 +563,6 @@
             this.ReviewButton.TabIndex = 5;
             this.ReviewButton.Text = "Review Your Application";
             this.ReviewButton.UseVisualStyleBackColor = true;
-            // 
-            // labReligion
-            // 
-            this.labReligion.AccessibleRole = System.Windows.Forms.AccessibleRole.Grip;
-            this.labReligion.AutoSize = true;
-            this.labReligion.Location = new System.Drawing.Point(221, 305);
-            this.labReligion.Name = "labReligion";
-            this.labReligion.Size = new System.Drawing.Size(45, 13);
-            this.labReligion.TabIndex = 6;
-            this.labReligion.Text = "Religion";
-            this.labReligion.Click += new System.EventHandler(this.label3_Click);
-            // 
-            // comboBox1
-            // 
-            this.comboBox1.FormattingEnabled = true;
-            this.comboBox1.Items.AddRange(new object[] {
-            "Hindu",
-            "Islam",
-            "Christianity",
-            "Sikhism",
-            "Buddhism",
-            "Jainism",
-            "Zoroastrianism",
-            "Judaism "});
-            this.comboBox1.Location = new System.Drawing.Point(459, 297);
-            this.comboBox1.Name = "comboBox1";
-            this.comboBox1.Size = new System.Drawing.Size(121, 21);
-            this.comboBox1.TabIndex = 7;
             // 
             // SignUp_MiscDetails
             // 

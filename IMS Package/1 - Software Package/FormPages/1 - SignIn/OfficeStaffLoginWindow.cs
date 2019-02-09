@@ -15,5 +15,52 @@ namespace _1___Software_Package.FormPages._1___SignIn
         {
             InitializeComponent();
         }
+
+        private void OSAdminLogin(object sender, EventArgs e)
+        {
+            this.Hide();
+            FormPages._1___SignIn.AdminLoginWindow AdminLogin = new AdminLoginWindow();
+            this.Show();
+        }
+
+        private void OSStudLogin(object sender, EventArgs e)
+        {
+            this.Hide();
+            FormPages._1___SignIn.StudentLoginWindow StudLogin = new StudentLoginWindow();
+            this.Show();
+        }
+
+        private void OSTeachLogin(object sender, EventArgs e)
+        {
+            this.Hide();
+            FormPages._1___SignIn.TeachersLoginWindow TeachLogin = new TeachersLoginWindow();
+            this.Show();
+        }
+
+        private void OSOfficeLogin(object sender, EventArgs e)
+        {
+            this.Hide();
+            FormPages._1___SignIn.OfficeStaffLoginWindow OfficeLogin = new OfficeStaffLoginWindow();
+            this.Show();
+        }
+
+        private void OSLibLogin(object sender, EventArgs e)
+        {
+            this.Hide();
+            FormPages._1___SignIn.LibraryStaffLogin LibLogin = new LibraryStaffLogin();
+            this.Show();
+        }
+
+        private void OSSignUp(object sender, EventArgs e)
+        {
+            this.Hide();
+            FormPages.SignUp_PrimaryDetails SignUp = new SignUp_PrimaryDetails();
+            this.Show();
+        }
+
+        private void OSLogin(object sender, EventArgs e)
+        {
+            //Do Validation
+        }
     }
 }

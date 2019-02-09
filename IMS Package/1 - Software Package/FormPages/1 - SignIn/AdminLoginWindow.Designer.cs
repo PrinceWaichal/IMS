@@ -43,14 +43,14 @@
             this.SignUpButton = new System.Windows.Forms.Button();
             this.PasswordLabel = new System.Windows.Forms.Label();
             this.PasswordConatiner = new System.Windows.Forms.SplitContainer();
+            this.AdminPass = new System.Windows.Forms.TextBox();
             this.UserNameLabel = new System.Windows.Forms.Label();
             this.IDContainer = new System.Windows.Forms.SplitContainer();
+            this.AdminID = new System.Windows.Forms.TextBox();
             this.CentralContainerLogin = new System.Windows.Forms.Panel();
             this.tableLayoutPanel2 = new System.Windows.Forms.TableLayoutPanel();
             this.LoginButton = new System.Windows.Forms.Button();
             this.AdminLoginLabel = new System.Windows.Forms.Label();
-            this.AdminID = new System.Windows.Forms.TextBox();
-            this.AdminPass = new System.Windows.Forms.TextBox();
             this.tableLayoutPanel1.SuspendLayout();
             this.panel1.SuspendLayout();
             this.ButtonPanel.SuspendLayout();
@@ -138,6 +138,7 @@
             this.AdminButton.TabIndex = 3;
             this.AdminButton.Text = "Admin Login";
             this.AdminButton.UseVisualStyleBackColor = true;
+            this.AdminButton.Click += new System.EventHandler(this.ALAdminLogin);
             // 
             // ButtonPanel
             // 
@@ -172,6 +173,7 @@
             this.StudentButton.TabIndex = 4;
             this.StudentButton.Text = "Student Login";
             this.StudentButton.UseVisualStyleBackColor = true;
+            this.StudentButton.Click += new System.EventHandler(this.ALStudLogin);
             // 
             // TeacherButton
             // 
@@ -182,6 +184,7 @@
             this.TeacherButton.TabIndex = 5;
             this.TeacherButton.Text = "Teachers Login";
             this.TeacherButton.UseVisualStyleBackColor = true;
+            this.TeacherButton.Click += new System.EventHandler(this.ALTeachLogin);
             // 
             // OfficeStaffButton
             // 
@@ -192,6 +195,7 @@
             this.OfficeStaffButton.TabIndex = 6;
             this.OfficeStaffButton.Text = "Office Staff Login";
             this.OfficeStaffButton.UseVisualStyleBackColor = true;
+            this.OfficeStaffButton.Click += new System.EventHandler(this.ALOfficeLogin);
             // 
             // LibStaffButton
             // 
@@ -202,6 +206,7 @@
             this.LibStaffButton.TabIndex = 7;
             this.LibStaffButton.Text = "Library Staff Login";
             this.LibStaffButton.UseVisualStyleBackColor = true;
+            this.LibStaffButton.Click += new System.EventHandler(this.LibLogin);
             // 
             // SignUpButton
             // 
@@ -212,6 +217,7 @@
             this.SignUpButton.TabIndex = 8;
             this.SignUpButton.Text = "Sign Up Page";
             this.SignUpButton.UseVisualStyleBackColor = true;
+            this.SignUpButton.Click += new System.EventHandler(this.SignUp);
             // 
             // PasswordLabel
             // 
@@ -241,6 +247,15 @@
             this.PasswordConatiner.SplitterDistance = 218;
             this.PasswordConatiner.TabIndex = 1;
             // 
+            // AdminPass
+            // 
+            this.AdminPass.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.AdminPass.Location = new System.Drawing.Point(0, 0);
+            this.AdminPass.Name = "AdminPass";
+            this.AdminPass.PasswordChar = '*';
+            this.AdminPass.Size = new System.Drawing.Size(436, 20);
+            this.AdminPass.TabIndex = 0;
+            // 
             // UserNameLabel
             // 
             this.UserNameLabel.AutoSize = true;
@@ -267,6 +282,14 @@
             this.IDContainer.Size = new System.Drawing.Size(658, 142);
             this.IDContainer.SplitterDistance = 218;
             this.IDContainer.TabIndex = 0;
+            // 
+            // AdminID
+            // 
+            this.AdminID.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.AdminID.Location = new System.Drawing.Point(0, 0);
+            this.AdminID.Name = "AdminID";
+            this.AdminID.Size = new System.Drawing.Size(436, 20);
+            this.AdminID.TabIndex = 0;
             // 
             // CentralContainerLogin
             // 
@@ -306,6 +329,7 @@
             this.LoginButton.TabIndex = 2;
             this.LoginButton.Text = "Login";
             this.LoginButton.UseVisualStyleBackColor = true;
+            this.LoginButton.Click += new System.EventHandler(this.AdminSignIn);
             // 
             // AdminLoginLabel
             // 
@@ -316,23 +340,6 @@
             this.AdminLoginLabel.Size = new System.Drawing.Size(399, 44);
             this.AdminLoginLabel.TabIndex = 3;
             this.AdminLoginLabel.Text = "Administrator Login";
-            // 
-            // AdminID
-            // 
-            this.AdminID.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.AdminID.Location = new System.Drawing.Point(0, 0);
-            this.AdminID.Name = "AdminID";
-            this.AdminID.Size = new System.Drawing.Size(436, 20);
-            this.AdminID.TabIndex = 0;
-            // 
-            // AdminPass
-            // 
-            this.AdminPass.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.AdminPass.Location = new System.Drawing.Point(0, 0);
-            this.AdminPass.Name = "AdminPass";
-            this.AdminPass.PasswordChar = '*';
-            this.AdminPass.Size = new System.Drawing.Size(436, 20);
-            this.AdminPass.TabIndex = 0;
             // 
             // AdminLoginWindow
             // 
