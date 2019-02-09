@@ -35,5 +35,10 @@ namespace _1___Software_Package.FormPages._2___SignUp
         {
 
         }
+
+        private void labOtherCourses_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }
