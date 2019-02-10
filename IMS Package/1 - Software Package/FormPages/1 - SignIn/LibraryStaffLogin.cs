@@ -1,11 +1,6 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.ComponentModel;
-using System.Data;
-using System.Drawing;
-using System.Linq;
-using System.Text;
 using System.Windows.Forms;
+using MySql.Data.MySqlClient;
 
 namespace _1___Software_Package.FormPages._1___SignIn
 {
@@ -16,51 +11,64 @@ namespace _1___Software_Package.FormPages._1___SignIn
             InitializeComponent();
         }
 
+        MySqlConnection mySQLConnection = new
+                MySqlConnection("server=localhost;user id=root;password=root;" +
+             "persistsecurityinfo=True;database=MastersSchema");
+
         private void LSAdminLogin(object sender, EventArgs e)
         {
             this.Hide();
             FormPages._1___SignIn.AdminLoginWindow AdminLogin = new AdminLoginWindow();
-            this.Show();
+            AdminLogin.Show();
         }
 
         private void LSStudLogin(object sender, EventArgs e)
         {
             this.Hide();
             FormPages._1___SignIn.StudentLoginWindow StudLogin = new StudentLoginWindow();
-            this.Show();
+            StudLogin.Show();
         }
 
         private void LSTeachLogin(object sender, EventArgs e)
         {
             this.Hide();
             FormPages._1___SignIn.TeachersLoginWindow TeachLogin = new TeachersLoginWindow();
-            this.Show();
+            TeachLogin.Show();
         }
 
         private void LSOfficeLogin(object sender, EventArgs e)
         {
             this.Hide();
             FormPages._1___SignIn.OfficeStaffLoginWindow OfficeLogin = new OfficeStaffLoginWindow();
-            this.Show();
+            OfficeLogin.Show();
         }
 
         private void LSLibLogin(object sender, EventArgs e)
         {
             this.Hide();
             FormPages._1___SignIn.LibraryStaffLogin LibLogin = new LibraryStaffLogin();
-            this.Show();
+            LibLogin.Show();
         }
 
         private void LSSignUp(object sender, EventArgs e)
         {
             this.Hide();
             FormPages.SignUp_PrimaryDetails SignUp = new SignUp_PrimaryDetails();
-            this.Show();
+            SignUp.Show();
         }
 
         private void LSLogin(object sender, EventArgs e)
         {
             //Do Validation
+            try
+            {
+                mySQLConnection.Open();
+                MessageBox.Show("Successful Connection");
+            }
+            catch
+            {
+                MessageBox.Show("Failed to Connect");
+            }
         }
     }
 }

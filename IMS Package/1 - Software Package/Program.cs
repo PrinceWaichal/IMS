@@ -1,6 +1,4 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
 using System.Windows.Forms;
 
 namespace _1___Software_Package
@@ -15,7 +13,7 @@ namespace _1___Software_Package
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new FormPages.SignUp_PrimaryDetails());
+            Application.Run(new FormPages._1___SignIn.AdminLoginWindow());
         }
     }
 }

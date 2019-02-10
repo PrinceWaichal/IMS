@@ -138,6 +138,7 @@
             this.AdminButton.TabIndex = 3;
             this.AdminButton.Text = "Admin Login";
             this.AdminButton.UseVisualStyleBackColor = true;
+            this.AdminButton.Click += new System.EventHandler(this.SLAdminLogin);
             // 
             // ButtonPanel
             // 
@@ -172,6 +173,7 @@
             this.StudentButton.TabIndex = 4;
             this.StudentButton.Text = "Student Login";
             this.StudentButton.UseVisualStyleBackColor = true;
+            this.StudentButton.Click += new System.EventHandler(this.SLStudLogin);
             // 
             // TeacherButton
             // 
@@ -182,6 +184,7 @@
             this.TeacherButton.TabIndex = 5;
             this.TeacherButton.Text = "Teachers Login";
             this.TeacherButton.UseVisualStyleBackColor = true;
+            this.TeacherButton.Click += new System.EventHandler(this.SLTeachLogin);
             // 
             // OfficeStaffButton
             // 
@@ -192,6 +195,7 @@
             this.OfficeStaffButton.TabIndex = 6;
             this.OfficeStaffButton.Text = "Office Staff Login";
             this.OfficeStaffButton.UseVisualStyleBackColor = true;
+            this.OfficeStaffButton.Click += new System.EventHandler(this.SLOfficeLogin);
             // 
             // LibStaffButton
             // 
@@ -202,6 +206,7 @@
             this.LibStaffButton.TabIndex = 7;
             this.LibStaffButton.Text = "Library Staff Login";
             this.LibStaffButton.UseVisualStyleBackColor = true;
+            this.LibStaffButton.Click += new System.EventHandler(this.SLLibLogin);
             // 
             // SignUpButton
             // 
@@ -212,6 +217,7 @@
             this.SignUpButton.TabIndex = 8;
             this.SignUpButton.Text = "Sign Up Page";
             this.SignUpButton.UseVisualStyleBackColor = true;
+            this.SignUpButton.Click += new System.EventHandler(this.SLSignUp);
             // 
             // PasswordLabel
             // 
@@ -323,7 +329,7 @@
             this.LoginButton.TabIndex = 2;
             this.LoginButton.Text = "Login";
             this.LoginButton.UseVisualStyleBackColor = true;
-            this.LoginButton.Click += new System.EventHandler(this.LoginButton_Click);
+            this.LoginButton.Click += new System.EventHandler(this.SLLoginButton);
             // 
             // label2
             // 

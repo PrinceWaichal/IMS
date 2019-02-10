@@ -28,6 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(TeachersLoginWindow));
             this.label1 = new System.Windows.Forms.Label();
             this.linkLabel1 = new System.Windows.Forms.LinkLabel();
             this.linkLabel2 = new System.Windows.Forms.LinkLabel();
@@ -42,13 +43,13 @@
             this.SignUpButton = new System.Windows.Forms.Button();
             this.PasswordLabel = new System.Windows.Forms.Label();
             this.PasswordConatiner = new System.Windows.Forms.SplitContainer();
+            this.TeachPass = new System.Windows.Forms.TextBox();
             this.UserNameLabel = new System.Windows.Forms.Label();
             this.IDContainer = new System.Windows.Forms.SplitContainer();
+            this.TeachID = new System.Windows.Forms.TextBox();
             this.CentralContainerLogin = new System.Windows.Forms.Panel();
             this.tableLayoutPanel2 = new System.Windows.Forms.TableLayoutPanel();
             this.LoginButton = new System.Windows.Forms.Button();
-            this.TeachID = new System.Windows.Forms.TextBox();
-            this.TeachPass = new System.Windows.Forms.TextBox();
             this.label2 = new System.Windows.Forms.Label();
             this.tableLayoutPanel1.SuspendLayout();
             this.panel1.SuspendLayout();
@@ -137,6 +138,7 @@
             this.AdminButton.TabIndex = 3;
             this.AdminButton.Text = "Admin Login";
             this.AdminButton.UseVisualStyleBackColor = true;
+            this.AdminButton.Click += new System.EventHandler(this.TLAdminLogin);
             // 
             // ButtonPanel
             // 
@@ -171,6 +173,7 @@
             this.StudentButton.TabIndex = 4;
             this.StudentButton.Text = "Student Login";
             this.StudentButton.UseVisualStyleBackColor = true;
+            this.StudentButton.Click += new System.EventHandler(this.TLStudLogin);
             // 
             // TeacherButton
             // 
@@ -181,6 +184,7 @@
             this.TeacherButton.TabIndex = 5;
             this.TeacherButton.Text = "Teachers Login";
             this.TeacherButton.UseVisualStyleBackColor = true;
+            this.TeacherButton.Click += new System.EventHandler(this.TLTeachLogin);
             // 
             // OfficeStaffButton
             // 
@@ -191,6 +195,7 @@
             this.OfficeStaffButton.TabIndex = 6;
             this.OfficeStaffButton.Text = "Office Staff Login";
             this.OfficeStaffButton.UseVisualStyleBackColor = true;
+            this.OfficeStaffButton.Click += new System.EventHandler(this.TLOfficeLogin);
             // 
             // LibStaffButton
             // 
@@ -201,6 +206,7 @@
             this.LibStaffButton.TabIndex = 7;
             this.LibStaffButton.Text = "Library Staff Login";
             this.LibStaffButton.UseVisualStyleBackColor = true;
+            this.LibStaffButton.Click += new System.EventHandler(this.TLLibLogin);
             // 
             // SignUpButton
             // 
@@ -211,6 +217,7 @@
             this.SignUpButton.TabIndex = 8;
             this.SignUpButton.Text = "Sign Up Page";
             this.SignUpButton.UseVisualStyleBackColor = true;
+            this.SignUpButton.Click += new System.EventHandler(this.TLSignUp);
             // 
             // PasswordLabel
             // 
@@ -240,6 +247,14 @@
             this.PasswordConatiner.SplitterDistance = 232;
             this.PasswordConatiner.TabIndex = 1;
             // 
+            // TeachPass
+            // 
+            this.TeachPass.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.TeachPass.Location = new System.Drawing.Point(0, 0);
+            this.TeachPass.Name = "TeachPass";
+            this.TeachPass.Size = new System.Drawing.Size(462, 20);
+            this.TeachPass.TabIndex = 1;
+            // 
             // UserNameLabel
             // 
             this.UserNameLabel.AutoSize = true;
@@ -266,6 +281,14 @@
             this.IDContainer.Size = new System.Drawing.Size(698, 147);
             this.IDContainer.SplitterDistance = 232;
             this.IDContainer.TabIndex = 0;
+            // 
+            // TeachID
+            // 
+            this.TeachID.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.TeachID.Location = new System.Drawing.Point(0, 0);
+            this.TeachID.Name = "TeachID";
+            this.TeachID.Size = new System.Drawing.Size(462, 20);
+            this.TeachID.TabIndex = 0;
             // 
             // CentralContainerLogin
             // 
@@ -305,22 +328,7 @@
             this.LoginButton.TabIndex = 2;
             this.LoginButton.Text = "Login";
             this.LoginButton.UseVisualStyleBackColor = true;
-            // 
-            // TeachID
-            // 
-            this.TeachID.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.TeachID.Location = new System.Drawing.Point(0, 0);
-            this.TeachID.Name = "TeachID";
-            this.TeachID.Size = new System.Drawing.Size(462, 20);
-            this.TeachID.TabIndex = 0;
-            // 
-            // TeachPass
-            // 
-            this.TeachPass.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.TeachPass.Location = new System.Drawing.Point(0, 0);
-            this.TeachPass.Name = "TeachPass";
-            this.TeachPass.Size = new System.Drawing.Size(462, 20);
-            this.TeachPass.TabIndex = 1;
+            this.LoginButton.Click += new System.EventHandler(this.TLLogin);
             // 
             // label2
             // 
@@ -328,9 +336,9 @@
             this.label2.Font = new System.Drawing.Font("Lucida Calligraphy", 25.25F, System.Drawing.FontStyle.Underline, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label2.Location = new System.Drawing.Point(3, 0);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(276, 44);
+            this.label2.Size = new System.Drawing.Size(291, 44);
             this.label2.TabIndex = 3;
-            this.label2.Text = "Teacher Login";
+            this.label2.Text = "Teachers Login";
             // 
             // TeachersLoginWindow
             // 
@@ -340,8 +348,9 @@
             this.Controls.Add(this.CentralContainerLogin);
             this.Controls.Add(this.tableLayoutPanel1);
             this.Controls.Add(this.panel1);
+            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Name = "TeachersLoginWindow";
-            this.Text = "TeachersLoginWindow";
+            this.Text = "Teachers Login";
             this.tableLayoutPanel1.ResumeLayout(false);
             this.tableLayoutPanel1.PerformLayout();
             this.panel1.ResumeLayout(false);
