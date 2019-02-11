@@ -42,6 +42,7 @@
             this.FilesButton = new System.Windows.Forms.Button();
             this.ReviewButton = new System.Windows.Forms.Button();
             this.panel2 = new System.Windows.Forms.Panel();
+            this.Other_Cources = new System.Windows.Forms.Label();
             this.labEduDetails = new System.Windows.Forms.Label();
             this.labOtherCourses = new System.Windows.Forms.Label();
             this.tableLayoutPanel5 = new System.Windows.Forms.TableLayoutPanel();
@@ -369,6 +370,7 @@
             // panel2
             // 
             this.panel2.AutoScroll = true;
+            this.panel2.Controls.Add(this.Other_Cources);
             this.panel2.Controls.Add(this.labEduDetails);
             this.panel2.Controls.Add(this.labOtherCourses);
             this.panel2.Controls.Add(this.tableLayoutPanel5);
@@ -387,6 +389,15 @@
             this.panel2.Size = new System.Drawing.Size(673, 676);
             this.panel2.TabIndex = 12;
             // 
+            // Other_Cources
+            // 
+            this.Other_Cources.AutoSize = true;
+            this.Other_Cources.Location = new System.Drawing.Point(7, 1137);
+            this.Other_Cources.Name = "Other_Cources";
+            this.Other_Cources.Size = new System.Drawing.Size(73, 13);
+            this.Other_Cources.TabIndex = 32;
+            this.Other_Cources.Text = "Other courses";
+            // 
             // labEduDetails
             // 
             this.labEduDetails.AutoSize = true;
@@ -400,7 +411,7 @@
             // 
             this.labOtherCourses.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.labOtherCourses.AutoSize = true;
-            this.labOtherCourses.Location = new System.Drawing.Point(7, 1722);
+            this.labOtherCourses.Location = new System.Drawing.Point(-2, 3639);
             this.labOtherCourses.Name = "labOtherCourses";
             this.labOtherCourses.Size = new System.Drawing.Size(73, 13);
             this.labOtherCourses.TabIndex = 30;
@@ -409,6 +420,7 @@
             // 
             // tableLayoutPanel5
             // 
+            this.tableLayoutPanel5.CellBorderStyle = System.Windows.Forms.TableLayoutPanelCellBorderStyle.Single;
             this.tableLayoutPanel5.ColumnCount = 3;
             this.tableLayoutPanel5.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 33.33333F));
             this.tableLayoutPanel5.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 33.33334F));
@@ -422,7 +434,7 @@
             this.tableLayoutPanel5.Controls.Add(this.textWorkPlace2, 0, 2);
             this.tableLayoutPanel5.Controls.Add(this.textJobStatus2, 1, 2);
             this.tableLayoutPanel5.Controls.Add(this.textYearExperiance2, 2, 2);
-            this.tableLayoutPanel5.Location = new System.Drawing.Point(10, 1233);
+            this.tableLayoutPanel5.Location = new System.Drawing.Point(9, 1369);
             this.tableLayoutPanel5.Name = "tableLayoutPanel5";
             this.tableLayoutPanel5.RowCount = 3;
             this.tableLayoutPanel5.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 33.33333F));
@@ -444,9 +456,9 @@
             // textJobStatus1
             // 
             this.textJobStatus1.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.textJobStatus1.Location = new System.Drawing.Point(149, 29);
+            this.textJobStatus1.Location = new System.Drawing.Point(150, 29);
             this.textJobStatus1.Name = "textJobStatus1";
-            this.textJobStatus1.Size = new System.Drawing.Size(141, 20);
+            this.textJobStatus1.Size = new System.Drawing.Size(139, 20);
             this.textJobStatus1.TabIndex = 25;
             // 
             // labYearExperiance
@@ -465,14 +477,14 @@
             this.textYearExperiance1.Location = new System.Drawing.Point(296, 29);
             this.textYearExperiance1.MaxLength = 3;
             this.textYearExperiance1.Name = "textYearExperiance1";
-            this.textYearExperiance1.Size = new System.Drawing.Size(142, 20);
+            this.textYearExperiance1.Size = new System.Drawing.Size(141, 20);
             this.textYearExperiance1.TabIndex = 26;
             // 
             // labWorkPlace
             // 
             this.labWorkPlace.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.labWorkPlace.AutoSize = true;
-            this.labWorkPlace.Location = new System.Drawing.Point(41, 6);
+            this.labWorkPlace.Location = new System.Drawing.Point(42, 6);
             this.labWorkPlace.Name = "labWorkPlace";
             this.labWorkPlace.Size = new System.Drawing.Size(63, 13);
             this.labWorkPlace.TabIndex = 0;
@@ -481,39 +493,39 @@
             // textWorkPlace1
             // 
             this.textWorkPlace1.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.textWorkPlace1.Location = new System.Drawing.Point(3, 29);
+            this.textWorkPlace1.Location = new System.Drawing.Point(4, 29);
             this.textWorkPlace1.Name = "textWorkPlace1";
-            this.textWorkPlace1.Size = new System.Drawing.Size(140, 20);
+            this.textWorkPlace1.Size = new System.Drawing.Size(139, 20);
             this.textWorkPlace1.TabIndex = 24;
             // 
             // textWorkPlace2
             // 
             this.textWorkPlace2.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.textWorkPlace2.Location = new System.Drawing.Point(3, 55);
+            this.textWorkPlace2.Location = new System.Drawing.Point(4, 54);
             this.textWorkPlace2.Name = "textWorkPlace2";
-            this.textWorkPlace2.Size = new System.Drawing.Size(140, 20);
+            this.textWorkPlace2.Size = new System.Drawing.Size(139, 20);
             this.textWorkPlace2.TabIndex = 27;
             // 
             // textJobStatus2
             // 
             this.textJobStatus2.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.textJobStatus2.Location = new System.Drawing.Point(149, 55);
+            this.textJobStatus2.Location = new System.Drawing.Point(150, 54);
             this.textJobStatus2.Name = "textJobStatus2";
-            this.textJobStatus2.Size = new System.Drawing.Size(141, 20);
+            this.textJobStatus2.Size = new System.Drawing.Size(139, 20);
             this.textJobStatus2.TabIndex = 28;
             // 
             // textYearExperiance2
             // 
             this.textYearExperiance2.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.textYearExperiance2.Location = new System.Drawing.Point(296, 55);
+            this.textYearExperiance2.Location = new System.Drawing.Point(296, 54);
             this.textYearExperiance2.Name = "textYearExperiance2";
-            this.textYearExperiance2.Size = new System.Drawing.Size(142, 20);
+            this.textYearExperiance2.Size = new System.Drawing.Size(141, 20);
             this.textYearExperiance2.TabIndex = 29;
             // 
             // labExperiance
             // 
             this.labExperiance.AutoSize = true;
-            this.labExperiance.Location = new System.Drawing.Point(9, 1217);
+            this.labExperiance.Location = new System.Drawing.Point(9, 1341);
             this.labExperiance.Name = "labExperiance";
             this.labExperiance.Size = new System.Drawing.Size(89, 13);
             this.labExperiance.TabIndex = 28;
@@ -521,6 +533,7 @@
             // 
             // tableLayoutPanel4
             // 
+            this.tableLayoutPanel4.CellBorderStyle = System.Windows.Forms.TableLayoutPanelCellBorderStyle.Single;
             this.tableLayoutPanel4.ColumnCount = 2;
             this.tableLayoutPanel4.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 75F));
             this.tableLayoutPanel4.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 25F));
@@ -536,7 +549,7 @@
             this.tableLayoutPanel4.Controls.Add(this.textScore3, 1, 3);
             this.tableLayoutPanel4.Controls.Add(this.textScore4, 1, 4);
             this.tableLayoutPanel4.Controls.Add(this.textScore5, 1, 5);
-            this.tableLayoutPanel4.Location = new System.Drawing.Point(9, 1080);
+            this.tableLayoutPanel4.Location = new System.Drawing.Point(6, 1162);
             this.tableLayoutPanel4.Name = "tableLayoutPanel4";
             this.tableLayoutPanel4.RowCount = 6;
             this.tableLayoutPanel4.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 16.66667F));
@@ -545,14 +558,14 @@
             this.tableLayoutPanel4.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 16.66667F));
             this.tableLayoutPanel4.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 16.66667F));
             this.tableLayoutPanel4.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 16.66667F));
-            this.tableLayoutPanel4.Size = new System.Drawing.Size(580, 134);
+            this.tableLayoutPanel4.Size = new System.Drawing.Size(580, 146);
             this.tableLayoutPanel4.TabIndex = 27;
             // 
             // labCourseName
             // 
             this.labCourseName.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.labCourseName.AutoSize = true;
-            this.labCourseName.Location = new System.Drawing.Point(173, 4);
+            this.labCourseName.Location = new System.Drawing.Point(173, 6);
             this.labCourseName.Name = "labCourseName";
             this.labCourseName.Size = new System.Drawing.Size(88, 13);
             this.labCourseName.TabIndex = 0;
@@ -562,7 +575,7 @@
             // 
             this.labScore.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.labScore.AutoSize = true;
-            this.labScore.Location = new System.Drawing.Point(490, 4);
+            this.labScore.Location = new System.Drawing.Point(489, 6);
             this.labScore.Name = "labScore";
             this.labScore.Size = new System.Drawing.Size(35, 13);
             this.labScore.TabIndex = 0;
@@ -571,47 +584,47 @@
             // texCourseName1
             // 
             this.texCourseName1.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.texCourseName1.Location = new System.Drawing.Point(3, 25);
+            this.texCourseName1.Location = new System.Drawing.Point(4, 28);
             this.texCourseName1.Name = "texCourseName1";
-            this.texCourseName1.Size = new System.Drawing.Size(429, 20);
+            this.texCourseName1.Size = new System.Drawing.Size(426, 20);
             this.texCourseName1.TabIndex = 14;
             // 
             // texCourseName2
             // 
             this.texCourseName2.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.texCourseName2.Location = new System.Drawing.Point(3, 47);
+            this.texCourseName2.Location = new System.Drawing.Point(4, 52);
             this.texCourseName2.Name = "texCourseName2";
-            this.texCourseName2.Size = new System.Drawing.Size(429, 20);
+            this.texCourseName2.Size = new System.Drawing.Size(426, 20);
             this.texCourseName2.TabIndex = 16;
             // 
             // texCourseName3
             // 
             this.texCourseName3.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.texCourseName3.Location = new System.Drawing.Point(3, 69);
+            this.texCourseName3.Location = new System.Drawing.Point(4, 76);
             this.texCourseName3.Name = "texCourseName3";
-            this.texCourseName3.Size = new System.Drawing.Size(429, 20);
+            this.texCourseName3.Size = new System.Drawing.Size(426, 20);
             this.texCourseName3.TabIndex = 18;
             // 
             // texCourseName4
             // 
             this.texCourseName4.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.texCourseName4.Location = new System.Drawing.Point(3, 91);
+            this.texCourseName4.Location = new System.Drawing.Point(4, 100);
             this.texCourseName4.Name = "texCourseName4";
-            this.texCourseName4.Size = new System.Drawing.Size(429, 20);
+            this.texCourseName4.Size = new System.Drawing.Size(426, 20);
             this.texCourseName4.TabIndex = 20;
             // 
             // texCourseName5
             // 
             this.texCourseName5.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.texCourseName5.Location = new System.Drawing.Point(3, 113);
+            this.texCourseName5.Location = new System.Drawing.Point(4, 124);
             this.texCourseName5.Name = "texCourseName5";
-            this.texCourseName5.Size = new System.Drawing.Size(429, 20);
+            this.texCourseName5.Size = new System.Drawing.Size(426, 20);
             this.texCourseName5.TabIndex = 22;
             // 
             // textScore1
             // 
             this.textScore1.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.textScore1.Location = new System.Drawing.Point(438, 25);
+            this.textScore1.Location = new System.Drawing.Point(437, 28);
             this.textScore1.Name = "textScore1";
             this.textScore1.Size = new System.Drawing.Size(139, 20);
             this.textScore1.TabIndex = 15;
@@ -619,7 +632,7 @@
             // textScore2
             // 
             this.textScore2.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.textScore2.Location = new System.Drawing.Point(438, 47);
+            this.textScore2.Location = new System.Drawing.Point(437, 52);
             this.textScore2.Name = "textScore2";
             this.textScore2.Size = new System.Drawing.Size(139, 20);
             this.textScore2.TabIndex = 17;
@@ -627,7 +640,7 @@
             // textScore3
             // 
             this.textScore3.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.textScore3.Location = new System.Drawing.Point(438, 69);
+            this.textScore3.Location = new System.Drawing.Point(437, 76);
             this.textScore3.Name = "textScore3";
             this.textScore3.Size = new System.Drawing.Size(139, 20);
             this.textScore3.TabIndex = 19;
@@ -635,7 +648,7 @@
             // textScore4
             // 
             this.textScore4.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.textScore4.Location = new System.Drawing.Point(438, 91);
+            this.textScore4.Location = new System.Drawing.Point(437, 100);
             this.textScore4.Name = "textScore4";
             this.textScore4.Size = new System.Drawing.Size(139, 20);
             this.textScore4.TabIndex = 21;
@@ -643,7 +656,7 @@
             // textScore5
             // 
             this.textScore5.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.textScore5.Location = new System.Drawing.Point(438, 113);
+            this.textScore5.Location = new System.Drawing.Point(437, 124);
             this.textScore5.Name = "textScore5";
             this.textScore5.Size = new System.Drawing.Size(139, 20);
             this.textScore5.TabIndex = 23;
@@ -651,6 +664,7 @@
             // Tablepan_EduDetail
             // 
             this.Tablepan_EduDetail.AccessibleName = "TablePanelEduDetails";
+            this.Tablepan_EduDetail.CellBorderStyle = System.Windows.Forms.TableLayoutPanelCellBorderStyle.Single;
             this.Tablepan_EduDetail.ColumnCount = 6;
             this.Tablepan_EduDetail.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 16.66667F));
             this.Tablepan_EduDetail.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 16.66667F));
@@ -726,7 +740,7 @@
             this.Tablepan_EduDetail.Controls.Add(this.textMarkObtainSY_PG, 5, 10);
             this.Tablepan_EduDetail.Controls.Add(this.textMarkObtainTY_PG, 5, 11);
             this.Tablepan_EduDetail.Controls.Add(this.textMarkObtainLY_PG, 5, 12);
-            this.Tablepan_EduDetail.Location = new System.Drawing.Point(6, 485);
+            this.Tablepan_EduDetail.Location = new System.Drawing.Point(6, 480);
             this.Tablepan_EduDetail.Name = "Tablepan_EduDetail";
             this.Tablepan_EduDetail.RowCount = 13;
             this.Tablepan_EduDetail.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 8.333541F));
@@ -739,18 +753,18 @@
             this.Tablepan_EduDetail.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 20F));
             this.Tablepan_EduDetail.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 24.99813F));
             this.Tablepan_EduDetail.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 20F));
+            this.Tablepan_EduDetail.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 22F));
+            this.Tablepan_EduDetail.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 22F));
+            this.Tablepan_EduDetail.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 16F));
             this.Tablepan_EduDetail.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 20F));
-            this.Tablepan_EduDetail.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 20F));
-            this.Tablepan_EduDetail.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 20F));
-            this.Tablepan_EduDetail.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 20F));
-            this.Tablepan_EduDetail.Size = new System.Drawing.Size(625, 346);
+            this.Tablepan_EduDetail.Size = new System.Drawing.Size(640, 397);
             this.Tablepan_EduDetail.TabIndex = 24;
             // 
             // labDegree
             // 
             this.labDegree.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.labDegree.AutoSize = true;
-            this.labDegree.Location = new System.Drawing.Point(31, 3);
+            this.labDegree.Location = new System.Drawing.Point(32, 6);
             this.labDegree.Name = "labDegree";
             this.labDegree.Size = new System.Drawing.Size(42, 13);
             this.labDegree.TabIndex = 7;
@@ -760,7 +774,7 @@
             // 
             this.labSSC.Anchor = System.Windows.Forms.AnchorStyles.Left;
             this.labSSC.AutoSize = true;
-            this.labSSC.Location = new System.Drawing.Point(3, 23);
+            this.labSSC.Location = new System.Drawing.Point(4, 30);
             this.labSSC.Name = "labSSC";
             this.labSSC.Size = new System.Drawing.Size(28, 13);
             this.labSSC.TabIndex = 7;
@@ -770,7 +784,7 @@
             // 
             this.labHSC.Anchor = System.Windows.Forms.AnchorStyles.Left;
             this.labHSC.AutoSize = true;
-            this.labHSC.Location = new System.Drawing.Point(3, 43);
+            this.labHSC.Location = new System.Drawing.Point(4, 54);
             this.labHSC.Name = "labHSC";
             this.labHSC.Size = new System.Drawing.Size(29, 13);
             this.labHSC.TabIndex = 7;
@@ -780,7 +794,7 @@
             // 
             this.labFY_UG.Anchor = System.Windows.Forms.AnchorStyles.Left;
             this.labFY_UG.AutoSize = true;
-            this.labFY_UG.Location = new System.Drawing.Point(3, 124);
+            this.labFY_UG.Location = new System.Drawing.Point(4, 149);
             this.labFY_UG.Name = "labFY_UG";
             this.labFY_UG.Size = new System.Drawing.Size(49, 13);
             this.labFY_UG.TabIndex = 7;
@@ -790,7 +804,7 @@
             // 
             this.labSY_UG.Anchor = System.Windows.Forms.AnchorStyles.Left;
             this.labSY_UG.AutoSize = true;
-            this.labSY_UG.Location = new System.Drawing.Point(3, 144);
+            this.labSY_UG.Location = new System.Drawing.Point(4, 173);
             this.labSY_UG.Name = "labSY_UG";
             this.labSY_UG.Size = new System.Drawing.Size(67, 13);
             this.labSY_UG.TabIndex = 7;
@@ -800,7 +814,7 @@
             // 
             this.labTY_UG.Anchor = System.Windows.Forms.AnchorStyles.Left;
             this.labTY_UG.AutoSize = true;
-            this.labTY_UG.Location = new System.Drawing.Point(3, 164);
+            this.labTY_UG.Location = new System.Drawing.Point(4, 197);
             this.labTY_UG.Name = "labTY_UG";
             this.labTY_UG.Size = new System.Drawing.Size(54, 13);
             this.labTY_UG.TabIndex = 7;
@@ -810,7 +824,7 @@
             // 
             this.labUniversity.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.labUniversity.AutoSize = true;
-            this.labUniversity.Location = new System.Drawing.Point(129, 3);
+            this.labUniversity.Location = new System.Drawing.Point(133, 6);
             this.labUniversity.Name = "labUniversity";
             this.labUniversity.Size = new System.Drawing.Size(53, 13);
             this.labUniversity.TabIndex = 7;
@@ -820,7 +834,7 @@
             // 
             this.labYearComple.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.labYearComple.AutoSize = true;
-            this.labYearComple.Location = new System.Drawing.Point(212, 3);
+            this.labYearComple.Location = new System.Drawing.Point(217, 6);
             this.labYearComple.Name = "labYearComple";
             this.labYearComple.Size = new System.Drawing.Size(96, 13);
             this.labYearComple.TabIndex = 7;
@@ -830,7 +844,7 @@
             // 
             this.labSchCollege.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.labSchCollege.AutoSize = true;
-            this.labSchCollege.Location = new System.Drawing.Point(324, 3);
+            this.labSchCollege.Location = new System.Drawing.Point(332, 6);
             this.labSchCollege.Name = "labSchCollege";
             this.labSchCollege.Size = new System.Drawing.Size(79, 13);
             this.labSchCollege.TabIndex = 7;
@@ -840,7 +854,7 @@
             // 
             this.labMarkObtain.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.labMarkObtain.AutoSize = true;
-            this.labMarkObtain.Location = new System.Drawing.Point(531, 3);
+            this.labMarkObtain.Location = new System.Drawing.Point(544, 6);
             this.labMarkObtain.Name = "labMarkObtain";
             this.labMarkObtain.Size = new System.Drawing.Size(82, 13);
             this.labMarkObtain.TabIndex = 7;
@@ -850,7 +864,7 @@
             // 
             this.labMaxmark.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.labMaxmark.AutoSize = true;
-            this.labMaxmark.Location = new System.Drawing.Point(426, 3);
+            this.labMaxmark.Location = new System.Drawing.Point(436, 6);
             this.labMaxmark.Name = "labMaxmark";
             this.labMaxmark.Size = new System.Drawing.Size(83, 13);
             this.labMaxmark.TabIndex = 7;
@@ -859,179 +873,179 @@
             // textUniverSSC
             // 
             this.textUniverSSC.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.textUniverSSC.Location = new System.Drawing.Point(107, 23);
+            this.textUniverSSC.Location = new System.Drawing.Point(110, 28);
             this.textUniverSSC.Name = "textUniverSSC";
-            this.textUniverSSC.Size = new System.Drawing.Size(98, 20);
+            this.textUniverSSC.Size = new System.Drawing.Size(99, 20);
             this.textUniverSSC.TabIndex = 1;
             // 
             // textUniversHSC
             // 
             this.textUniversHSC.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.textUniversHSC.Location = new System.Drawing.Point(107, 43);
+            this.textUniversHSC.Location = new System.Drawing.Point(110, 52);
             this.textUniversHSC.Name = "textUniversHSC";
-            this.textUniversHSC.Size = new System.Drawing.Size(98, 20);
+            this.textUniversHSC.Size = new System.Drawing.Size(99, 20);
             this.textUniversHSC.TabIndex = 6;
             // 
             // textUniverSY_UG
             // 
             this.textUniverSY_UG.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.textUniverSY_UG.Location = new System.Drawing.Point(107, 144);
+            this.textUniverSY_UG.Location = new System.Drawing.Point(110, 171);
             this.textUniverSY_UG.Name = "textUniverSY_UG";
-            this.textUniverSY_UG.Size = new System.Drawing.Size(98, 20);
+            this.textUniverSY_UG.Size = new System.Drawing.Size(99, 20);
             this.textUniverSY_UG.TabIndex = 16;
             // 
             // textUniverTY_UG
             // 
             this.textUniverTY_UG.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.textUniverTY_UG.Location = new System.Drawing.Point(107, 164);
+            this.textUniverTY_UG.Location = new System.Drawing.Point(110, 195);
             this.textUniverTY_UG.Name = "textUniverTY_UG";
-            this.textUniverTY_UG.Size = new System.Drawing.Size(98, 20);
+            this.textUniverTY_UG.Size = new System.Drawing.Size(99, 20);
             this.textUniverTY_UG.TabIndex = 21;
             // 
             // DateTimeSSC
             // 
             this.DateTimeSSC.Dock = System.Windows.Forms.DockStyle.Fill;
             this.DateTimeSSC.Format = System.Windows.Forms.DateTimePickerFormat.Short;
-            this.DateTimeSSC.Location = new System.Drawing.Point(211, 23);
+            this.DateTimeSSC.Location = new System.Drawing.Point(216, 28);
             this.DateTimeSSC.Name = "DateTimeSSC";
-            this.DateTimeSSC.Size = new System.Drawing.Size(98, 20);
+            this.DateTimeSSC.Size = new System.Drawing.Size(99, 20);
             this.DateTimeSSC.TabIndex = 2;
             // 
             // dateTimeHSC
             // 
             this.dateTimeHSC.Dock = System.Windows.Forms.DockStyle.Fill;
             this.dateTimeHSC.Format = System.Windows.Forms.DateTimePickerFormat.Custom;
-            this.dateTimeHSC.Location = new System.Drawing.Point(211, 43);
+            this.dateTimeHSC.Location = new System.Drawing.Point(216, 52);
             this.dateTimeHSC.Name = "dateTimeHSC";
-            this.dateTimeHSC.Size = new System.Drawing.Size(98, 20);
+            this.dateTimeHSC.Size = new System.Drawing.Size(99, 20);
             this.dateTimeHSC.TabIndex = 7;
             // 
             // dateTimeSY_UG
             // 
             this.dateTimeSY_UG.Dock = System.Windows.Forms.DockStyle.Fill;
             this.dateTimeSY_UG.Format = System.Windows.Forms.DateTimePickerFormat.Custom;
-            this.dateTimeSY_UG.Location = new System.Drawing.Point(211, 144);
+            this.dateTimeSY_UG.Location = new System.Drawing.Point(216, 171);
             this.dateTimeSY_UG.Name = "dateTimeSY_UG";
-            this.dateTimeSY_UG.Size = new System.Drawing.Size(98, 20);
+            this.dateTimeSY_UG.Size = new System.Drawing.Size(99, 20);
             this.dateTimeSY_UG.TabIndex = 17;
             // 
             // textSchColleNamSSC
             // 
             this.textSchColleNamSSC.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.textSchColleNamSSC.Location = new System.Drawing.Point(315, 23);
+            this.textSchColleNamSSC.Location = new System.Drawing.Point(322, 28);
             this.textSchColleNamSSC.Name = "textSchColleNamSSC";
-            this.textSchColleNamSSC.Size = new System.Drawing.Size(98, 20);
+            this.textSchColleNamSSC.Size = new System.Drawing.Size(99, 20);
             this.textSchColleNamSSC.TabIndex = 3;
             // 
             // textSchColleNamHSC
             // 
             this.textSchColleNamHSC.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.textSchColleNamHSC.Location = new System.Drawing.Point(315, 43);
+            this.textSchColleNamHSC.Location = new System.Drawing.Point(322, 52);
             this.textSchColleNamHSC.Name = "textSchColleNamHSC";
-            this.textSchColleNamHSC.Size = new System.Drawing.Size(98, 20);
+            this.textSchColleNamHSC.Size = new System.Drawing.Size(99, 20);
             this.textSchColleNamHSC.TabIndex = 8;
             // 
             // textColleNamFY_UG
             // 
             this.textColleNamFY_UG.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.textColleNamFY_UG.Location = new System.Drawing.Point(315, 124);
+            this.textColleNamFY_UG.Location = new System.Drawing.Point(322, 147);
             this.textColleNamFY_UG.Name = "textColleNamFY_UG";
-            this.textColleNamFY_UG.Size = new System.Drawing.Size(98, 20);
+            this.textColleNamFY_UG.Size = new System.Drawing.Size(99, 20);
             this.textColleNamFY_UG.TabIndex = 13;
             // 
             // textColleNamSY_UG
             // 
             this.textColleNamSY_UG.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.textColleNamSY_UG.Location = new System.Drawing.Point(315, 144);
+            this.textColleNamSY_UG.Location = new System.Drawing.Point(322, 171);
             this.textColleNamSY_UG.Name = "textColleNamSY_UG";
-            this.textColleNamSY_UG.Size = new System.Drawing.Size(98, 20);
+            this.textColleNamSY_UG.Size = new System.Drawing.Size(99, 20);
             this.textColleNamSY_UG.TabIndex = 18;
             // 
             // textColleNamTY_UG
             // 
             this.textColleNamTY_UG.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.textColleNamTY_UG.Location = new System.Drawing.Point(315, 164);
+            this.textColleNamTY_UG.Location = new System.Drawing.Point(322, 195);
             this.textColleNamTY_UG.Name = "textColleNamTY_UG";
-            this.textColleNamTY_UG.Size = new System.Drawing.Size(98, 20);
+            this.textColleNamTY_UG.Size = new System.Drawing.Size(99, 20);
             this.textColleNamTY_UG.TabIndex = 23;
             // 
             // textMaxMarkSSC
             // 
             this.textMaxMarkSSC.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.textMaxMarkSSC.Location = new System.Drawing.Point(419, 23);
+            this.textMaxMarkSSC.Location = new System.Drawing.Point(428, 28);
             this.textMaxMarkSSC.Name = "textMaxMarkSSC";
-            this.textMaxMarkSSC.Size = new System.Drawing.Size(98, 20);
+            this.textMaxMarkSSC.Size = new System.Drawing.Size(99, 20);
             this.textMaxMarkSSC.TabIndex = 4;
             // 
             // textMaxMarkHSC
             // 
             this.textMaxMarkHSC.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.textMaxMarkHSC.Location = new System.Drawing.Point(419, 43);
+            this.textMaxMarkHSC.Location = new System.Drawing.Point(428, 52);
             this.textMaxMarkHSC.Name = "textMaxMarkHSC";
-            this.textMaxMarkHSC.Size = new System.Drawing.Size(98, 20);
+            this.textMaxMarkHSC.Size = new System.Drawing.Size(99, 20);
             this.textMaxMarkHSC.TabIndex = 9;
             // 
             // textMaxMarkFY_UG
             // 
             this.textMaxMarkFY_UG.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.textMaxMarkFY_UG.Location = new System.Drawing.Point(419, 124);
+            this.textMaxMarkFY_UG.Location = new System.Drawing.Point(428, 147);
             this.textMaxMarkFY_UG.Name = "textMaxMarkFY_UG";
-            this.textMaxMarkFY_UG.Size = new System.Drawing.Size(98, 20);
+            this.textMaxMarkFY_UG.Size = new System.Drawing.Size(99, 20);
             this.textMaxMarkFY_UG.TabIndex = 14;
             // 
             // textMaxMarkSY_UG
             // 
             this.textMaxMarkSY_UG.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.textMaxMarkSY_UG.Location = new System.Drawing.Point(419, 144);
+            this.textMaxMarkSY_UG.Location = new System.Drawing.Point(428, 171);
             this.textMaxMarkSY_UG.Name = "textMaxMarkSY_UG";
-            this.textMaxMarkSY_UG.Size = new System.Drawing.Size(98, 20);
+            this.textMaxMarkSY_UG.Size = new System.Drawing.Size(99, 20);
             this.textMaxMarkSY_UG.TabIndex = 19;
             // 
             // textMarkObtainTY_UG
             // 
             this.textMarkObtainTY_UG.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.textMarkObtainTY_UG.Location = new System.Drawing.Point(523, 164);
+            this.textMarkObtainTY_UG.Location = new System.Drawing.Point(534, 195);
             this.textMarkObtainTY_UG.Name = "textMarkObtainTY_UG";
-            this.textMarkObtainTY_UG.Size = new System.Drawing.Size(99, 20);
+            this.textMarkObtainTY_UG.Size = new System.Drawing.Size(102, 20);
             this.textMarkObtainTY_UG.TabIndex = 25;
             // 
             // textMarkObtainSY_UG
             // 
             this.textMarkObtainSY_UG.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.textMarkObtainSY_UG.Location = new System.Drawing.Point(523, 144);
+            this.textMarkObtainSY_UG.Location = new System.Drawing.Point(534, 171);
             this.textMarkObtainSY_UG.Name = "textMarkObtainSY_UG";
-            this.textMarkObtainSY_UG.Size = new System.Drawing.Size(99, 20);
+            this.textMarkObtainSY_UG.Size = new System.Drawing.Size(102, 20);
             this.textMarkObtainSY_UG.TabIndex = 20;
             // 
             // textMarkObtainFY_UG
             // 
             this.textMarkObtainFY_UG.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.textMarkObtainFY_UG.Location = new System.Drawing.Point(523, 124);
+            this.textMarkObtainFY_UG.Location = new System.Drawing.Point(534, 147);
             this.textMarkObtainFY_UG.Name = "textMarkObtainFY_UG";
-            this.textMarkObtainFY_UG.Size = new System.Drawing.Size(99, 20);
+            this.textMarkObtainFY_UG.Size = new System.Drawing.Size(102, 20);
             this.textMarkObtainFY_UG.TabIndex = 15;
             // 
             // textMarkObtainHSC
             // 
             this.textMarkObtainHSC.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.textMarkObtainHSC.Location = new System.Drawing.Point(523, 43);
+            this.textMarkObtainHSC.Location = new System.Drawing.Point(534, 52);
             this.textMarkObtainHSC.Name = "textMarkObtainHSC";
-            this.textMarkObtainHSC.Size = new System.Drawing.Size(99, 20);
+            this.textMarkObtainHSC.Size = new System.Drawing.Size(102, 20);
             this.textMarkObtainHSC.TabIndex = 10;
             // 
             // textMarkObtainSSC
             // 
             this.textMarkObtainSSC.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.textMarkObtainSSC.Location = new System.Drawing.Point(523, 23);
+            this.textMarkObtainSSC.Location = new System.Drawing.Point(534, 28);
             this.textMarkObtainSSC.Name = "textMarkObtainSSC";
-            this.textMarkObtainSSC.Size = new System.Drawing.Size(99, 20);
+            this.textMarkObtainSSC.Size = new System.Drawing.Size(102, 20);
             this.textMarkObtainSSC.TabIndex = 5;
             // 
             // labGraduationDetails
             // 
             this.labGraduationDetails.Anchor = System.Windows.Forms.AnchorStyles.Left;
             this.labGraduationDetails.AutoSize = true;
-            this.labGraduationDetails.Location = new System.Drawing.Point(3, 84);
+            this.labGraduationDetails.Location = new System.Drawing.Point(4, 101);
             this.labGraduationDetails.Name = "labGraduationDetails";
             this.labGraduationDetails.Size = new System.Drawing.Size(94, 13);
             this.labGraduationDetails.TabIndex = 26;
@@ -1041,7 +1055,7 @@
             // 
             this.labPostGraduationDetails.Anchor = System.Windows.Forms.AnchorStyles.Left;
             this.labPostGraduationDetails.AutoSize = true;
-            this.labPostGraduationDetails.Location = new System.Drawing.Point(3, 218);
+            this.labPostGraduationDetails.Location = new System.Drawing.Point(4, 259);
             this.labPostGraduationDetails.Name = "labPostGraduationDetails";
             this.labPostGraduationDetails.Size = new System.Drawing.Size(86, 26);
             this.labPostGraduationDetails.TabIndex = 27;
@@ -1051,7 +1065,7 @@
             // 
             this.labLY_UG.Anchor = System.Windows.Forms.AnchorStyles.Left;
             this.labLY_UG.AutoSize = true;
-            this.labLY_UG.Location = new System.Drawing.Point(3, 184);
+            this.labLY_UG.Location = new System.Drawing.Point(4, 219);
             this.labLY_UG.Name = "labLY_UG";
             this.labLY_UG.Size = new System.Drawing.Size(50, 13);
             this.labLY_UG.TabIndex = 28;
@@ -1060,65 +1074,65 @@
             // textUniversityLY_UG
             // 
             this.textUniversityLY_UG.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.textUniversityLY_UG.Location = new System.Drawing.Point(107, 184);
+            this.textUniversityLY_UG.Location = new System.Drawing.Point(110, 219);
             this.textUniversityLY_UG.Name = "textUniversityLY_UG";
-            this.textUniversityLY_UG.Size = new System.Drawing.Size(98, 20);
+            this.textUniversityLY_UG.Size = new System.Drawing.Size(99, 20);
             this.textUniversityLY_UG.TabIndex = 26;
             // 
             // dateTimeTY_UG
             // 
             this.dateTimeTY_UG.Dock = System.Windows.Forms.DockStyle.Fill;
             this.dateTimeTY_UG.Format = System.Windows.Forms.DateTimePickerFormat.Custom;
-            this.dateTimeTY_UG.Location = new System.Drawing.Point(211, 164);
+            this.dateTimeTY_UG.Location = new System.Drawing.Point(216, 195);
             this.dateTimeTY_UG.Name = "dateTimeTY_UG";
-            this.dateTimeTY_UG.Size = new System.Drawing.Size(98, 20);
+            this.dateTimeTY_UG.Size = new System.Drawing.Size(99, 20);
             this.dateTimeTY_UG.TabIndex = 22;
             // 
             // dateTimeLY_UG
             // 
             this.dateTimeLY_UG.Dock = System.Windows.Forms.DockStyle.Fill;
             this.dateTimeLY_UG.Format = System.Windows.Forms.DateTimePickerFormat.Custom;
-            this.dateTimeLY_UG.Location = new System.Drawing.Point(211, 184);
+            this.dateTimeLY_UG.Location = new System.Drawing.Point(216, 219);
             this.dateTimeLY_UG.Name = "dateTimeLY_UG";
-            this.dateTimeLY_UG.Size = new System.Drawing.Size(98, 20);
+            this.dateTimeLY_UG.Size = new System.Drawing.Size(99, 20);
             this.dateTimeLY_UG.TabIndex = 27;
             // 
             // textColleNamLY_UG
             // 
             this.textColleNamLY_UG.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.textColleNamLY_UG.Location = new System.Drawing.Point(315, 184);
+            this.textColleNamLY_UG.Location = new System.Drawing.Point(322, 219);
             this.textColleNamLY_UG.Name = "textColleNamLY_UG";
-            this.textColleNamLY_UG.Size = new System.Drawing.Size(98, 20);
+            this.textColleNamLY_UG.Size = new System.Drawing.Size(99, 20);
             this.textColleNamLY_UG.TabIndex = 28;
             // 
             // textMaxMarkTY_UG
             // 
             this.textMaxMarkTY_UG.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.textMaxMarkTY_UG.Location = new System.Drawing.Point(419, 164);
+            this.textMaxMarkTY_UG.Location = new System.Drawing.Point(428, 195);
             this.textMaxMarkTY_UG.Name = "textMaxMarkTY_UG";
-            this.textMaxMarkTY_UG.Size = new System.Drawing.Size(98, 20);
+            this.textMaxMarkTY_UG.Size = new System.Drawing.Size(99, 20);
             this.textMaxMarkTY_UG.TabIndex = 24;
             // 
             // textMaxMarkLY_UG
             // 
             this.textMaxMarkLY_UG.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.textMaxMarkLY_UG.Location = new System.Drawing.Point(419, 184);
+            this.textMaxMarkLY_UG.Location = new System.Drawing.Point(428, 219);
             this.textMaxMarkLY_UG.Name = "textMaxMarkLY_UG";
-            this.textMaxMarkLY_UG.Size = new System.Drawing.Size(98, 20);
+            this.textMaxMarkLY_UG.Size = new System.Drawing.Size(99, 20);
             this.textMaxMarkLY_UG.TabIndex = 29;
             // 
             // textMarkObtainLY_UG
             // 
             this.textMarkObtainLY_UG.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.textMarkObtainLY_UG.Location = new System.Drawing.Point(523, 184);
+            this.textMarkObtainLY_UG.Location = new System.Drawing.Point(534, 219);
             this.textMarkObtainLY_UG.Name = "textMarkObtainLY_UG";
-            this.textMarkObtainLY_UG.Size = new System.Drawing.Size(99, 20);
+            this.textMarkObtainLY_UG.Size = new System.Drawing.Size(102, 20);
             this.textMarkObtainLY_UG.TabIndex = 30;
             // 
             // labFY_PG
             // 
             this.labFY_PG.AutoSize = true;
-            this.labFY_PG.Location = new System.Drawing.Point(3, 262);
+            this.labFY_PG.Location = new System.Drawing.Point(4, 308);
             this.labFY_PG.Name = "labFY_PG";
             this.labFY_PG.Size = new System.Drawing.Size(51, 13);
             this.labFY_PG.TabIndex = 30;
@@ -1127,7 +1141,7 @@
             // labSY_PG
             // 
             this.labSY_PG.AutoSize = true;
-            this.labSY_PG.Location = new System.Drawing.Point(3, 282);
+            this.labSY_PG.Location = new System.Drawing.Point(4, 329);
             this.labSY_PG.Name = "labSY_PG";
             this.labSY_PG.Size = new System.Drawing.Size(69, 13);
             this.labSY_PG.TabIndex = 31;
@@ -1136,7 +1150,7 @@
             // labTY_PG
             // 
             this.labTY_PG.AutoSize = true;
-            this.labTY_PG.Location = new System.Drawing.Point(3, 302);
+            this.labTY_PG.Location = new System.Drawing.Point(4, 352);
             this.labTY_PG.Name = "labTY_PG";
             this.labTY_PG.Size = new System.Drawing.Size(56, 13);
             this.labTY_PG.TabIndex = 32;
@@ -1145,7 +1159,7 @@
             // labLY_PG
             // 
             this.labLY_PG.AutoSize = true;
-            this.labLY_PG.Location = new System.Drawing.Point(3, 322);
+            this.labLY_PG.Location = new System.Drawing.Point(4, 375);
             this.labLY_PG.Name = "labLY_PG";
             this.labLY_PG.Size = new System.Drawing.Size(52, 13);
             this.labLY_PG.TabIndex = 33;
@@ -1154,186 +1168,187 @@
             // textUniverFY_UG
             // 
             this.textUniverFY_UG.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.textUniverFY_UG.Location = new System.Drawing.Point(107, 124);
+            this.textUniverFY_UG.Location = new System.Drawing.Point(110, 147);
             this.textUniverFY_UG.Name = "textUniverFY_UG";
-            this.textUniverFY_UG.Size = new System.Drawing.Size(98, 20);
+            this.textUniverFY_UG.Size = new System.Drawing.Size(99, 20);
             this.textUniverFY_UG.TabIndex = 11;
             // 
             // textUniverFY_PG
             // 
             this.textUniverFY_PG.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.textUniverFY_PG.Location = new System.Drawing.Point(107, 265);
+            this.textUniverFY_PG.Location = new System.Drawing.Point(110, 311);
             this.textUniverFY_PG.Name = "textUniverFY_PG";
-            this.textUniverFY_PG.Size = new System.Drawing.Size(98, 20);
+            this.textUniverFY_PG.Size = new System.Drawing.Size(99, 20);
             this.textUniverFY_PG.TabIndex = 31;
             // 
             // textUniverSY_PG
             // 
             this.textUniverSY_PG.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.textUniverSY_PG.Location = new System.Drawing.Point(107, 285);
+            this.textUniverSY_PG.Location = new System.Drawing.Point(110, 332);
             this.textUniverSY_PG.Name = "textUniverSY_PG";
-            this.textUniverSY_PG.Size = new System.Drawing.Size(98, 20);
+            this.textUniverSY_PG.Size = new System.Drawing.Size(99, 20);
             this.textUniverSY_PG.TabIndex = 36;
             // 
             // textUniverTY_PG
             // 
             this.textUniverTY_PG.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.textUniverTY_PG.Location = new System.Drawing.Point(107, 305);
+            this.textUniverTY_PG.Location = new System.Drawing.Point(110, 355);
             this.textUniverTY_PG.Name = "textUniverTY_PG";
-            this.textUniverTY_PG.Size = new System.Drawing.Size(98, 20);
+            this.textUniverTY_PG.Size = new System.Drawing.Size(99, 20);
             this.textUniverTY_PG.TabIndex = 41;
             // 
             // textUniverLY_PG
             // 
             this.textUniverLY_PG.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.textUniverLY_PG.Location = new System.Drawing.Point(107, 325);
+            this.textUniverLY_PG.Location = new System.Drawing.Point(110, 378);
             this.textUniverLY_PG.Name = "textUniverLY_PG";
-            this.textUniverLY_PG.Size = new System.Drawing.Size(98, 20);
+            this.textUniverLY_PG.Size = new System.Drawing.Size(99, 20);
             this.textUniverLY_PG.TabIndex = 46;
             // 
             // dateTimeFY_UG
             // 
             this.dateTimeFY_UG.Dock = System.Windows.Forms.DockStyle.Fill;
             this.dateTimeFY_UG.Format = System.Windows.Forms.DateTimePickerFormat.Custom;
-            this.dateTimeFY_UG.Location = new System.Drawing.Point(211, 124);
+            this.dateTimeFY_UG.Location = new System.Drawing.Point(216, 147);
             this.dateTimeFY_UG.Name = "dateTimeFY_UG";
-            this.dateTimeFY_UG.Size = new System.Drawing.Size(98, 20);
+            this.dateTimeFY_UG.Size = new System.Drawing.Size(99, 20);
             this.dateTimeFY_UG.TabIndex = 12;
             // 
             // dateTimeFY_PG
             // 
             this.dateTimeFY_PG.Dock = System.Windows.Forms.DockStyle.Fill;
             this.dateTimeFY_PG.Format = System.Windows.Forms.DateTimePickerFormat.Custom;
-            this.dateTimeFY_PG.Location = new System.Drawing.Point(211, 265);
+            this.dateTimeFY_PG.Location = new System.Drawing.Point(216, 311);
             this.dateTimeFY_PG.Name = "dateTimeFY_PG";
-            this.dateTimeFY_PG.Size = new System.Drawing.Size(98, 20);
+            this.dateTimeFY_PG.Size = new System.Drawing.Size(99, 20);
             this.dateTimeFY_PG.TabIndex = 32;
             // 
             // dateTimeSY_PG
             // 
             this.dateTimeSY_PG.Dock = System.Windows.Forms.DockStyle.Fill;
             this.dateTimeSY_PG.Format = System.Windows.Forms.DateTimePickerFormat.Custom;
-            this.dateTimeSY_PG.Location = new System.Drawing.Point(211, 285);
+            this.dateTimeSY_PG.Location = new System.Drawing.Point(216, 332);
             this.dateTimeSY_PG.Name = "dateTimeSY_PG";
-            this.dateTimeSY_PG.Size = new System.Drawing.Size(98, 20);
+            this.dateTimeSY_PG.Size = new System.Drawing.Size(99, 20);
             this.dateTimeSY_PG.TabIndex = 37;
             // 
             // dateTimeTY_PG
             // 
             this.dateTimeTY_PG.Dock = System.Windows.Forms.DockStyle.Fill;
             this.dateTimeTY_PG.Format = System.Windows.Forms.DateTimePickerFormat.Custom;
-            this.dateTimeTY_PG.Location = new System.Drawing.Point(211, 305);
+            this.dateTimeTY_PG.Location = new System.Drawing.Point(216, 355);
             this.dateTimeTY_PG.Name = "dateTimeTY_PG";
-            this.dateTimeTY_PG.Size = new System.Drawing.Size(98, 20);
+            this.dateTimeTY_PG.Size = new System.Drawing.Size(99, 20);
             this.dateTimeTY_PG.TabIndex = 42;
             // 
             // dateTimeLY_PG
             // 
             this.dateTimeLY_PG.Dock = System.Windows.Forms.DockStyle.Fill;
             this.dateTimeLY_PG.Format = System.Windows.Forms.DateTimePickerFormat.Custom;
-            this.dateTimeLY_PG.Location = new System.Drawing.Point(211, 325);
+            this.dateTimeLY_PG.Location = new System.Drawing.Point(216, 378);
             this.dateTimeLY_PG.Name = "dateTimeLY_PG";
-            this.dateTimeLY_PG.Size = new System.Drawing.Size(98, 20);
+            this.dateTimeLY_PG.Size = new System.Drawing.Size(99, 20);
             this.dateTimeLY_PG.TabIndex = 47;
             // 
             // textColleNamFY_PG
             // 
             this.textColleNamFY_PG.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.textColleNamFY_PG.Location = new System.Drawing.Point(315, 265);
+            this.textColleNamFY_PG.Location = new System.Drawing.Point(322, 311);
             this.textColleNamFY_PG.Name = "textColleNamFY_PG";
-            this.textColleNamFY_PG.Size = new System.Drawing.Size(98, 20);
+            this.textColleNamFY_PG.Size = new System.Drawing.Size(99, 20);
             this.textColleNamFY_PG.TabIndex = 33;
             // 
             // textColleNamSY_PG
             // 
             this.textColleNamSY_PG.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.textColleNamSY_PG.Location = new System.Drawing.Point(315, 285);
+            this.textColleNamSY_PG.Location = new System.Drawing.Point(322, 332);
             this.textColleNamSY_PG.Name = "textColleNamSY_PG";
-            this.textColleNamSY_PG.Size = new System.Drawing.Size(98, 20);
+            this.textColleNamSY_PG.Size = new System.Drawing.Size(99, 20);
             this.textColleNamSY_PG.TabIndex = 38;
             // 
             // textColleNamTY_PG
             // 
             this.textColleNamTY_PG.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.textColleNamTY_PG.Location = new System.Drawing.Point(315, 305);
+            this.textColleNamTY_PG.Location = new System.Drawing.Point(322, 355);
             this.textColleNamTY_PG.Name = "textColleNamTY_PG";
-            this.textColleNamTY_PG.Size = new System.Drawing.Size(98, 20);
+            this.textColleNamTY_PG.Size = new System.Drawing.Size(99, 20);
             this.textColleNamTY_PG.TabIndex = 43;
             // 
             // textColleNamLY_PG
             // 
             this.textColleNamLY_PG.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.textColleNamLY_PG.Location = new System.Drawing.Point(315, 325);
+            this.textColleNamLY_PG.Location = new System.Drawing.Point(322, 378);
             this.textColleNamLY_PG.Name = "textColleNamLY_PG";
-            this.textColleNamLY_PG.Size = new System.Drawing.Size(98, 20);
+            this.textColleNamLY_PG.Size = new System.Drawing.Size(99, 20);
             this.textColleNamLY_PG.TabIndex = 48;
             // 
             // textMaxMarkFY_PG
             // 
             this.textMaxMarkFY_PG.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.textMaxMarkFY_PG.Location = new System.Drawing.Point(419, 265);
+            this.textMaxMarkFY_PG.Location = new System.Drawing.Point(428, 311);
             this.textMaxMarkFY_PG.Name = "textMaxMarkFY_PG";
-            this.textMaxMarkFY_PG.Size = new System.Drawing.Size(98, 20);
+            this.textMaxMarkFY_PG.Size = new System.Drawing.Size(99, 20);
             this.textMaxMarkFY_PG.TabIndex = 34;
             // 
             // textMaxMarkSY_PG
             // 
             this.textMaxMarkSY_PG.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.textMaxMarkSY_PG.Location = new System.Drawing.Point(419, 285);
+            this.textMaxMarkSY_PG.Location = new System.Drawing.Point(428, 332);
             this.textMaxMarkSY_PG.Name = "textMaxMarkSY_PG";
-            this.textMaxMarkSY_PG.Size = new System.Drawing.Size(98, 20);
+            this.textMaxMarkSY_PG.Size = new System.Drawing.Size(99, 20);
             this.textMaxMarkSY_PG.TabIndex = 39;
             // 
             // textMaxMarkTY_PG
             // 
             this.textMaxMarkTY_PG.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.textMaxMarkTY_PG.Location = new System.Drawing.Point(419, 305);
+            this.textMaxMarkTY_PG.Location = new System.Drawing.Point(428, 355);
             this.textMaxMarkTY_PG.Name = "textMaxMarkTY_PG";
-            this.textMaxMarkTY_PG.Size = new System.Drawing.Size(98, 20);
+            this.textMaxMarkTY_PG.Size = new System.Drawing.Size(99, 20);
             this.textMaxMarkTY_PG.TabIndex = 44;
             // 
             // textMaxMarkLY_PG
             // 
             this.textMaxMarkLY_PG.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.textMaxMarkLY_PG.Location = new System.Drawing.Point(419, 325);
+            this.textMaxMarkLY_PG.Location = new System.Drawing.Point(428, 378);
             this.textMaxMarkLY_PG.Name = "textMaxMarkLY_PG";
-            this.textMaxMarkLY_PG.Size = new System.Drawing.Size(98, 20);
+            this.textMaxMarkLY_PG.Size = new System.Drawing.Size(99, 20);
             this.textMaxMarkLY_PG.TabIndex = 49;
             // 
             // textMarkObtainFY_PG
             // 
             this.textMarkObtainFY_PG.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.textMarkObtainFY_PG.Location = new System.Drawing.Point(523, 265);
+            this.textMarkObtainFY_PG.Location = new System.Drawing.Point(534, 311);
             this.textMarkObtainFY_PG.Name = "textMarkObtainFY_PG";
-            this.textMarkObtainFY_PG.Size = new System.Drawing.Size(99, 20);
+            this.textMarkObtainFY_PG.Size = new System.Drawing.Size(102, 20);
             this.textMarkObtainFY_PG.TabIndex = 35;
             // 
             // textMarkObtainSY_PG
             // 
             this.textMarkObtainSY_PG.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.textMarkObtainSY_PG.Location = new System.Drawing.Point(523, 285);
+            this.textMarkObtainSY_PG.Location = new System.Drawing.Point(534, 332);
             this.textMarkObtainSY_PG.Name = "textMarkObtainSY_PG";
-            this.textMarkObtainSY_PG.Size = new System.Drawing.Size(99, 20);
+            this.textMarkObtainSY_PG.Size = new System.Drawing.Size(102, 20);
             this.textMarkObtainSY_PG.TabIndex = 40;
             // 
             // textMarkObtainTY_PG
             // 
             this.textMarkObtainTY_PG.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.textMarkObtainTY_PG.Location = new System.Drawing.Point(523, 305);
+            this.textMarkObtainTY_PG.Location = new System.Drawing.Point(534, 355);
             this.textMarkObtainTY_PG.Name = "textMarkObtainTY_PG";
-            this.textMarkObtainTY_PG.Size = new System.Drawing.Size(99, 20);
+            this.textMarkObtainTY_PG.Size = new System.Drawing.Size(102, 20);
             this.textMarkObtainTY_PG.TabIndex = 45;
             // 
             // textMarkObtainLY_PG
             // 
             this.textMarkObtainLY_PG.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.textMarkObtainLY_PG.Location = new System.Drawing.Point(523, 325);
+            this.textMarkObtainLY_PG.Location = new System.Drawing.Point(534, 378);
             this.textMarkObtainLY_PG.Name = "textMarkObtainLY_PG";
-            this.textMarkObtainLY_PG.Size = new System.Drawing.Size(99, 20);
+            this.textMarkObtainLY_PG.Size = new System.Drawing.Size(102, 20);
             this.textMarkObtainLY_PG.TabIndex = 50;
             // 
             // tableLayoutPanel3
             // 
+            this.tableLayoutPanel3.CellBorderStyle = System.Windows.Forms.TableLayoutPanelCellBorderStyle.Single;
             this.tableLayoutPanel3.ColumnCount = 4;
             this.tableLayoutPanel3.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 25F));
             this.tableLayoutPanel3.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 25F));
@@ -1361,7 +1376,7 @@
             this.tableLayoutPanel3.Controls.Add(this.BoxPhyDisab, 1, 4);
             this.tableLayoutPanel3.Controls.Add(this.labCast, 2, 4);
             this.tableLayoutPanel3.Controls.Add(this.labAdharCard, 2, 3);
-            this.tableLayoutPanel3.Location = new System.Drawing.Point(6, 890);
+            this.tableLayoutPanel3.Location = new System.Drawing.Point(6, 931);
             this.tableLayoutPanel3.Name = "tableLayoutPanel3";
             this.tableLayoutPanel3.RowCount = 6;
             this.tableLayoutPanel3.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 16.66667F));
@@ -1377,19 +1392,19 @@
             // texPContNo
             // 
             this.texPContNo.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.texPContNo.Location = new System.Drawing.Point(149, 59);
+            this.texPContNo.Location = new System.Drawing.Point(150, 60);
             this.texPContNo.MaxLength = 10;
             this.texPContNo.Name = "texPContNo";
-            this.texPContNo.Size = new System.Drawing.Size(140, 20);
+            this.texPContNo.Size = new System.Drawing.Size(139, 20);
             this.texPContNo.TabIndex = 7;
             // 
             // BoxCast
             // 
             this.BoxCast.Dock = System.Windows.Forms.DockStyle.Fill;
             this.BoxCast.FormattingEnabled = true;
-            this.BoxCast.Location = new System.Drawing.Point(441, 115);
+            this.BoxCast.Location = new System.Drawing.Point(442, 116);
             this.BoxCast.Name = "BoxCast";
-            this.BoxCast.Size = new System.Drawing.Size(142, 21);
+            this.BoxCast.Size = new System.Drawing.Size(140, 21);
             this.BoxCast.TabIndex = 11;
             // 
             // comboBox2
@@ -1405,18 +1420,18 @@
             "Jainism",
             "Zoroastrianism",
             "Judaism "});
-            this.comboBox2.Location = new System.Drawing.Point(441, 143);
+            this.comboBox2.Location = new System.Drawing.Point(442, 144);
             this.comboBox2.Name = "comboBox2";
-            this.comboBox2.Size = new System.Drawing.Size(142, 21);
+            this.comboBox2.Size = new System.Drawing.Size(140, 21);
             this.comboBox2.TabIndex = 13;
             // 
             // BoxMariralStat
             // 
             this.BoxMariralStat.Dock = System.Windows.Forms.DockStyle.Fill;
             this.BoxMariralStat.FormattingEnabled = true;
-            this.BoxMariralStat.Location = new System.Drawing.Point(149, 143);
+            this.BoxMariralStat.Location = new System.Drawing.Point(150, 144);
             this.BoxMariralStat.Name = "BoxMariralStat";
-            this.BoxMariralStat.Size = new System.Drawing.Size(140, 21);
+            this.BoxMariralStat.Size = new System.Drawing.Size(139, 21);
             this.BoxMariralStat.TabIndex = 12;
             // 
             // labReligion
@@ -1424,7 +1439,7 @@
             this.labReligion.AccessibleRole = System.Windows.Forms.AccessibleRole.Grip;
             this.labReligion.Anchor = System.Windows.Forms.AnchorStyles.Left;
             this.labReligion.AutoSize = true;
-            this.labReligion.Location = new System.Drawing.Point(295, 149);
+            this.labReligion.Location = new System.Drawing.Point(296, 149);
             this.labReligion.Name = "labReligion";
             this.labReligion.Size = new System.Drawing.Size(45, 13);
             this.labReligion.TabIndex = 6;
@@ -1433,9 +1448,9 @@
             // texGFirstNam
             // 
             this.texGFirstNam.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.texGFirstNam.Location = new System.Drawing.Point(295, 3);
+            this.texGFirstNam.Location = new System.Drawing.Point(296, 4);
             this.texGFirstNam.Name = "texGFirstNam";
-            this.texGFirstNam.Size = new System.Drawing.Size(140, 20);
+            this.texGFirstNam.Size = new System.Drawing.Size(139, 20);
             this.texGFirstNam.TabIndex = 2;
             this.texGFirstNam.Text = "First Name";
             // 
@@ -1443,7 +1458,7 @@
             // 
             this.labMaritalSta.Anchor = System.Windows.Forms.AnchorStyles.Left;
             this.labMaritalSta.AutoSize = true;
-            this.labMaritalSta.Location = new System.Drawing.Point(3, 149);
+            this.labMaritalSta.Location = new System.Drawing.Point(4, 149);
             this.labMaritalSta.Name = "labMaritalSta";
             this.labMaritalSta.Size = new System.Drawing.Size(71, 13);
             this.labMaritalSta.TabIndex = 6;
@@ -1453,7 +1468,7 @@
             // 
             this.labParetsContNo.Anchor = System.Windows.Forms.AnchorStyles.Left;
             this.labParetsContNo.AutoSize = true;
-            this.labParetsContNo.Location = new System.Drawing.Point(3, 63);
+            this.labParetsContNo.Location = new System.Drawing.Point(4, 64);
             this.labParetsContNo.Name = "labParetsContNo";
             this.labParetsContNo.Size = new System.Drawing.Size(105, 13);
             this.labParetsContNo.TabIndex = 6;
@@ -1462,18 +1477,18 @@
             // texGMiddleNam
             // 
             this.texGMiddleNam.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.texGMiddleNam.Location = new System.Drawing.Point(441, 3);
+            this.texGMiddleNam.Location = new System.Drawing.Point(442, 4);
             this.texGMiddleNam.Name = "texGMiddleNam";
-            this.texGMiddleNam.Size = new System.Drawing.Size(142, 20);
+            this.texGMiddleNam.Size = new System.Drawing.Size(140, 20);
             this.texGMiddleNam.TabIndex = 3;
             this.texGMiddleNam.Text = "Middle Name";
             // 
             // texMMiddleNam
             // 
             this.texMMiddleNam.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.texMMiddleNam.Location = new System.Drawing.Point(441, 31);
+            this.texMMiddleNam.Location = new System.Drawing.Point(442, 32);
             this.texMMiddleNam.Name = "texMMiddleNam";
-            this.texMMiddleNam.Size = new System.Drawing.Size(142, 20);
+            this.texMMiddleNam.Size = new System.Drawing.Size(140, 20);
             this.texMMiddleNam.TabIndex = 6;
             this.texMMiddleNam.Text = "Middle Name";
             // 
@@ -1481,7 +1496,7 @@
             // 
             this.labGuardName.Anchor = System.Windows.Forms.AnchorStyles.Left;
             this.labGuardName.AutoSize = true;
-            this.labGuardName.Location = new System.Drawing.Point(3, 1);
+            this.labGuardName.Location = new System.Drawing.Point(4, 1);
             this.labGuardName.Name = "labGuardName";
             this.labGuardName.Size = new System.Drawing.Size(105, 26);
             this.labGuardName.TabIndex = 6;
@@ -1490,9 +1505,9 @@
             // texGLastName
             // 
             this.texGLastName.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.texGLastName.Location = new System.Drawing.Point(149, 3);
+            this.texGLastName.Location = new System.Drawing.Point(150, 4);
             this.texGLastName.Name = "texGLastName";
-            this.texGLastName.Size = new System.Drawing.Size(140, 20);
+            this.texGLastName.Size = new System.Drawing.Size(139, 20);
             this.texGLastName.TabIndex = 1;
             this.texGLastName.Text = "Last Name";
             // 
@@ -1500,7 +1515,7 @@
             // 
             this.labCategory.Anchor = System.Windows.Forms.AnchorStyles.Left;
             this.labCategory.AutoSize = true;
-            this.labCategory.Location = new System.Drawing.Point(3, 91);
+            this.labCategory.Location = new System.Drawing.Point(4, 92);
             this.labCategory.Name = "labCategory";
             this.labCategory.Size = new System.Drawing.Size(49, 13);
             this.labCategory.TabIndex = 6;
@@ -1520,34 +1535,34 @@
             "NT-B",
             "NT-C",
             "NT-D"});
-            this.BoxCategory.Location = new System.Drawing.Point(149, 87);
+            this.BoxCategory.Location = new System.Drawing.Point(150, 88);
             this.BoxCategory.Name = "BoxCategory";
-            this.BoxCategory.Size = new System.Drawing.Size(140, 21);
+            this.BoxCategory.Size = new System.Drawing.Size(139, 21);
             this.BoxCategory.TabIndex = 8;
             // 
             // texMFirstNam
             // 
             this.texMFirstNam.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.texMFirstNam.Location = new System.Drawing.Point(295, 31);
+            this.texMFirstNam.Location = new System.Drawing.Point(296, 32);
             this.texMFirstNam.Name = "texMFirstNam";
-            this.texMFirstNam.Size = new System.Drawing.Size(140, 20);
+            this.texMFirstNam.Size = new System.Drawing.Size(139, 20);
             this.texMFirstNam.TabIndex = 5;
             this.texMFirstNam.Text = "First Name";
             // 
             // texAdharNo
             // 
             this.texAdharNo.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.texAdharNo.Location = new System.Drawing.Point(441, 87);
+            this.texAdharNo.Location = new System.Drawing.Point(442, 88);
             this.texAdharNo.MaxLength = 12;
             this.texAdharNo.Name = "texAdharNo";
-            this.texAdharNo.Size = new System.Drawing.Size(142, 20);
+            this.texAdharNo.Size = new System.Drawing.Size(140, 20);
             this.texAdharNo.TabIndex = 9;
             // 
             // labMotherNam
             // 
             this.labMotherNam.Anchor = System.Windows.Forms.AnchorStyles.Left;
             this.labMotherNam.AutoSize = true;
-            this.labMotherNam.Location = new System.Drawing.Point(3, 35);
+            this.labMotherNam.Location = new System.Drawing.Point(4, 36);
             this.labMotherNam.Name = "labMotherNam";
             this.labMotherNam.Size = new System.Drawing.Size(78, 13);
             this.labMotherNam.TabIndex = 6;
@@ -1556,9 +1571,9 @@
             // texMLastNam
             // 
             this.texMLastNam.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.texMLastNam.Location = new System.Drawing.Point(149, 31);
+            this.texMLastNam.Location = new System.Drawing.Point(150, 32);
             this.texMLastNam.Name = "texMLastNam";
-            this.texMLastNam.Size = new System.Drawing.Size(140, 20);
+            this.texMLastNam.Size = new System.Drawing.Size(139, 20);
             this.texMLastNam.TabIndex = 4;
             this.texMLastNam.Text = "Last Name";
             // 
@@ -1566,7 +1581,7 @@
             // 
             this.labPhyDisab.Anchor = System.Windows.Forms.AnchorStyles.Left;
             this.labPhyDisab.AutoSize = true;
-            this.labPhyDisab.Location = new System.Drawing.Point(3, 119);
+            this.labPhyDisab.Location = new System.Drawing.Point(4, 120);
             this.labPhyDisab.Name = "labPhyDisab";
             this.labPhyDisab.Size = new System.Drawing.Size(90, 13);
             this.labPhyDisab.TabIndex = 6;
@@ -1579,16 +1594,16 @@
             this.BoxPhyDisab.Items.AddRange(new object[] {
             "Yes",
             "No"});
-            this.BoxPhyDisab.Location = new System.Drawing.Point(149, 115);
+            this.BoxPhyDisab.Location = new System.Drawing.Point(150, 116);
             this.BoxPhyDisab.Name = "BoxPhyDisab";
-            this.BoxPhyDisab.Size = new System.Drawing.Size(140, 21);
+            this.BoxPhyDisab.Size = new System.Drawing.Size(139, 21);
             this.BoxPhyDisab.TabIndex = 10;
             // 
             // labCast
             // 
             this.labCast.Anchor = System.Windows.Forms.AnchorStyles.Left;
             this.labCast.AutoSize = true;
-            this.labCast.Location = new System.Drawing.Point(295, 119);
+            this.labCast.Location = new System.Drawing.Point(296, 120);
             this.labCast.Name = "labCast";
             this.labCast.Size = new System.Drawing.Size(28, 13);
             this.labCast.TabIndex = 6;
@@ -1598,7 +1613,7 @@
             // 
             this.labAdharCard.Anchor = System.Windows.Forms.AnchorStyles.Left;
             this.labAdharCard.AutoSize = true;
-            this.labAdharCard.Location = new System.Drawing.Point(295, 91);
+            this.labAdharCard.Location = new System.Drawing.Point(296, 92);
             this.labAdharCard.Name = "labAdharCard";
             this.labAdharCard.Size = new System.Drawing.Size(78, 13);
             this.labAdharCard.TabIndex = 6;
@@ -1607,7 +1622,7 @@
             // labOtherPDetail
             // 
             this.labOtherPDetail.AutoSize = true;
-            this.labOtherPDetail.Location = new System.Drawing.Point(6, 866);
+            this.labOtherPDetail.Location = new System.Drawing.Point(3, 903);
             this.labOtherPDetail.Name = "labOtherPDetail";
             this.labOtherPDetail.Size = new System.Drawing.Size(112, 13);
             this.labOtherPDetail.TabIndex = 22;
@@ -1616,6 +1631,7 @@
             // 
             // splitContainer5
             // 
+            this.splitContainer5.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.splitContainer5.Location = new System.Drawing.Point(6, 220);
             this.splitContainer5.Name = "splitContainer5";
             // 
@@ -1830,6 +1846,7 @@
             // 
             // splitContainer3
             // 
+            this.splitContainer3.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.splitContainer3.Location = new System.Drawing.Point(6, 6);
             this.splitContainer3.Name = "splitContainer3";
             // 
@@ -1903,8 +1920,8 @@
             this.splitContainer4.Panel2.Controls.Add(this.textBox4);
             this.splitContainer4.Panel2.Controls.Add(this.comboBox1);
             this.splitContainer4.Panel2.Paint += new System.Windows.Forms.PaintEventHandler(this.splitContainer2_Panel2_Paint);
-            this.splitContainer4.Size = new System.Drawing.Size(455, 195);
-            this.splitContainer4.SplitterDistance = 285;
+            this.splitContainer4.Size = new System.Drawing.Size(453, 193);
+            this.splitContainer4.SplitterDistance = 283;
             this.splitContainer4.TabIndex = 0;
             // 
             // textBox1
@@ -1925,10 +1942,13 @@
             // 
             // dateTimePicker2
             // 
+            this.dateTimePicker2.CustomFormat = "";
+            this.dateTimePicker2.Format = System.Windows.Forms.DateTimePickerFormat.Short;
             this.dateTimePicker2.Location = new System.Drawing.Point(3, 71);
             this.dateTimePicker2.Name = "dateTimePicker2";
             this.dateTimePicker2.Size = new System.Drawing.Size(140, 20);
             this.dateTimePicker2.TabIndex = 6;
+            this.dateTimePicker2.Value = new System.DateTime(2019, 2, 10, 21, 43, 3, 0);
             // 
             // textBox3
             // 
@@ -2000,7 +2020,7 @@
             // SubmitButton
             // 
             this.SubmitButton.Dock = System.Windows.Forms.DockStyle.Bottom;
-            this.SubmitButton.Location = new System.Drawing.Point(0, 1311);
+            this.SubmitButton.Location = new System.Drawing.Point(0, 1447);
             this.SubmitButton.Name = "SubmitButton";
             this.SubmitButton.Size = new System.Drawing.Size(656, 23);
             this.SubmitButton.TabIndex = 0;
@@ -2013,6 +2033,9 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.AutoScroll = true;
             this.AutoScrollMinSize = new System.Drawing.Size(200, 30);
+            this.BackColor = System.Drawing.SystemColors.Control;
+            this.BackgroundImage = global::_1___Software_Package.Properties.Resources._173253837_56a18f0c5f9b58b7d0c0a8551;
+            this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Center;
             this.ClientSize = new System.Drawing.Size(873, 733);
             this.Controls.Add(this.panel2);
             this.Controls.Add(this.ButtonPanel);
@@ -2228,5 +2251,6 @@
         private System.Windows.Forms.TextBox textScore5;
         private System.Windows.Forms.Label labOtherCourses;
         private System.Windows.Forms.Label labEduDetails;
+        private System.Windows.Forms.Label Other_Cources;
     }
 }
