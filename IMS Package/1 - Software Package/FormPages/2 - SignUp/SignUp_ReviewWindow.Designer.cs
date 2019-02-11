@@ -411,12 +411,11 @@
             // 
             this.labOtherCourses.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.labOtherCourses.AutoSize = true;
-            this.labOtherCourses.Location = new System.Drawing.Point(-2, 3639);
+            this.labOtherCourses.Location = new System.Drawing.Point(-2, 4036);
             this.labOtherCourses.Name = "labOtherCourses";
             this.labOtherCourses.Size = new System.Drawing.Size(73, 13);
             this.labOtherCourses.TabIndex = 30;
             this.labOtherCourses.Text = "Other courses";
-            this.labOtherCourses.Click += new System.EventHandler(this.labOtherCourses_Click);
             // 
             // tableLayoutPanel5
             // 
@@ -1627,7 +1626,6 @@
             this.labOtherPDetail.Size = new System.Drawing.Size(112, 13);
             this.labOtherPDetail.TabIndex = 22;
             this.labOtherPDetail.Text = "Other Personal Details";
-            this.labOtherPDetail.Click += new System.EventHandler(this.labOtherPDetail_Click);
             // 
             // splitContainer5
             // 
