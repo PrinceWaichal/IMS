@@ -11,8 +11,6 @@ namespace _1___Software_Package.FormPages._1___SignIn
             InitializeComponent();
         }
 
-         MySqlConnection mySQLConnection = new MySqlConnection(ServerInfo.server);
-
         private void LibLogin(object sender, EventArgs e)
         {
             this.Hide();
@@ -60,7 +58,7 @@ namespace _1___Software_Package.FormPages._1___SignIn
             //Do Validatation
             try
             {
-                mySQLConnection.Open();
+                ServerInfo..Open();
                 MessageBox.Show("Successful Connection");
             }
             catch
