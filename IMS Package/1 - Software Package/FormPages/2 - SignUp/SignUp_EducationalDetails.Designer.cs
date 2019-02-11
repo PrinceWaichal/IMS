@@ -136,7 +136,6 @@
             this.panel2.Name = "panel2";
             this.panel2.Size = new System.Drawing.Size(843, 556);
             this.panel2.TabIndex = 11;
-            this.panel2.Paint += new System.Windows.Forms.PaintEventHandler(this.panel2_Paint);
             // 
             // Tablepan_EduDetail
             // 
@@ -234,7 +233,6 @@
             this.Tablepan_EduDetail.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 20F));
             this.Tablepan_EduDetail.Size = new System.Drawing.Size(625, 346);
             this.Tablepan_EduDetail.TabIndex = 6;
-            this.Tablepan_EduDetail.Paint += new System.Windows.Forms.PaintEventHandler(this.tableLayoutPanel3_Paint);
             // 
             // labDegree
             // 
@@ -386,7 +384,6 @@
             this.DateTimeSSC.Name = "DateTimeSSC";
             this.DateTimeSSC.Size = new System.Drawing.Size(98, 20);
             this.DateTimeSSC.TabIndex = 2;
-            this.DateTimeSSC.ValueChanged += new System.EventHandler(this.DateTimeSSC_ValueChanged);
             // 
             // dateTimeHSC
             // 
@@ -453,7 +450,6 @@
             this.textMaxMarkSSC.Name = "textMaxMarkSSC";
             this.textMaxMarkSSC.Size = new System.Drawing.Size(98, 20);
             this.textMaxMarkSSC.TabIndex = 4;
-            this.textMaxMarkSSC.TextChanged += new System.EventHandler(this.textBox1_TextChanged);
             // 
             // textMaxMarkHSC
             // 
@@ -486,7 +482,6 @@
             this.textMarkObtainTY_UG.Name = "textMarkObtainTY_UG";
             this.textMarkObtainTY_UG.Size = new System.Drawing.Size(99, 20);
             this.textMarkObtainTY_UG.TabIndex = 25;
-            this.textMarkObtainTY_UG.TextChanged += new System.EventHandler(this.textBox5_TextChanged);
             // 
             // textMarkObtainSY_UG
             // 
@@ -495,7 +490,6 @@
             this.textMarkObtainSY_UG.Name = "textMarkObtainSY_UG";
             this.textMarkObtainSY_UG.Size = new System.Drawing.Size(99, 20);
             this.textMarkObtainSY_UG.TabIndex = 20;
-            this.textMarkObtainSY_UG.TextChanged += new System.EventHandler(this.textBox5_TextChanged);
             // 
             // textMarkObtainFY_UG
             // 
@@ -504,7 +498,6 @@
             this.textMarkObtainFY_UG.Name = "textMarkObtainFY_UG";
             this.textMarkObtainFY_UG.Size = new System.Drawing.Size(99, 20);
             this.textMarkObtainFY_UG.TabIndex = 15;
-            this.textMarkObtainFY_UG.TextChanged += new System.EventHandler(this.textBox5_TextChanged);
             // 
             // textMarkObtainHSC
             // 
@@ -513,7 +506,6 @@
             this.textMarkObtainHSC.Name = "textMarkObtainHSC";
             this.textMarkObtainHSC.Size = new System.Drawing.Size(99, 20);
             this.textMarkObtainHSC.TabIndex = 10;
-            this.textMarkObtainHSC.TextChanged += new System.EventHandler(this.textBox5_TextChanged);
             // 
             // textMarkObtainSSC
             // 
@@ -522,7 +514,6 @@
             this.textMarkObtainSSC.Name = "textMarkObtainSSC";
             this.textMarkObtainSSC.Size = new System.Drawing.Size(99, 20);
             this.textMarkObtainSSC.TabIndex = 5;
-            this.textMarkObtainSSC.TextChanged += new System.EventHandler(this.textBox5_TextChanged);
             // 
             // labGraduationDetails
             // 
@@ -595,7 +586,6 @@
             this.textMaxMarkTY_UG.Name = "textMaxMarkTY_UG";
             this.textMaxMarkTY_UG.Size = new System.Drawing.Size(98, 20);
             this.textMaxMarkTY_UG.TabIndex = 24;
-            this.textMaxMarkTY_UG.TextChanged += new System.EventHandler(this.textBox5_TextChanged);
             // 
             // textMaxMarkLY_UG
             // 
@@ -604,7 +594,6 @@
             this.textMaxMarkLY_UG.Name = "textMaxMarkLY_UG";
             this.textMaxMarkLY_UG.Size = new System.Drawing.Size(98, 20);
             this.textMaxMarkLY_UG.TabIndex = 29;
-            this.textMaxMarkLY_UG.TextChanged += new System.EventHandler(this.textBox5_TextChanged);
             // 
             // textMarkObtainLY_UG
             // 
@@ -613,7 +602,6 @@
             this.textMarkObtainLY_UG.Name = "textMarkObtainLY_UG";
             this.textMarkObtainLY_UG.Size = new System.Drawing.Size(99, 20);
             this.textMarkObtainLY_UG.TabIndex = 30;
-            this.textMarkObtainLY_UG.TextChanged += new System.EventHandler(this.textBox5_TextChanged);
             // 
             // labFY_PG
             // 
@@ -807,7 +795,6 @@
             this.textMarkObtainFY_PG.Name = "textMarkObtainFY_PG";
             this.textMarkObtainFY_PG.Size = new System.Drawing.Size(99, 20);
             this.textMarkObtainFY_PG.TabIndex = 35;
-            this.textMarkObtainFY_PG.TextChanged += new System.EventHandler(this.textBox5_TextChanged);
             // 
             // textMarkObtainSY_PG
             // 
@@ -816,7 +803,6 @@
             this.textMarkObtainSY_PG.Name = "textMarkObtainSY_PG";
             this.textMarkObtainSY_PG.Size = new System.Drawing.Size(99, 20);
             this.textMarkObtainSY_PG.TabIndex = 40;
-            this.textMarkObtainSY_PG.TextChanged += new System.EventHandler(this.textBox5_TextChanged);
             // 
             // textMarkObtainTY_PG
             // 
@@ -825,7 +811,6 @@
             this.textMarkObtainTY_PG.Name = "textMarkObtainTY_PG";
             this.textMarkObtainTY_PG.Size = new System.Drawing.Size(99, 20);
             this.textMarkObtainTY_PG.TabIndex = 45;
-            this.textMarkObtainTY_PG.TextChanged += new System.EventHandler(this.textBox5_TextChanged);
             // 
             // textMarkObtainLY_PG
             // 
@@ -834,7 +819,6 @@
             this.textMarkObtainLY_PG.Name = "textMarkObtainLY_PG";
             this.textMarkObtainLY_PG.Size = new System.Drawing.Size(99, 20);
             this.textMarkObtainLY_PG.TabIndex = 50;
-            this.textMarkObtainLY_PG.TextChanged += new System.EventHandler(this.textBox5_TextChanged);
             // 
             // ValidateButton
             // 
