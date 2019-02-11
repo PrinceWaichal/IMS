@@ -11,9 +11,7 @@ namespace _1___Software_Package.FormPages._1___SignIn
             InitializeComponent();
         }
 
-        MySqlConnection mySQLConnection = new
-                MySqlConnection("server=localhost;user id=root;password=root;" +
-             "persistsecurityinfo=True;database=MastersSchema");
+        MySqlConnection mySQLConnection = new MySqlConnection(ServerInfo.server);
 
         private void TLAdminLogin(object sender, EventArgs e)
         {
