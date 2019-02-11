@@ -8,5 +8,30 @@ namespace _1___Software_Package.FormPages._2___SignUp
         {
             InitializeComponent();
         }
+
+        private void splitContainer2_Panel1_Paint(object sender, PaintEventArgs e)
+        {
+
+        }
+
+        private void splitContainer2_Panel2_Paint(object sender, PaintEventArgs e)
+        {
+
+        }
+
+        private void label6_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void labOtherPDetail_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void labOtherCourses_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }

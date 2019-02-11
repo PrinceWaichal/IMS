@@ -345,6 +345,8 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.BackgroundImage = global::_1___Software_Package.Properties.Resources._173253837_56a18f0c5f9b58b7d0c0a855;
+            this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Center;
             this.ClientSize = new System.Drawing.Size(864, 651);
             this.Controls.Add(this.CentralContainerLogin);
             this.Controls.Add(this.tableLayoutPanel1);
