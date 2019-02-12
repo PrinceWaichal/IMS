@@ -11,8 +11,6 @@ namespace _1___Software_Package.FormPages._1___SignIn
             InitializeComponent();
         }
 
-        MySqlConnection mySQLConnection = new MySqlConnection(ServerInfo.server);
-
         private void TLAdminLogin(object sender, EventArgs e)
         {
             this.Hide();
@@ -60,12 +58,16 @@ namespace _1___Software_Package.FormPages._1___SignIn
             //Do Validation
             try
             {
-                mySQLConnection.Open();
+                ServerInfo.MySQLConnect.Open();
                 MessageBox.Show("Successful Connection");
             }
-            catch(Exception except)
+            catch
             {
-                MessageBox.Show("Failed to Connect\n"+except);
+                MessageBox.Show("Failed to Connect");
+            }
+            finally
+            {
+                ServerInfo.MySQLConnect.Close();
             }
         }
     }
