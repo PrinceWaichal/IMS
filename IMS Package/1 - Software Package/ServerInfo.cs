@@ -7,10 +7,16 @@ using MySql.Data.MySqlClient;
 
 namespace _1___Software_Package
 {
-    class ServerInfo
+    public class ServerInfo
     {
         public const string server = "server=localhost;user id=root;password=root;persistsecurityinfo=True;database=MastersSchema";
 
-        MySqlConnection mySQLConnection = new MySqlConnection(server);
+        public static MySqlConnection MySQLConnect = new MySqlConnection(server);
+
+        public static MySqlCommand MySQLCommand = new MySqlCommand();
+
+        public static MySqlDataAdapter MySQLDataAdapt = new MySqlDataAdapter();
+
+        public static MySqlDataReader MySQLDataRead;
     }
 }

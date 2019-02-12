@@ -10,7 +10,7 @@ namespace _1___Software_Package.FormPages._1___SignIn
         {
             InitializeComponent();
         }
-
+        
         private void LibLogin(object sender, EventArgs e)
         {
             this.Hide();
@@ -58,12 +58,16 @@ namespace _1___Software_Package.FormPages._1___SignIn
             //Do Validatation
             try
             {
-                ServerInfo..Open();
+                ServerInfo.MySQLConnect.Open();
                 MessageBox.Show("Successful Connection");
             }
             catch
             {
                 MessageBox.Show("Failed to Connect");
+            }
+            finally
+            {
+                ServerInfo.MySQLConnect.Close();
             }
         }
     }
