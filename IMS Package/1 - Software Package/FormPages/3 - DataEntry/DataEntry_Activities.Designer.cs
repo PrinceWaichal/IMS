@@ -47,14 +47,72 @@
             this.panel3 = new System.Windows.Forms.Panel();
             this.label2 = new System.Windows.Forms.Label();
             this.panel1 = new System.Windows.Forms.Panel();
-            this.panel2 = new System.Windows.Forms.Panel();
+            this.panelAcitivty = new System.Windows.Forms.Panel();
+            this.radioButPurNonEducational = new System.Windows.Forms.RadioButton();
+            this.radioButPurEducational = new System.Windows.Forms.RadioButton();
+            this.labExtraActiviPurpose = new System.Windows.Forms.Label();
+            this.panelSports = new System.Windows.Forms.Panel();
+            this.grouBoxParticiSports = new System.Windows.Forms.GroupBox();
+            this.labParticipationSports = new System.Windows.Forms.Label();
+            this.grouBoxCategory = new System.Windows.Forms.GroupBox();
+            this.radioCategoryNo = new System.Windows.Forms.RadioButton();
+            this.radioCategoryYes = new System.Windows.Forms.RadioButton();
+            this.labCategory = new System.Windows.Forms.Label();
+            this.radioButParticiSportNo = new System.Windows.Forms.RadioButton();
+            this.radioButParticiSportYes = new System.Windows.Forms.RadioButton();
+            this.PanelActivity = new System.Windows.Forms.TableLayoutPanel();
+            this.textActiName1 = new System.Windows.Forms.TextBox();
+            this.labActivityName = new System.Windows.Forms.Label();
+            this.textActiPlace1 = new System.Windows.Forms.TextBox();
+            this.textAchievement1 = new System.Windows.Forms.TextBox();
+            this.labAchievmnt = new System.Windows.Forms.Label();
+            this.labActiPlace = new System.Windows.Forms.Label();
+            this.textActiName2 = new System.Windows.Forms.TextBox();
+            this.textActiName3 = new System.Windows.Forms.TextBox();
+            this.textActiName4 = new System.Windows.Forms.TextBox();
+            this.textActiPlace2 = new System.Windows.Forms.TextBox();
+            this.textActiPlace3 = new System.Windows.Forms.TextBox();
+            this.textActiPlace4 = new System.Windows.Forms.TextBox();
             this.SubmitButton = new System.Windows.Forms.Button();
+            this.textAchievement2 = new System.Windows.Forms.TextBox();
+            this.textAchievement3 = new System.Windows.Forms.TextBox();
+            this.textAchievement4 = new System.Windows.Forms.TextBox();
+            this.panelExtraActivity = new System.Windows.Forms.Panel();
+            this.groupBox3 = new System.Windows.Forms.GroupBox();
+            this.groupBox4 = new System.Windows.Forms.GroupBox();
+            this.labParticiExtraCurricular = new System.Windows.Forms.Label();
+            this.radioButExtraActiviNo = new System.Windows.Forms.RadioButton();
+            this.radioButExtraAcitviYes = new System.Windows.Forms.RadioButton();
+            this.tableLayoutPanel3 = new System.Windows.Forms.TableLayoutPanel();
+            this.labNameExtraAcitvity = new System.Windows.Forms.Label();
+            this.textExtraActivity1 = new System.Windows.Forms.TextBox();
+            this.label6 = new System.Windows.Forms.Label();
+            this.textPlace1 = new System.Windows.Forms.TextBox();
+            this.labRemark = new System.Windows.Forms.Label();
+            this.textRemark1 = new System.Windows.Forms.TextBox();
+            this.textExtraActivity2 = new System.Windows.Forms.TextBox();
+            this.textExtraActivity3 = new System.Windows.Forms.TextBox();
+            this.textExtraActivity4 = new System.Windows.Forms.TextBox();
+            this.textPlace2 = new System.Windows.Forms.TextBox();
+            this.textPlace3 = new System.Windows.Forms.TextBox();
+            this.textPlace4 = new System.Windows.Forms.TextBox();
+            this.textRemark2 = new System.Windows.Forms.TextBox();
+            this.textRemark3 = new System.Windows.Forms.TextBox();
+            this.textRemark4 = new System.Windows.Forms.TextBox();
             this.tableLayoutPanel2.SuspendLayout();
             this.ButtonPanel.SuspendLayout();
             this.tableLayoutPanel1.SuspendLayout();
             this.panel3.SuspendLayout();
             this.panel1.SuspendLayout();
-            this.panel2.SuspendLayout();
+            this.panelAcitivty.SuspendLayout();
+            this.panelSports.SuspendLayout();
+            this.grouBoxParticiSports.SuspendLayout();
+            this.grouBoxCategory.SuspendLayout();
+            this.PanelActivity.SuspendLayout();
+            this.panelExtraActivity.SuspendLayout();
+            this.groupBox3.SuspendLayout();
+            this.groupBox4.SuspendLayout();
+            this.tableLayoutPanel3.SuspendLayout();
             this.SuspendLayout();
             // 
             // tableLayoutPanel2
@@ -276,31 +334,547 @@
             this.panel1.Size = new System.Drawing.Size(788, 26);
             this.panel1.TabIndex = 12;
             // 
-            // panel2
+            // panelAcitivty
             // 
-            this.panel2.Controls.Add(this.SubmitButton);
-            this.panel2.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.panel2.Location = new System.Drawing.Point(200, 26);
-            this.panel2.Name = "panel2";
-            this.panel2.Size = new System.Drawing.Size(588, 446);
-            this.panel2.TabIndex = 14;
+            this.panelAcitivty.AutoScroll = true;
+            this.panelAcitivty.Controls.Add(this.panelExtraActivity);
+            this.panelAcitivty.Controls.Add(this.panelSports);
+            this.panelAcitivty.Controls.Add(this.SubmitButton);
+            this.panelAcitivty.Location = new System.Drawing.Point(200, 26);
+            this.panelAcitivty.Name = "panelAcitivty";
+            this.panelAcitivty.Size = new System.Drawing.Size(588, 446);
+            this.panelAcitivty.TabIndex = 14;
+            // 
+            // radioButPurNonEducational
+            // 
+            this.radioButPurNonEducational.AutoSize = true;
+            this.radioButPurNonEducational.Location = new System.Drawing.Point(316, 12);
+            this.radioButPurNonEducational.Name = "radioButPurNonEducational";
+            this.radioButPurNonEducational.Size = new System.Drawing.Size(104, 17);
+            this.radioButPurNonEducational.TabIndex = 0;
+            this.radioButPurNonEducational.TabStop = true;
+            this.radioButPurNonEducational.Text = "Non Educational";
+            this.radioButPurNonEducational.UseVisualStyleBackColor = true;
+            // 
+            // radioButPurEducational
+            // 
+            this.radioButPurEducational.AutoSize = true;
+            this.radioButPurEducational.Location = new System.Drawing.Point(217, 12);
+            this.radioButPurEducational.Name = "radioButPurEducational";
+            this.radioButPurEducational.Size = new System.Drawing.Size(81, 17);
+            this.radioButPurEducational.TabIndex = 0;
+            this.radioButPurEducational.TabStop = true;
+            this.radioButPurEducational.Text = "Educational";
+            this.radioButPurEducational.UseVisualStyleBackColor = true;
+            // 
+            // labExtraActiviPurpose
+            // 
+            this.labExtraActiviPurpose.AutoSize = true;
+            this.labExtraActiviPurpose.Location = new System.Drawing.Point(-3, 16);
+            this.labExtraActiviPurpose.Name = "labExtraActiviPurpose";
+            this.labExtraActiviPurpose.Size = new System.Drawing.Size(46, 13);
+            this.labExtraActiviPurpose.TabIndex = 3;
+            this.labExtraActiviPurpose.Text = "Purpose";
+            // 
+            // panelSports
+            // 
+            this.panelSports.Controls.Add(this.grouBoxParticiSports);
+            this.panelSports.Controls.Add(this.PanelActivity);
+            this.panelSports.Location = new System.Drawing.Point(6, 3);
+            this.panelSports.Name = "panelSports";
+            this.panelSports.Size = new System.Drawing.Size(512, 222);
+            this.panelSports.TabIndex = 6;
+            // 
+            // grouBoxParticiSports
+            // 
+            this.grouBoxParticiSports.Controls.Add(this.labParticipationSports);
+            this.grouBoxParticiSports.Controls.Add(this.grouBoxCategory);
+            this.grouBoxParticiSports.Controls.Add(this.radioButParticiSportNo);
+            this.grouBoxParticiSports.Controls.Add(this.radioButParticiSportYes);
+            this.grouBoxParticiSports.Location = new System.Drawing.Point(3, 3);
+            this.grouBoxParticiSports.Name = "grouBoxParticiSports";
+            this.grouBoxParticiSports.Size = new System.Drawing.Size(489, 75);
+            this.grouBoxParticiSports.TabIndex = 4;
+            this.grouBoxParticiSports.TabStop = false;
+            // 
+            // labParticipationSports
+            // 
+            this.labParticipationSports.AutoSize = true;
+            this.labParticipationSports.Location = new System.Drawing.Point(6, 16);
+            this.labParticipationSports.Name = "labParticipationSports";
+            this.labParticipationSports.Size = new System.Drawing.Size(165, 13);
+            this.labParticipationSports.TabIndex = 1;
+            this.labParticipationSports.Text = "Have you  participated in sports ?";
+            // 
+            // grouBoxCategory
+            // 
+            this.grouBoxCategory.Controls.Add(this.radioCategoryNo);
+            this.grouBoxCategory.Controls.Add(this.radioCategoryYes);
+            this.grouBoxCategory.Controls.Add(this.labCategory);
+            this.grouBoxCategory.Location = new System.Drawing.Point(6, 35);
+            this.grouBoxCategory.Name = "grouBoxCategory";
+            this.grouBoxCategory.Size = new System.Drawing.Size(461, 37);
+            this.grouBoxCategory.TabIndex = 5;
+            this.grouBoxCategory.TabStop = false;
+            // 
+            // radioCategoryNo
+            // 
+            this.radioCategoryNo.AutoSize = true;
+            this.radioCategoryNo.Location = new System.Drawing.Point(328, 18);
+            this.radioCategoryNo.Name = "radioCategoryNo";
+            this.radioCategoryNo.Size = new System.Drawing.Size(39, 17);
+            this.radioCategoryNo.TabIndex = 0;
+            this.radioCategoryNo.TabStop = true;
+            this.radioCategoryNo.Text = "No";
+            this.radioCategoryNo.UseVisualStyleBackColor = true;
+            // 
+            // radioCategoryYes
+            // 
+            this.radioCategoryYes.AutoSize = true;
+            this.radioCategoryYes.Location = new System.Drawing.Point(229, 19);
+            this.radioCategoryYes.Name = "radioCategoryYes";
+            this.radioCategoryYes.Size = new System.Drawing.Size(43, 17);
+            this.radioCategoryYes.TabIndex = 0;
+            this.radioCategoryYes.TabStop = true;
+            this.radioCategoryYes.Text = "Yes";
+            this.radioCategoryYes.UseVisualStyleBackColor = true;
+            // 
+            // labCategory
+            // 
+            this.labCategory.AutoSize = true;
+            this.labCategory.Location = new System.Drawing.Point(6, 18);
+            this.labCategory.Name = "labCategory";
+            this.labCategory.Size = new System.Drawing.Size(55, 13);
+            this.labCategory.TabIndex = 3;
+            this.labCategory.Text = "Coategory";
+            // 
+            // radioButParticiSportNo
+            // 
+            this.radioButParticiSportNo.AutoSize = true;
+            this.radioButParticiSportNo.Location = new System.Drawing.Point(334, 14);
+            this.radioButParticiSportNo.Name = "radioButParticiSportNo";
+            this.radioButParticiSportNo.Size = new System.Drawing.Size(39, 17);
+            this.radioButParticiSportNo.TabIndex = 0;
+            this.radioButParticiSportNo.TabStop = true;
+            this.radioButParticiSportNo.Text = "No";
+            this.radioButParticiSportNo.UseVisualStyleBackColor = true;
+            // 
+            // radioButParticiSportYes
+            // 
+            this.radioButParticiSportYes.AutoSize = true;
+            this.radioButParticiSportYes.Location = new System.Drawing.Point(235, 16);
+            this.radioButParticiSportYes.Name = "radioButParticiSportYes";
+            this.radioButParticiSportYes.Size = new System.Drawing.Size(43, 17);
+            this.radioButParticiSportYes.TabIndex = 0;
+            this.radioButParticiSportYes.TabStop = true;
+            this.radioButParticiSportYes.Text = "Yes";
+            this.radioButParticiSportYes.UseVisualStyleBackColor = true;
+            // 
+            // PanelActivity
+            // 
+            this.PanelActivity.CellBorderStyle = System.Windows.Forms.TableLayoutPanelCellBorderStyle.Single;
+            this.PanelActivity.ColumnCount = 3;
+            this.PanelActivity.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 33.33333F));
+            this.PanelActivity.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 33.33333F));
+            this.PanelActivity.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 33.33333F));
+            this.PanelActivity.Controls.Add(this.textActiName1, 0, 1);
+            this.PanelActivity.Controls.Add(this.labActivityName, 0, 0);
+            this.PanelActivity.Controls.Add(this.textActiPlace1, 1, 1);
+            this.PanelActivity.Controls.Add(this.textAchievement1, 2, 1);
+            this.PanelActivity.Controls.Add(this.labAchievmnt, 2, 0);
+            this.PanelActivity.Controls.Add(this.labActiPlace, 1, 0);
+            this.PanelActivity.Controls.Add(this.textActiName2, 0, 2);
+            this.PanelActivity.Controls.Add(this.textActiName3, 0, 3);
+            this.PanelActivity.Controls.Add(this.textActiName4, 0, 4);
+            this.PanelActivity.Controls.Add(this.textActiPlace2, 1, 2);
+            this.PanelActivity.Controls.Add(this.textActiPlace3, 1, 3);
+            this.PanelActivity.Controls.Add(this.textActiPlace4, 1, 4);
+            this.PanelActivity.Controls.Add(this.textAchievement2, 2, 2);
+            this.PanelActivity.Controls.Add(this.textAchievement3, 2, 3);
+            this.PanelActivity.Controls.Add(this.textAchievement4, 2, 4);
+            this.PanelActivity.Location = new System.Drawing.Point(9, 78);
+            this.PanelActivity.Name = "PanelActivity";
+            this.PanelActivity.RowCount = 5;
+            this.PanelActivity.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 20F));
+            this.PanelActivity.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 20F));
+            this.PanelActivity.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 20F));
+            this.PanelActivity.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 20F));
+            this.PanelActivity.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 20F));
+            this.PanelActivity.Size = new System.Drawing.Size(405, 138);
+            this.PanelActivity.TabIndex = 3;
+            // 
+            // textActiName1
+            // 
+            this.textActiName1.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.textActiName1.Location = new System.Drawing.Point(4, 31);
+            this.textActiName1.Name = "textActiName1";
+            this.textActiName1.Size = new System.Drawing.Size(127, 20);
+            this.textActiName1.TabIndex = 2;
+            // 
+            // labActivityName
+            // 
+            this.labActivityName.Anchor = System.Windows.Forms.AnchorStyles.Left;
+            this.labActivityName.AutoSize = true;
+            this.labActivityName.Location = new System.Drawing.Point(4, 7);
+            this.labActivityName.Name = "labActivityName";
+            this.labActivityName.Size = new System.Drawing.Size(83, 13);
+            this.labActivityName.TabIndex = 1;
+            this.labActivityName.Text = "Name of activity";
+            // 
+            // textActiPlace1
+            // 
+            this.textActiPlace1.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.textActiPlace1.Location = new System.Drawing.Point(138, 31);
+            this.textActiPlace1.Name = "textActiPlace1";
+            this.textActiPlace1.Size = new System.Drawing.Size(127, 20);
+            this.textActiPlace1.TabIndex = 2;
+            // 
+            // textAchievement1
+            // 
+            this.textAchievement1.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.textAchievement1.Location = new System.Drawing.Point(272, 31);
+            this.textAchievement1.Multiline = true;
+            this.textAchievement1.Name = "textAchievement1";
+            this.textAchievement1.Size = new System.Drawing.Size(129, 20);
+            this.textAchievement1.TabIndex = 5;
+            // 
+            // labAchievmnt
+            // 
+            this.labAchievmnt.Anchor = System.Windows.Forms.AnchorStyles.Left;
+            this.labAchievmnt.AutoSize = true;
+            this.labAchievmnt.Location = new System.Drawing.Point(272, 7);
+            this.labAchievmnt.Name = "labAchievmnt";
+            this.labAchievmnt.Size = new System.Drawing.Size(74, 13);
+            this.labAchievmnt.TabIndex = 4;
+            this.labAchievmnt.Text = "Achievements";
+            // 
+            // labActiPlace
+            // 
+            this.labActiPlace.Anchor = System.Windows.Forms.AnchorStyles.Left;
+            this.labActiPlace.AutoSize = true;
+            this.labActiPlace.Location = new System.Drawing.Point(138, 7);
+            this.labActiPlace.Name = "labActiPlace";
+            this.labActiPlace.Size = new System.Drawing.Size(37, 13);
+            this.labActiPlace.TabIndex = 3;
+            this.labActiPlace.Text = "Place ";
+            // 
+            // textActiName2
+            // 
+            this.textActiName2.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.textActiName2.Location = new System.Drawing.Point(4, 58);
+            this.textActiName2.Name = "textActiName2";
+            this.textActiName2.Size = new System.Drawing.Size(127, 20);
+            this.textActiName2.TabIndex = 2;
+            // 
+            // textActiName3
+            // 
+            this.textActiName3.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.textActiName3.Location = new System.Drawing.Point(4, 85);
+            this.textActiName3.Name = "textActiName3";
+            this.textActiName3.Size = new System.Drawing.Size(127, 20);
+            this.textActiName3.TabIndex = 2;
+            // 
+            // textActiName4
+            // 
+            this.textActiName4.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.textActiName4.Location = new System.Drawing.Point(4, 112);
+            this.textActiName4.Name = "textActiName4";
+            this.textActiName4.Size = new System.Drawing.Size(127, 20);
+            this.textActiName4.TabIndex = 2;
+            // 
+            // textActiPlace2
+            // 
+            this.textActiPlace2.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.textActiPlace2.Location = new System.Drawing.Point(138, 58);
+            this.textActiPlace2.Name = "textActiPlace2";
+            this.textActiPlace2.Size = new System.Drawing.Size(127, 20);
+            this.textActiPlace2.TabIndex = 2;
+            // 
+            // textActiPlace3
+            // 
+            this.textActiPlace3.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.textActiPlace3.Location = new System.Drawing.Point(138, 85);
+            this.textActiPlace3.Name = "textActiPlace3";
+            this.textActiPlace3.Size = new System.Drawing.Size(127, 20);
+            this.textActiPlace3.TabIndex = 2;
+            // 
+            // textActiPlace4
+            // 
+            this.textActiPlace4.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.textActiPlace4.Location = new System.Drawing.Point(138, 112);
+            this.textActiPlace4.Name = "textActiPlace4";
+            this.textActiPlace4.Size = new System.Drawing.Size(127, 20);
+            this.textActiPlace4.TabIndex = 2;
             // 
             // SubmitButton
             // 
             this.SubmitButton.Dock = System.Windows.Forms.DockStyle.Bottom;
-            this.SubmitButton.Location = new System.Drawing.Point(0, 423);
+            this.SubmitButton.Location = new System.Drawing.Point(0, 453);
             this.SubmitButton.Name = "SubmitButton";
-            this.SubmitButton.Size = new System.Drawing.Size(588, 23);
+            this.SubmitButton.Size = new System.Drawing.Size(571, 23);
             this.SubmitButton.TabIndex = 0;
             this.SubmitButton.Text = "Submit";
             this.SubmitButton.UseVisualStyleBackColor = true;
+            // 
+            // textAchievement2
+            // 
+            this.textAchievement2.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.textAchievement2.Location = new System.Drawing.Point(272, 58);
+            this.textAchievement2.Multiline = true;
+            this.textAchievement2.Name = "textAchievement2";
+            this.textAchievement2.Size = new System.Drawing.Size(129, 20);
+            this.textAchievement2.TabIndex = 5;
+            // 
+            // textAchievement3
+            // 
+            this.textAchievement3.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.textAchievement3.Location = new System.Drawing.Point(272, 85);
+            this.textAchievement3.Multiline = true;
+            this.textAchievement3.Name = "textAchievement3";
+            this.textAchievement3.Size = new System.Drawing.Size(129, 20);
+            this.textAchievement3.TabIndex = 5;
+            // 
+            // textAchievement4
+            // 
+            this.textAchievement4.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.textAchievement4.Location = new System.Drawing.Point(272, 112);
+            this.textAchievement4.Multiline = true;
+            this.textAchievement4.Name = "textAchievement4";
+            this.textAchievement4.Size = new System.Drawing.Size(129, 22);
+            this.textAchievement4.TabIndex = 5;
+            // 
+            // panelExtraActivity
+            // 
+            this.panelExtraActivity.Controls.Add(this.tableLayoutPanel3);
+            this.panelExtraActivity.Controls.Add(this.groupBox3);
+            this.panelExtraActivity.Location = new System.Drawing.Point(6, 231);
+            this.panelExtraActivity.Name = "panelExtraActivity";
+            this.panelExtraActivity.Size = new System.Drawing.Size(512, 222);
+            this.panelExtraActivity.TabIndex = 8;
+            // 
+            // groupBox3
+            // 
+            this.groupBox3.Controls.Add(this.radioButExtraActiviNo);
+            this.groupBox3.Controls.Add(this.radioButExtraAcitviYes);
+            this.groupBox3.Controls.Add(this.labParticiExtraCurricular);
+            this.groupBox3.Controls.Add(this.groupBox4);
+            this.groupBox3.Location = new System.Drawing.Point(3, 3);
+            this.groupBox3.Name = "groupBox3";
+            this.groupBox3.Size = new System.Drawing.Size(489, 75);
+            this.groupBox3.TabIndex = 4;
+            this.groupBox3.TabStop = false;
+            // 
+            // groupBox4
+            // 
+            this.groupBox4.Controls.Add(this.radioButPurNonEducational);
+            this.groupBox4.Controls.Add(this.labExtraActiviPurpose);
+            this.groupBox4.Controls.Add(this.radioButPurEducational);
+            this.groupBox4.Location = new System.Drawing.Point(6, 35);
+            this.groupBox4.Name = "groupBox4";
+            this.groupBox4.Size = new System.Drawing.Size(461, 37);
+            this.groupBox4.TabIndex = 5;
+            this.groupBox4.TabStop = false;
+            // 
+            // labParticiExtraCurricular
+            // 
+            this.labParticiExtraCurricular.AutoSize = true;
+            this.labParticiExtraCurricular.Location = new System.Drawing.Point(3, 14);
+            this.labParticiExtraCurricular.Name = "labParticiExtraCurricular";
+            this.labParticiExtraCurricular.Size = new System.Drawing.Size(208, 13);
+            this.labParticiExtraCurricular.TabIndex = 6;
+            this.labParticiExtraCurricular.Text = "Have you done any extra curricular activity";
+            // 
+            // radioButExtraActiviNo
+            // 
+            this.radioButExtraActiviNo.AutoSize = true;
+            this.radioButExtraActiviNo.Location = new System.Drawing.Point(322, 19);
+            this.radioButExtraActiviNo.Name = "radioButExtraActiviNo";
+            this.radioButExtraActiviNo.Size = new System.Drawing.Size(39, 17);
+            this.radioButExtraActiviNo.TabIndex = 7;
+            this.radioButExtraActiviNo.TabStop = true;
+            this.radioButExtraActiviNo.Text = "No";
+            this.radioButExtraActiviNo.UseVisualStyleBackColor = true;
+            // 
+            // radioButExtraAcitviYes
+            // 
+            this.radioButExtraAcitviYes.AutoSize = true;
+            this.radioButExtraAcitviYes.Location = new System.Drawing.Point(223, 19);
+            this.radioButExtraAcitviYes.Name = "radioButExtraAcitviYes";
+            this.radioButExtraAcitviYes.Size = new System.Drawing.Size(43, 17);
+            this.radioButExtraAcitviYes.TabIndex = 8;
+            this.radioButExtraAcitviYes.TabStop = true;
+            this.radioButExtraAcitviYes.Text = "Yes";
+            this.radioButExtraAcitviYes.UseVisualStyleBackColor = true;
+            // 
+            // tableLayoutPanel3
+            // 
+            this.tableLayoutPanel3.CellBorderStyle = System.Windows.Forms.TableLayoutPanelCellBorderStyle.Single;
+            this.tableLayoutPanel3.ColumnCount = 3;
+            this.tableLayoutPanel3.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 33.33333F));
+            this.tableLayoutPanel3.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 33.33333F));
+            this.tableLayoutPanel3.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 33.33333F));
+            this.tableLayoutPanel3.Controls.Add(this.textRemark1, 2, 1);
+            this.tableLayoutPanel3.Controls.Add(this.textPlace1, 1, 1);
+            this.tableLayoutPanel3.Controls.Add(this.labRemark, 2, 0);
+            this.tableLayoutPanel3.Controls.Add(this.textExtraActivity1, 0, 1);
+            this.tableLayoutPanel3.Controls.Add(this.labNameExtraAcitvity, 0, 0);
+            this.tableLayoutPanel3.Controls.Add(this.label6, 1, 0);
+            this.tableLayoutPanel3.Controls.Add(this.textExtraActivity2, 0, 2);
+            this.tableLayoutPanel3.Controls.Add(this.textExtraActivity3, 0, 3);
+            this.tableLayoutPanel3.Controls.Add(this.textExtraActivity4, 0, 4);
+            this.tableLayoutPanel3.Controls.Add(this.textPlace2, 1, 2);
+            this.tableLayoutPanel3.Controls.Add(this.textPlace3, 1, 3);
+            this.tableLayoutPanel3.Controls.Add(this.textPlace4, 1, 4);
+            this.tableLayoutPanel3.Controls.Add(this.textRemark2, 2, 2);
+            this.tableLayoutPanel3.Controls.Add(this.textRemark3, 2, 3);
+            this.tableLayoutPanel3.Controls.Add(this.textRemark4, 2, 4);
+            this.tableLayoutPanel3.Location = new System.Drawing.Point(3, 84);
+            this.tableLayoutPanel3.Name = "tableLayoutPanel3";
+            this.tableLayoutPanel3.RowCount = 5;
+            this.tableLayoutPanel3.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 20F));
+            this.tableLayoutPanel3.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 20F));
+            this.tableLayoutPanel3.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 20F));
+            this.tableLayoutPanel3.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 20F));
+            this.tableLayoutPanel3.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 20F));
+            this.tableLayoutPanel3.Size = new System.Drawing.Size(411, 138);
+            this.tableLayoutPanel3.TabIndex = 5;
+            // 
+            // labNameExtraAcitvity
+            // 
+            this.labNameExtraAcitvity.Anchor = System.Windows.Forms.AnchorStyles.Left;
+            this.labNameExtraAcitvity.AutoSize = true;
+            this.labNameExtraAcitvity.Location = new System.Drawing.Point(4, 7);
+            this.labNameExtraAcitvity.Name = "labNameExtraAcitvity";
+            this.labNameExtraAcitvity.Size = new System.Drawing.Size(110, 13);
+            this.labNameExtraAcitvity.TabIndex = 1;
+            this.labNameExtraAcitvity.Text = "Name of Extra activity";
+            // 
+            // textExtraActivity1
+            // 
+            this.textExtraActivity1.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.textExtraActivity1.Location = new System.Drawing.Point(4, 31);
+            this.textExtraActivity1.Name = "textExtraActivity1";
+            this.textExtraActivity1.Size = new System.Drawing.Size(129, 20);
+            this.textExtraActivity1.TabIndex = 2;
+            // 
+            // label6
+            // 
+            this.label6.Anchor = System.Windows.Forms.AnchorStyles.Left;
+            this.label6.AutoSize = true;
+            this.label6.Location = new System.Drawing.Point(140, 7);
+            this.label6.Name = "label6";
+            this.label6.Size = new System.Drawing.Size(37, 13);
+            this.label6.TabIndex = 3;
+            this.label6.Text = "Place ";
+            // 
+            // textPlace1
+            // 
+            this.textPlace1.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.textPlace1.Location = new System.Drawing.Point(140, 31);
+            this.textPlace1.Name = "textPlace1";
+            this.textPlace1.Size = new System.Drawing.Size(129, 20);
+            this.textPlace1.TabIndex = 2;
+            // 
+            // labRemark
+            // 
+            this.labRemark.Anchor = System.Windows.Forms.AnchorStyles.Left;
+            this.labRemark.AutoSize = true;
+            this.labRemark.Location = new System.Drawing.Point(276, 7);
+            this.labRemark.Name = "labRemark";
+            this.labRemark.Size = new System.Drawing.Size(74, 13);
+            this.labRemark.TabIndex = 4;
+            this.labRemark.Text = "Achievements";
+            // 
+            // textRemark1
+            // 
+            this.textRemark1.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.textRemark1.Location = new System.Drawing.Point(276, 31);
+            this.textRemark1.Multiline = true;
+            this.textRemark1.Name = "textRemark1";
+            this.textRemark1.Size = new System.Drawing.Size(131, 20);
+            this.textRemark1.TabIndex = 5;
+            // 
+            // textExtraActivity2
+            // 
+            this.textExtraActivity2.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.textExtraActivity2.Location = new System.Drawing.Point(4, 58);
+            this.textExtraActivity2.Name = "textExtraActivity2";
+            this.textExtraActivity2.Size = new System.Drawing.Size(129, 20);
+            this.textExtraActivity2.TabIndex = 2;
+            // 
+            // textExtraActivity3
+            // 
+            this.textExtraActivity3.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.textExtraActivity3.Location = new System.Drawing.Point(4, 85);
+            this.textExtraActivity3.Name = "textExtraActivity3";
+            this.textExtraActivity3.Size = new System.Drawing.Size(129, 20);
+            this.textExtraActivity3.TabIndex = 2;
+            // 
+            // textExtraActivity4
+            // 
+            this.textExtraActivity4.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.textExtraActivity4.Location = new System.Drawing.Point(4, 112);
+            this.textExtraActivity4.Name = "textExtraActivity4";
+            this.textExtraActivity4.Size = new System.Drawing.Size(129, 20);
+            this.textExtraActivity4.TabIndex = 2;
+            // 
+            // textPlace2
+            // 
+            this.textPlace2.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.textPlace2.Location = new System.Drawing.Point(140, 58);
+            this.textPlace2.Name = "textPlace2";
+            this.textPlace2.Size = new System.Drawing.Size(129, 20);
+            this.textPlace2.TabIndex = 2;
+            // 
+            // textPlace3
+            // 
+            this.textPlace3.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.textPlace3.Location = new System.Drawing.Point(140, 85);
+            this.textPlace3.Name = "textPlace3";
+            this.textPlace3.Size = new System.Drawing.Size(129, 20);
+            this.textPlace3.TabIndex = 2;
+            // 
+            // textPlace4
+            // 
+            this.textPlace4.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.textPlace4.Location = new System.Drawing.Point(140, 112);
+            this.textPlace4.Name = "textPlace4";
+            this.textPlace4.Size = new System.Drawing.Size(129, 20);
+            this.textPlace4.TabIndex = 2;
+            // 
+            // textRemark2
+            // 
+            this.textRemark2.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.textRemark2.Location = new System.Drawing.Point(276, 58);
+            this.textRemark2.Multiline = true;
+            this.textRemark2.Name = "textRemark2";
+            this.textRemark2.Size = new System.Drawing.Size(131, 20);
+            this.textRemark2.TabIndex = 5;
+            // 
+            // textRemark3
+            // 
+            this.textRemark3.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.textRemark3.Location = new System.Drawing.Point(276, 85);
+            this.textRemark3.Multiline = true;
+            this.textRemark3.Name = "textRemark3";
+            this.textRemark3.Size = new System.Drawing.Size(131, 20);
+            this.textRemark3.TabIndex = 5;
+            // 
+            // textRemark4
+            // 
+            this.textRemark4.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.textRemark4.Location = new System.Drawing.Point(276, 112);
+            this.textRemark4.Multiline = true;
+            this.textRemark4.Name = "textRemark4";
+            this.textRemark4.Size = new System.Drawing.Size(131, 22);
+            this.textRemark4.TabIndex = 5;
             // 
             // DataEntry_Activities
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(788, 503);
-            this.Controls.Add(this.panel2);
+            this.Controls.Add(this.panelAcitivty);
             this.Controls.Add(this.ButtonPanel);
             this.Controls.Add(this.panel1);
             this.Controls.Add(this.tableLayoutPanel1);
@@ -315,7 +889,21 @@
             this.panel3.PerformLayout();
             this.panel1.ResumeLayout(false);
             this.panel1.PerformLayout();
-            this.panel2.ResumeLayout(false);
+            this.panelAcitivty.ResumeLayout(false);
+            this.panelSports.ResumeLayout(false);
+            this.grouBoxParticiSports.ResumeLayout(false);
+            this.grouBoxParticiSports.PerformLayout();
+            this.grouBoxCategory.ResumeLayout(false);
+            this.grouBoxCategory.PerformLayout();
+            this.PanelActivity.ResumeLayout(false);
+            this.PanelActivity.PerformLayout();
+            this.panelExtraActivity.ResumeLayout(false);
+            this.groupBox3.ResumeLayout(false);
+            this.groupBox3.PerformLayout();
+            this.groupBox4.ResumeLayout(false);
+            this.groupBox4.PerformLayout();
+            this.tableLayoutPanel3.ResumeLayout(false);
+            this.tableLayoutPanel3.PerformLayout();
             this.ResumeLayout(false);
 
         }
@@ -340,7 +928,57 @@
         private System.Windows.Forms.Panel panel3;
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.Panel panel1;
-        private System.Windows.Forms.Panel panel2;
+        private System.Windows.Forms.Panel panelAcitivty;
         private System.Windows.Forms.Button SubmitButton;
+        private System.Windows.Forms.GroupBox grouBoxParticiSports;
+        private System.Windows.Forms.Label labParticipationSports;
+        private System.Windows.Forms.RadioButton radioButParticiSportNo;
+        private System.Windows.Forms.RadioButton radioButParticiSportYes;
+        private System.Windows.Forms.TableLayoutPanel PanelActivity;
+        private System.Windows.Forms.Label labActivityName;
+        private System.Windows.Forms.TextBox textActiName1;
+        private System.Windows.Forms.Label labActiPlace;
+        private System.Windows.Forms.TextBox textActiPlace1;
+        private System.Windows.Forms.Label labCategory;
+        private System.Windows.Forms.GroupBox grouBoxCategory;
+        private System.Windows.Forms.RadioButton radioCategoryNo;
+        private System.Windows.Forms.RadioButton radioCategoryYes;
+        private System.Windows.Forms.Label labAchievmnt;
+        private System.Windows.Forms.TextBox textAchievement1;
+        private System.Windows.Forms.RadioButton radioButPurNonEducational;
+        private System.Windows.Forms.RadioButton radioButPurEducational;
+        private System.Windows.Forms.Label labExtraActiviPurpose;
+        private System.Windows.Forms.Panel panelSports;
+        private System.Windows.Forms.TextBox textActiName2;
+        private System.Windows.Forms.TextBox textActiName3;
+        private System.Windows.Forms.TextBox textActiName4;
+        private System.Windows.Forms.TextBox textActiPlace2;
+        private System.Windows.Forms.TextBox textActiPlace3;
+        private System.Windows.Forms.TextBox textActiPlace4;
+        private System.Windows.Forms.TextBox textAchievement2;
+        private System.Windows.Forms.TextBox textAchievement3;
+        private System.Windows.Forms.TextBox textAchievement4;
+        private System.Windows.Forms.Panel panelExtraActivity;
+        private System.Windows.Forms.TableLayoutPanel tableLayoutPanel3;
+        private System.Windows.Forms.TextBox textRemark1;
+        private System.Windows.Forms.TextBox textPlace1;
+        private System.Windows.Forms.Label labRemark;
+        private System.Windows.Forms.TextBox textExtraActivity1;
+        private System.Windows.Forms.Label labNameExtraAcitvity;
+        private System.Windows.Forms.Label label6;
+        private System.Windows.Forms.TextBox textExtraActivity2;
+        private System.Windows.Forms.TextBox textExtraActivity3;
+        private System.Windows.Forms.TextBox textExtraActivity4;
+        private System.Windows.Forms.TextBox textPlace2;
+        private System.Windows.Forms.TextBox textPlace3;
+        private System.Windows.Forms.TextBox textPlace4;
+        private System.Windows.Forms.TextBox textRemark2;
+        private System.Windows.Forms.TextBox textRemark3;
+        private System.Windows.Forms.TextBox textRemark4;
+        private System.Windows.Forms.GroupBox groupBox3;
+        private System.Windows.Forms.RadioButton radioButExtraActiviNo;
+        private System.Windows.Forms.RadioButton radioButExtraAcitviYes;
+        private System.Windows.Forms.Label labParticiExtraCurricular;
+        private System.Windows.Forms.GroupBox groupBox4;
     }
 }

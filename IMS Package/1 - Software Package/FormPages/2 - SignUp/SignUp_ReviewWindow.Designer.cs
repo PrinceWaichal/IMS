@@ -411,7 +411,7 @@
             // 
             this.labOtherCourses.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.labOtherCourses.AutoSize = true;
-            this.labOtherCourses.Location = new System.Drawing.Point(-2, 4036);
+            this.labOtherCourses.Location = new System.Drawing.Point(-2, 4433);
             this.labOtherCourses.Name = "labOtherCourses";
             this.labOtherCourses.Size = new System.Drawing.Size(73, 13);
             this.labOtherCourses.TabIndex = 30;
