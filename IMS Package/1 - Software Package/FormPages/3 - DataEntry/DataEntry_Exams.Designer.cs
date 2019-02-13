@@ -41,18 +41,37 @@
             this.LogOutButton = new System.Windows.Forms.Button();
             this.ReportsButton = new System.Windows.Forms.Button();
             this.tableLayoutPanel2 = new System.Windows.Forms.TableLayoutPanel();
-            this.label2 = new System.Windows.Forms.Label();
-            this.panel3 = new System.Windows.Forms.Panel();
             this.panel1 = new System.Windows.Forms.Panel();
             this.label1 = new System.Windows.Forms.Label();
             this.linkLabel1 = new System.Windows.Forms.LinkLabel();
             this.linkLabel2 = new System.Windows.Forms.LinkLabel();
             this.tableLayoutPanel1 = new System.Windows.Forms.TableLayoutPanel();
+            this.ComboxCourse = new System.Windows.Forms.ComboBox();
+            this.label3 = new System.Windows.Forms.Label();
+            this.label4 = new System.Windows.Forms.Label();
+            this.radioButRegular = new System.Windows.Forms.RadioButton();
+            this.dateTimeYearExam = new System.Windows.Forms.DateTimePicker();
+            this.ComboxSemester = new System.Windows.Forms.ComboBox();
+            this.ComboxSubject = new System.Windows.Forms.ComboBox();
+            this.labYear = new System.Windows.Forms.Label();
+            this.label2 = new System.Windows.Forms.Label();
+            this.panel3 = new System.Windows.Forms.Panel();
+            this.panel5 = new System.Windows.Forms.Panel();
+            this.tableExamEntry = new System.Windows.Forms.TableLayoutPanel();
+            this.labSemester = new System.Windows.Forms.Label();
+            this.labCourse = new System.Windows.Forms.Label();
+            this.labSubject = new System.Windows.Forms.Label();
+            this.comboxMonth = new System.Windows.Forms.ComboBox();
+            this.radioButRepeater = new System.Windows.Forms.RadioButton();
+            this.grupboxStatus = new System.Windows.Forms.GroupBox();
             this.ButtonPanel.SuspendLayout();
             this.tableLayoutPanel2.SuspendLayout();
-            this.panel3.SuspendLayout();
             this.panel1.SuspendLayout();
             this.tableLayoutPanel1.SuspendLayout();
+            this.panel3.SuspendLayout();
+            this.panel5.SuspendLayout();
+            this.tableExamEntry.SuspendLayout();
+            this.grupboxStatus.SuspendLayout();
             this.SuspendLayout();
             // 
             // SubmitButton
@@ -196,30 +215,6 @@
             this.tableLayoutPanel2.Size = new System.Drawing.Size(194, 64);
             this.tableLayoutPanel2.TabIndex = 6;
             // 
-            // label2
-            // 
-            this.label2.AutoSize = true;
-            this.label2.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.label2.Font = new System.Drawing.Font("Lucida Calligraphy", 18.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Pixel);
-            this.label2.ImageAlign = System.Drawing.ContentAlignment.TopLeft;
-            this.label2.ImeMode = System.Windows.Forms.ImeMode.NoControl;
-            this.label2.Location = new System.Drawing.Point(0, 0);
-            this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(308, 24);
-            this.label2.TabIndex = 0;
-            this.label2.Text = "Student Management System";
-            this.label2.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            // 
-            // panel3
-            // 
-            this.panel3.AccessibleRole = System.Windows.Forms.AccessibleRole.TitleBar;
-            this.panel3.Controls.Add(this.label2);
-            this.panel3.Dock = System.Windows.Forms.DockStyle.Top;
-            this.panel3.Location = new System.Drawing.Point(0, 0);
-            this.panel3.Name = "panel3";
-            this.panel3.Size = new System.Drawing.Size(791, 26);
-            this.panel3.TabIndex = 7;
-            // 
             // panel1
             // 
             this.panel1.AccessibleRole = System.Windows.Forms.AccessibleRole.TitleBar;
@@ -284,6 +279,215 @@
             this.tableLayoutPanel1.Size = new System.Drawing.Size(791, 31);
             this.tableLayoutPanel1.TabIndex = 11;
             // 
+            // ComboxCourse
+            // 
+            this.ComboxCourse.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.ComboxCourse.FormattingEnabled = true;
+            this.ComboxCourse.Location = new System.Drawing.Point(170, 53);
+            this.ComboxCourse.Name = "ComboxCourse";
+            this.ComboxCourse.Size = new System.Drawing.Size(162, 21);
+            this.ComboxCourse.TabIndex = 14;
+            // 
+            // label3
+            // 
+            this.label3.Anchor = System.Windows.Forms.AnchorStyles.Left;
+            this.label3.AutoSize = true;
+            this.label3.Location = new System.Drawing.Point(3, 108);
+            this.label3.Name = "label3";
+            this.label3.Size = new System.Drawing.Size(36, 13);
+            this.label3.TabIndex = 2;
+            this.label3.Text = "month";
+            // 
+            // label4
+            // 
+            this.label4.AutoSize = true;
+            this.label4.Location = new System.Drawing.Point(6, 6);
+            this.label4.Name = "label4";
+            this.label4.Size = new System.Drawing.Size(35, 13);
+            this.label4.TabIndex = 2;
+            this.label4.Text = "status";
+            // 
+            // radioButRegular
+            // 
+            this.radioButRegular.AutoSize = true;
+            this.radioButRegular.Location = new System.Drawing.Point(170, 6);
+            this.radioButRegular.Name = "radioButRegular";
+            this.radioButRegular.Size = new System.Drawing.Size(62, 17);
+            this.radioButRegular.TabIndex = 0;
+            this.radioButRegular.TabStop = true;
+            this.radioButRegular.Text = "Regular";
+            this.radioButRegular.UseVisualStyleBackColor = true;
+            // 
+            // dateTimeYearExam
+            // 
+            this.dateTimeYearExam.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.dateTimeYearExam.Location = new System.Drawing.Point(170, 3);
+            this.dateTimeYearExam.Name = "dateTimeYearExam";
+            this.dateTimeYearExam.Size = new System.Drawing.Size(162, 20);
+            this.dateTimeYearExam.TabIndex = 18;
+            // 
+            // ComboxSemester
+            // 
+            this.ComboxSemester.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.ComboxSemester.FormattingEnabled = true;
+            this.ComboxSemester.Location = new System.Drawing.Point(170, 28);
+            this.ComboxSemester.Name = "ComboxSemester";
+            this.ComboxSemester.Size = new System.Drawing.Size(162, 21);
+            this.ComboxSemester.TabIndex = 19;
+            // 
+            // ComboxSubject
+            // 
+            this.ComboxSubject.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.ComboxSubject.FormattingEnabled = true;
+            this.ComboxSubject.Location = new System.Drawing.Point(170, 78);
+            this.ComboxSubject.Name = "ComboxSubject";
+            this.ComboxSubject.Size = new System.Drawing.Size(162, 21);
+            this.ComboxSubject.TabIndex = 20;
+            // 
+            // labYear
+            // 
+            this.labYear.Anchor = System.Windows.Forms.AnchorStyles.Left;
+            this.labYear.AutoSize = true;
+            this.labYear.Location = new System.Drawing.Point(3, 6);
+            this.labYear.Name = "labYear";
+            this.labYear.Size = new System.Drawing.Size(29, 13);
+            this.labYear.TabIndex = 21;
+            this.labYear.Text = "Year";
+            // 
+            // label2
+            // 
+            this.label2.AutoSize = true;
+            this.label2.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.label2.Font = new System.Drawing.Font("Lucida Calligraphy", 18.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Pixel);
+            this.label2.ImageAlign = System.Drawing.ContentAlignment.TopLeft;
+            this.label2.ImeMode = System.Windows.Forms.ImeMode.NoControl;
+            this.label2.Location = new System.Drawing.Point(0, 0);
+            this.label2.Name = "label2";
+            this.label2.Size = new System.Drawing.Size(308, 24);
+            this.label2.TabIndex = 0;
+            this.label2.Text = "Student Management System";
+            this.label2.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
+            // panel3
+            // 
+            this.panel3.AccessibleRole = System.Windows.Forms.AccessibleRole.TitleBar;
+            this.panel3.Controls.Add(this.label2);
+            this.panel3.Dock = System.Windows.Forms.DockStyle.Top;
+            this.panel3.Location = new System.Drawing.Point(0, 0);
+            this.panel3.Name = "panel3";
+            this.panel3.Size = new System.Drawing.Size(791, 26);
+            this.panel3.TabIndex = 7;
+            // 
+            // panel5
+            // 
+            this.panel5.Controls.Add(this.grupboxStatus);
+            this.panel5.Controls.Add(this.tableExamEntry);
+            this.panel5.Location = new System.Drawing.Point(200, 26);
+            this.panel5.Name = "panel5";
+            this.panel5.Size = new System.Drawing.Size(591, 426);
+            this.panel5.TabIndex = 22;
+            // 
+            // tableExamEntry
+            // 
+            this.tableExamEntry.ColumnCount = 2;
+            this.tableExamEntry.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 49.99999F));
+            this.tableExamEntry.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 50F));
+            this.tableExamEntry.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 20F));
+            this.tableExamEntry.Controls.Add(this.label3, 0, 4);
+            this.tableExamEntry.Controls.Add(this.ComboxSemester, 1, 1);
+            this.tableExamEntry.Controls.Add(this.labYear, 0, 0);
+            this.tableExamEntry.Controls.Add(this.ComboxCourse, 1, 2);
+            this.tableExamEntry.Controls.Add(this.ComboxSubject, 1, 3);
+            this.tableExamEntry.Controls.Add(this.dateTimeYearExam, 1, 0);
+            this.tableExamEntry.Controls.Add(this.labSemester, 0, 1);
+            this.tableExamEntry.Controls.Add(this.labCourse, 0, 2);
+            this.tableExamEntry.Controls.Add(this.labSubject, 0, 3);
+            this.tableExamEntry.Controls.Add(this.comboxMonth, 1, 4);
+            this.tableExamEntry.Location = new System.Drawing.Point(3, 3);
+            this.tableExamEntry.Name = "tableExamEntry";
+            this.tableExamEntry.RowCount = 5;
+            this.tableExamEntry.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 20F));
+            this.tableExamEntry.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 20F));
+            this.tableExamEntry.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 20F));
+            this.tableExamEntry.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 20F));
+            this.tableExamEntry.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 20F));
+            this.tableExamEntry.Size = new System.Drawing.Size(335, 129);
+            this.tableExamEntry.TabIndex = 22;
+            // 
+            // labSemester
+            // 
+            this.labSemester.Anchor = System.Windows.Forms.AnchorStyles.Left;
+            this.labSemester.AutoSize = true;
+            this.labSemester.Location = new System.Drawing.Point(3, 31);
+            this.labSemester.Name = "labSemester";
+            this.labSemester.Size = new System.Drawing.Size(51, 13);
+            this.labSemester.TabIndex = 21;
+            this.labSemester.Text = "Semester";
+            // 
+            // labCourse
+            // 
+            this.labCourse.Anchor = System.Windows.Forms.AnchorStyles.Left;
+            this.labCourse.AutoSize = true;
+            this.labCourse.Location = new System.Drawing.Point(3, 56);
+            this.labCourse.Name = "labCourse";
+            this.labCourse.Size = new System.Drawing.Size(40, 13);
+            this.labCourse.TabIndex = 21;
+            this.labCourse.Text = "Course";
+            // 
+            // labSubject
+            // 
+            this.labSubject.Anchor = System.Windows.Forms.AnchorStyles.Left;
+            this.labSubject.AutoSize = true;
+            this.labSubject.Location = new System.Drawing.Point(3, 81);
+            this.labSubject.Name = "labSubject";
+            this.labSubject.Size = new System.Drawing.Size(43, 13);
+            this.labSubject.TabIndex = 21;
+            this.labSubject.Text = "Subject";
+            // 
+            // comboxMonth
+            // 
+            this.comboxMonth.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.comboxMonth.FormattingEnabled = true;
+            this.comboxMonth.Items.AddRange(new object[] {
+            "January",
+            "February",
+            "March",
+            "April",
+            "May",
+            "Jun",
+            "Jully",
+            "August",
+            "September",
+            "October",
+            "November",
+            "December"});
+            this.comboxMonth.Location = new System.Drawing.Point(170, 103);
+            this.comboxMonth.Name = "comboxMonth";
+            this.comboxMonth.Size = new System.Drawing.Size(162, 21);
+            this.comboxMonth.TabIndex = 20;
+            // 
+            // radioButRepeater
+            // 
+            this.radioButRepeater.AutoSize = true;
+            this.radioButRepeater.Location = new System.Drawing.Point(260, 6);
+            this.radioButRepeater.Name = "radioButRepeater";
+            this.radioButRepeater.Size = new System.Drawing.Size(69, 17);
+            this.radioButRepeater.TabIndex = 0;
+            this.radioButRepeater.TabStop = true;
+            this.radioButRepeater.Text = "Repeater";
+            this.radioButRepeater.UseVisualStyleBackColor = true;
+            // 
+            // grupboxStatus
+            // 
+            this.grupboxStatus.Controls.Add(this.radioButRegular);
+            this.grupboxStatus.Controls.Add(this.label4);
+            this.grupboxStatus.Controls.Add(this.radioButRepeater);
+            this.grupboxStatus.Location = new System.Drawing.Point(3, 133);
+            this.grupboxStatus.Name = "grupboxStatus";
+            this.grupboxStatus.Size = new System.Drawing.Size(335, 26);
+            this.grupboxStatus.TabIndex = 23;
+            this.grupboxStatus.TabStop = false;
+            // 
             // DataEntry_Exams
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -293,17 +497,23 @@
             this.Controls.Add(this.ButtonPanel);
             this.Controls.Add(this.panel1);
             this.Controls.Add(this.tableLayoutPanel1);
+            this.Controls.Add(this.panel5);
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Name = "DataEntry_Exams";
             this.Text = "Exams Entry";
             this.ButtonPanel.ResumeLayout(false);
             this.tableLayoutPanel2.ResumeLayout(false);
-            this.panel3.ResumeLayout(false);
-            this.panel3.PerformLayout();
             this.panel1.ResumeLayout(false);
             this.panel1.PerformLayout();
             this.tableLayoutPanel1.ResumeLayout(false);
             this.tableLayoutPanel1.PerformLayout();
+            this.panel3.ResumeLayout(false);
+            this.panel3.PerformLayout();
+            this.panel5.ResumeLayout(false);
+            this.tableExamEntry.ResumeLayout(false);
+            this.tableExamEntry.PerformLayout();
+            this.grupboxStatus.ResumeLayout(false);
+            this.grupboxStatus.PerformLayout();
             this.ResumeLayout(false);
 
         }
@@ -322,12 +532,28 @@
         private System.Windows.Forms.Button LogOutButton;
         private System.Windows.Forms.Button ReportsButton;
         private System.Windows.Forms.TableLayoutPanel tableLayoutPanel2;
-        private System.Windows.Forms.Label label2;
-        private System.Windows.Forms.Panel panel3;
         private System.Windows.Forms.Panel panel1;
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.LinkLabel linkLabel1;
         private System.Windows.Forms.LinkLabel linkLabel2;
         private System.Windows.Forms.TableLayoutPanel tableLayoutPanel1;
+        private System.Windows.Forms.ComboBox ComboxCourse;
+        private System.Windows.Forms.Label label3;
+        private System.Windows.Forms.Label label4;
+        private System.Windows.Forms.RadioButton radioButRegular;
+        private System.Windows.Forms.DateTimePicker dateTimeYearExam;
+        private System.Windows.Forms.ComboBox ComboxSemester;
+        private System.Windows.Forms.ComboBox ComboxSubject;
+        private System.Windows.Forms.Label labYear;
+        private System.Windows.Forms.Panel panel3;
+        private System.Windows.Forms.Label label2;
+        private System.Windows.Forms.Panel panel5;
+        private System.Windows.Forms.TableLayoutPanel tableExamEntry;
+        private System.Windows.Forms.Label labSemester;
+        private System.Windows.Forms.Label labCourse;
+        private System.Windows.Forms.Label labSubject;
+        private System.Windows.Forms.ComboBox comboxMonth;
+        private System.Windows.Forms.GroupBox grupboxStatus;
+        private System.Windows.Forms.RadioButton radioButRepeater;
     }
 }

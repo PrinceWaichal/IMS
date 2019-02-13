@@ -49,14 +49,27 @@
             this.tableLayoutPanel1 = new System.Windows.Forms.TableLayoutPanel();
             this.SubmitButton = new System.Windows.Forms.Button();
             this.panel2 = new System.Windows.Forms.Panel();
-            this.label3 = new System.Windows.Forms.Label();
+            this.grupboxOccasion = new System.Windows.Forms.GroupBox();
+            this.labAttendOccasion = new System.Windows.Forms.Label();
+            this.checkBoxSunday = new System.Windows.Forms.CheckBox();
+            this.checkBoxSpecialHoliday = new System.Windows.Forms.CheckBox();
             this.tableLayoutPanel3 = new System.Windows.Forms.TableLayoutPanel();
+            this.labAttendCourse = new System.Windows.Forms.Label();
+            this.comboxAttendMonth = new System.Windows.Forms.ComboBox();
+            this.labAttendMonth = new System.Windows.Forms.Label();
+            this.ComboxAttendClass = new System.Windows.Forms.ComboBox();
+            this.dateTimeAttendenceDay = new System.Windows.Forms.DateTimePicker();
+            this.comboxAttendCourseName = new System.Windows.Forms.ComboBox();
+            this.labAttenDate = new System.Windows.Forms.Label();
+            this.labAttendClass = new System.Windows.Forms.Label();
             this.ButtonPanel.SuspendLayout();
             this.tableLayoutPanel2.SuspendLayout();
             this.panel3.SuspendLayout();
             this.panel1.SuspendLayout();
             this.tableLayoutPanel1.SuspendLayout();
             this.panel2.SuspendLayout();
+            this.grupboxOccasion.SuspendLayout();
+            this.tableLayoutPanel3.SuspendLayout();
             this.SuspendLayout();
             // 
             // FeesButton
@@ -290,7 +303,7 @@
             // 
             // panel2
             // 
-            this.panel2.Controls.Add(this.label3);
+            this.panel2.Controls.Add(this.grupboxOccasion);
             this.panel2.Controls.Add(this.tableLayoutPanel3);
             this.panel2.Controls.Add(this.SubmitButton);
             this.panel2.Dock = System.Windows.Forms.DockStyle.Fill;
@@ -299,31 +312,158 @@
             this.panel2.Size = new System.Drawing.Size(500, 420);
             this.panel2.TabIndex = 14;
             // 
-            // label3
+            // grupboxOccasion
             // 
-            this.label3.AutoSize = true;
-            this.label3.Location = new System.Drawing.Point(20, 29);
-            this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(35, 13);
-            this.label3.TabIndex = 2;
-            this.label3.Text = "label3";
+            this.grupboxOccasion.Controls.Add(this.labAttendOccasion);
+            this.grupboxOccasion.Controls.Add(this.checkBoxSunday);
+            this.grupboxOccasion.Controls.Add(this.checkBoxSpecialHoliday);
+            this.grupboxOccasion.Location = new System.Drawing.Point(9, 155);
+            this.grupboxOccasion.Name = "grupboxOccasion";
+            this.grupboxOccasion.Size = new System.Drawing.Size(316, 49);
+            this.grupboxOccasion.TabIndex = 20;
+            this.grupboxOccasion.TabStop = false;
+            // 
+            // labAttendOccasion
+            // 
+            this.labAttendOccasion.AutoSize = true;
+            this.labAttendOccasion.Location = new System.Drawing.Point(-3, 10);
+            this.labAttendOccasion.Name = "labAttendOccasion";
+            this.labAttendOccasion.Size = new System.Drawing.Size(52, 13);
+            this.labAttendOccasion.TabIndex = 19;
+            this.labAttendOccasion.Text = "Occasion";
+            // 
+            // checkBoxSunday
+            // 
+            this.checkBoxSunday.AutoSize = true;
+            this.checkBoxSunday.Location = new System.Drawing.Point(200, 29);
+            this.checkBoxSunday.Name = "checkBoxSunday";
+            this.checkBoxSunday.Size = new System.Drawing.Size(68, 17);
+            this.checkBoxSunday.TabIndex = 8;
+            this.checkBoxSunday.Text = "Sunday?";
+            this.checkBoxSunday.UseVisualStyleBackColor = true;
+            // 
+            // checkBoxSpecialHoliday
+            // 
+            this.checkBoxSpecialHoliday.AutoSize = true;
+            this.checkBoxSpecialHoliday.Location = new System.Drawing.Point(200, 6);
+            this.checkBoxSpecialHoliday.Name = "checkBoxSpecialHoliday";
+            this.checkBoxSpecialHoliday.Size = new System.Drawing.Size(105, 17);
+            this.checkBoxSpecialHoliday.TabIndex = 7;
+            this.checkBoxSpecialHoliday.Text = "Special Holiday?";
+            this.checkBoxSpecialHoliday.UseVisualStyleBackColor = true;
             // 
             // tableLayoutPanel3
             // 
             this.tableLayoutPanel3.ColumnCount = 2;
             this.tableLayoutPanel3.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 50F));
             this.tableLayoutPanel3.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 50F));
-            this.tableLayoutPanel3.Location = new System.Drawing.Point(6, 48);
+            this.tableLayoutPanel3.Controls.Add(this.labAttendCourse, 0, 2);
+            this.tableLayoutPanel3.Controls.Add(this.comboxAttendMonth, 1, 0);
+            this.tableLayoutPanel3.Controls.Add(this.labAttendMonth, 0, 0);
+            this.tableLayoutPanel3.Controls.Add(this.ComboxAttendClass, 1, 3);
+            this.tableLayoutPanel3.Controls.Add(this.dateTimeAttendenceDay, 1, 1);
+            this.tableLayoutPanel3.Controls.Add(this.comboxAttendCourseName, 1, 2);
+            this.tableLayoutPanel3.Controls.Add(this.labAttenDate, 0, 1);
+            this.tableLayoutPanel3.Controls.Add(this.labAttendClass, 0, 3);
+            this.tableLayoutPanel3.Location = new System.Drawing.Point(3, 53);
             this.tableLayoutPanel3.Name = "tableLayoutPanel3";
-            this.tableLayoutPanel3.RowCount = 6;
-            this.tableLayoutPanel3.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 16.66667F));
-            this.tableLayoutPanel3.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 16.66667F));
-            this.tableLayoutPanel3.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 16.66667F));
-            this.tableLayoutPanel3.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 16.66667F));
-            this.tableLayoutPanel3.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 16.66667F));
-            this.tableLayoutPanel3.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 16.66667F));
-            this.tableLayoutPanel3.Size = new System.Drawing.Size(407, 100);
+            this.tableLayoutPanel3.RowCount = 4;
+            this.tableLayoutPanel3.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 25F));
+            this.tableLayoutPanel3.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 25F));
+            this.tableLayoutPanel3.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 25F));
+            this.tableLayoutPanel3.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 25F));
+            this.tableLayoutPanel3.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 20F));
+            this.tableLayoutPanel3.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 20F));
+            this.tableLayoutPanel3.Size = new System.Drawing.Size(404, 96);
             this.tableLayoutPanel3.TabIndex = 1;
+            // 
+            // labAttendCourse
+            // 
+            this.labAttendCourse.Anchor = System.Windows.Forms.AnchorStyles.Left;
+            this.labAttendCourse.AutoSize = true;
+            this.labAttendCourse.Location = new System.Drawing.Point(3, 53);
+            this.labAttendCourse.Name = "labAttendCourse";
+            this.labAttendCourse.Size = new System.Drawing.Size(40, 13);
+            this.labAttendCourse.TabIndex = 2;
+            this.labAttendCourse.Text = "Course";
+            // 
+            // comboxAttendMonth
+            // 
+            this.comboxAttendMonth.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.comboxAttendMonth.FormattingEnabled = true;
+            this.comboxAttendMonth.Items.AddRange(new object[] {
+            "January",
+            "February",
+            "March",
+            "April",
+            "May",
+            "Jun",
+            "Jully",
+            "August",
+            "September",
+            "October",
+            "November",
+            "December"});
+            this.comboxAttendMonth.Location = new System.Drawing.Point(205, 3);
+            this.comboxAttendMonth.Name = "comboxAttendMonth";
+            this.comboxAttendMonth.Size = new System.Drawing.Size(196, 21);
+            this.comboxAttendMonth.TabIndex = 5;
+            // 
+            // labAttendMonth
+            // 
+            this.labAttendMonth.Anchor = System.Windows.Forms.AnchorStyles.Left;
+            this.labAttendMonth.AutoSize = true;
+            this.labAttendMonth.Location = new System.Drawing.Point(3, 5);
+            this.labAttendMonth.Name = "labAttendMonth";
+            this.labAttendMonth.Size = new System.Drawing.Size(37, 13);
+            this.labAttendMonth.TabIndex = 2;
+            this.labAttendMonth.Text = "Month";
+            // 
+            // ComboxAttendClass
+            // 
+            this.ComboxAttendClass.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.ComboxAttendClass.FormattingEnabled = true;
+            this.ComboxAttendClass.Location = new System.Drawing.Point(205, 75);
+            this.ComboxAttendClass.Name = "ComboxAttendClass";
+            this.ComboxAttendClass.Size = new System.Drawing.Size(196, 21);
+            this.ComboxAttendClass.TabIndex = 4;
+            // 
+            // dateTimeAttendenceDay
+            // 
+            this.dateTimeAttendenceDay.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.dateTimeAttendenceDay.Location = new System.Drawing.Point(205, 27);
+            this.dateTimeAttendenceDay.Name = "dateTimeAttendenceDay";
+            this.dateTimeAttendenceDay.Size = new System.Drawing.Size(196, 20);
+            this.dateTimeAttendenceDay.TabIndex = 18;
+            // 
+            // comboxAttendCourseName
+            // 
+            this.comboxAttendCourseName.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.comboxAttendCourseName.FormattingEnabled = true;
+            this.comboxAttendCourseName.Location = new System.Drawing.Point(205, 51);
+            this.comboxAttendCourseName.Name = "comboxAttendCourseName";
+            this.comboxAttendCourseName.Size = new System.Drawing.Size(196, 21);
+            this.comboxAttendCourseName.TabIndex = 3;
+            // 
+            // labAttenDate
+            // 
+            this.labAttenDate.Anchor = System.Windows.Forms.AnchorStyles.Left;
+            this.labAttenDate.AutoSize = true;
+            this.labAttenDate.Location = new System.Drawing.Point(3, 29);
+            this.labAttenDate.Name = "labAttenDate";
+            this.labAttenDate.Size = new System.Drawing.Size(30, 13);
+            this.labAttenDate.TabIndex = 2;
+            this.labAttenDate.Text = "Date";
+            // 
+            // labAttendClass
+            // 
+            this.labAttendClass.Anchor = System.Windows.Forms.AnchorStyles.Left;
+            this.labAttendClass.AutoSize = true;
+            this.labAttendClass.Location = new System.Drawing.Point(3, 77);
+            this.labAttendClass.Name = "labAttendClass";
+            this.labAttendClass.Size = new System.Drawing.Size(32, 13);
+            this.labAttendClass.TabIndex = 2;
+            this.labAttendClass.Text = "Class";
             // 
             // DataEntry_Attendance
             // 
@@ -346,7 +486,10 @@
             this.tableLayoutPanel1.ResumeLayout(false);
             this.tableLayoutPanel1.PerformLayout();
             this.panel2.ResumeLayout(false);
-            this.panel2.PerformLayout();
+            this.grupboxOccasion.ResumeLayout(false);
+            this.grupboxOccasion.PerformLayout();
+            this.tableLayoutPanel3.ResumeLayout(false);
+            this.tableLayoutPanel3.PerformLayout();
             this.ResumeLayout(false);
 
         }
@@ -373,7 +516,18 @@
         private System.Windows.Forms.TableLayoutPanel tableLayoutPanel1;
         private System.Windows.Forms.Button SubmitButton;
         private System.Windows.Forms.Panel panel2;
-        private System.Windows.Forms.Label label3;
+        private System.Windows.Forms.Label labAttendCourse;
         private System.Windows.Forms.TableLayoutPanel tableLayoutPanel3;
+        private System.Windows.Forms.CheckBox checkBoxSunday;
+        private System.Windows.Forms.CheckBox checkBoxSpecialHoliday;
+        private System.Windows.Forms.ComboBox comboxAttendMonth;
+        private System.Windows.Forms.ComboBox ComboxAttendClass;
+        private System.Windows.Forms.ComboBox comboxAttendCourseName;
+        private System.Windows.Forms.Label labAttendMonth;
+        private System.Windows.Forms.DateTimePicker dateTimeAttendenceDay;
+        private System.Windows.Forms.Label labAttenDate;
+        private System.Windows.Forms.Label labAttendClass;
+        private System.Windows.Forms.GroupBox grupboxOccasion;
+        private System.Windows.Forms.Label labAttendOccasion;
     }
 }
