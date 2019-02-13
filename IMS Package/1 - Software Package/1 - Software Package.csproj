@@ -190,12 +190,6 @@
     <Compile Include="FormPages\3 - DataEntry\DataEntry_Marks.Designer.cs">
       <DependentUpon>DataEntry_Marks.cs</DependentUpon>
     </Compile>
-    <Compile Include="FormPages\3 - DataEntry\DataEntry_Reports.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="FormPages\3 - DataEntry\DataEntry_Reports.Designer.cs">
-      <DependentUpon>DataEntry_Reports.cs</DependentUpon>
-    </Compile>
     <Compile Include="FormPages\3 - DataEntry\DataEntry_Schedule.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -306,9 +300,6 @@
     </EmbeddedResource>
     <EmbeddedResource Include="FormPages\3 - DataEntry\DataEntry_Marks.resx">
       <DependentUpon>DataEntry_Marks.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="FormPages\3 - DataEntry\DataEntry_Reports.resx">
-      <DependentUpon>DataEntry_Reports.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="FormPages\3 - DataEntry\DataEntry_Schedule.resx">
       <DependentUpon>DataEntry_Schedule.cs</DependentUpon>
