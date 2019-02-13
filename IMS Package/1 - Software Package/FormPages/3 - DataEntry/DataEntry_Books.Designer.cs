@@ -48,11 +48,28 @@
             this.linkLabel1 = new System.Windows.Forms.LinkLabel();
             this.linkLabel2 = new System.Windows.Forms.LinkLabel();
             this.tableLayoutPanel1 = new System.Windows.Forms.TableLayoutPanel();
+            this.tableBooks_Entry = new System.Windows.Forms.TableLayoutPanel();
+            this.labBookPending = new System.Windows.Forms.Label();
+            this.radioButBookPendiangYes = new System.Windows.Forms.RadioButton();
+            this.radioButBookPendiangNo = new System.Windows.Forms.RadioButton();
+            this.labelBookName = new System.Windows.Forms.Label();
+            this.textBookName = new System.Windows.Forms.TextBox();
+            this.labBookDate = new System.Windows.Forms.Label();
+            this.dateTimeBookGiven = new System.Windows.Forms.DateTimePicker();
+            this.labBooksReturnDate = new System.Windows.Forms.Label();
+            this.dateTimeBookReturn = new System.Windows.Forms.DateTimePicker();
+            this.labBookFinePerDay = new System.Windows.Forms.Label();
+            this.textFinePerDay = new System.Windows.Forms.TextBox();
+            this.labFineRecieved = new System.Windows.Forms.Label();
+            this.labFine = new System.Windows.Forms.Label();
+            this.textFineRecieved = new System.Windows.Forms.TextBox();
+            this.textFine = new System.Windows.Forms.TextBox();
             this.ButtonPanel.SuspendLayout();
             this.tableLayoutPanel2.SuspendLayout();
             this.panel3.SuspendLayout();
             this.panel1.SuspendLayout();
             this.tableLayoutPanel1.SuspendLayout();
+            this.tableBooks_Entry.SuspendLayout();
             this.SuspendLayout();
             // 
             // SubmitButton
@@ -284,11 +301,191 @@
             this.tableLayoutPanel1.Size = new System.Drawing.Size(775, 31);
             this.tableLayoutPanel1.TabIndex = 11;
             // 
+            // tableBooks_Entry
+            // 
+            this.tableBooks_Entry.ColumnCount = 3;
+            this.tableBooks_Entry.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 33.33332F));
+            this.tableBooks_Entry.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 33.33334F));
+            this.tableBooks_Entry.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 33.33334F));
+            this.tableBooks_Entry.Controls.Add(this.labBookPending, 0, 0);
+            this.tableBooks_Entry.Controls.Add(this.radioButBookPendiangYes, 1, 0);
+            this.tableBooks_Entry.Controls.Add(this.radioButBookPendiangNo, 2, 0);
+            this.tableBooks_Entry.Controls.Add(this.labelBookName, 0, 1);
+            this.tableBooks_Entry.Controls.Add(this.textBookName, 1, 1);
+            this.tableBooks_Entry.Controls.Add(this.labBookDate, 0, 2);
+            this.tableBooks_Entry.Controls.Add(this.dateTimeBookGiven, 1, 2);
+            this.tableBooks_Entry.Controls.Add(this.labBooksReturnDate, 0, 3);
+            this.tableBooks_Entry.Controls.Add(this.dateTimeBookReturn, 1, 3);
+            this.tableBooks_Entry.Controls.Add(this.labBookFinePerDay, 0, 4);
+            this.tableBooks_Entry.Controls.Add(this.textFinePerDay, 1, 4);
+            this.tableBooks_Entry.Controls.Add(this.labFineRecieved, 0, 6);
+            this.tableBooks_Entry.Controls.Add(this.labFine, 0, 5);
+            this.tableBooks_Entry.Controls.Add(this.textFineRecieved, 1, 6);
+            this.tableBooks_Entry.Controls.Add(this.textFine, 1, 5);
+            this.tableBooks_Entry.Location = new System.Drawing.Point(206, 103);
+            this.tableBooks_Entry.Name = "tableBooks_Entry";
+            this.tableBooks_Entry.RowCount = 7;
+            this.tableBooks_Entry.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 14.28572F));
+            this.tableBooks_Entry.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 14.28572F));
+            this.tableBooks_Entry.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 14.28572F));
+            this.tableBooks_Entry.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 14.28572F));
+            this.tableBooks_Entry.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 14.28572F));
+            this.tableBooks_Entry.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 14.28572F));
+            this.tableBooks_Entry.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 14.28572F));
+            this.tableBooks_Entry.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 20F));
+            this.tableBooks_Entry.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 20F));
+            this.tableBooks_Entry.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 20F));
+            this.tableBooks_Entry.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 20F));
+            this.tableBooks_Entry.Size = new System.Drawing.Size(399, 182);
+            this.tableBooks_Entry.TabIndex = 16;
+            // 
+            // labBookPending
+            // 
+            this.labBookPending.Anchor = System.Windows.Forms.AnchorStyles.Left;
+            this.labBookPending.AutoSize = true;
+            this.labBookPending.Location = new System.Drawing.Point(3, 6);
+            this.labBookPending.Name = "labBookPending";
+            this.labBookPending.Size = new System.Drawing.Size(115, 13);
+            this.labBookPending.TabIndex = 0;
+            this.labBookPending.Text = "Is your book pending ?";
+            // 
+            // radioButBookPendiangYes
+            // 
+            this.radioButBookPendiangYes.AutoSize = true;
+            this.radioButBookPendiangYes.Location = new System.Drawing.Point(135, 3);
+            this.radioButBookPendiangYes.Name = "radioButBookPendiangYes";
+            this.radioButBookPendiangYes.Size = new System.Drawing.Size(43, 17);
+            this.radioButBookPendiangYes.TabIndex = 1;
+            this.radioButBookPendiangYes.TabStop = true;
+            this.radioButBookPendiangYes.Text = "Yes";
+            this.radioButBookPendiangYes.UseVisualStyleBackColor = true;
+            // 
+            // radioButBookPendiangNo
+            // 
+            this.radioButBookPendiangNo.AutoSize = true;
+            this.radioButBookPendiangNo.Location = new System.Drawing.Point(268, 3);
+            this.radioButBookPendiangNo.Name = "radioButBookPendiangNo";
+            this.radioButBookPendiangNo.Size = new System.Drawing.Size(39, 17);
+            this.radioButBookPendiangNo.TabIndex = 1;
+            this.radioButBookPendiangNo.TabStop = true;
+            this.radioButBookPendiangNo.Text = "No";
+            this.radioButBookPendiangNo.UseVisualStyleBackColor = true;
+            // 
+            // labelBookName
+            // 
+            this.labelBookName.Anchor = System.Windows.Forms.AnchorStyles.Left;
+            this.labelBookName.AutoSize = true;
+            this.labelBookName.Location = new System.Drawing.Point(3, 32);
+            this.labelBookName.Name = "labelBookName";
+            this.labelBookName.Size = new System.Drawing.Size(63, 13);
+            this.labelBookName.TabIndex = 4;
+            this.labelBookName.Text = "Book Name";
+            // 
+            // textBookName
+            // 
+            this.textBookName.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.textBookName.Location = new System.Drawing.Point(135, 29);
+            this.textBookName.Name = "textBookName";
+            this.textBookName.Size = new System.Drawing.Size(127, 20);
+            this.textBookName.TabIndex = 5;
+            // 
+            // labBookDate
+            // 
+            this.labBookDate.Anchor = System.Windows.Forms.AnchorStyles.Left;
+            this.labBookDate.AutoSize = true;
+            this.labBookDate.Location = new System.Drawing.Point(3, 58);
+            this.labBookDate.Name = "labBookDate";
+            this.labBookDate.Size = new System.Drawing.Size(85, 13);
+            this.labBookDate.TabIndex = 4;
+            this.labBookDate.Text = "Book given date";
+            // 
+            // dateTimeBookGiven
+            // 
+            this.dateTimeBookGiven.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.dateTimeBookGiven.Location = new System.Drawing.Point(135, 55);
+            this.dateTimeBookGiven.Name = "dateTimeBookGiven";
+            this.dateTimeBookGiven.Size = new System.Drawing.Size(127, 20);
+            this.dateTimeBookGiven.TabIndex = 6;
+            // 
+            // labBooksReturnDate
+            // 
+            this.labBooksReturnDate.Anchor = System.Windows.Forms.AnchorStyles.Left;
+            this.labBooksReturnDate.AutoSize = true;
+            this.labBooksReturnDate.Location = new System.Drawing.Point(3, 84);
+            this.labBooksReturnDate.Name = "labBooksReturnDate";
+            this.labBooksReturnDate.Size = new System.Drawing.Size(91, 13);
+            this.labBooksReturnDate.TabIndex = 4;
+            this.labBooksReturnDate.Text = "Book Return date";
+            // 
+            // dateTimeBookReturn
+            // 
+            this.dateTimeBookReturn.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.dateTimeBookReturn.Location = new System.Drawing.Point(135, 81);
+            this.dateTimeBookReturn.Name = "dateTimeBookReturn";
+            this.dateTimeBookReturn.Size = new System.Drawing.Size(127, 20);
+            this.dateTimeBookReturn.TabIndex = 6;
+            // 
+            // labBookFinePerDay
+            // 
+            this.labBookFinePerDay.Anchor = System.Windows.Forms.AnchorStyles.Left;
+            this.labBookFinePerDay.AutoSize = true;
+            this.labBookFinePerDay.Location = new System.Drawing.Point(3, 110);
+            this.labBookFinePerDay.Name = "labBookFinePerDay";
+            this.labBookFinePerDay.Size = new System.Drawing.Size(68, 13);
+            this.labBookFinePerDay.TabIndex = 4;
+            this.labBookFinePerDay.Text = "Fine Per Day";
+            // 
+            // textFinePerDay
+            // 
+            this.textFinePerDay.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.textFinePerDay.Location = new System.Drawing.Point(135, 107);
+            this.textFinePerDay.Name = "textFinePerDay";
+            this.textFinePerDay.Size = new System.Drawing.Size(127, 20);
+            this.textFinePerDay.TabIndex = 9;
+            // 
+            // labFineRecieved
+            // 
+            this.labFineRecieved.Anchor = System.Windows.Forms.AnchorStyles.Left;
+            this.labFineRecieved.AutoSize = true;
+            this.labFineRecieved.Location = new System.Drawing.Point(3, 162);
+            this.labFineRecieved.Name = "labFineRecieved";
+            this.labFineRecieved.Size = new System.Drawing.Size(76, 13);
+            this.labFineRecieved.TabIndex = 7;
+            this.labFineRecieved.Text = "Fine Recieved";
+            // 
+            // labFine
+            // 
+            this.labFine.Anchor = System.Windows.Forms.AnchorStyles.Left;
+            this.labFine.AutoSize = true;
+            this.labFine.Location = new System.Drawing.Point(3, 136);
+            this.labFine.Name = "labFine";
+            this.labFine.Size = new System.Drawing.Size(30, 13);
+            this.labFine.TabIndex = 7;
+            this.labFine.Text = "Fine ";
+            this.labFine.Click += new System.EventHandler(this.label3_Click);
+            // 
+            // textFineRecieved
+            // 
+            this.textFineRecieved.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.textFineRecieved.Location = new System.Drawing.Point(135, 159);
+            this.textFineRecieved.Name = "textFineRecieved";
+            this.textFineRecieved.Size = new System.Drawing.Size(127, 20);
+            this.textFineRecieved.TabIndex = 10;
+            // 
+            // textFine
+            // 
+            this.textFine.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.textFine.Location = new System.Drawing.Point(135, 133);
+            this.textFine.Name = "textFine";
+            this.textFine.Size = new System.Drawing.Size(127, 20);
+            this.textFine.TabIndex = 10;
+            // 
             // DataEntry_Books
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(775, 502);
+            this.Controls.Add(this.tableBooks_Entry);
             this.Controls.Add(this.SubmitButton);
             this.Controls.Add(this.ButtonPanel);
             this.Controls.Add(this.panel1);
@@ -304,6 +501,8 @@
             this.panel1.PerformLayout();
             this.tableLayoutPanel1.ResumeLayout(false);
             this.tableLayoutPanel1.PerformLayout();
+            this.tableBooks_Entry.ResumeLayout(false);
+            this.tableBooks_Entry.PerformLayout();
             this.ResumeLayout(false);
 
         }
@@ -329,5 +528,21 @@
         private System.Windows.Forms.LinkLabel linkLabel1;
         private System.Windows.Forms.LinkLabel linkLabel2;
         private System.Windows.Forms.TableLayoutPanel tableLayoutPanel1;
+        private System.Windows.Forms.TableLayoutPanel tableBooks_Entry;
+        private System.Windows.Forms.Label labBookPending;
+        private System.Windows.Forms.RadioButton radioButBookPendiangYes;
+        private System.Windows.Forms.RadioButton radioButBookPendiangNo;
+        private System.Windows.Forms.Label labelBookName;
+        private System.Windows.Forms.TextBox textBookName;
+        private System.Windows.Forms.Label labBookDate;
+        private System.Windows.Forms.DateTimePicker dateTimeBookGiven;
+        private System.Windows.Forms.Label labBooksReturnDate;
+        private System.Windows.Forms.DateTimePicker dateTimeBookReturn;
+        private System.Windows.Forms.Label labBookFinePerDay;
+        private System.Windows.Forms.TextBox textFinePerDay;
+        private System.Windows.Forms.Label labFineRecieved;
+        private System.Windows.Forms.TextBox textFineRecieved;
+        private System.Windows.Forms.Label labFine;
+        private System.Windows.Forms.TextBox textFine;
     }
 }
