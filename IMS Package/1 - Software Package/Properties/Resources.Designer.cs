@@ -79,5 +79,15 @@ namespace _1___Software_Package.Properties {
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap education_background_hd_10 {
+            get {
+                object obj = ResourceManager.GetObject("education-background-hd-10", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
     }
 }

@@ -366,6 +366,7 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="Logo 1-1.ico" />
+    <None Include="Resources\education-background-hd-10.jpg" />
     <None Include="Resources\173253837-56a18f0c5f9b58b7d0c0a8551.jpg" />
     <None Include="Resources\173253837-56a18f0c5f9b58b7d0c0a855.jpg" />
   </ItemGroup>
