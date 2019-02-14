@@ -18,20 +18,5 @@ namespace _1___Software_Package.FormPages._2___SignUp
         {
 
         }
-
-        private void label6_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void labOtherPDetail_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void labOtherCourses_Click(object sender, EventArgs e)
-        {
-
-        }
     }
 }

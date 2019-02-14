@@ -59,6 +59,8 @@ namespace _1___Software_Package.FormPages._1___SignIn
             try
             {
                 ServerInfo.MySQLConnect.Open();
+                ServerInfo.MySQLCommand.Connection = ServerInfo.MySQLConnect;
+                ServerInfo.MySQLCommand.CommandText = "Select * from User";
                 MessageBox.Show("Successful Connection");
             }
             catch
