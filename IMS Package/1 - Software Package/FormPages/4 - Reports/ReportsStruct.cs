@@ -10,9 +10,9 @@ using System.Windows.Forms;
 
 namespace _1___Software_Package.FormPages._4___Reports
 {
-    public partial class Reports_Attendance : Form
+    public partial class ReportsStruct : Form
     {
-        public Reports_Attendance()
+        public ReportsStruct()
         {
             InitializeComponent();
         }

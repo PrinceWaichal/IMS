@@ -60,7 +60,7 @@ namespace _1___Software_Package.FormPages._1___SignIn
             {
                 ServerInfo.MySQLConnect.Open();
                 ServerInfo.MySQLCommand.Connection = ServerInfo.MySQLConnect;
-                ServerInfo.MySQLCommand.CommandText = "Select * from User";
+                ServerInfo.MySQLCommand.CommandText = "Select * from usermaster";
                 MessageBox.Show("Successful Connection");
             }
             catch
