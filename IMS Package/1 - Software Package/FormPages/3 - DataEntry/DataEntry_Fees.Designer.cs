@@ -48,11 +48,29 @@
             this.linkLabel1 = new System.Windows.Forms.LinkLabel();
             this.linkLabel2 = new System.Windows.Forms.LinkLabel();
             this.tableLayoutPanel1 = new System.Windows.Forms.TableLayoutPanel();
+            this.tableFeesEntry = new System.Windows.Forms.TableLayoutPanel();
+            this.labFeesPending = new System.Windows.Forms.Label();
+            this.radioButFeePendingYes = new System.Windows.Forms.RadioButton();
+            this.radioButFeePendingNo = new System.Windows.Forms.RadioButton();
+            this.labTotalFees = new System.Windows.Forms.Label();
+            this.textTotalFees = new System.Windows.Forms.TextBox();
+            this.labFeePaid = new System.Windows.Forms.Label();
+            this.labRemainingFees = new System.Windows.Forms.Label();
+            this.labScholarshipAmt = new System.Windows.Forms.Label();
+            this.labScholarshipName = new System.Windows.Forms.Label();
+            this.textScholarshipAmt = new System.Windows.Forms.TextBox();
+            this.textScholarshipName = new System.Windows.Forms.TextBox();
+            this.textFeesPaid = new System.Windows.Forms.TextBox();
+            this.textRemainingFees = new System.Windows.Forms.TextBox();
+            this.labScholarshipEligib = new System.Windows.Forms.Label();
+            this.radioButScholarshipEligib = new System.Windows.Forms.RadioButton();
+            this.radioButScholarship_Ineligib = new System.Windows.Forms.RadioButton();
             this.ButtonPanel.SuspendLayout();
             this.tableLayoutPanel2.SuspendLayout();
             this.panel3.SuspendLayout();
             this.panel1.SuspendLayout();
             this.tableLayoutPanel1.SuspendLayout();
+            this.tableFeesEntry.SuspendLayout();
             this.SuspendLayout();
             // 
             // SubmitButton
@@ -284,11 +302,205 @@
             this.tableLayoutPanel1.Size = new System.Drawing.Size(763, 31);
             this.tableLayoutPanel1.TabIndex = 11;
             // 
+            // tableFeesEntry
+            // 
+            this.tableFeesEntry.ColumnCount = 3;
+            this.tableFeesEntry.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 33.33332F));
+            this.tableFeesEntry.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 33.33334F));
+            this.tableFeesEntry.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 33.33334F));
+            this.tableFeesEntry.Controls.Add(this.labFeesPending, 0, 0);
+            this.tableFeesEntry.Controls.Add(this.radioButFeePendingYes, 1, 0);
+            this.tableFeesEntry.Controls.Add(this.radioButFeePendingNo, 2, 0);
+            this.tableFeesEntry.Controls.Add(this.labTotalFees, 0, 1);
+            this.tableFeesEntry.Controls.Add(this.textTotalFees, 1, 1);
+            this.tableFeesEntry.Controls.Add(this.labFeePaid, 0, 2);
+            this.tableFeesEntry.Controls.Add(this.labRemainingFees, 0, 3);
+            this.tableFeesEntry.Controls.Add(this.labScholarshipAmt, 0, 6);
+            this.tableFeesEntry.Controls.Add(this.labScholarshipName, 0, 5);
+            this.tableFeesEntry.Controls.Add(this.textScholarshipAmt, 1, 6);
+            this.tableFeesEntry.Controls.Add(this.textScholarshipName, 1, 5);
+            this.tableFeesEntry.Controls.Add(this.textFeesPaid, 1, 2);
+            this.tableFeesEntry.Controls.Add(this.textRemainingFees, 1, 3);
+            this.tableFeesEntry.Controls.Add(this.labScholarshipEligib, 0, 4);
+            this.tableFeesEntry.Controls.Add(this.radioButScholarshipEligib, 1, 4);
+            this.tableFeesEntry.Controls.Add(this.radioButScholarship_Ineligib, 2, 4);
+            this.tableFeesEntry.Location = new System.Drawing.Point(206, 98);
+            this.tableFeesEntry.Name = "tableFeesEntry";
+            this.tableFeesEntry.RowCount = 7;
+            this.tableFeesEntry.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 14.28572F));
+            this.tableFeesEntry.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 14.28572F));
+            this.tableFeesEntry.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 14.28572F));
+            this.tableFeesEntry.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 14.28572F));
+            this.tableFeesEntry.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 14.28572F));
+            this.tableFeesEntry.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 14.28572F));
+            this.tableFeesEntry.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 14.28572F));
+            this.tableFeesEntry.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 20F));
+            this.tableFeesEntry.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 20F));
+            this.tableFeesEntry.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 20F));
+            this.tableFeesEntry.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 20F));
+            this.tableFeesEntry.Size = new System.Drawing.Size(399, 182);
+            this.tableFeesEntry.TabIndex = 17;
+            // 
+            // labFeesPending
+            // 
+            this.labFeesPending.Anchor = System.Windows.Forms.AnchorStyles.Left;
+            this.labFeesPending.AutoSize = true;
+            this.labFeesPending.Location = new System.Drawing.Point(3, 6);
+            this.labFeesPending.Name = "labFeesPending";
+            this.labFeesPending.Size = new System.Drawing.Size(101, 13);
+            this.labFeesPending.TabIndex = 0;
+            this.labFeesPending.Text = "Any Fees pending ?";
+            // 
+            // radioButFeePendingYes
+            // 
+            this.radioButFeePendingYes.AutoSize = true;
+            this.radioButFeePendingYes.Location = new System.Drawing.Point(135, 3);
+            this.radioButFeePendingYes.Name = "radioButFeePendingYes";
+            this.radioButFeePendingYes.Size = new System.Drawing.Size(43, 17);
+            this.radioButFeePendingYes.TabIndex = 1;
+            this.radioButFeePendingYes.TabStop = true;
+            this.radioButFeePendingYes.Text = "Yes";
+            this.radioButFeePendingYes.UseVisualStyleBackColor = true;
+            // 
+            // radioButFeePendingNo
+            // 
+            this.radioButFeePendingNo.AutoSize = true;
+            this.radioButFeePendingNo.Location = new System.Drawing.Point(268, 3);
+            this.radioButFeePendingNo.Name = "radioButFeePendingNo";
+            this.radioButFeePendingNo.Size = new System.Drawing.Size(39, 17);
+            this.radioButFeePendingNo.TabIndex = 1;
+            this.radioButFeePendingNo.TabStop = true;
+            this.radioButFeePendingNo.Text = "No";
+            this.radioButFeePendingNo.UseVisualStyleBackColor = true;
+            // 
+            // labTotalFees
+            // 
+            this.labTotalFees.Anchor = System.Windows.Forms.AnchorStyles.Left;
+            this.labTotalFees.AutoSize = true;
+            this.labTotalFees.Location = new System.Drawing.Point(3, 32);
+            this.labTotalFees.Name = "labTotalFees";
+            this.labTotalFees.Size = new System.Drawing.Size(57, 13);
+            this.labTotalFees.TabIndex = 4;
+            this.labTotalFees.Text = "Total Fees";
+            // 
+            // textTotalFees
+            // 
+            this.textTotalFees.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.textTotalFees.Location = new System.Drawing.Point(135, 29);
+            this.textTotalFees.Name = "textTotalFees";
+            this.textTotalFees.Size = new System.Drawing.Size(127, 20);
+            this.textTotalFees.TabIndex = 5;
+            // 
+            // labFeePaid
+            // 
+            this.labFeePaid.Anchor = System.Windows.Forms.AnchorStyles.Left;
+            this.labFeePaid.AutoSize = true;
+            this.labFeePaid.Location = new System.Drawing.Point(3, 58);
+            this.labFeePaid.Name = "labFeePaid";
+            this.labFeePaid.Size = new System.Drawing.Size(49, 13);
+            this.labFeePaid.TabIndex = 4;
+            this.labFeePaid.Text = "Fee Paid";
+            // 
+            // labRemainingFees
+            // 
+            this.labRemainingFees.Anchor = System.Windows.Forms.AnchorStyles.Left;
+            this.labRemainingFees.AutoSize = true;
+            this.labRemainingFees.Location = new System.Drawing.Point(3, 84);
+            this.labRemainingFees.Name = "labRemainingFees";
+            this.labRemainingFees.Size = new System.Drawing.Size(83, 13);
+            this.labRemainingFees.TabIndex = 4;
+            this.labRemainingFees.Text = "Remaining Fees";
+            // 
+            // labScholarshipAmt
+            // 
+            this.labScholarshipAmt.Anchor = System.Windows.Forms.AnchorStyles.Left;
+            this.labScholarshipAmt.AutoSize = true;
+            this.labScholarshipAmt.Location = new System.Drawing.Point(3, 162);
+            this.labScholarshipAmt.Name = "labScholarshipAmt";
+            this.labScholarshipAmt.Size = new System.Drawing.Size(101, 13);
+            this.labScholarshipAmt.TabIndex = 7;
+            this.labScholarshipAmt.Text = "Scholarship Amount";
+            // 
+            // labScholarshipName
+            // 
+            this.labScholarshipName.Anchor = System.Windows.Forms.AnchorStyles.Left;
+            this.labScholarshipName.AutoSize = true;
+            this.labScholarshipName.Location = new System.Drawing.Point(3, 136);
+            this.labScholarshipName.Name = "labScholarshipName";
+            this.labScholarshipName.Size = new System.Drawing.Size(93, 13);
+            this.labScholarshipName.TabIndex = 7;
+            this.labScholarshipName.Text = "Scholarship Name";
+            // 
+            // textScholarshipAmt
+            // 
+            this.textScholarshipAmt.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.textScholarshipAmt.Location = new System.Drawing.Point(135, 159);
+            this.textScholarshipAmt.Name = "textScholarshipAmt";
+            this.textScholarshipAmt.Size = new System.Drawing.Size(127, 20);
+            this.textScholarshipAmt.TabIndex = 10;
+            // 
+            // textScholarshipName
+            // 
+            this.textScholarshipName.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.textScholarshipName.Location = new System.Drawing.Point(135, 133);
+            this.textScholarshipName.Name = "textScholarshipName";
+            this.textScholarshipName.Size = new System.Drawing.Size(127, 20);
+            this.textScholarshipName.TabIndex = 10;
+            // 
+            // textFeesPaid
+            // 
+            this.textFeesPaid.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.textFeesPaid.Location = new System.Drawing.Point(135, 55);
+            this.textFeesPaid.Name = "textFeesPaid";
+            this.textFeesPaid.Size = new System.Drawing.Size(127, 20);
+            this.textFeesPaid.TabIndex = 11;
+            // 
+            // textRemainingFees
+            // 
+            this.textRemainingFees.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.textRemainingFees.Location = new System.Drawing.Point(135, 81);
+            this.textRemainingFees.Name = "textRemainingFees";
+            this.textRemainingFees.Size = new System.Drawing.Size(127, 20);
+            this.textRemainingFees.TabIndex = 12;
+            // 
+            // labScholarshipEligib
+            // 
+            this.labScholarshipEligib.Anchor = System.Windows.Forms.AnchorStyles.Left;
+            this.labScholarshipEligib.AutoSize = true;
+            this.labScholarshipEligib.Location = new System.Drawing.Point(3, 110);
+            this.labScholarshipEligib.Name = "labScholarshipEligib";
+            this.labScholarshipEligib.Size = new System.Drawing.Size(104, 13);
+            this.labScholarshipEligib.TabIndex = 0;
+            this.labScholarshipEligib.Text = "Scholarship Eligibility";
+            // 
+            // radioButScholarshipEligib
+            // 
+            this.radioButScholarshipEligib.AutoSize = true;
+            this.radioButScholarshipEligib.Location = new System.Drawing.Point(135, 107);
+            this.radioButScholarshipEligib.Name = "radioButScholarshipEligib";
+            this.radioButScholarshipEligib.Size = new System.Drawing.Size(58, 17);
+            this.radioButScholarshipEligib.TabIndex = 1;
+            this.radioButScholarshipEligib.TabStop = true;
+            this.radioButScholarshipEligib.Text = "Eligible";
+            this.radioButScholarshipEligib.UseVisualStyleBackColor = true;
+            // 
+            // radioButScholarship_Ineligib
+            // 
+            this.radioButScholarship_Ineligib.AutoSize = true;
+            this.radioButScholarship_Ineligib.Location = new System.Drawing.Point(268, 107);
+            this.radioButScholarship_Ineligib.Name = "radioButScholarship_Ineligib";
+            this.radioButScholarship_Ineligib.Size = new System.Drawing.Size(66, 17);
+            this.radioButScholarship_Ineligib.TabIndex = 1;
+            this.radioButScholarship_Ineligib.TabStop = true;
+            this.radioButScholarship_Ineligib.Text = "Ineligible";
+            this.radioButScholarship_Ineligib.UseVisualStyleBackColor = true;
+            // 
             // DataEntry_Fees
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(763, 507);
+            this.Controls.Add(this.tableFeesEntry);
             this.Controls.Add(this.SubmitButton);
             this.Controls.Add(this.ButtonPanel);
             this.Controls.Add(this.panel1);
@@ -304,6 +516,8 @@
             this.panel1.PerformLayout();
             this.tableLayoutPanel1.ResumeLayout(false);
             this.tableLayoutPanel1.PerformLayout();
+            this.tableFeesEntry.ResumeLayout(false);
+            this.tableFeesEntry.PerformLayout();
             this.ResumeLayout(false);
 
         }
@@ -329,5 +543,22 @@
         private System.Windows.Forms.LinkLabel linkLabel1;
         private System.Windows.Forms.LinkLabel linkLabel2;
         private System.Windows.Forms.TableLayoutPanel tableLayoutPanel1;
+        private System.Windows.Forms.TableLayoutPanel tableFeesEntry;
+        private System.Windows.Forms.Label labFeesPending;
+        private System.Windows.Forms.RadioButton radioButFeePendingYes;
+        private System.Windows.Forms.RadioButton radioButFeePendingNo;
+        private System.Windows.Forms.Label labTotalFees;
+        private System.Windows.Forms.TextBox textTotalFees;
+        private System.Windows.Forms.Label labFeePaid;
+        private System.Windows.Forms.Label labRemainingFees;
+        private System.Windows.Forms.Label labScholarshipAmt;
+        private System.Windows.Forms.Label labScholarshipName;
+        private System.Windows.Forms.TextBox textScholarshipAmt;
+        private System.Windows.Forms.TextBox textScholarshipName;
+        private System.Windows.Forms.TextBox textFeesPaid;
+        private System.Windows.Forms.TextBox textRemainingFees;
+        private System.Windows.Forms.Label labScholarshipEligib;
+        private System.Windows.Forms.RadioButton radioButScholarshipEligib;
+        private System.Windows.Forms.RadioButton radioButScholarship_Ineligib;
     }
 }

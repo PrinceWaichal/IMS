@@ -190,17 +190,53 @@
     <Compile Include="FormPages\3 - DataEntry\DataEntry_Marks.Designer.cs">
       <DependentUpon>DataEntry_Marks.cs</DependentUpon>
     </Compile>
-    <Compile Include="FormPages\3 - DataEntry\DataEntry_Reports.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="FormPages\3 - DataEntry\DataEntry_Reports.Designer.cs">
-      <DependentUpon>DataEntry_Reports.cs</DependentUpon>
-    </Compile>
     <Compile Include="FormPages\3 - DataEntry\DataEntry_Schedule.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="FormPages\3 - DataEntry\DataEntry_Schedule.Designer.cs">
       <DependentUpon>DataEntry_Schedule.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormPages\4 - Reports\Reports_Exam.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormPages\4 - Reports\Reports_Exam.Designer.cs">
+      <DependentUpon>Reports_Exam.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormPages\4 - Reports\Reports_Schedule.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormPages\4 - Reports\Reports_Schedule.Designer.cs">
+      <DependentUpon>Reports_Schedule.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormPages\4 - Reports\Reports_Books.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormPages\4 - Reports\Reports_Books.Designer.cs">
+      <DependentUpon>Reports_Books.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormPages\4 - Reports\Reports_Fees.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormPages\4 - Reports\Reports_Fees.Designer.cs">
+      <DependentUpon>Reports_Fees.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormPages\4 - Reports\Reports_Activities.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormPages\4 - Reports\Reports_Activities.Designer.cs">
+      <DependentUpon>Reports_Activities.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormPages\4 - Reports\Reports_Marks.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormPages\4 - Reports\Reports_Marks.Designer.cs">
+      <DependentUpon>Reports_Marks.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormPages\4 - Reports\Reports_Attendance.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormPages\4 - Reports\Reports_Attendance.Designer.cs">
+      <DependentUpon>Reports_Attendance.cs</DependentUpon>
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
@@ -265,11 +301,29 @@
     <EmbeddedResource Include="FormPages\3 - DataEntry\DataEntry_Marks.resx">
       <DependentUpon>DataEntry_Marks.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="FormPages\3 - DataEntry\DataEntry_Reports.resx">
-      <DependentUpon>DataEntry_Reports.cs</DependentUpon>
-    </EmbeddedResource>
     <EmbeddedResource Include="FormPages\3 - DataEntry\DataEntry_Schedule.resx">
       <DependentUpon>DataEntry_Schedule.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormPages\4 - Reports\Reports_Exam.resx">
+      <DependentUpon>Reports_Exam.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormPages\4 - Reports\Reports_Schedule.resx">
+      <DependentUpon>Reports_Schedule.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormPages\4 - Reports\Reports_Books.resx">
+      <DependentUpon>Reports_Books.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormPages\4 - Reports\Reports_Fees.resx">
+      <DependentUpon>Reports_Fees.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormPages\4 - Reports\Reports_Activities.resx">
+      <DependentUpon>Reports_Activities.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormPages\4 - Reports\Reports_Marks.resx">
+      <DependentUpon>Reports_Marks.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormPages\4 - Reports\Reports_Attendance.resx">
+      <DependentUpon>Reports_Attendance.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
@@ -312,6 +366,7 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="Logo 1-1.ico" />
+    <None Include="Resources\education-background-hd-10.jpg" />
     <None Include="Resources\173253837-56a18f0c5f9b58b7d0c0a8551.jpg" />
     <None Include="Resources\173253837-56a18f0c5f9b58b7d0c0a855.jpg" />
   </ItemGroup>

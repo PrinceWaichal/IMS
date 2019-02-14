@@ -8,5 +8,12 @@ namespace _1___Software_Package.FormPages._3___DataEntry
         {
             InitializeComponent();
         }
+
+        private void label3_Click(object sender, System.EventArgs e)
+        {
+
+        }
+
+       
     }
 }
