@@ -208,6 +208,12 @@
     <Compile Include="FormPages\4 - Reports\Reports_Attendance.Designer.cs">
       <DependentUpon>Reports_Attendance.cs</DependentUpon>
     </Compile>
+    <Compile Include="FormPages\4 - Reports\Reports_Marks.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormPages\4 - Reports\Reports_Marks.Designer.cs">
+      <DependentUpon>Reports_Marks.cs</DependentUpon>
+    </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="ServerInfo.cs" />
@@ -279,6 +285,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="FormPages\4 - Reports\Reports_Attendance.resx">
       <DependentUpon>Reports_Attendance.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormPages\4 - Reports\Reports_Marks.resx">
+      <DependentUpon>Reports_Marks.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
