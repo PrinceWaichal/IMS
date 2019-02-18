@@ -74,63 +74,75 @@
             // 
             // SubmitButton
             // 
+            this.SubmitButton.BackColor = System.Drawing.Color.Linen;
             this.SubmitButton.Dock = System.Windows.Forms.DockStyle.Bottom;
-            this.SubmitButton.Location = new System.Drawing.Point(200, 448);
+            this.SubmitButton.Location = new System.Drawing.Point(267, 552);
+            this.SubmitButton.Margin = new System.Windows.Forms.Padding(4);
             this.SubmitButton.Name = "SubmitButton";
-            this.SubmitButton.Size = new System.Drawing.Size(575, 23);
+            this.SubmitButton.Size = new System.Drawing.Size(766, 28);
             this.SubmitButton.TabIndex = 10;
             this.SubmitButton.Text = "Submit";
-            this.SubmitButton.UseVisualStyleBackColor = true;
+            this.SubmitButton.UseVisualStyleBackColor = false;
             // 
             // FeesButton
             // 
+            this.FeesButton.BackColor = System.Drawing.Color.Linen;
             this.FeesButton.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.FeesButton.Location = new System.Drawing.Point(3, 3);
+            this.FeesButton.Location = new System.Drawing.Point(4, 4);
+            this.FeesButton.Margin = new System.Windows.Forms.Padding(4);
             this.FeesButton.Name = "FeesButton";
-            this.FeesButton.Size = new System.Drawing.Size(91, 26);
+            this.FeesButton.Size = new System.Drawing.Size(121, 31);
             this.FeesButton.TabIndex = 0;
             this.FeesButton.Text = "Fees";
-            this.FeesButton.UseVisualStyleBackColor = true;
+            this.FeesButton.UseVisualStyleBackColor = false;
             // 
             // BooksButton
             // 
+            this.BooksButton.BackColor = System.Drawing.Color.Linen;
             this.BooksButton.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.BooksButton.Location = new System.Drawing.Point(100, 3);
+            this.BooksButton.Location = new System.Drawing.Point(133, 4);
+            this.BooksButton.Margin = new System.Windows.Forms.Padding(4);
             this.BooksButton.Name = "BooksButton";
-            this.BooksButton.Size = new System.Drawing.Size(91, 26);
+            this.BooksButton.Size = new System.Drawing.Size(122, 31);
             this.BooksButton.TabIndex = 1;
             this.BooksButton.Text = "Books";
-            this.BooksButton.UseVisualStyleBackColor = true;
+            this.BooksButton.UseVisualStyleBackColor = false;
             // 
             // ScheduleButton
             // 
+            this.ScheduleButton.BackColor = System.Drawing.Color.Linen;
             this.ScheduleButton.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.ScheduleButton.Location = new System.Drawing.Point(3, 35);
+            this.ScheduleButton.Location = new System.Drawing.Point(4, 43);
+            this.ScheduleButton.Margin = new System.Windows.Forms.Padding(4);
             this.ScheduleButton.Name = "ScheduleButton";
-            this.ScheduleButton.Size = new System.Drawing.Size(91, 26);
+            this.ScheduleButton.Size = new System.Drawing.Size(121, 32);
             this.ScheduleButton.TabIndex = 2;
             this.ScheduleButton.Text = "Schedule";
-            this.ScheduleButton.UseVisualStyleBackColor = true;
+            this.ScheduleButton.UseVisualStyleBackColor = false;
             // 
             // ExamsButton
             // 
+            this.ExamsButton.BackColor = System.Drawing.Color.Linen;
             this.ExamsButton.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.ExamsButton.Location = new System.Drawing.Point(100, 35);
+            this.ExamsButton.Location = new System.Drawing.Point(133, 43);
+            this.ExamsButton.Margin = new System.Windows.Forms.Padding(4);
             this.ExamsButton.Name = "ExamsButton";
-            this.ExamsButton.Size = new System.Drawing.Size(91, 26);
+            this.ExamsButton.Size = new System.Drawing.Size(122, 32);
             this.ExamsButton.TabIndex = 3;
             this.ExamsButton.Text = "Exam";
-            this.ExamsButton.UseVisualStyleBackColor = true;
+            this.ExamsButton.UseVisualStyleBackColor = false;
             // 
             // AttendanceButton
             // 
+            this.AttendanceButton.BackColor = System.Drawing.Color.Linen;
             this.AttendanceButton.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.AttendanceButton.Location = new System.Drawing.Point(3, 3);
+            this.AttendanceButton.Location = new System.Drawing.Point(4, 4);
+            this.AttendanceButton.Margin = new System.Windows.Forms.Padding(4);
             this.AttendanceButton.Name = "AttendanceButton";
-            this.AttendanceButton.Size = new System.Drawing.Size(194, 68);
+            this.AttendanceButton.Size = new System.Drawing.Size(259, 83);
             this.AttendanceButton.TabIndex = 0;
             this.AttendanceButton.Text = "Attendance";
-            this.AttendanceButton.UseVisualStyleBackColor = true;
+            this.AttendanceButton.UseVisualStyleBackColor = false;
             // 
             // ButtonPanel
             // 
@@ -144,7 +156,8 @@
             this.ButtonPanel.Controls.Add(this.tableLayoutPanel2, 0, 3);
             this.ButtonPanel.Cursor = System.Windows.Forms.Cursors.Arrow;
             this.ButtonPanel.Dock = System.Windows.Forms.DockStyle.Left;
-            this.ButtonPanel.Location = new System.Drawing.Point(0, 26);
+            this.ButtonPanel.Location = new System.Drawing.Point(0, 32);
+            this.ButtonPanel.Margin = new System.Windows.Forms.Padding(4);
             this.ButtonPanel.Name = "ButtonPanel";
             this.ButtonPanel.RowCount = 6;
             this.ButtonPanel.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 16.66667F));
@@ -153,48 +166,56 @@
             this.ButtonPanel.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 16.66667F));
             this.ButtonPanel.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 16.66667F));
             this.ButtonPanel.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 16.66667F));
-            this.ButtonPanel.Size = new System.Drawing.Size(200, 445);
+            this.ButtonPanel.Size = new System.Drawing.Size(267, 548);
             this.ButtonPanel.TabIndex = 13;
             // 
             // MarksButton
             // 
+            this.MarksButton.BackColor = System.Drawing.Color.Linen;
             this.MarksButton.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.MarksButton.Location = new System.Drawing.Point(3, 77);
+            this.MarksButton.Location = new System.Drawing.Point(4, 95);
+            this.MarksButton.Margin = new System.Windows.Forms.Padding(4);
             this.MarksButton.Name = "MarksButton";
-            this.MarksButton.Size = new System.Drawing.Size(194, 68);
+            this.MarksButton.Size = new System.Drawing.Size(259, 83);
             this.MarksButton.TabIndex = 1;
             this.MarksButton.Text = "Marks";
-            this.MarksButton.UseVisualStyleBackColor = true;
+            this.MarksButton.UseVisualStyleBackColor = false;
             // 
             // ActivitiesButton
             // 
+            this.ActivitiesButton.BackColor = System.Drawing.Color.Linen;
             this.ActivitiesButton.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.ActivitiesButton.Location = new System.Drawing.Point(3, 151);
+            this.ActivitiesButton.Location = new System.Drawing.Point(4, 186);
+            this.ActivitiesButton.Margin = new System.Windows.Forms.Padding(4);
             this.ActivitiesButton.Name = "ActivitiesButton";
-            this.ActivitiesButton.Size = new System.Drawing.Size(194, 68);
+            this.ActivitiesButton.Size = new System.Drawing.Size(259, 83);
             this.ActivitiesButton.TabIndex = 2;
             this.ActivitiesButton.Text = "Activities";
-            this.ActivitiesButton.UseVisualStyleBackColor = true;
+            this.ActivitiesButton.UseVisualStyleBackColor = false;
             // 
             // LogOutButton
             // 
+            this.LogOutButton.BackColor = System.Drawing.Color.Linen;
             this.LogOutButton.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.LogOutButton.Location = new System.Drawing.Point(3, 373);
+            this.LogOutButton.Location = new System.Drawing.Point(4, 459);
+            this.LogOutButton.Margin = new System.Windows.Forms.Padding(4);
             this.LogOutButton.Name = "LogOutButton";
-            this.LogOutButton.Size = new System.Drawing.Size(194, 69);
+            this.LogOutButton.Size = new System.Drawing.Size(259, 85);
             this.LogOutButton.TabIndex = 4;
             this.LogOutButton.Text = "Log Out";
-            this.LogOutButton.UseVisualStyleBackColor = true;
+            this.LogOutButton.UseVisualStyleBackColor = false;
             // 
             // ReportsButton
             // 
+            this.ReportsButton.BackColor = System.Drawing.Color.Linen;
             this.ReportsButton.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.ReportsButton.Location = new System.Drawing.Point(3, 299);
+            this.ReportsButton.Location = new System.Drawing.Point(4, 368);
+            this.ReportsButton.Margin = new System.Windows.Forms.Padding(4);
             this.ReportsButton.Name = "ReportsButton";
-            this.ReportsButton.Size = new System.Drawing.Size(194, 68);
+            this.ReportsButton.Size = new System.Drawing.Size(259, 83);
             this.ReportsButton.TabIndex = 5;
             this.ReportsButton.Text = "Reports";
-            this.ReportsButton.UseVisualStyleBackColor = true;
+            this.ReportsButton.UseVisualStyleBackColor = false;
             // 
             // tableLayoutPanel2
             // 
@@ -205,12 +226,13 @@
             this.tableLayoutPanel2.Controls.Add(this.BooksButton, 1, 0);
             this.tableLayoutPanel2.Controls.Add(this.ScheduleButton, 0, 1);
             this.tableLayoutPanel2.Controls.Add(this.ExamsButton, 1, 1);
-            this.tableLayoutPanel2.Location = new System.Drawing.Point(3, 225);
+            this.tableLayoutPanel2.Location = new System.Drawing.Point(4, 277);
+            this.tableLayoutPanel2.Margin = new System.Windows.Forms.Padding(4);
             this.tableLayoutPanel2.Name = "tableLayoutPanel2";
             this.tableLayoutPanel2.RowCount = 2;
             this.tableLayoutPanel2.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 50F));
             this.tableLayoutPanel2.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 50F));
-            this.tableLayoutPanel2.Size = new System.Drawing.Size(194, 64);
+            this.tableLayoutPanel2.Size = new System.Drawing.Size(259, 79);
             this.tableLayoutPanel2.TabIndex = 6;
             // 
             // label2
@@ -221,6 +243,7 @@
             this.label2.ImageAlign = System.Drawing.ContentAlignment.TopLeft;
             this.label2.ImeMode = System.Windows.Forms.ImeMode.NoControl;
             this.label2.Location = new System.Drawing.Point(0, 0);
+            this.label2.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(308, 24);
             this.label2.TabIndex = 0;
@@ -233,8 +256,9 @@
             this.panel3.Controls.Add(this.label2);
             this.panel3.Dock = System.Windows.Forms.DockStyle.Top;
             this.panel3.Location = new System.Drawing.Point(0, 0);
+            this.panel3.Margin = new System.Windows.Forms.Padding(4);
             this.panel3.Name = "panel3";
-            this.panel3.Size = new System.Drawing.Size(775, 26);
+            this.panel3.Size = new System.Drawing.Size(1033, 32);
             this.panel3.TabIndex = 7;
             // 
             // panel1
@@ -244,8 +268,9 @@
             this.panel1.Controls.Add(this.label1);
             this.panel1.Dock = System.Windows.Forms.DockStyle.Top;
             this.panel1.Location = new System.Drawing.Point(0, 0);
+            this.panel1.Margin = new System.Windows.Forms.Padding(4);
             this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(775, 26);
+            this.panel1.Size = new System.Drawing.Size(1033, 32);
             this.panel1.TabIndex = 12;
             // 
             // label1
@@ -256,6 +281,7 @@
             this.label1.ImageAlign = System.Drawing.ContentAlignment.TopLeft;
             this.label1.ImeMode = System.Windows.Forms.ImeMode.NoControl;
             this.label1.Location = new System.Drawing.Point(0, 0);
+            this.label1.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(256, 24);
             this.label1.TabIndex = 0;
@@ -267,9 +293,10 @@
             this.linkLabel1.AutoSize = true;
             this.linkLabel1.Dock = System.Windows.Forms.DockStyle.Fill;
             this.linkLabel1.ImeMode = System.Windows.Forms.ImeMode.NoControl;
-            this.linkLabel1.Location = new System.Drawing.Point(3, 0);
+            this.linkLabel1.Location = new System.Drawing.Point(4, 0);
+            this.linkLabel1.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.linkLabel1.Name = "linkLabel1";
-            this.linkLabel1.Size = new System.Drawing.Size(381, 31);
+            this.linkLabel1.Size = new System.Drawing.Size(508, 38);
             this.linkLabel1.TabIndex = 0;
             this.linkLabel1.TabStop = true;
             this.linkLabel1.Text = "About Us";
@@ -279,9 +306,10 @@
             this.linkLabel2.AutoSize = true;
             this.linkLabel2.Dock = System.Windows.Forms.DockStyle.Fill;
             this.linkLabel2.ImeMode = System.Windows.Forms.ImeMode.NoControl;
-            this.linkLabel2.Location = new System.Drawing.Point(390, 0);
+            this.linkLabel2.Location = new System.Drawing.Point(520, 0);
+            this.linkLabel2.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.linkLabel2.Name = "linkLabel2";
-            this.linkLabel2.Size = new System.Drawing.Size(382, 31);
+            this.linkLabel2.Size = new System.Drawing.Size(509, 38);
             this.linkLabel2.TabIndex = 0;
             this.linkLabel2.TabStop = true;
             this.linkLabel2.Text = "Help And Feedback";
@@ -294,11 +322,12 @@
             this.tableLayoutPanel1.Controls.Add(this.linkLabel1, 0, 0);
             this.tableLayoutPanel1.Controls.Add(this.linkLabel2, 1, 0);
             this.tableLayoutPanel1.Dock = System.Windows.Forms.DockStyle.Bottom;
-            this.tableLayoutPanel1.Location = new System.Drawing.Point(0, 471);
+            this.tableLayoutPanel1.Location = new System.Drawing.Point(0, 580);
+            this.tableLayoutPanel1.Margin = new System.Windows.Forms.Padding(4);
             this.tableLayoutPanel1.Name = "tableLayoutPanel1";
             this.tableLayoutPanel1.RowCount = 1;
             this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 50F));
-            this.tableLayoutPanel1.Size = new System.Drawing.Size(775, 31);
+            this.tableLayoutPanel1.Size = new System.Drawing.Size(1033, 38);
             this.tableLayoutPanel1.TabIndex = 11;
             // 
             // tableBooks_Entry
@@ -322,7 +351,8 @@
             this.tableBooks_Entry.Controls.Add(this.labFine, 0, 5);
             this.tableBooks_Entry.Controls.Add(this.textFineRecieved, 1, 6);
             this.tableBooks_Entry.Controls.Add(this.textFine, 1, 5);
-            this.tableBooks_Entry.Location = new System.Drawing.Point(206, 103);
+            this.tableBooks_Entry.Location = new System.Drawing.Point(275, 127);
+            this.tableBooks_Entry.Margin = new System.Windows.Forms.Padding(4);
             this.tableBooks_Entry.Name = "tableBooks_Entry";
             this.tableBooks_Entry.RowCount = 7;
             this.tableBooks_Entry.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 14.28572F));
@@ -332,29 +362,31 @@
             this.tableBooks_Entry.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 14.28572F));
             this.tableBooks_Entry.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 14.28572F));
             this.tableBooks_Entry.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 14.28572F));
-            this.tableBooks_Entry.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 20F));
-            this.tableBooks_Entry.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 20F));
-            this.tableBooks_Entry.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 20F));
-            this.tableBooks_Entry.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 20F));
-            this.tableBooks_Entry.Size = new System.Drawing.Size(399, 182);
+            this.tableBooks_Entry.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 25F));
+            this.tableBooks_Entry.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 25F));
+            this.tableBooks_Entry.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 25F));
+            this.tableBooks_Entry.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 25F));
+            this.tableBooks_Entry.Size = new System.Drawing.Size(532, 224);
             this.tableBooks_Entry.TabIndex = 16;
             // 
             // labBookPending
             // 
             this.labBookPending.Anchor = System.Windows.Forms.AnchorStyles.Left;
             this.labBookPending.AutoSize = true;
-            this.labBookPending.Location = new System.Drawing.Point(3, 6);
+            this.labBookPending.Location = new System.Drawing.Point(4, 7);
+            this.labBookPending.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.labBookPending.Name = "labBookPending";
-            this.labBookPending.Size = new System.Drawing.Size(115, 13);
+            this.labBookPending.Size = new System.Drawing.Size(152, 17);
             this.labBookPending.TabIndex = 0;
             this.labBookPending.Text = "Is your book pending ?";
             // 
             // radioButBookPendiangYes
             // 
             this.radioButBookPendiangYes.AutoSize = true;
-            this.radioButBookPendiangYes.Location = new System.Drawing.Point(135, 3);
+            this.radioButBookPendiangYes.Location = new System.Drawing.Point(181, 4);
+            this.radioButBookPendiangYes.Margin = new System.Windows.Forms.Padding(4);
             this.radioButBookPendiangYes.Name = "radioButBookPendiangYes";
-            this.radioButBookPendiangYes.Size = new System.Drawing.Size(43, 17);
+            this.radioButBookPendiangYes.Size = new System.Drawing.Size(53, 21);
             this.radioButBookPendiangYes.TabIndex = 1;
             this.radioButBookPendiangYes.TabStop = true;
             this.radioButBookPendiangYes.Text = "Yes";
@@ -363,9 +395,10 @@
             // radioButBookPendiangNo
             // 
             this.radioButBookPendiangNo.AutoSize = true;
-            this.radioButBookPendiangNo.Location = new System.Drawing.Point(268, 3);
+            this.radioButBookPendiangNo.Location = new System.Drawing.Point(358, 4);
+            this.radioButBookPendiangNo.Margin = new System.Windows.Forms.Padding(4);
             this.radioButBookPendiangNo.Name = "radioButBookPendiangNo";
-            this.radioButBookPendiangNo.Size = new System.Drawing.Size(39, 17);
+            this.radioButBookPendiangNo.Size = new System.Drawing.Size(47, 21);
             this.radioButBookPendiangNo.TabIndex = 1;
             this.radioButBookPendiangNo.TabStop = true;
             this.radioButBookPendiangNo.Text = "No";
@@ -375,81 +408,90 @@
             // 
             this.labelBookName.Anchor = System.Windows.Forms.AnchorStyles.Left;
             this.labelBookName.AutoSize = true;
-            this.labelBookName.Location = new System.Drawing.Point(3, 32);
+            this.labelBookName.Location = new System.Drawing.Point(4, 39);
+            this.labelBookName.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.labelBookName.Name = "labelBookName";
-            this.labelBookName.Size = new System.Drawing.Size(63, 13);
+            this.labelBookName.Size = new System.Drawing.Size(81, 17);
             this.labelBookName.TabIndex = 4;
             this.labelBookName.Text = "Book Name";
             // 
             // textBookName
             // 
             this.textBookName.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.textBookName.Location = new System.Drawing.Point(135, 29);
+            this.textBookName.Location = new System.Drawing.Point(181, 36);
+            this.textBookName.Margin = new System.Windows.Forms.Padding(4);
             this.textBookName.Name = "textBookName";
-            this.textBookName.Size = new System.Drawing.Size(127, 20);
+            this.textBookName.Size = new System.Drawing.Size(169, 22);
             this.textBookName.TabIndex = 5;
             // 
             // labBookDate
             // 
             this.labBookDate.Anchor = System.Windows.Forms.AnchorStyles.Left;
             this.labBookDate.AutoSize = true;
-            this.labBookDate.Location = new System.Drawing.Point(3, 58);
+            this.labBookDate.Location = new System.Drawing.Point(4, 71);
+            this.labBookDate.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.labBookDate.Name = "labBookDate";
-            this.labBookDate.Size = new System.Drawing.Size(85, 13);
+            this.labBookDate.Size = new System.Drawing.Size(110, 17);
             this.labBookDate.TabIndex = 4;
             this.labBookDate.Text = "Book given date";
             // 
             // dateTimeBookGiven
             // 
             this.dateTimeBookGiven.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.dateTimeBookGiven.Location = new System.Drawing.Point(135, 55);
+            this.dateTimeBookGiven.Location = new System.Drawing.Point(181, 68);
+            this.dateTimeBookGiven.Margin = new System.Windows.Forms.Padding(4);
             this.dateTimeBookGiven.Name = "dateTimeBookGiven";
-            this.dateTimeBookGiven.Size = new System.Drawing.Size(127, 20);
+            this.dateTimeBookGiven.Size = new System.Drawing.Size(169, 22);
             this.dateTimeBookGiven.TabIndex = 6;
             // 
             // labBooksReturnDate
             // 
             this.labBooksReturnDate.Anchor = System.Windows.Forms.AnchorStyles.Left;
             this.labBooksReturnDate.AutoSize = true;
-            this.labBooksReturnDate.Location = new System.Drawing.Point(3, 84);
+            this.labBooksReturnDate.Location = new System.Drawing.Point(4, 103);
+            this.labBooksReturnDate.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.labBooksReturnDate.Name = "labBooksReturnDate";
-            this.labBooksReturnDate.Size = new System.Drawing.Size(91, 13);
+            this.labBooksReturnDate.Size = new System.Drawing.Size(119, 17);
             this.labBooksReturnDate.TabIndex = 4;
             this.labBooksReturnDate.Text = "Book Return date";
             // 
             // dateTimeBookReturn
             // 
             this.dateTimeBookReturn.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.dateTimeBookReturn.Location = new System.Drawing.Point(135, 81);
+            this.dateTimeBookReturn.Location = new System.Drawing.Point(181, 100);
+            this.dateTimeBookReturn.Margin = new System.Windows.Forms.Padding(4);
             this.dateTimeBookReturn.Name = "dateTimeBookReturn";
-            this.dateTimeBookReturn.Size = new System.Drawing.Size(127, 20);
+            this.dateTimeBookReturn.Size = new System.Drawing.Size(169, 22);
             this.dateTimeBookReturn.TabIndex = 6;
             // 
             // labBookFinePerDay
             // 
             this.labBookFinePerDay.Anchor = System.Windows.Forms.AnchorStyles.Left;
             this.labBookFinePerDay.AutoSize = true;
-            this.labBookFinePerDay.Location = new System.Drawing.Point(3, 110);
+            this.labBookFinePerDay.Location = new System.Drawing.Point(4, 135);
+            this.labBookFinePerDay.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.labBookFinePerDay.Name = "labBookFinePerDay";
-            this.labBookFinePerDay.Size = new System.Drawing.Size(68, 13);
+            this.labBookFinePerDay.Size = new System.Drawing.Size(90, 17);
             this.labBookFinePerDay.TabIndex = 4;
             this.labBookFinePerDay.Text = "Fine Per Day";
             // 
             // textFinePerDay
             // 
             this.textFinePerDay.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.textFinePerDay.Location = new System.Drawing.Point(135, 107);
+            this.textFinePerDay.Location = new System.Drawing.Point(181, 132);
+            this.textFinePerDay.Margin = new System.Windows.Forms.Padding(4);
             this.textFinePerDay.Name = "textFinePerDay";
-            this.textFinePerDay.Size = new System.Drawing.Size(127, 20);
+            this.textFinePerDay.Size = new System.Drawing.Size(169, 22);
             this.textFinePerDay.TabIndex = 9;
             // 
             // labFineRecieved
             // 
             this.labFineRecieved.Anchor = System.Windows.Forms.AnchorStyles.Left;
             this.labFineRecieved.AutoSize = true;
-            this.labFineRecieved.Location = new System.Drawing.Point(3, 162);
+            this.labFineRecieved.Location = new System.Drawing.Point(4, 199);
+            this.labFineRecieved.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.labFineRecieved.Name = "labFineRecieved";
-            this.labFineRecieved.Size = new System.Drawing.Size(76, 13);
+            this.labFineRecieved.Size = new System.Drawing.Size(98, 17);
             this.labFineRecieved.TabIndex = 7;
             this.labFineRecieved.Text = "Fine Recieved";
             // 
@@ -457,9 +499,10 @@
             // 
             this.labFine.Anchor = System.Windows.Forms.AnchorStyles.Left;
             this.labFine.AutoSize = true;
-            this.labFine.Location = new System.Drawing.Point(3, 136);
+            this.labFine.Location = new System.Drawing.Point(4, 167);
+            this.labFine.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.labFine.Name = "labFine";
-            this.labFine.Size = new System.Drawing.Size(30, 13);
+            this.labFine.Size = new System.Drawing.Size(39, 17);
             this.labFine.TabIndex = 7;
             this.labFine.Text = "Fine ";
             this.labFine.Click += new System.EventHandler(this.label3_Click);
@@ -467,30 +510,34 @@
             // textFineRecieved
             // 
             this.textFineRecieved.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.textFineRecieved.Location = new System.Drawing.Point(135, 159);
+            this.textFineRecieved.Location = new System.Drawing.Point(181, 196);
+            this.textFineRecieved.Margin = new System.Windows.Forms.Padding(4);
             this.textFineRecieved.Name = "textFineRecieved";
-            this.textFineRecieved.Size = new System.Drawing.Size(127, 20);
+            this.textFineRecieved.Size = new System.Drawing.Size(169, 22);
             this.textFineRecieved.TabIndex = 10;
             // 
             // textFine
             // 
             this.textFine.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.textFine.Location = new System.Drawing.Point(135, 133);
+            this.textFine.Location = new System.Drawing.Point(181, 164);
+            this.textFine.Margin = new System.Windows.Forms.Padding(4);
             this.textFine.Name = "textFine";
-            this.textFine.Size = new System.Drawing.Size(127, 20);
+            this.textFine.Size = new System.Drawing.Size(169, 22);
             this.textFine.TabIndex = 10;
             // 
             // DataEntry_Books
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(775, 502);
+            this.BackColor = System.Drawing.Color.AliceBlue;
+            this.ClientSize = new System.Drawing.Size(1033, 618);
             this.Controls.Add(this.tableBooks_Entry);
             this.Controls.Add(this.SubmitButton);
             this.Controls.Add(this.ButtonPanel);
             this.Controls.Add(this.panel1);
             this.Controls.Add(this.tableLayoutPanel1);
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
+            this.Margin = new System.Windows.Forms.Padding(4);
             this.Name = "DataEntry_Books";
             this.Text = "Books Entry";
             this.ButtonPanel.ResumeLayout(false);

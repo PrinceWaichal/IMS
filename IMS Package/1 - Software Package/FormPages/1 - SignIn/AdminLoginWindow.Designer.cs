@@ -74,6 +74,7 @@
             this.label1.ImageAlign = System.Drawing.ContentAlignment.TopLeft;
             this.label1.ImeMode = System.Windows.Forms.ImeMode.NoControl;
             this.label1.Location = new System.Drawing.Point(0, 0);
+            this.label1.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(308, 24);
             this.label1.TabIndex = 0;
@@ -85,9 +86,10 @@
             this.linkLabel1.AutoSize = true;
             this.linkLabel1.Dock = System.Windows.Forms.DockStyle.Fill;
             this.linkLabel1.ImeMode = System.Windows.Forms.ImeMode.NoControl;
-            this.linkLabel1.Location = new System.Drawing.Point(3, 0);
+            this.linkLabel1.Location = new System.Drawing.Point(4, 0);
+            this.linkLabel1.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.linkLabel1.Name = "linkLabel1";
-            this.linkLabel1.Size = new System.Drawing.Size(426, 31);
+            this.linkLabel1.Size = new System.Drawing.Size(568, 38);
             this.linkLabel1.TabIndex = 0;
             this.linkLabel1.TabStop = true;
             this.linkLabel1.Text = "About Us";
@@ -97,9 +99,10 @@
             this.linkLabel2.AutoSize = true;
             this.linkLabel2.Dock = System.Windows.Forms.DockStyle.Fill;
             this.linkLabel2.ImeMode = System.Windows.Forms.ImeMode.NoControl;
-            this.linkLabel2.Location = new System.Drawing.Point(435, 0);
+            this.linkLabel2.Location = new System.Drawing.Point(580, 0);
+            this.linkLabel2.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.linkLabel2.Name = "linkLabel2";
-            this.linkLabel2.Size = new System.Drawing.Size(426, 31);
+            this.linkLabel2.Size = new System.Drawing.Size(568, 38);
             this.linkLabel2.TabIndex = 0;
             this.linkLabel2.TabStop = true;
             this.linkLabel2.Text = "Help And Feedback";
@@ -112,11 +115,12 @@
             this.tableLayoutPanel1.Controls.Add(this.linkLabel1, 0, 0);
             this.tableLayoutPanel1.Controls.Add(this.linkLabel2, 1, 0);
             this.tableLayoutPanel1.Dock = System.Windows.Forms.DockStyle.Bottom;
-            this.tableLayoutPanel1.Location = new System.Drawing.Point(0, 620);
+            this.tableLayoutPanel1.Location = new System.Drawing.Point(0, 763);
+            this.tableLayoutPanel1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.tableLayoutPanel1.Name = "tableLayoutPanel1";
             this.tableLayoutPanel1.RowCount = 1;
             this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 50F));
-            this.tableLayoutPanel1.Size = new System.Drawing.Size(864, 31);
+            this.tableLayoutPanel1.Size = new System.Drawing.Size(1152, 38);
             this.tableLayoutPanel1.TabIndex = 9;
             // 
             // panel1
@@ -126,23 +130,27 @@
             this.panel1.Controls.Add(this.label1);
             this.panel1.Dock = System.Windows.Forms.DockStyle.Top;
             this.panel1.Location = new System.Drawing.Point(0, 0);
+            this.panel1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(864, 26);
+            this.panel1.Size = new System.Drawing.Size(1152, 32);
             this.panel1.TabIndex = 10;
             // 
             // AdminButton
             // 
+            this.AdminButton.BackColor = System.Drawing.Color.Linen;
             this.AdminButton.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.AdminButton.Location = new System.Drawing.Point(3, 3);
+            this.AdminButton.Location = new System.Drawing.Point(4, 4);
+            this.AdminButton.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.AdminButton.Name = "AdminButton";
-            this.AdminButton.Size = new System.Drawing.Size(194, 92);
+            this.AdminButton.Size = new System.Drawing.Size(259, 113);
             this.AdminButton.TabIndex = 3;
             this.AdminButton.Text = "Admin Login";
-            this.AdminButton.UseVisualStyleBackColor = true;
+            this.AdminButton.UseVisualStyleBackColor = false;
             this.AdminButton.Click += new System.EventHandler(this.ALAdminLogin);
             // 
             // ButtonPanel
             // 
+            this.ButtonPanel.BackColor = System.Drawing.Color.Lavender;
             this.ButtonPanel.ColumnCount = 1;
             this.ButtonPanel.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 100F));
             this.ButtonPanel.Controls.Add(this.AdminButton, 0, 0);
@@ -154,6 +162,7 @@
             this.ButtonPanel.Cursor = System.Windows.Forms.Cursors.Arrow;
             this.ButtonPanel.Dock = System.Windows.Forms.DockStyle.Left;
             this.ButtonPanel.Location = new System.Drawing.Point(0, 0);
+            this.ButtonPanel.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.ButtonPanel.Name = "ButtonPanel";
             this.ButtonPanel.RowCount = 6;
             this.ButtonPanel.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 16.66667F));
@@ -162,62 +171,72 @@
             this.ButtonPanel.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 16.66667F));
             this.ButtonPanel.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 16.66667F));
             this.ButtonPanel.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 16.66667F));
-            this.ButtonPanel.Size = new System.Drawing.Size(200, 594);
+            this.ButtonPanel.Size = new System.Drawing.Size(267, 731);
             this.ButtonPanel.TabIndex = 4;
             // 
             // StudentButton
             // 
+            this.StudentButton.BackColor = System.Drawing.Color.Linen;
             this.StudentButton.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.StudentButton.Location = new System.Drawing.Point(3, 101);
+            this.StudentButton.Location = new System.Drawing.Point(4, 125);
+            this.StudentButton.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.StudentButton.Name = "StudentButton";
-            this.StudentButton.Size = new System.Drawing.Size(194, 92);
+            this.StudentButton.Size = new System.Drawing.Size(259, 113);
             this.StudentButton.TabIndex = 4;
             this.StudentButton.Text = "Student Login";
-            this.StudentButton.UseVisualStyleBackColor = true;
+            this.StudentButton.UseVisualStyleBackColor = false;
             this.StudentButton.Click += new System.EventHandler(this.ALStudLogin);
             // 
             // TeacherButton
             // 
+            this.TeacherButton.BackColor = System.Drawing.Color.Linen;
             this.TeacherButton.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.TeacherButton.Location = new System.Drawing.Point(3, 199);
+            this.TeacherButton.Location = new System.Drawing.Point(4, 246);
+            this.TeacherButton.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.TeacherButton.Name = "TeacherButton";
-            this.TeacherButton.Size = new System.Drawing.Size(194, 92);
+            this.TeacherButton.Size = new System.Drawing.Size(259, 113);
             this.TeacherButton.TabIndex = 5;
             this.TeacherButton.Text = "Teachers Login";
-            this.TeacherButton.UseVisualStyleBackColor = true;
+            this.TeacherButton.UseVisualStyleBackColor = false;
             this.TeacherButton.Click += new System.EventHandler(this.ALTeachLogin);
             // 
             // OfficeStaffButton
             // 
+            this.OfficeStaffButton.BackColor = System.Drawing.Color.Linen;
             this.OfficeStaffButton.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.OfficeStaffButton.Location = new System.Drawing.Point(3, 297);
+            this.OfficeStaffButton.Location = new System.Drawing.Point(4, 367);
+            this.OfficeStaffButton.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.OfficeStaffButton.Name = "OfficeStaffButton";
-            this.OfficeStaffButton.Size = new System.Drawing.Size(194, 92);
+            this.OfficeStaffButton.Size = new System.Drawing.Size(259, 113);
             this.OfficeStaffButton.TabIndex = 6;
             this.OfficeStaffButton.Text = "Office Staff Login";
-            this.OfficeStaffButton.UseVisualStyleBackColor = true;
+            this.OfficeStaffButton.UseVisualStyleBackColor = false;
             this.OfficeStaffButton.Click += new System.EventHandler(this.ALOfficeLogin);
             // 
             // LibStaffButton
             // 
+            this.LibStaffButton.BackColor = System.Drawing.Color.Linen;
             this.LibStaffButton.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.LibStaffButton.Location = new System.Drawing.Point(3, 395);
+            this.LibStaffButton.Location = new System.Drawing.Point(4, 488);
+            this.LibStaffButton.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.LibStaffButton.Name = "LibStaffButton";
-            this.LibStaffButton.Size = new System.Drawing.Size(194, 92);
+            this.LibStaffButton.Size = new System.Drawing.Size(259, 113);
             this.LibStaffButton.TabIndex = 7;
             this.LibStaffButton.Text = "Library Staff Login";
-            this.LibStaffButton.UseVisualStyleBackColor = true;
+            this.LibStaffButton.UseVisualStyleBackColor = false;
             this.LibStaffButton.Click += new System.EventHandler(this.LibLogin);
             // 
             // SignUpButton
             // 
+            this.SignUpButton.BackColor = System.Drawing.Color.Linen;
             this.SignUpButton.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.SignUpButton.Location = new System.Drawing.Point(3, 493);
+            this.SignUpButton.Location = new System.Drawing.Point(4, 609);
+            this.SignUpButton.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.SignUpButton.Name = "SignUpButton";
-            this.SignUpButton.Size = new System.Drawing.Size(194, 98);
+            this.SignUpButton.Size = new System.Drawing.Size(259, 118);
             this.SignUpButton.TabIndex = 8;
             this.SignUpButton.Text = "Sign Up Page";
-            this.SignUpButton.UseVisualStyleBackColor = true;
+            this.SignUpButton.UseVisualStyleBackColor = false;
             this.SignUpButton.Click += new System.EventHandler(this.SignUp);
             // 
             // PasswordLabel
@@ -225,8 +244,9 @@
             this.PasswordLabel.AutoSize = true;
             this.PasswordLabel.Dock = System.Windows.Forms.DockStyle.Fill;
             this.PasswordLabel.Location = new System.Drawing.Point(0, 0);
+            this.PasswordLabel.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.PasswordLabel.Name = "PasswordLabel";
-            this.PasswordLabel.Size = new System.Drawing.Size(53, 13);
+            this.PasswordLabel.Size = new System.Drawing.Size(69, 17);
             this.PasswordLabel.TabIndex = 0;
             this.PasswordLabel.Text = "Password";
             this.PasswordLabel.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -234,7 +254,8 @@
             // PasswordConatiner
             // 
             this.PasswordConatiner.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.PasswordConatiner.Location = new System.Drawing.Point(3, 299);
+            this.PasswordConatiner.Location = new System.Drawing.Point(4, 368);
+            this.PasswordConatiner.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.PasswordConatiner.Name = "PasswordConatiner";
             // 
             // PasswordConatiner.Panel1
@@ -244,17 +265,19 @@
             // PasswordConatiner.Panel2
             // 
             this.PasswordConatiner.Panel2.Controls.Add(this.AdminPass);
-            this.PasswordConatiner.Size = new System.Drawing.Size(658, 142);
-            this.PasswordConatiner.SplitterDistance = 218;
+            this.PasswordConatiner.Size = new System.Drawing.Size(877, 174);
+            this.PasswordConatiner.SplitterDistance = 290;
+            this.PasswordConatiner.SplitterWidth = 5;
             this.PasswordConatiner.TabIndex = 1;
             // 
             // AdminPass
             // 
             this.AdminPass.Dock = System.Windows.Forms.DockStyle.Fill;
             this.AdminPass.Location = new System.Drawing.Point(0, 0);
+            this.AdminPass.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.AdminPass.Name = "AdminPass";
             this.AdminPass.PasswordChar = '*';
-            this.AdminPass.Size = new System.Drawing.Size(436, 20);
+            this.AdminPass.Size = new System.Drawing.Size(582, 22);
             this.AdminPass.TabIndex = 0;
             // 
             // UserNameLabel
@@ -262,15 +285,17 @@
             this.UserNameLabel.AutoSize = true;
             this.UserNameLabel.Dock = System.Windows.Forms.DockStyle.Fill;
             this.UserNameLabel.Location = new System.Drawing.Point(0, 0);
+            this.UserNameLabel.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.UserNameLabel.Name = "UserNameLabel";
-            this.UserNameLabel.Size = new System.Drawing.Size(55, 13);
+            this.UserNameLabel.Size = new System.Drawing.Size(73, 17);
             this.UserNameLabel.TabIndex = 0;
             this.UserNameLabel.Text = "Username";
             // 
             // IDContainer
             // 
             this.IDContainer.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.IDContainer.Location = new System.Drawing.Point(3, 151);
+            this.IDContainer.Location = new System.Drawing.Point(4, 186);
+            this.IDContainer.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.IDContainer.Name = "IDContainer";
             // 
             // IDContainer.Panel1
@@ -280,16 +305,18 @@
             // IDContainer.Panel2
             // 
             this.IDContainer.Panel2.Controls.Add(this.AdminID);
-            this.IDContainer.Size = new System.Drawing.Size(658, 142);
-            this.IDContainer.SplitterDistance = 218;
+            this.IDContainer.Size = new System.Drawing.Size(877, 174);
+            this.IDContainer.SplitterDistance = 290;
+            this.IDContainer.SplitterWidth = 5;
             this.IDContainer.TabIndex = 0;
             // 
             // AdminID
             // 
             this.AdminID.Dock = System.Windows.Forms.DockStyle.Fill;
             this.AdminID.Location = new System.Drawing.Point(0, 0);
+            this.AdminID.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.AdminID.Name = "AdminID";
-            this.AdminID.Size = new System.Drawing.Size(436, 20);
+            this.AdminID.Size = new System.Drawing.Size(582, 22);
             this.AdminID.TabIndex = 0;
             // 
             // CentralContainerLogin
@@ -297,9 +324,10 @@
             this.CentralContainerLogin.Controls.Add(this.tableLayoutPanel2);
             this.CentralContainerLogin.Controls.Add(this.ButtonPanel);
             this.CentralContainerLogin.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.CentralContainerLogin.Location = new System.Drawing.Point(0, 26);
+            this.CentralContainerLogin.Location = new System.Drawing.Point(0, 32);
+            this.CentralContainerLogin.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.CentralContainerLogin.Name = "CentralContainerLogin";
-            this.CentralContainerLogin.Size = new System.Drawing.Size(864, 594);
+            this.CentralContainerLogin.Size = new System.Drawing.Size(1152, 731);
             this.CentralContainerLogin.TabIndex = 11;
             // 
             // tableLayoutPanel2
@@ -311,48 +339,53 @@
             this.tableLayoutPanel2.Controls.Add(this.LoginButton, 0, 3);
             this.tableLayoutPanel2.Controls.Add(this.AdminLoginLabel, 0, 0);
             this.tableLayoutPanel2.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.tableLayoutPanel2.Location = new System.Drawing.Point(200, 0);
+            this.tableLayoutPanel2.Location = new System.Drawing.Point(267, 0);
+            this.tableLayoutPanel2.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.tableLayoutPanel2.Name = "tableLayoutPanel2";
             this.tableLayoutPanel2.RowCount = 4;
             this.tableLayoutPanel2.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 25F));
             this.tableLayoutPanel2.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 25F));
             this.tableLayoutPanel2.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 25F));
             this.tableLayoutPanel2.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 25F));
-            this.tableLayoutPanel2.Size = new System.Drawing.Size(664, 594);
+            this.tableLayoutPanel2.Size = new System.Drawing.Size(885, 731);
             this.tableLayoutPanel2.TabIndex = 5;
             // 
             // LoginButton
             // 
+            this.LoginButton.BackColor = System.Drawing.Color.Linen;
             this.LoginButton.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.LoginButton.Location = new System.Drawing.Point(3, 447);
+            this.LoginButton.Location = new System.Drawing.Point(4, 550);
+            this.LoginButton.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.LoginButton.Name = "LoginButton";
-            this.LoginButton.Size = new System.Drawing.Size(658, 144);
+            this.LoginButton.Size = new System.Drawing.Size(877, 177);
             this.LoginButton.TabIndex = 2;
             this.LoginButton.Text = "Login";
-            this.LoginButton.UseVisualStyleBackColor = true;
+            this.LoginButton.UseVisualStyleBackColor = false;
             this.LoginButton.Click += new System.EventHandler(this.AdminSignIn);
             // 
             // AdminLoginLabel
             // 
             this.AdminLoginLabel.AutoSize = true;
             this.AdminLoginLabel.Font = new System.Drawing.Font("Lucida Calligraphy", 25.25F, System.Drawing.FontStyle.Underline, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.AdminLoginLabel.Location = new System.Drawing.Point(3, 0);
+            this.AdminLoginLabel.Location = new System.Drawing.Point(4, 0);
+            this.AdminLoginLabel.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.AdminLoginLabel.Name = "AdminLoginLabel";
-            this.AdminLoginLabel.Size = new System.Drawing.Size(399, 44);
+            this.AdminLoginLabel.Size = new System.Drawing.Size(504, 56);
             this.AdminLoginLabel.TabIndex = 3;
             this.AdminLoginLabel.Text = "Administrator Login";
             // 
             // AdminLoginWindow
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.BackgroundImage = global::_1___Software_Package.Properties.Resources.education_background_hd_10;
+            this.BackColor = System.Drawing.Color.AliceBlue;
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Center;
-            this.ClientSize = new System.Drawing.Size(864, 651);
+            this.ClientSize = new System.Drawing.Size(1152, 801);
             this.Controls.Add(this.CentralContainerLogin);
             this.Controls.Add(this.tableLayoutPanel1);
             this.Controls.Add(this.panel1);
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
+            this.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.Name = "AdminLoginWindow";
             this.Text = "Administrator Login";
             this.tableLayoutPanel1.ResumeLayout(false);

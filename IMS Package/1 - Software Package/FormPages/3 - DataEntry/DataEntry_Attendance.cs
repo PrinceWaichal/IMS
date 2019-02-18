@@ -8,7 +8,5 @@ namespace _1___Software_Package.FormPages._3___DataEntry
         {
             InitializeComponent();
         }
-
-       
     }
 }

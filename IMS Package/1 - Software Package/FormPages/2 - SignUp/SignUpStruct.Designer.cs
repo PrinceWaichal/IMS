@@ -57,6 +57,7 @@
             this.label1.ImageAlign = System.Drawing.ContentAlignment.TopLeft;
             this.label1.ImeMode = System.Windows.Forms.ImeMode.NoControl;
             this.label1.Location = new System.Drawing.Point(0, 0);
+            this.label1.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(308, 24);
             this.label1.TabIndex = 0;
@@ -69,8 +70,9 @@
             this.panel1.Controls.Add(this.label1);
             this.panel1.Dock = System.Windows.Forms.DockStyle.Top;
             this.panel1.Location = new System.Drawing.Point(0, 0);
+            this.panel1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(863, 26);
+            this.panel1.Size = new System.Drawing.Size(1151, 32);
             this.panel1.TabIndex = 6;
             // 
             // linkLabel2
@@ -78,9 +80,10 @@
             this.linkLabel2.AutoSize = true;
             this.linkLabel2.Dock = System.Windows.Forms.DockStyle.Fill;
             this.linkLabel2.ImeMode = System.Windows.Forms.ImeMode.NoControl;
-            this.linkLabel2.Location = new System.Drawing.Point(434, 0);
+            this.linkLabel2.Location = new System.Drawing.Point(579, 0);
+            this.linkLabel2.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.linkLabel2.Name = "linkLabel2";
-            this.linkLabel2.Size = new System.Drawing.Size(426, 31);
+            this.linkLabel2.Size = new System.Drawing.Size(568, 38);
             this.linkLabel2.TabIndex = 0;
             this.linkLabel2.TabStop = true;
             this.linkLabel2.Text = "Help And Feedback";
@@ -90,9 +93,10 @@
             this.linkLabel1.AutoSize = true;
             this.linkLabel1.Dock = System.Windows.Forms.DockStyle.Fill;
             this.linkLabel1.ImeMode = System.Windows.Forms.ImeMode.NoControl;
-            this.linkLabel1.Location = new System.Drawing.Point(3, 0);
+            this.linkLabel1.Location = new System.Drawing.Point(4, 0);
+            this.linkLabel1.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.linkLabel1.Name = "linkLabel1";
-            this.linkLabel1.Size = new System.Drawing.Size(425, 31);
+            this.linkLabel1.Size = new System.Drawing.Size(567, 38);
             this.linkLabel1.TabIndex = 0;
             this.linkLabel1.TabStop = true;
             this.linkLabel1.Text = "About Us";
@@ -105,11 +109,12 @@
             this.tableLayoutPanel1.Controls.Add(this.linkLabel1, 0, 0);
             this.tableLayoutPanel1.Controls.Add(this.linkLabel2, 1, 0);
             this.tableLayoutPanel1.Dock = System.Windows.Forms.DockStyle.Bottom;
-            this.tableLayoutPanel1.Location = new System.Drawing.Point(0, 598);
+            this.tableLayoutPanel1.Location = new System.Drawing.Point(0, 736);
+            this.tableLayoutPanel1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.tableLayoutPanel1.Name = "tableLayoutPanel1";
             this.tableLayoutPanel1.RowCount = 1;
             this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 50F));
-            this.tableLayoutPanel1.Size = new System.Drawing.Size(863, 31);
+            this.tableLayoutPanel1.Size = new System.Drawing.Size(1151, 38);
             this.tableLayoutPanel1.TabIndex = 5;
             // 
             // ButtonPanel
@@ -124,7 +129,8 @@
             this.ButtonPanel.Controls.Add(this.ReviewButton, 0, 4);
             this.ButtonPanel.Cursor = System.Windows.Forms.Cursors.Arrow;
             this.ButtonPanel.Dock = System.Windows.Forms.DockStyle.Left;
-            this.ButtonPanel.Location = new System.Drawing.Point(0, 26);
+            this.ButtonPanel.Location = new System.Drawing.Point(0, 32);
+            this.ButtonPanel.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.ButtonPanel.Name = "ButtonPanel";
             this.ButtonPanel.RowCount = 6;
             this.ButtonPanel.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 16.66667F));
@@ -133,15 +139,16 @@
             this.ButtonPanel.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 16.66667F));
             this.ButtonPanel.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 16.66667F));
             this.ButtonPanel.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 16.66667F));
-            this.ButtonPanel.Size = new System.Drawing.Size(200, 572);
+            this.ButtonPanel.Size = new System.Drawing.Size(267, 704);
             this.ButtonPanel.TabIndex = 7;
             // 
             // PrimeDButton
             // 
             this.PrimeDButton.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.PrimeDButton.Location = new System.Drawing.Point(3, 3);
+            this.PrimeDButton.Location = new System.Drawing.Point(4, 4);
+            this.PrimeDButton.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.PrimeDButton.Name = "PrimeDButton";
-            this.PrimeDButton.Size = new System.Drawing.Size(194, 89);
+            this.PrimeDButton.Size = new System.Drawing.Size(259, 109);
             this.PrimeDButton.TabIndex = 0;
             this.PrimeDButton.Text = "Primary Details";
             this.PrimeDButton.UseVisualStyleBackColor = true;
@@ -149,9 +156,10 @@
             // EduDButton
             // 
             this.EduDButton.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.EduDButton.Location = new System.Drawing.Point(3, 98);
+            this.EduDButton.Location = new System.Drawing.Point(4, 121);
+            this.EduDButton.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.EduDButton.Name = "EduDButton";
-            this.EduDButton.Size = new System.Drawing.Size(194, 89);
+            this.EduDButton.Size = new System.Drawing.Size(259, 109);
             this.EduDButton.TabIndex = 1;
             this.EduDButton.Text = "Educational Details";
             this.EduDButton.UseVisualStyleBackColor = true;
@@ -159,9 +167,10 @@
             // MiscDButton
             // 
             this.MiscDButton.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.MiscDButton.Location = new System.Drawing.Point(3, 193);
+            this.MiscDButton.Location = new System.Drawing.Point(4, 238);
+            this.MiscDButton.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.MiscDButton.Name = "MiscDButton";
-            this.MiscDButton.Size = new System.Drawing.Size(194, 89);
+            this.MiscDButton.Size = new System.Drawing.Size(259, 109);
             this.MiscDButton.TabIndex = 2;
             this.MiscDButton.Text = "Miscellaneous Details";
             this.MiscDButton.UseVisualStyleBackColor = true;
@@ -169,9 +178,10 @@
             // LoginButton
             // 
             this.LoginButton.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.LoginButton.Location = new System.Drawing.Point(3, 478);
+            this.LoginButton.Location = new System.Drawing.Point(4, 589);
+            this.LoginButton.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.LoginButton.Name = "LoginButton";
-            this.LoginButton.Size = new System.Drawing.Size(194, 91);
+            this.LoginButton.Size = new System.Drawing.Size(259, 111);
             this.LoginButton.TabIndex = 3;
             this.LoginButton.Text = "Login Button";
             this.LoginButton.UseVisualStyleBackColor = true;
@@ -179,9 +189,10 @@
             // FilesButton
             // 
             this.FilesButton.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.FilesButton.Location = new System.Drawing.Point(3, 288);
+            this.FilesButton.Location = new System.Drawing.Point(4, 355);
+            this.FilesButton.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.FilesButton.Name = "FilesButton";
-            this.FilesButton.Size = new System.Drawing.Size(194, 89);
+            this.FilesButton.Size = new System.Drawing.Size(259, 109);
             this.FilesButton.TabIndex = 4;
             this.FilesButton.Text = "Upload Files";
             this.FilesButton.UseVisualStyleBackColor = true;
@@ -189,9 +200,10 @@
             // ReviewButton
             // 
             this.ReviewButton.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.ReviewButton.Location = new System.Drawing.Point(3, 383);
+            this.ReviewButton.Location = new System.Drawing.Point(4, 472);
+            this.ReviewButton.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.ReviewButton.Name = "ReviewButton";
-            this.ReviewButton.Size = new System.Drawing.Size(194, 89);
+            this.ReviewButton.Size = new System.Drawing.Size(259, 109);
             this.ReviewButton.TabIndex = 5;
             this.ReviewButton.Text = "Review Your Application";
             this.ReviewButton.UseVisualStyleBackColor = true;
@@ -200,31 +212,34 @@
             // 
             this.panel2.Controls.Add(this.Button);
             this.panel2.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.panel2.Location = new System.Drawing.Point(200, 26);
+            this.panel2.Location = new System.Drawing.Point(267, 32);
+            this.panel2.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.panel2.Name = "panel2";
-            this.panel2.Size = new System.Drawing.Size(663, 572);
+            this.panel2.Size = new System.Drawing.Size(884, 704);
             this.panel2.TabIndex = 8;
             // 
             // Button
             // 
             this.Button.Dock = System.Windows.Forms.DockStyle.Bottom;
-            this.Button.Location = new System.Drawing.Point(0, 549);
+            this.Button.Location = new System.Drawing.Point(0, 676);
+            this.Button.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.Button.Name = "Button";
-            this.Button.Size = new System.Drawing.Size(663, 23);
+            this.Button.Size = new System.Drawing.Size(884, 28);
             this.Button.TabIndex = 0;
             this.Button.Text = "Enter Text";
             this.Button.UseVisualStyleBackColor = true;
             // 
             // SignUpStruct
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(863, 629);
+            this.ClientSize = new System.Drawing.Size(1151, 774);
             this.Controls.Add(this.panel2);
             this.Controls.Add(this.ButtonPanel);
             this.Controls.Add(this.tableLayoutPanel1);
             this.Controls.Add(this.panel1);
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
+            this.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.Name = "SignUpStruct";
             this.Text = "SignUpStruct";
             this.panel1.ResumeLayout(false);

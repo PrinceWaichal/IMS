@@ -9,6 +9,9 @@ namespace _1___Software_Package.FormPages
             InitializeComponent();
         }
 
-        
+        private void panel2_Paint(object sender, PaintEventArgs e)
+        {
+
+        }
     }
 }
