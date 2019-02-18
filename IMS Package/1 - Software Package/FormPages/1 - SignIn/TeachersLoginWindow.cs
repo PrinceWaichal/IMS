@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Windows.Forms;
+using System.Data;
 using MySql.Data.MySqlClient;
 
 namespace _1___Software_Package.FormPages._1___SignIn
@@ -56,19 +57,67 @@ namespace _1___Software_Package.FormPages._1___SignIn
         private void TLLogin(object sender, EventArgs e)
         {
             //Do Validation
-            try
+            if (TeachID.Text == "")
             {
-                ServerInfo.MySQLConnect.Open();
-                MessageBox.Show("Successful Connection");
+                MessageBox.Show("You have not entered Username");
+                TeachID.Focus();
             }
-            catch
+
+            else if (TeachPass.Text == "")
             {
-                MessageBox.Show("Failed to Connect");
+                MessageBox.Show("You have not entered Password");
+                TeachPass.Focus();
             }
-            finally
+
+            else
             {
-                ServerInfo.MySQLConnect.Close();
+                try
+                {
+                    //Opening Connection
+                    ServerInfo.MySQLConnect.Open();
+
+                    //Creating objects
+                    MySqlCommand MySQLCommand = new MySqlCommand();
+
+                    //Connecting the Command
+                    MySQLCommand.Connection = ServerInfo.MySQLConnect;
+
+                    //Passing MySQL Statement
+                    MySQLCommand.CommandText = "Select count(*) from UserMaster Where UserName = ' " + TeachID.Text + " ' " +
+                        "and UserPassword = ' " + TeachPass.Text + " ' ";
+                    MySQLCommand.ExecuteNonQuery();
+
+                    MySqlDataAdapter MySQLDataAdapt = new MySqlDataAdapter(MySQLCommand);
+
+                    //Creating a new Data Table
+                    DataTable DatTable = new DataTable();
+
+                    MySQLDataAdapt.Fill(DatTable);
+
+                    int i = Convert.ToInt32(DatTable.Rows.Count.ToString());
+
+                    if (i == 0)
+                    {
+                        MessageBox.Show("Wrong Input");
+                    }
+                    else
+                    {
+                        this.Hide();
+                        _3___DataEntry.DataEntry_Marks dataEntry_Marks = new _3___DataEntry.DataEntry_Marks();
+                        dataEntry_Marks.Show();
+                    }
+                    // MessageBox.Show("Successful Connection");
+                }
+                catch
+                {
+                    MessageBox.Show("Failed to Connect");
+                }
+                finally
+                {
+                    ServerInfo.MySQLConnect.Close();
+                }
             }
+
         }
     }
 }

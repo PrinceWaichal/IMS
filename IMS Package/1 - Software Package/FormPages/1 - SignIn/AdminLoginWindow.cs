@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Windows.Forms;
 using MySql.Data.MySqlClient;
+using System.Data;
 
 namespace _1___Software_Package.FormPages._1___SignIn
 {
@@ -56,21 +57,71 @@ namespace _1___Software_Package.FormPages._1___SignIn
         private void AdminSignIn(object sender, EventArgs e)
         {
             //Do Validatation
-            try
+            if (AdminID.Text=="")
             {
-                ServerInfo.MySQLConnect.Open();
-                ServerInfo.MySQLCommand.Connection = ServerInfo.MySQLConnect;
-                ServerInfo.MySQLCommand.CommandText = "Select * from usermaster";
-                MessageBox.Show("Successful Connection");
+                MessageBox.Show("You have not entered Username");
+                AdminID.Focus();
             }
-            catch
+
+            else if(AdminPass.Text == "")
             {
-                MessageBox.Show("Failed to Connect");
+                MessageBox.Show("You have not entered Password");
+                AdminPass.Focus();
             }
-            finally
+
+            else
             {
-                ServerInfo.MySQLConnect.Close();
+                try
+                {
+                    //Opening Connection
+                    ServerInfo.MySQLConnect.Open();
+
+                    //Creating objects
+                    MySqlCommand MySQLCommand = new MySqlCommand();
+
+                    //Connecting the Command
+                    MySQLCommand.Connection = ServerInfo.MySQLConnect;
+
+                    //Passing MySQL Statement
+                    MySQLCommand.CommandText = "Select count(*) from UserMaster Where UserName = ' " + AdminID.Text + " ' " +
+                        "and UserPassword = ' " + AdminPass.Text + " ' ";
+                    MySQLCommand.ExecuteNonQuery();
+
+                    MySqlDataAdapter MySQLDataAdapt = new MySqlDataAdapter(MySQLCommand);
+
+                    //Creating a new Data Table
+                    DataTable DatTable = new DataTable();
+
+                    MySQLDataAdapt.Fill(DatTable);
+
+                    int i = Convert.ToInt32(DatTable.Rows.Count.ToString());
+
+                    if(i == 0)
+                    {
+                        MessageBox.Show("Wrong Input");
+                    }
+                    else
+                    {
+                        this.Hide();
+                        _3___DataEntry.DataEntry_Marks dataEntry_Marks = new _3___DataEntry.DataEntry_Marks();
+                        dataEntry_Marks.Show();
+                    }
+                    // MessageBox.Show("Successful Connection");
+                }
+                catch
+                {
+                    MessageBox.Show("Failed to Connect");
+                }
+                finally
+                {
+                    ServerInfo.MySQLConnect.Close();
+                }
             }
+        }
+        
+        private void OnLoadSetFocus(object sender, EventArgs e)
+        {
+            AdminID.Focus();
         }
     }
 }

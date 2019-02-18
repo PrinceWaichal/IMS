@@ -12,11 +12,5 @@ namespace _1___Software_Package
         public const string server = "server=localhost;user id=root;password=root;persistsecurityinfo=True;database=MastersSchema";
 
         public static MySqlConnection MySQLConnect = new MySqlConnection(server);
-
-        public static MySqlCommand MySQLCommand = new MySqlCommand();
-
-        public static MySqlDataAdapter MySQLDataAdapt = new MySqlDataAdapter();
-
-        public static MySqlDataReader MySQLDataRead;
     }
 }

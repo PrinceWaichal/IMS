@@ -145,6 +145,7 @@
             this.PrimeDButton.TabIndex = 0;
             this.PrimeDButton.Text = "Primary Details";
             this.PrimeDButton.UseVisualStyleBackColor = true;
+            this.PrimeDButton.Click += new System.EventHandler(this.Prime_Click);
             // 
             // EduDButton
             // 
@@ -155,6 +156,7 @@
             this.EduDButton.TabIndex = 1;
             this.EduDButton.Text = "Educational Details";
             this.EduDButton.UseVisualStyleBackColor = true;
+            this.EduDButton.Click += new System.EventHandler(this.Edu_Click);
             // 
             // MiscDButton
             // 
@@ -165,6 +167,7 @@
             this.MiscDButton.TabIndex = 2;
             this.MiscDButton.Text = "Miscellaneous Details";
             this.MiscDButton.UseVisualStyleBackColor = true;
+            this.MiscDButton.Click += new System.EventHandler(this.Misc_Click);
             // 
             // LoginButton
             // 
@@ -175,6 +178,7 @@
             this.LoginButton.TabIndex = 3;
             this.LoginButton.Text = "Login Button";
             this.LoginButton.UseVisualStyleBackColor = true;
+            this.LoginButton.Click += new System.EventHandler(this.Login_Click);
             // 
             // FilesButton
             // 
@@ -185,6 +189,7 @@
             this.FilesButton.TabIndex = 4;
             this.FilesButton.Text = "Upload Files";
             this.FilesButton.UseVisualStyleBackColor = true;
+            this.FilesButton.Click += new System.EventHandler(this.Files_Click);
             // 
             // ReviewButton
             // 
@@ -227,6 +232,7 @@
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Name = "SignUpUploadFileWindow";
             this.Text = "Upload Files";
+            this.Load += new System.EventHandler(this.OnLoad);
             this.panel1.ResumeLayout(false);
             this.panel1.PerformLayout();
             this.tableLayoutPanel1.ResumeLayout(false);

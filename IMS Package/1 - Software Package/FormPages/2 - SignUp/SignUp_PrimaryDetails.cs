@@ -12,7 +12,7 @@ namespace _1___Software_Package.FormPages
 
         private void SignUp_PrimaryDetails_Load(object sender, EventArgs e)
         {
-            
+            LastNameBox.Focus();
         }
 
         private void OpenLogin(object sender, EventArgs e)
@@ -55,14 +55,44 @@ namespace _1___Software_Package.FormPages
 
         }
 
-        private void splitContainer3_Panel2_Paint(object sender, PaintEventArgs e)
+        private void Primary_Click(object sender, EventArgs e)
         {
-
+            this.Hide();
+            SignUp_PrimaryDetails prime = new SignUp_PrimaryDetails();
+            prime.Show();
         }
 
-        private void textLandmark_Click(object sender, EventArgs e)
+        private void Edu_Click(object sender, EventArgs e)
         {
+            this.Hide();
+            SignUp_EducationalDetails edu = new SignUp_EducationalDetails();
+            edu.Show();
+        }
 
+        private void Misc_Click(object sender, EventArgs e)
+        {
+            this.Hide();
+            SignUp_MiscDetails misc = new SignUp_MiscDetails();
+            misc.Show();
+        }
+
+        private void Files_Click(object sender, EventArgs e)
+        {
+            this.Hide();
+            _2___SignUp.SignUpUploadFileWindow files = new _2___SignUp.SignUpUploadFileWindow();
+            files.Show();
+        }
+
+        private void Review_Click(object sender, EventArgs e)
+        {
+            this.Hide();
+            _2___SignUp.SignUpReviewWindow rev = new _2___SignUp.SignUpReviewWindow();
+            rev.Show();
+        }
+
+        private void Validate_Click(object sender, EventArgs e)
+        {
+            //Doing Validation
         }
     }
 }
