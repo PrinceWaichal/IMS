@@ -11,7 +11,7 @@ namespace _1___Software_Package.FormPages._2___SignUp
 
         private void OnLoad(object sender, System.EventArgs e)
         {
-            MessageBox.Show("", "Under Development",MessageBoxButtons.OK, MessageBoxIcon.Information);
+            MessageBox.Show("Sorry, this section is under development", "Under Development",MessageBoxButtons.OK, MessageBoxIcon.Information);
         }
 
         private void Prime_Click(object sender, System.EventArgs e)

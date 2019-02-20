@@ -95,11 +95,11 @@ namespace _1___Software_Package.FormPages
             //Doing Validation
             if (LastNameBox.Text == "Last Name" || LastNameBox.Text == "")
             {
-                MessageBox.Show("You have not Entered Your Last Name", "Missing Last Name", MessageBoxButtons.RetryCancel, MessageBoxIcon.Error);
+                MessageBox.Show("You have not entered Your Last Name", "Missing Last Name", MessageBoxButtons.RetryCancel, MessageBoxIcon.Error);
             }
             else if (FirstNameBox.Text == "First Name" || FirstNameBox.Text == "")
             {
-                MessageBox.Show("You have not Entered Your First Name", "Missing First Name", MessageBoxButtons.RetryCancel, MessageBoxIcon.Error);
+                MessageBox.Show("You have not entered Your First Name", "Missing First Name", MessageBoxButtons.RetryCancel, MessageBoxIcon.Error);
             }
             else if (eMailAddBox.Text == "")
             {
