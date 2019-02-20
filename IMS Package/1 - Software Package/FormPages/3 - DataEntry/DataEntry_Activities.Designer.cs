@@ -358,6 +358,7 @@
             this.panelAcitivty.Controls.Add(this.panelExtraActivity);
             this.panelAcitivty.Controls.Add(this.panelSports);
             this.panelAcitivty.Controls.Add(this.SubmitButton);
+            this.panelAcitivty.Dock = System.Windows.Forms.DockStyle.Fill;
             this.panelAcitivty.Location = new System.Drawing.Point(200, 26);
             this.panelAcitivty.Name = "panelAcitivty";
             this.panelAcitivty.Size = new System.Drawing.Size(588, 446);

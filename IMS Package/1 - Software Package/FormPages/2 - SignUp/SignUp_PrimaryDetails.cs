@@ -93,6 +93,70 @@ namespace _1___Software_Package.FormPages
         private void Validate_Click(object sender, EventArgs e)
         {
             //Doing Validation
+            if (LastNameBox.Text == "Last Name" || LastNameBox.Text == "")
+            {
+                MessageBox.Show("You have not Entered Your Last Name", "Missing Last Name", MessageBoxButtons.RetryCancel, MessageBoxIcon.Error);
+            }
+            else if (FirstNameBox.Text == "First Name" || FirstNameBox.Text == "")
+            {
+                MessageBox.Show("You have not Entered Your First Name", "Missing First Name", MessageBoxButtons.RetryCancel, MessageBoxIcon.Error);
+            }
+            else if (eMailAddBox.Text == "")
+            {
+                MessageBox.Show("You have not entered your email address", "Missing Email Address", MessageBoxButtons.RetryCancel, MessageBoxIcon.Error);
+            }
+            else if (DomainComboBox.Text == "")
+            {
+                MessageBox.Show("You have not selected email domain", "Missing Email Domain", MessageBoxButtons.RetryCancel, MessageBoxIcon.Error);
+            }
+            else if (BirthDatePicker.Value == DateTime.Today)
+            {
+                MessageBox.Show("Invalid Date Entered", "Wrong Date Input", MessageBoxButtons.RetryCancel);
+            }
+            else if (textGenderbox.Text == "")
+            {
+                MessageBox.Show("You have not Selected Gender", "Gender Missing", MessageBoxButtons.RetryCancel, MessageBoxIcon.Error);
+            }
+            else if (textAdd1.Text == "")
+            {
+                MessageBox.Show("You have not entered your Address", "Missing Address", MessageBoxButtons.RetryCancel, MessageBoxIcon.Error);
+            }
+            else if (textLandmark.Text == "")
+            {
+                MessageBox.Show("You have not entered your Landmark", "Missing Landmark", MessageBoxButtons.RetryCancel, MessageBoxIcon.Error);
+            }
+            else if (textNationality.Text == "")
+            {
+                MessageBox.Show("You have not selected your Nationality", "Missing Naationality", MessageBoxButtons.RetryCancel, MessageBoxIcon.Error);
+            }
+            else if (textState.Text == "")
+            {
+                MessageBox.Show("You have not selected your State", "Missing State", MessageBoxButtons.RetryCancel, MessageBoxIcon.Error);
+            }
+            else if (textCity.Text == "")
+            {
+                MessageBox.Show("You have not selcted your City", "Missing City", MessageBoxButtons.RetryCancel, MessageBoxIcon.Error);
+            }
+            else if (textPin.Text == "")
+            {
+                MessageBox.Show("You have not entered your PIN", "Missing PIN Code", MessageBoxButtons.RetryCancel, MessageBoxIcon.Error);
+            }
+            else if (textPin.Text.Length != 6)
+            {
+                MessageBox.Show("Incorrect PIN Code", "Wrong PIN Code", MessageBoxButtons.RetryCancel, MessageBoxIcon.Error);
+            }
+            else if (textMobile.Text == "" )
+            {
+                MessageBox.Show("You have not entered your Mobile Number", "Missing Mobile Number", MessageBoxButtons.RetryCancel, MessageBoxIcon.Error);
+            }
+            else if(textMobile.Text.Length != 10)
+            {
+                MessageBox.Show("Incorrect Mobile Number", "Wrong Mobile Number", MessageBoxButtons.RetryCancel, MessageBoxIcon.Error);
+            }
+            else
+            {
+                //Connection & Data Input Will be Here
+            }
         }
     }
 }

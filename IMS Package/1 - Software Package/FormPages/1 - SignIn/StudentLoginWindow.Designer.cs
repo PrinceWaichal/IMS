@@ -131,13 +131,14 @@
             // 
             // AdminButton
             // 
+            this.AdminButton.BackColor = System.Drawing.Color.Linen;
             this.AdminButton.Dock = System.Windows.Forms.DockStyle.Fill;
             this.AdminButton.Location = new System.Drawing.Point(3, 3);
             this.AdminButton.Name = "AdminButton";
             this.AdminButton.Size = new System.Drawing.Size(194, 92);
             this.AdminButton.TabIndex = 3;
             this.AdminButton.Text = "Admin Login";
-            this.AdminButton.UseVisualStyleBackColor = true;
+            this.AdminButton.UseVisualStyleBackColor = false;
             this.AdminButton.Click += new System.EventHandler(this.SLAdminLogin);
             // 
             // ButtonPanel
@@ -166,57 +167,62 @@
             // 
             // StudentButton
             // 
+            this.StudentButton.BackColor = System.Drawing.Color.Linen;
             this.StudentButton.Dock = System.Windows.Forms.DockStyle.Fill;
             this.StudentButton.Location = new System.Drawing.Point(3, 101);
             this.StudentButton.Name = "StudentButton";
             this.StudentButton.Size = new System.Drawing.Size(194, 92);
             this.StudentButton.TabIndex = 4;
             this.StudentButton.Text = "Student Login";
-            this.StudentButton.UseVisualStyleBackColor = true;
+            this.StudentButton.UseVisualStyleBackColor = false;
             this.StudentButton.Click += new System.EventHandler(this.SLStudLogin);
             // 
             // TeacherButton
             // 
+            this.TeacherButton.BackColor = System.Drawing.Color.Linen;
             this.TeacherButton.Dock = System.Windows.Forms.DockStyle.Fill;
             this.TeacherButton.Location = new System.Drawing.Point(3, 199);
             this.TeacherButton.Name = "TeacherButton";
             this.TeacherButton.Size = new System.Drawing.Size(194, 92);
             this.TeacherButton.TabIndex = 5;
             this.TeacherButton.Text = "Teachers Login";
-            this.TeacherButton.UseVisualStyleBackColor = true;
+            this.TeacherButton.UseVisualStyleBackColor = false;
             this.TeacherButton.Click += new System.EventHandler(this.SLTeachLogin);
             // 
             // OfficeStaffButton
             // 
+            this.OfficeStaffButton.BackColor = System.Drawing.Color.Linen;
             this.OfficeStaffButton.Dock = System.Windows.Forms.DockStyle.Fill;
             this.OfficeStaffButton.Location = new System.Drawing.Point(3, 297);
             this.OfficeStaffButton.Name = "OfficeStaffButton";
             this.OfficeStaffButton.Size = new System.Drawing.Size(194, 92);
             this.OfficeStaffButton.TabIndex = 6;
             this.OfficeStaffButton.Text = "Office Staff Login";
-            this.OfficeStaffButton.UseVisualStyleBackColor = true;
+            this.OfficeStaffButton.UseVisualStyleBackColor = false;
             this.OfficeStaffButton.Click += new System.EventHandler(this.SLOfficeLogin);
             // 
             // LibStaffButton
             // 
+            this.LibStaffButton.BackColor = System.Drawing.Color.Linen;
             this.LibStaffButton.Dock = System.Windows.Forms.DockStyle.Fill;
             this.LibStaffButton.Location = new System.Drawing.Point(3, 395);
             this.LibStaffButton.Name = "LibStaffButton";
             this.LibStaffButton.Size = new System.Drawing.Size(194, 92);
             this.LibStaffButton.TabIndex = 7;
             this.LibStaffButton.Text = "Library Staff Login";
-            this.LibStaffButton.UseVisualStyleBackColor = true;
+            this.LibStaffButton.UseVisualStyleBackColor = false;
             this.LibStaffButton.Click += new System.EventHandler(this.SLLibLogin);
             // 
             // SignUpButton
             // 
+            this.SignUpButton.BackColor = System.Drawing.Color.Linen;
             this.SignUpButton.Dock = System.Windows.Forms.DockStyle.Fill;
             this.SignUpButton.Location = new System.Drawing.Point(3, 493);
             this.SignUpButton.Name = "SignUpButton";
             this.SignUpButton.Size = new System.Drawing.Size(194, 95);
             this.SignUpButton.TabIndex = 8;
             this.SignUpButton.Text = "Sign Up Page";
-            this.SignUpButton.UseVisualStyleBackColor = true;
+            this.SignUpButton.UseVisualStyleBackColor = false;
             this.SignUpButton.Click += new System.EventHandler(this.SLSignUp);
             // 
             // PasswordLabel
@@ -322,13 +328,14 @@
             // 
             // LoginButton
             // 
+            this.LoginButton.BackColor = System.Drawing.Color.Linen;
             this.LoginButton.Dock = System.Windows.Forms.DockStyle.Fill;
             this.LoginButton.Location = new System.Drawing.Point(3, 444);
             this.LoginButton.Name = "LoginButton";
             this.LoginButton.Size = new System.Drawing.Size(701, 144);
             this.LoginButton.TabIndex = 2;
             this.LoginButton.Text = "Login";
-            this.LoginButton.UseVisualStyleBackColor = true;
+            this.LoginButton.UseVisualStyleBackColor = false;
             this.LoginButton.Click += new System.EventHandler(this.SLLoginButton);
             // 
             // label2
@@ -345,6 +352,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.BackColor = System.Drawing.Color.AliceBlue;
             this.ClientSize = new System.Drawing.Size(907, 648);
             this.Controls.Add(this.CentralContainerLogin);
             this.Controls.Add(this.tableLayoutPanel1);
