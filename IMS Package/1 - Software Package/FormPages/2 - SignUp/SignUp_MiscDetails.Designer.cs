@@ -132,10 +132,11 @@
             this.panel4.Controls.Add(this.tblePanlMiscOtheCoureces);
             this.panel4.Controls.Add(this.tblePanlMiscOtherPersDetail);
             this.panel4.Controls.Add(this.labMiscOtherPDetail);
-            this.panel4.Location = new System.Drawing.Point(202, 0);
-            this.panel4.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.panel4.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.panel4.Location = new System.Drawing.Point(200, 0);
+            this.panel4.Margin = new System.Windows.Forms.Padding(2);
             this.panel4.Name = "panel4";
-            this.panel4.Size = new System.Drawing.Size(620, 517);
+            this.panel4.Size = new System.Drawing.Size(622, 515);
             this.panel4.TabIndex = 6;
             // 
             // labMiscOther_Cources

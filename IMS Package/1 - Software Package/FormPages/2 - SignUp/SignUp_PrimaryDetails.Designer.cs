@@ -47,7 +47,7 @@
             this.MiscDButton = new System.Windows.Forms.Button();
             this.ValidateButton = new System.Windows.Forms.Button();
             this.textBox8 = new System.Windows.Forms.TextBox();
-            this.textBox9 = new System.Windows.Forms.TextBox();
+            this.textMobile = new System.Windows.Forms.TextBox();
             this.textBox5 = new System.Windows.Forms.TextBox();
             this.textBox6 = new System.Windows.Forms.TextBox();
             this.textBox7 = new System.Windows.Forms.TextBox();
@@ -87,7 +87,7 @@
             this.splitContainer2 = new System.Windows.Forms.SplitContainer();
             this.LastNameBox = new System.Windows.Forms.TextBox();
             this.FirstNameBox = new System.Windows.Forms.TextBox();
-            this.dateTimePicker1 = new System.Windows.Forms.DateTimePicker();
+            this.BirthDatePicker = new System.Windows.Forms.DateTimePicker();
             this.eMailAddBox = new System.Windows.Forms.TextBox();
             this.textGenderbox = new System.Windows.Forms.GroupBox();
             this.textTransgender = new System.Windows.Forms.RadioButton();
@@ -356,12 +356,12 @@
             this.textBox8.Size = new System.Drawing.Size(136, 20);
             this.textBox8.TabIndex = 14;
             // 
-            // textBox9
+            // textMobile
             // 
-            this.textBox9.Location = new System.Drawing.Point(4, 160);
-            this.textBox9.Name = "textBox9";
-            this.textBox9.Size = new System.Drawing.Size(137, 20);
-            this.textBox9.TabIndex = 15;
+            this.textMobile.Location = new System.Drawing.Point(4, 160);
+            this.textMobile.Name = "textMobile";
+            this.textMobile.Size = new System.Drawing.Size(137, 20);
+            this.textMobile.TabIndex = 15;
             // 
             // textBox5
             // 
@@ -774,7 +774,7 @@
             // 
             this.splitContainer2.Panel1.Controls.Add(this.LastNameBox);
             this.splitContainer2.Panel1.Controls.Add(this.FirstNameBox);
-            this.splitContainer2.Panel1.Controls.Add(this.dateTimePicker1);
+            this.splitContainer2.Panel1.Controls.Add(this.BirthDatePicker);
             this.splitContainer2.Panel1.Controls.Add(this.eMailAddBox);
             this.splitContainer2.Panel1.Controls.Add(this.textGenderbox);
             // 
@@ -802,12 +802,12 @@
             this.FirstNameBox.TabIndex = 1;
             this.FirstNameBox.Text = "First Name";
             // 
-            // dateTimePicker1
+            // BirthDatePicker
             // 
-            this.dateTimePicker1.Location = new System.Drawing.Point(3, 71);
-            this.dateTimePicker1.Name = "dateTimePicker1";
-            this.dateTimePicker1.Size = new System.Drawing.Size(140, 20);
-            this.dateTimePicker1.TabIndex = 5;
+            this.BirthDatePicker.Location = new System.Drawing.Point(3, 71);
+            this.BirthDatePicker.Name = "BirthDatePicker";
+            this.BirthDatePicker.Size = new System.Drawing.Size(140, 20);
+            this.BirthDatePicker.TabIndex = 5;
             // 
             // eMailAddBox
             // 
@@ -909,7 +909,7 @@
             this.splitContainer5.Panel2.Controls.Add(this.textBox6);
             this.splitContainer5.Panel2.Controls.Add(this.textBox7);
             this.splitContainer5.Panel2.Controls.Add(this.text_comboBox3);
-            this.splitContainer5.Panel2.Controls.Add(this.textBox9);
+            this.splitContainer5.Panel2.Controls.Add(this.textMobile);
             this.splitContainer5.Panel2.Controls.Add(this.text_comboBox1);
             this.splitContainer5.Panel2.Controls.Add(this.text_comboBox2);
             this.splitContainer5.Panel2.Controls.Add(this.textBox8);
@@ -996,7 +996,7 @@
         private System.Windows.Forms.Button MiscDButton;
         private System.Windows.Forms.Button ValidateButton;
         private System.Windows.Forms.TextBox textBox8;
-        private System.Windows.Forms.TextBox textBox9;
+        private System.Windows.Forms.TextBox textMobile;
         private System.Windows.Forms.TextBox textBox5;
         private System.Windows.Forms.TextBox textBox6;
         private System.Windows.Forms.TextBox textBox7;
@@ -1020,7 +1020,7 @@
         private System.Windows.Forms.SplitContainer splitContainer2;
         private System.Windows.Forms.TextBox LastNameBox;
         private System.Windows.Forms.TextBox FirstNameBox;
-        private System.Windows.Forms.DateTimePicker dateTimePicker1;
+        private System.Windows.Forms.DateTimePicker BirthDatePicker;
         private System.Windows.Forms.TextBox eMailAddBox;
         private System.Windows.Forms.GroupBox textGenderbox;
         private System.Windows.Forms.RadioButton textTransgender;
