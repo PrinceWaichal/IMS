@@ -71,6 +71,38 @@ namespace _1___Software_Package.FormPages._3___DataEntry
         private void Submit_Click(object sender, System.EventArgs e)
         {
             //Inserting Data Into Database
+            if (radioButParticiSportYes.Checked == false && radioButParticiSportNo.Checked == false)
+            {
+                MessageBox.Show("Please select activity participation", "Participation unchecked", MessageBoxButtons.RetryCancel, MessageBoxIcon.Error);
+            }
+            else if (radioCategoryYes.Checked == false && radioCategoryNo.Checked == false)
+            {
+                MessageBox.Show("Please select a cateogry", "Cateogry unchecked", MessageBoxButtons.RetryCancel, MessageBoxIcon.Error);
+            }
+            else if (radioButParticiSportYes.Checked == true)
+            {
+                if (textActiName1.Text == "" && textActiPlace1.Text == "" && textAchievement1.Text == "")
+                {
+                    MessageBox.Show("Please enter activity", "Not entered activity", MessageBoxButtons.RetryCancel, MessageBoxIcon.Error);
+                }
+
+            }
+            else if (radioButExtraAcitviYes.Checked == false && radioButExtraActiviNo.Checked == false)
+            {
+                MessageBox.Show("Please select an activity", "Participation unchecked", MessageBoxButtons.RetryCancel, MessageBoxIcon.Error);
+            }
+            else if (radioButPurEducational.Checked == false && radioButPurNonEducational.Checked == false)
+            {
+                MessageBox.Show("Please select a field", "Extra activity unchecked", MessageBoxButtons.RetryCancel, MessageBoxIcon.Error);
+            }
+            else if (radioButExtraAcitviYes.Checked == true)
+            {
+                if (textExtraActivity1.Text == "" && textPlace1.Text == "" && textAchievement1.Text == "")
+                {
+                    MessageBox.Show("Please enter a curricular activity", "Curricular Activity", MessageBoxButtons.RetryCancel, MessageBoxIcon.Error);
+                }
+            }
+            //conection
         }
     }
 }

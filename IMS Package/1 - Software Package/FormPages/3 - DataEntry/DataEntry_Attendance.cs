@@ -71,6 +71,23 @@ namespace _1___Software_Package.FormPages._3___DataEntry
         private void Submit_Click(object sender, System.EventArgs e)
         {
             //Doing Validation & Storing Data in Database
+            if (dateTimeAttendenceDay.Text == "")
+            {
+                MessageBox.Show("Please enter date", "Enter date", MessageBoxButtons.RetryCancel, MessageBoxIcon.Error);
+            }
+            if (comboxAttendCourseName.Text == "")
+            {
+                MessageBox.Show("Please enter Course", "Enter Course", MessageBoxButtons.RetryCancel, MessageBoxIcon.Error);
+            }
+            if (ComboxAttendClass.Text == "")
+            {
+                MessageBox.Show("Please enter Class", "Enter Class", MessageBoxButtons.RetryCancel, MessageBoxIcon.Error);
+            }
+            if (checkBoxSpecialHoliday.Checked == false || checkBoxSunday.Checked == false)
+            {
+                MessageBox.Show("Please select a occassion", "Enter occassion", MessageBoxButtons.RetryCancel, MessageBoxIcon.Error);
+            }
+            //connect
         }
     }
 }
