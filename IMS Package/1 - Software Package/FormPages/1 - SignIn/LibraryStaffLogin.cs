@@ -104,8 +104,8 @@ namespace _1___Software_Package.FormPages._1___SignIn
                     else
                     {
                         this.Hide();
-                        _3___DataEntry.DataEntry_Marks dataEntry_Marks = new _3___DataEntry.DataEntry_Marks();
-                        dataEntry_Marks.Show();
+                        _3___DataEntry.DataEntry_Activities dataEntry_Act = new _3___DataEntry.DataEntry_Activities();
+                        dataEntry_Act.Show();
                     }
                     // MessageBox.Show("Successful Connection");
                 }
