@@ -77,6 +77,14 @@ namespace _1___Software_Package.FormPages._3___DataEntry
         private void Submit_Click(object sender, System.EventArgs e)
         {
             //Doing Validation
+            if (radioButBookPendiangYes.Checked == false && radioButBookPendiangNo.Checked == false)
+            {
+                MessageBox.Show("Please select a field", "Book Pending", MessageBoxButtons.RetryCancel, MessageBoxIcon.Error);
+            }
+            else if (textBookName.Text == "")
+            {
+                MessageBox.Show("Please enter bookname", "Book name", MessageBoxButtons.RetryCancel, MessageBoxIcon.Error);
+            }
         }
     }
 }

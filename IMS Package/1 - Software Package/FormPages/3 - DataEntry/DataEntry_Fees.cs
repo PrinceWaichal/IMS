@@ -71,6 +71,31 @@ namespace _1___Software_Package.FormPages._3___DataEntry
         private void Submit_Click(object sender, System.EventArgs e)
         {
             //Doing Validation
-        }
+            if (radioButFeePendingYes.Checked == true)
+            {
+                if (textTotalFees.Text == "")
+                {
+                    MessageBox.Show("Please fill total fees", "Fees", MessageBoxButtons.RetryCancel, MessageBoxIcon.Error);
+                }
+                else if (textFeesPaid.Text == "")
+                {
+                    MessageBox.Show("Please fill fee paid", "Fees", MessageBoxButtons.RetryCancel, MessageBoxIcon.Error);
+                }
+                else if (textRemainingFees.Text == "")
+                {
+                    MessageBox.Show("Please fill Remaining fees", "Fees", MessageBoxButtons.RetryCancel, MessageBoxIcon.Error);
+                }
+            }
+            if (radioButScholarshipEligib.Checked == true)
+            {
+                if (textScholarshipName.Text == "")
+                {
+                    MessageBox.Show("Please fill Scholarship Name", "Scholarship", MessageBoxButtons.RetryCancel, MessageBoxIcon.Error);
+                }
+                else if (textFeesPaid.Text == "")
+                {
+                    MessageBox.Show("Please fill Scholarship Amount", "Scholarship", MessageBoxButtons.RetryCancel, MessageBoxIcon.Error);
+                }
+            }
     }
 }
