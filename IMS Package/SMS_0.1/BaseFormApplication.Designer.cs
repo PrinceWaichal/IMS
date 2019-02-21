@@ -30,9 +30,8 @@
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(BaseFormApplication));
             this.MenuStrip = new System.Windows.Forms.MenuStrip();
-            this.LoginMenu = new System.Windows.Forms.ToolStripComboBox();
-            this.RegistrationMenu = new System.Windows.Forms.ToolStripComboBox();
-            this.ReportsMenu = new System.Windows.Forms.ToolStripComboBox();
+            this.Login = new System.Windows.Forms.ToolStripMenuItem();
+            this.Registration = new System.Windows.Forms.ToolStripMenuItem();
             this.MenuStrip.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -41,42 +40,25 @@
             this.MenuStrip.AccessibleRole = System.Windows.Forms.AccessibleRole.MenuBar;
             this.MenuStrip.BackColor = System.Drawing.Color.Linen;
             this.MenuStrip.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
-            this.LoginMenu,
-            this.RegistrationMenu,
-            this.ReportsMenu});
+            this.Login,
+            this.Registration});
             resources.ApplyResources(this.MenuStrip, "MenuStrip");
             this.MenuStrip.Name = "MenuStrip";
             this.MenuStrip.ShowItemToolTips = true;
             // 
-            // LoginMenu
+            // Login
             // 
-            this.LoginMenu.AccessibleRole = System.Windows.Forms.AccessibleRole.MenuItem;
-            this.LoginMenu.AutoToolTip = true;
-            this.LoginMenu.BackColor = System.Drawing.Color.Linen;
-            this.LoginMenu.DropDownHeight = 100;
-            resources.ApplyResources(this.LoginMenu, "LoginMenu");
-            this.LoginMenu.Name = "LoginMenu";
-            this.LoginMenu.Sorted = true;
+            this.Login.AutoToolTip = true;
+            this.Login.Name = "Login";
+            resources.ApplyResources(this.Login, "Login");
+            this.Login.Click += new System.EventHandler(this.Login_Click);
             // 
-            // RegistrationMenu
+            // Registration
             // 
-            this.RegistrationMenu.AccessibleRole = System.Windows.Forms.AccessibleRole.MenuItem;
-            this.RegistrationMenu.AutoToolTip = true;
-            this.RegistrationMenu.BackColor = System.Drawing.Color.Linen;
-            this.RegistrationMenu.DropDownHeight = 100;
-            resources.ApplyResources(this.RegistrationMenu, "RegistrationMenu");
-            this.RegistrationMenu.Name = "RegistrationMenu";
-            this.RegistrationMenu.Sorted = true;
-            // 
-            // ReportsMenu
-            // 
-            this.ReportsMenu.AutoToolTip = true;
-            this.ReportsMenu.BackColor = System.Drawing.Color.Linen;
-            this.ReportsMenu.DropDownHeight = 100;
-            this.ReportsMenu.DropDownWidth = 100;
-            resources.ApplyResources(this.ReportsMenu, "ReportsMenu");
-            this.ReportsMenu.Name = "ReportsMenu";
-            this.ReportsMenu.Sorted = true;
+            this.Registration.AutoToolTip = true;
+            this.Registration.Name = "Registration";
+            resources.ApplyResources(this.Registration, "Registration");
+            this.Registration.Click += new System.EventHandler(this.Registration_Click);
             // 
             // BaseFormApplication
             // 
@@ -99,8 +81,7 @@
         #endregion
 
         private System.Windows.Forms.MenuStrip MenuStrip;
-        private System.Windows.Forms.ToolStripComboBox LoginMenu;
-        private System.Windows.Forms.ToolStripComboBox RegistrationMenu;
-        private System.Windows.Forms.ToolStripComboBox ReportsMenu;
+        private System.Windows.Forms.ToolStripMenuItem Login;
+        private System.Windows.Forms.ToolStripMenuItem Registration;
     }
 }

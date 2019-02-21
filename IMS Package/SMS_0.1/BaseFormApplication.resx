@@ -120,54 +120,42 @@
   <metadata name="MenuStrip.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
     <value>17, 17</value>
   </metadata>
-  <assembly alias="mscorlib" name="mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
-  <data name="LoginMenu.IntegralHeight" type="System.Boolean, mscorlib">
-    <value>False</value>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="Login.ShortcutKeys" type="System.Windows.Forms.Keys, System.Windows.Forms">
+    <value>Alt+L</value>
   </data>
   <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
-  <data name="LoginMenu.Size" type="System.Drawing.Size, System.Drawing">
-    <value>132, 23</value>
+  <data name="Login.Size" type="System.Drawing.Size, System.Drawing">
+    <value>49, 20</value>
   </data>
-  <data name="LoginMenu.Text" xml:space="preserve">
+  <data name="Login.Text" xml:space="preserve">
     <value>Login</value>
   </data>
-  <data name="LoginMenu.ToolTipText" xml:space="preserve">
-    <value>To Select Login Page</value>
+  <data name="Login.ToolTipText" xml:space="preserve">
+    <value>Click to Login</value>
   </data>
-  <data name="RegistrationMenu.IntegralHeight" type="System.Boolean, mscorlib">
-    <value>False</value>
+  <data name="Registration.ShortcutKeys" type="System.Windows.Forms.Keys, System.Windows.Forms">
+    <value>Alt+R</value>
   </data>
-  <data name="RegistrationMenu.Size" type="System.Drawing.Size, System.Drawing">
-    <value>132, 23</value>
+  <data name="Registration.Size" type="System.Drawing.Size, System.Drawing">
+    <value>82, 20</value>
   </data>
-  <data name="RegistrationMenu.Text" xml:space="preserve">
+  <data name="Registration.Text" xml:space="preserve">
     <value>Registration</value>
   </data>
-  <data name="RegistrationMenu.ToolTipText" xml:space="preserve">
-    <value>Select a Registration Mode</value>
-  </data>
-  <data name="ReportsMenu.IntegralHeight" type="System.Boolean, mscorlib">
-    <value>False</value>
-  </data>
-  <data name="ReportsMenu.Size" type="System.Drawing.Size, System.Drawing">
-    <value>132, 23</value>
-  </data>
-  <data name="ReportsMenu.Text" xml:space="preserve">
-    <value>Reports</value>
-  </data>
-  <data name="ReportsMenu.ToolTipText" xml:space="preserve">
-    <value>View Reports</value>
+  <data name="Registration.ToolTipText" xml:space="preserve">
+    <value>Click to Register</value>
   </data>
   <data name="MenuStrip.Location" type="System.Drawing.Point, System.Drawing">
     <value>0, 0</value>
   </data>
-  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
   <data name="MenuStrip.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
     <value>8, 2, 0, 2</value>
   </data>
   <data name="MenuStrip.Size" type="System.Drawing.Size, System.Drawing">
-    <value>896, 27</value>
+    <value>896, 24</value>
   </data>
+  <assembly alias="mscorlib" name="mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
   <data name="MenuStrip.TabIndex" type="System.Int32, mscorlib">
     <value>0</value>
   </data>
@@ -283,23 +271,17 @@
   <data name="$this.Text" xml:space="preserve">
     <value>Student Management System</value>
   </data>
-  <data name="&gt;&gt;LoginMenu.Name" xml:space="preserve">
-    <value>LoginMenu</value>
+  <data name="&gt;&gt;Login.Name" xml:space="preserve">
+    <value>Login</value>
   </data>
-  <data name="&gt;&gt;LoginMenu.Type" xml:space="preserve">
-    <value>System.Windows.Forms.ToolStripComboBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  <data name="&gt;&gt;Login.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
-  <data name="&gt;&gt;RegistrationMenu.Name" xml:space="preserve">
-    <value>RegistrationMenu</value>
+  <data name="&gt;&gt;Registration.Name" xml:space="preserve">
+    <value>Registration</value>
   </data>
-  <data name="&gt;&gt;RegistrationMenu.Type" xml:space="preserve">
-    <value>System.Windows.Forms.ToolStripComboBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;ReportsMenu.Name" xml:space="preserve">
-    <value>ReportsMenu</value>
-  </data>
-  <data name="&gt;&gt;ReportsMenu.Type" xml:space="preserve">
-    <value>System.Windows.Forms.ToolStripComboBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  <data name="&gt;&gt;Registration.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="&gt;&gt;$this.Name" xml:space="preserve">
     <value>BaseFormApplication</value>

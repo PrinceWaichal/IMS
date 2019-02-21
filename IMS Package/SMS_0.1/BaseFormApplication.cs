@@ -17,5 +17,19 @@ namespace SMS_0._1
         {
             InitializeComponent();
         }
+
+        private void Login_Click(object sender, EventArgs e)
+        {
+            this.Hide();
+            LoginModule LogMod = new LoginModule();
+            LogMod.Show();
+        }
+
+        private void Registration_Click(object sender, EventArgs e)
+        {
+            this.Hide();
+            RegistrationModule RegMod = new RegistrationModule();
+            RegMod.Show();
+        }
     }
 }

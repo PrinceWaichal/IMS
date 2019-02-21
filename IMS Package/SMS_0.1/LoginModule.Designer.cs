@@ -38,8 +38,12 @@
             this.RadioStudent = new System.Windows.Forms.RadioButton();
             this.ForgotLinkLabel = new System.Windows.Forms.LinkLabel();
             this.HomeButton = new System.Windows.Forms.Button();
+            this.UserNameLabel = new System.Windows.Forms.Label();
+            this.PasswordLabel = new System.Windows.Forms.Label();
+            this.GroupBox = new System.Windows.Forms.GroupBox();
             this.Panel.SuspendLayout();
             this.FlowLayoutPanel.SuspendLayout();
+            this.GroupBox.SuspendLayout();
             this.SuspendLayout();
             // 
             // Panel
@@ -56,14 +60,7 @@
             // 
             // FlowLayoutPanel
             // 
-            this.FlowLayoutPanel.Controls.Add(this.UsernameBox);
-            this.FlowLayoutPanel.Controls.Add(this.PasswordBox);
-            this.FlowLayoutPanel.Controls.Add(this.LoginButton);
-            this.FlowLayoutPanel.Controls.Add(this.RadioAdmin);
-            this.FlowLayoutPanel.Controls.Add(this.RadioTeach);
-            this.FlowLayoutPanel.Controls.Add(this.RadioStudent);
-            this.FlowLayoutPanel.Controls.Add(this.ForgotLinkLabel);
-            this.FlowLayoutPanel.Controls.Add(this.HomeButton);
+            this.FlowLayoutPanel.Controls.Add(this.GroupBox);
             this.FlowLayoutPanel.Dock = System.Windows.Forms.DockStyle.Fill;
             this.FlowLayoutPanel.Location = new System.Drawing.Point(0, 0);
             this.FlowLayoutPanel.Name = "FlowLayoutPanel";
@@ -72,78 +69,118 @@
             // 
             // UsernameBox
             // 
-            this.UsernameBox.Location = new System.Drawing.Point(3, 3);
+            this.UsernameBox.Location = new System.Drawing.Point(301, 51);
             this.UsernameBox.Name = "UsernameBox";
-            this.UsernameBox.Size = new System.Drawing.Size(100, 22);
-            this.UsernameBox.TabIndex = 0;
+            this.UsernameBox.Size = new System.Drawing.Size(143, 22);
+            this.UsernameBox.TabIndex = 3;
             // 
             // PasswordBox
             // 
-            this.PasswordBox.Location = new System.Drawing.Point(109, 3);
+            this.PasswordBox.Location = new System.Drawing.Point(301, 88);
             this.PasswordBox.Name = "PasswordBox";
-            this.PasswordBox.Size = new System.Drawing.Size(100, 22);
-            this.PasswordBox.TabIndex = 1;
+            this.PasswordBox.Size = new System.Drawing.Size(143, 22);
+            this.PasswordBox.TabIndex = 4;
             // 
             // LoginButton
             // 
-            this.LoginButton.Location = new System.Drawing.Point(215, 3);
+            this.LoginButton.Location = new System.Drawing.Point(369, 134);
             this.LoginButton.Name = "LoginButton";
             this.LoginButton.Size = new System.Drawing.Size(75, 23);
-            this.LoginButton.TabIndex = 2;
-            this.LoginButton.Text = "button1";
+            this.LoginButton.TabIndex = 5;
+            this.LoginButton.Text = "Login";
+            this.LoginButton.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
             this.LoginButton.UseVisualStyleBackColor = true;
             // 
             // RadioAdmin
             // 
             this.RadioAdmin.AutoSize = true;
-            this.RadioAdmin.Location = new System.Drawing.Point(296, 3);
+            this.RadioAdmin.Location = new System.Drawing.Point(14, 21);
             this.RadioAdmin.Name = "RadioAdmin";
-            this.RadioAdmin.Size = new System.Drawing.Size(101, 19);
-            this.RadioAdmin.TabIndex = 3;
+            this.RadioAdmin.Size = new System.Drawing.Size(102, 19);
+            this.RadioAdmin.TabIndex = 0;
             this.RadioAdmin.TabStop = true;
-            this.RadioAdmin.Text = "radioButton1";
+            this.RadioAdmin.Text = "Admin Login";
             this.RadioAdmin.UseVisualStyleBackColor = true;
             // 
             // RadioTeach
             // 
             this.RadioTeach.AutoSize = true;
-            this.RadioTeach.Location = new System.Drawing.Point(403, 3);
+            this.RadioTeach.Location = new System.Drawing.Point(204, 21);
             this.RadioTeach.Name = "RadioTeach";
-            this.RadioTeach.Size = new System.Drawing.Size(102, 19);
-            this.RadioTeach.TabIndex = 4;
+            this.RadioTeach.Size = new System.Drawing.Size(107, 19);
+            this.RadioTeach.TabIndex = 1;
             this.RadioTeach.TabStop = true;
-            this.RadioTeach.Text = "radioButton2";
+            this.RadioTeach.Text = "Teacher Login";
             this.RadioTeach.UseVisualStyleBackColor = true;
             // 
             // RadioStudent
             // 
             this.RadioStudent.AutoSize = true;
-            this.RadioStudent.Location = new System.Drawing.Point(511, 3);
+            this.RadioStudent.Location = new System.Drawing.Point(384, 21);
             this.RadioStudent.Name = "RadioStudent";
-            this.RadioStudent.Size = new System.Drawing.Size(102, 19);
-            this.RadioStudent.TabIndex = 5;
+            this.RadioStudent.Size = new System.Drawing.Size(106, 19);
+            this.RadioStudent.TabIndex = 2;
             this.RadioStudent.TabStop = true;
-            this.RadioStudent.Text = "radioButton3";
+            this.RadioStudent.Text = "Student Login";
             this.RadioStudent.UseVisualStyleBackColor = true;
             // 
             // ForgotLinkLabel
             // 
             this.ForgotLinkLabel.AutoSize = true;
-            this.ForgotLinkLabel.Location = new System.Drawing.Point(619, 0);
+            this.ForgotLinkLabel.LinkColor = System.Drawing.Color.LightSeaGreen;
+            this.ForgotLinkLabel.Location = new System.Drawing.Point(18, 134);
             this.ForgotLinkLabel.Name = "ForgotLinkLabel";
-            this.ForgotLinkLabel.Size = new System.Drawing.Size(66, 15);
-            this.ForgotLinkLabel.TabIndex = 6;
+            this.ForgotLinkLabel.Size = new System.Drawing.Size(103, 15);
+            this.ForgotLinkLabel.TabIndex = 7;
             this.ForgotLinkLabel.TabStop = true;
-            this.ForgotLinkLabel.Text = "linkLabel1";
+            this.ForgotLinkLabel.Text = "Forgot Password";
+            this.ForgotLinkLabel.VisitedLinkColor = System.Drawing.Color.SpringGreen;
             // 
             // HomeButton
             // 
-            this.HomeButton.Location = new System.Drawing.Point(691, 3);
+            this.HomeButton.Location = new System.Drawing.Point(204, 134);
             this.HomeButton.Name = "HomeButton";
             this.HomeButton.Size = new System.Drawing.Size(75, 23);
-            this.HomeButton.TabIndex = 7;
-            this.HomeButton.Text = "button2";
+            this.HomeButton.TabIndex = 6;
+            this.HomeButton.Text = "Register";
             this.HomeButton.UseVisualStyleBackColor = true;
+            // 
+            // UserNameLabel
+            // 
+            this.UserNameLabel.AutoSize = true;
+            this.UserNameLabel.Location = new System.Drawing.Point(117, 51);
+            this.UserNameLabel.Name = "UserNameLabel";
+            this.UserNameLabel.Size = new System.Drawing.Size(104, 15);
+            this.UserNameLabel.TabIndex = 8;
+            this.UserNameLabel.Text = "Enter Username";
+            // 
+            // PasswordLabel
+            // 
+            this.PasswordLabel.AutoSize = true;
+            this.PasswordLabel.Location = new System.Drawing.Point(123, 91);
+            this.PasswordLabel.Name = "PasswordLabel";
+            this.PasswordLabel.Size = new System.Drawing.Size(98, 15);
+            this.PasswordLabel.TabIndex = 9;
+            this.PasswordLabel.Text = "Enter Password";
+            // 
+            // GroupBox
+            // 
+            this.GroupBox.Controls.Add(this.LoginButton);
+            this.GroupBox.Controls.Add(this.RadioAdmin);
+            this.GroupBox.Controls.Add(this.RadioTeach);
+            this.GroupBox.Controls.Add(this.PasswordBox);
+            this.GroupBox.Controls.Add(this.RadioStudent);
+            this.GroupBox.Controls.Add(this.UsernameBox);
+            this.GroupBox.Controls.Add(this.ForgotLinkLabel);
+            this.GroupBox.Controls.Add(this.UserNameLabel);
+            this.GroupBox.Controls.Add(this.PasswordLabel);
+            this.GroupBox.Controls.Add(this.HomeButton);
+            this.GroupBox.Location = new System.Drawing.Point(3, 3);
+            this.GroupBox.Name = "GroupBox";
+            this.GroupBox.Size = new System.Drawing.Size(492, 184);
+            this.GroupBox.TabIndex = 10;
+            this.GroupBox.TabStop = false;
+            this.GroupBox.Text = "Login Panel";
             // 
             // LoginModule
             // 
@@ -155,7 +192,8 @@
             this.Controls.SetChildIndex(this.Panel, 0);
             this.Panel.ResumeLayout(false);
             this.FlowLayoutPanel.ResumeLayout(false);
-            this.FlowLayoutPanel.PerformLayout();
+            this.GroupBox.ResumeLayout(false);
+            this.GroupBox.PerformLayout();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -173,5 +211,8 @@
         private System.Windows.Forms.RadioButton RadioStudent;
         private System.Windows.Forms.LinkLabel ForgotLinkLabel;
         private System.Windows.Forms.Button HomeButton;
+        private System.Windows.Forms.GroupBox GroupBox;
+        private System.Windows.Forms.Label UserNameLabel;
+        private System.Windows.Forms.Label PasswordLabel;
     }
 }
