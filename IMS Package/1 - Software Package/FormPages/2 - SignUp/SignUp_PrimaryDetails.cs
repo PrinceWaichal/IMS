@@ -1,5 +1,7 @@
 ﻿using System;
 using System.Windows.Forms;
+using System.Data;
+using MySql.Data.MySqlClient;
 
 namespace _1___Software_Package.FormPages
 {
@@ -113,10 +115,10 @@ namespace _1___Software_Package.FormPages
             {
                 MessageBox.Show("Invalid Date Entered", "Wrong Date Input", MessageBoxButtons.RetryCancel);
             }
-            else if (textGenderbox.Text == "")
+            /*else if (textGenderbox.Text == "")
             {
                 MessageBox.Show("You have not Selected Gender", "Gender Missing", MessageBoxButtons.RetryCancel, MessageBoxIcon.Error);
-            }
+            }*/
             else if (textAdd1.Text == "")
             {
                 MessageBox.Show("You have not entered your Address", "Missing Address", MessageBoxButtons.RetryCancel, MessageBoxIcon.Error);
@@ -141,21 +143,70 @@ namespace _1___Software_Package.FormPages
             {
                 MessageBox.Show("You have not entered your PIN", "Missing PIN Code", MessageBoxButtons.RetryCancel, MessageBoxIcon.Error);
             }
-            else if (textPin.Text.Length != 6)
+            /*else if (textPin.Text.Length != 6)
             {
                 MessageBox.Show("Incorrect PIN Code", "Wrong PIN Code", MessageBoxButtons.RetryCancel, MessageBoxIcon.Error);
-            }
+            }*/
             else if (textMobile.Text == "" )
             {
                 MessageBox.Show("You have not entered your Mobile Number", "Missing Mobile Number", MessageBoxButtons.RetryCancel, MessageBoxIcon.Error);
             }
-            else if(textMobile.Text.Length != 10)
+            /*else if(textMobile.Text.Length != 10)
             {
                 MessageBox.Show("Incorrect Mobile Number", "Wrong Mobile Number", MessageBoxButtons.RetryCancel, MessageBoxIcon.Error);
-            }
+            }*/
             else
             {
                 //Connection & Data Input Will be Here
+
+                //Opening Connection
+                ServerInfo.MySQLConnect.Open();
+
+                //Creating Command
+                MySqlCommand mySqlCommand = new MySqlCommand();
+
+                //Connecting command
+                mySqlCommand.Connection = ServerInfo.MySQLConnect;
+
+                string commandone = "Select count(*) from UserMaster Where UserName = ' " + UserTextBox.Text + " ' " +
+                        "and UserPassword = ' " + PassTextBox.Text + " ' ";
+                string commandtwo = "INSERT INTO `MastersSchema`.`UserMaster` (`UserName`, `UserPassword`) " +
+                    "VALUES ('"+UserTextBox.Text+"', '"+PassTextBox.Text+"');";
+                string commandthree = "INSERT INTO `MastersSchema`.`NameMaster` (`LastName`, `FirstName`, `MiddleName`, " +
+                    "`UsernameID`) " +
+                    "VALUES ('"+LastNameBox.Text+"', '"+FirstNameBox.Text+"', '"+MiddleNameBox.Text+"', '');";
+
+                mySqlCommand.CommandText = commandone;
+                mySqlCommand.ExecuteNonQuery();
+
+                MySqlDataAdapter MySQLDataAdapt = new MySqlDataAdapter(mySqlCommand);
+
+                //Creating a new Data Table
+                DataTable DatTable = new DataTable();
+
+                MySQLDataAdapt.Fill(DatTable);
+
+                int i = Convert.ToInt32(DatTable.Rows.Count.ToString());
+                if (i==1)
+                {
+                    mySqlCommand.CommandText = commandtwo;
+                    mySqlCommand.ExecuteNonQuery();
+                    mySqlCommand.CommandText = commandthree;
+                    mySqlCommand.ExecuteNonQuery();
+
+                    this.Hide();
+                    SignUp_EducationalDetails educationalDetails = new SignUp_EducationalDetails();
+                }
+                else if (i==0)
+                {
+                    MessageBox.Show("User Already Exists, kindly Sign In","User Exist",MessageBoxButtons.OK,MessageBoxIcon.Information);
+                }
+                else
+                {
+                    MessageBox.Show("Something Went Wrong\nLine 196 PrimDet", "Error Occurred", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                }
+                //mySqlCommand.CommandText = commandtwo;
+                //mySqlCommand.CommandText = commandthree;
             }
         }
     }

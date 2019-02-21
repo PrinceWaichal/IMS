@@ -97,6 +97,11 @@
             this.DomainComboBox = new System.Windows.Forms.ComboBox();
             this.panel2 = new System.Windows.Forms.Panel();
             this.splitContainer5 = new System.Windows.Forms.SplitContainer();
+            this.CreateUsernameLabel = new System.Windows.Forms.Label();
+            this.tableLayoutPanel3 = new System.Windows.Forms.TableLayoutPanel();
+            this.CreatePassLabel = new System.Windows.Forms.Label();
+            this.UserTextBox = new System.Windows.Forms.TextBox();
+            this.PassTextBox = new System.Windows.Forms.TextBox();
             this.panel1.SuspendLayout();
             this.tableLayoutPanel1.SuspendLayout();
             this.tableLayoutPanel2.SuspendLayout();
@@ -124,6 +129,7 @@
             this.splitContainer5.Panel1.SuspendLayout();
             this.splitContainer5.Panel2.SuspendLayout();
             this.splitContainer5.SuspendLayout();
+            this.tableLayoutPanel3.SuspendLayout();
             this.SuspendLayout();
             // 
             // label1
@@ -878,6 +884,7 @@
             // 
             // panel2
             // 
+            this.panel2.Controls.Add(this.tableLayoutPanel3);
             this.panel2.Controls.Add(this.splitContainer5);
             this.panel2.Controls.Add(this.splitContainer1);
             this.panel2.Controls.Add(this.textContact);
@@ -918,6 +925,58 @@
             this.splitContainer5.Size = new System.Drawing.Size(566, 217);
             this.splitContainer5.SplitterDistance = 102;
             this.splitContainer5.TabIndex = 17;
+            // 
+            // CreateUsernameLabel
+            // 
+            this.CreateUsernameLabel.AutoSize = true;
+            this.CreateUsernameLabel.Location = new System.Drawing.Point(3, 0);
+            this.CreateUsernameLabel.Name = "CreateUsernameLabel";
+            this.CreateUsernameLabel.Size = new System.Drawing.Size(98, 13);
+            this.CreateUsernameLabel.TabIndex = 16;
+            this.CreateUsernameLabel.Text = "Create a Username";
+            // 
+            // tableLayoutPanel3
+            // 
+            this.tableLayoutPanel3.ColumnCount = 4;
+            this.tableLayoutPanel3.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 25F));
+            this.tableLayoutPanel3.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 25F));
+            this.tableLayoutPanel3.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 25F));
+            this.tableLayoutPanel3.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 25F));
+            this.tableLayoutPanel3.Controls.Add(this.UserTextBox, 1, 0);
+            this.tableLayoutPanel3.Controls.Add(this.CreateUsernameLabel, 0, 0);
+            this.tableLayoutPanel3.Controls.Add(this.CreatePassLabel, 2, 0);
+            this.tableLayoutPanel3.Controls.Add(this.PassTextBox, 3, 0);
+            this.tableLayoutPanel3.Location = new System.Drawing.Point(211, 470);
+            this.tableLayoutPanel3.Name = "tableLayoutPanel3";
+            this.tableLayoutPanel3.RowCount = 1;
+            this.tableLayoutPanel3.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 100F));
+            this.tableLayoutPanel3.Size = new System.Drawing.Size(566, 40);
+            this.tableLayoutPanel3.TabIndex = 16;
+            // 
+            // CreatePassLabel
+            // 
+            this.CreatePassLabel.AutoSize = true;
+            this.CreatePassLabel.Location = new System.Drawing.Point(285, 0);
+            this.CreatePassLabel.Name = "CreatePassLabel";
+            this.CreatePassLabel.Size = new System.Drawing.Size(96, 13);
+            this.CreatePassLabel.TabIndex = 17;
+            this.CreatePassLabel.Text = "Create a Password";
+            // 
+            // UserTextBox
+            // 
+            this.UserTextBox.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.UserTextBox.Location = new System.Drawing.Point(144, 3);
+            this.UserTextBox.Name = "UserTextBox";
+            this.UserTextBox.Size = new System.Drawing.Size(135, 20);
+            this.UserTextBox.TabIndex = 16;
+            // 
+            // PassTextBox
+            // 
+            this.PassTextBox.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.PassTextBox.Location = new System.Drawing.Point(426, 3);
+            this.PassTextBox.Name = "PassTextBox";
+            this.PassTextBox.Size = new System.Drawing.Size(137, 20);
+            this.PassTextBox.TabIndex = 16;
             // 
             // SignUp_PrimaryDetails
             // 
@@ -973,6 +1032,8 @@
             this.splitContainer5.Panel2.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.splitContainer5)).EndInit();
             this.splitContainer5.ResumeLayout(false);
+            this.tableLayoutPanel3.ResumeLayout(false);
+            this.tableLayoutPanel3.PerformLayout();
             this.ResumeLayout(false);
 
         }
@@ -1046,5 +1107,10 @@
         private System.Windows.Forms.RadioButton radioButton3;
         private System.Windows.Forms.TextBox textBox4;
         private System.Windows.Forms.ComboBox comboBox1;
+        private System.Windows.Forms.TableLayoutPanel tableLayoutPanel3;
+        private System.Windows.Forms.TextBox UserTextBox;
+        private System.Windows.Forms.Label CreateUsernameLabel;
+        private System.Windows.Forms.Label CreatePassLabel;
+        private System.Windows.Forms.TextBox PassTextBox;
     }
 }
