@@ -1,5 +1,0 @@
-﻿CREATE TABLE [dbo].[PINMaster]
-(
-	[PINID] INT NOT NULL, 
-    [PINCode] NCHAR(6) NOT NULL 
-)
