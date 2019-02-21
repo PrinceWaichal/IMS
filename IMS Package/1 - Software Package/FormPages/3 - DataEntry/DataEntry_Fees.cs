@@ -97,5 +97,6 @@ namespace _1___Software_Package.FormPages._3___DataEntry
                     MessageBox.Show("Please fill Scholarship Amount", "Scholarship", MessageBoxButtons.RetryCancel, MessageBoxIcon.Error);
                 }
             }
+        }
     }
 }

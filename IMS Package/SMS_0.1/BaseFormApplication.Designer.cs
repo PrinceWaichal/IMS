@@ -39,6 +39,7 @@
             // 
             this.MenuStrip.AccessibleRole = System.Windows.Forms.AccessibleRole.MenuBar;
             this.MenuStrip.BackColor = System.Drawing.Color.Linen;
+            this.MenuStrip.ImageScalingSize = new System.Drawing.Size(20, 20);
             this.MenuStrip.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.Login,
             this.Registration});

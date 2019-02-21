@@ -126,7 +126,7 @@
   </data>
   <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
   <data name="Login.Size" type="System.Drawing.Size, System.Drawing">
-    <value>49, 20</value>
+    <value>58, 24</value>
   </data>
   <data name="Login.Text" xml:space="preserve">
     <value>Login</value>
@@ -138,7 +138,7 @@
     <value>Alt+R</value>
   </data>
   <data name="Registration.Size" type="System.Drawing.Size, System.Drawing">
-    <value>82, 20</value>
+    <value>101, 24</value>
   </data>
   <data name="Registration.Text" xml:space="preserve">
     <value>Registration</value>
@@ -150,10 +150,10 @@
     <value>0, 0</value>
   </data>
   <data name="MenuStrip.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>8, 2, 0, 2</value>
+    <value>10, 3, 0, 3</value>
   </data>
   <data name="MenuStrip.Size" type="System.Drawing.Size, System.Drawing">
-    <value>896, 24</value>
+    <value>1120, 30</value>
   </data>
   <assembly alias="mscorlib" name="mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
   <data name="MenuStrip.TabIndex" type="System.Int32, mscorlib">
@@ -175,13 +175,13 @@
     <value>True</value>
   </metadata>
   <data name="$this.AutoScaleDimensions" type="System.Drawing.SizeF, System.Drawing">
-    <value>8, 15</value>
+    <value>10, 19</value>
   </data>
   <data name="$this.AutoScroll" type="System.Boolean, mscorlib">
     <value>True</value>
   </data>
   <data name="$this.ClientSize" type="System.Drawing.Size, System.Drawing">
-    <value>896, 435</value>
+    <value>1120, 551</value>
   </data>
   <data name="$this.Font" type="System.Drawing.Font, System.Drawing">
     <value>Lucida Calligraphy, 8.25pt</value>
@@ -263,7 +263,7 @@
 </value>
   </data>
   <data name="$this.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>4, 3, 4, 3</value>
+    <value>5, 4, 5, 4</value>
   </data>
   <data name="$this.StartPosition" type="System.Windows.Forms.FormStartPosition, System.Windows.Forms">
     <value>CenterScreen</value>
