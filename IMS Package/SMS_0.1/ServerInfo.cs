@@ -10,7 +10,7 @@ namespace SMS_0._1
 {
     class ServerInfo
     {
-        public const string String = "server=localhost;user id=root;persistsecurityinfo=True;database=sms";
+        public const string String = "server=localhost;user id=root;password=root;persistsecurityinfo=True;database=sms";
 
         public static MySqlConnection mySQLConnect = new MySqlConnection(String);
     }

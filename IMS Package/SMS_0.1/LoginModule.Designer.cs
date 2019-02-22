@@ -30,17 +30,17 @@
         {
             this.Panel = new System.Windows.Forms.Panel();
             this.FlowLayoutPanel = new System.Windows.Forms.FlowLayoutPanel();
-            this.UsernameBox = new System.Windows.Forms.TextBox();
-            this.PasswordBox = new System.Windows.Forms.TextBox();
+            this.GroupBox = new System.Windows.Forms.GroupBox();
             this.LoginButton = new System.Windows.Forms.Button();
             this.RadioAdmin = new System.Windows.Forms.RadioButton();
             this.RadioTeach = new System.Windows.Forms.RadioButton();
+            this.PasswordBox = new System.Windows.Forms.TextBox();
             this.RadioStudent = new System.Windows.Forms.RadioButton();
+            this.UsernameBox = new System.Windows.Forms.TextBox();
             this.ForgotLinkLabel = new System.Windows.Forms.LinkLabel();
-            this.HomeButton = new System.Windows.Forms.Button();
             this.UserNameLabel = new System.Windows.Forms.Label();
             this.PasswordLabel = new System.Windows.Forms.Label();
-            this.GroupBox = new System.Windows.Forms.GroupBox();
+            this.HomeButton = new System.Windows.Forms.Button();
             this.Panel.SuspendLayout();
             this.FlowLayoutPanel.SuspendLayout();
             this.GroupBox.SuspendLayout();
@@ -53,9 +53,9 @@
             this.Panel.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
             this.Panel.Controls.Add(this.FlowLayoutPanel);
             this.Panel.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.Panel.Location = new System.Drawing.Point(0, 27);
+            this.Panel.Location = new System.Drawing.Point(0, 24);
             this.Panel.Name = "Panel";
-            this.Panel.Size = new System.Drawing.Size(896, 408);
+            this.Panel.Size = new System.Drawing.Size(896, 411);
             this.Panel.TabIndex = 1;
             // 
             // FlowLayoutPanel
@@ -64,22 +64,27 @@
             this.FlowLayoutPanel.Dock = System.Windows.Forms.DockStyle.Fill;
             this.FlowLayoutPanel.Location = new System.Drawing.Point(0, 0);
             this.FlowLayoutPanel.Name = "FlowLayoutPanel";
-            this.FlowLayoutPanel.Size = new System.Drawing.Size(896, 408);
+            this.FlowLayoutPanel.Size = new System.Drawing.Size(896, 411);
             this.FlowLayoutPanel.TabIndex = 0;
             // 
-            // UsernameBox
+            // GroupBox
             // 
-            this.UsernameBox.Location = new System.Drawing.Point(301, 51);
-            this.UsernameBox.Name = "UsernameBox";
-            this.UsernameBox.Size = new System.Drawing.Size(143, 22);
-            this.UsernameBox.TabIndex = 3;
-            // 
-            // PasswordBox
-            // 
-            this.PasswordBox.Location = new System.Drawing.Point(301, 88);
-            this.PasswordBox.Name = "PasswordBox";
-            this.PasswordBox.Size = new System.Drawing.Size(143, 22);
-            this.PasswordBox.TabIndex = 4;
+            this.GroupBox.Controls.Add(this.LoginButton);
+            this.GroupBox.Controls.Add(this.RadioAdmin);
+            this.GroupBox.Controls.Add(this.RadioTeach);
+            this.GroupBox.Controls.Add(this.PasswordBox);
+            this.GroupBox.Controls.Add(this.RadioStudent);
+            this.GroupBox.Controls.Add(this.UsernameBox);
+            this.GroupBox.Controls.Add(this.ForgotLinkLabel);
+            this.GroupBox.Controls.Add(this.UserNameLabel);
+            this.GroupBox.Controls.Add(this.PasswordLabel);
+            this.GroupBox.Controls.Add(this.HomeButton);
+            this.GroupBox.Location = new System.Drawing.Point(3, 3);
+            this.GroupBox.Name = "GroupBox";
+            this.GroupBox.Size = new System.Drawing.Size(492, 184);
+            this.GroupBox.TabIndex = 10;
+            this.GroupBox.TabStop = false;
+            this.GroupBox.Text = "Login Panel";
             // 
             // LoginButton
             // 
@@ -90,6 +95,7 @@
             this.LoginButton.Text = "Login";
             this.LoginButton.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
             this.LoginButton.UseVisualStyleBackColor = true;
+            this.LoginButton.Click += new System.EventHandler(this.LoginClick);
             // 
             // RadioAdmin
             // 
@@ -113,6 +119,13 @@
             this.RadioTeach.Text = "Teacher Login";
             this.RadioTeach.UseVisualStyleBackColor = true;
             // 
+            // PasswordBox
+            // 
+            this.PasswordBox.Location = new System.Drawing.Point(301, 88);
+            this.PasswordBox.Name = "PasswordBox";
+            this.PasswordBox.Size = new System.Drawing.Size(143, 22);
+            this.PasswordBox.TabIndex = 4;
+            // 
             // RadioStudent
             // 
             this.RadioStudent.AutoSize = true;
@@ -123,6 +136,13 @@
             this.RadioStudent.TabStop = true;
             this.RadioStudent.Text = "Student Login";
             this.RadioStudent.UseVisualStyleBackColor = true;
+            // 
+            // UsernameBox
+            // 
+            this.UsernameBox.Location = new System.Drawing.Point(301, 51);
+            this.UsernameBox.Name = "UsernameBox";
+            this.UsernameBox.Size = new System.Drawing.Size(143, 22);
+            this.UsernameBox.TabIndex = 3;
             // 
             // ForgotLinkLabel
             // 
@@ -135,15 +155,7 @@
             this.ForgotLinkLabel.TabStop = true;
             this.ForgotLinkLabel.Text = "Forgot Password";
             this.ForgotLinkLabel.VisitedLinkColor = System.Drawing.Color.SpringGreen;
-            // 
-            // HomeButton
-            // 
-            this.HomeButton.Location = new System.Drawing.Point(204, 134);
-            this.HomeButton.Name = "HomeButton";
-            this.HomeButton.Size = new System.Drawing.Size(75, 23);
-            this.HomeButton.TabIndex = 6;
-            this.HomeButton.Text = "Register";
-            this.HomeButton.UseVisualStyleBackColor = true;
+            this.ForgotLinkLabel.Click += new System.EventHandler(this.ForgotPassClick);
             // 
             // UserNameLabel
             // 
@@ -163,24 +175,15 @@
             this.PasswordLabel.TabIndex = 9;
             this.PasswordLabel.Text = "Enter Password";
             // 
-            // GroupBox
+            // HomeButton
             // 
-            this.GroupBox.Controls.Add(this.LoginButton);
-            this.GroupBox.Controls.Add(this.RadioAdmin);
-            this.GroupBox.Controls.Add(this.RadioTeach);
-            this.GroupBox.Controls.Add(this.PasswordBox);
-            this.GroupBox.Controls.Add(this.RadioStudent);
-            this.GroupBox.Controls.Add(this.UsernameBox);
-            this.GroupBox.Controls.Add(this.ForgotLinkLabel);
-            this.GroupBox.Controls.Add(this.UserNameLabel);
-            this.GroupBox.Controls.Add(this.PasswordLabel);
-            this.GroupBox.Controls.Add(this.HomeButton);
-            this.GroupBox.Location = new System.Drawing.Point(3, 3);
-            this.GroupBox.Name = "GroupBox";
-            this.GroupBox.Size = new System.Drawing.Size(492, 184);
-            this.GroupBox.TabIndex = 10;
-            this.GroupBox.TabStop = false;
-            this.GroupBox.Text = "Login Panel";
+            this.HomeButton.Location = new System.Drawing.Point(204, 134);
+            this.HomeButton.Name = "HomeButton";
+            this.HomeButton.Size = new System.Drawing.Size(75, 23);
+            this.HomeButton.TabIndex = 6;
+            this.HomeButton.Text = "Register";
+            this.HomeButton.UseVisualStyleBackColor = true;
+            this.HomeButton.Click += new System.EventHandler(this.RegsiterClick);
             // 
             // LoginModule
             // 
@@ -189,6 +192,7 @@
             this.Controls.Add(this.Panel);
             this.Location = new System.Drawing.Point(0, 0);
             this.Name = "LoginModule";
+            this.Load += new System.EventHandler(this.LoadModule);
             this.Controls.SetChildIndex(this.Panel, 0);
             this.Panel.ResumeLayout(false);
             this.FlowLayoutPanel.ResumeLayout(false);

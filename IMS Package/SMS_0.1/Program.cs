@@ -16,7 +16,7 @@ namespace SMS_0._1
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new RegistrationModule());  
+            Application.Run(new BaseFormApplication());  
         }
     }
 }
