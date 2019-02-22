@@ -134,8 +134,30 @@
   <data name="Login.ToolTipText" xml:space="preserve">
     <value>Click to Login</value>
   </data>
+  <data name="toolStripPrimaryDetails.Size" type="System.Drawing.Size, System.Drawing">
+    <value>100, 27</value>
+  </data>
+  <data name="toolStripPrimaryDetails.Text" xml:space="preserve">
+    <value>Primary Details</value>
+  </data>
+  <data name="ToolStripEducationalDetails.Size" type="System.Drawing.Size, System.Drawing">
+    <value>227, 26</value>
+  </data>
+  <data name="ToolStripEducationalDetails.Text" xml:space="preserve">
+    <value>Educational Details</value>
+  </data>
+  <data name="ToolStripMiscellaneous.Size" type="System.Drawing.Size, System.Drawing">
+    <value>227, 26</value>
+  </data>
+  <data name="ToolStripMiscellaneous.Text" xml:space="preserve">
+    <value>Miscellaneous Details</value>
+  </data>
   <data name="Registration.ShortcutKeys" type="System.Windows.Forms.Keys, System.Windows.Forms">
     <value>Alt+R</value>
+  </data>
+  <assembly alias="mscorlib" name="mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="Registration.ShowShortcutKeys" type="System.Boolean, mscorlib">
+    <value>False</value>
   </data>
   <data name="Registration.Size" type="System.Drawing.Size, System.Drawing">
     <value>101, 24</value>
@@ -155,7 +177,6 @@
   <data name="MenuStrip.Size" type="System.Drawing.Size, System.Drawing">
     <value>1120, 30</value>
   </data>
-  <assembly alias="mscorlib" name="mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
   <data name="MenuStrip.TabIndex" type="System.Int32, mscorlib">
     <value>0</value>
   </data>
@@ -281,6 +302,24 @@
     <value>Registration</value>
   </data>
   <data name="&gt;&gt;Registration.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;toolStripPrimaryDetails.Name" xml:space="preserve">
+    <value>toolStripPrimaryDetails</value>
+  </data>
+  <data name="&gt;&gt;toolStripPrimaryDetails.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripTextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;ToolStripEducationalDetails.Name" xml:space="preserve">
+    <value>ToolStripEducationalDetails</value>
+  </data>
+  <data name="&gt;&gt;ToolStripEducationalDetails.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;ToolStripMiscellaneous.Name" xml:space="preserve">
+    <value>ToolStripMiscellaneous</value>
+  </data>
+  <data name="&gt;&gt;ToolStripMiscellaneous.Type" xml:space="preserve">
     <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="&gt;&gt;$this.Name" xml:space="preserve">

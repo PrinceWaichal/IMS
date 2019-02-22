@@ -32,6 +32,9 @@
             this.MenuStrip = new System.Windows.Forms.MenuStrip();
             this.Login = new System.Windows.Forms.ToolStripMenuItem();
             this.Registration = new System.Windows.Forms.ToolStripMenuItem();
+            this.toolStripPrimaryDetails = new System.Windows.Forms.ToolStripTextBox();
+            this.ToolStripEducationalDetails = new System.Windows.Forms.ToolStripMenuItem();
+            this.ToolStripMiscellaneous = new System.Windows.Forms.ToolStripMenuItem();
             this.MenuStrip.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -57,9 +60,28 @@
             // Registration
             // 
             this.Registration.AutoToolTip = true;
+            this.Registration.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.toolStripPrimaryDetails,
+            this.ToolStripEducationalDetails,
+            this.ToolStripMiscellaneous});
             this.Registration.Name = "Registration";
             resources.ApplyResources(this.Registration, "Registration");
             this.Registration.Click += new System.EventHandler(this.Registration_Click);
+            // 
+            // toolStripPrimaryDetails
+            // 
+            this.toolStripPrimaryDetails.Name = "toolStripPrimaryDetails";
+            resources.ApplyResources(this.toolStripPrimaryDetails, "toolStripPrimaryDetails");
+            // 
+            // ToolStripEducationalDetails
+            // 
+            this.ToolStripEducationalDetails.Name = "ToolStripEducationalDetails";
+            resources.ApplyResources(this.ToolStripEducationalDetails, "ToolStripEducationalDetails");
+            // 
+            // ToolStripMiscellaneous
+            // 
+            this.ToolStripMiscellaneous.Name = "ToolStripMiscellaneous";
+            resources.ApplyResources(this.ToolStripMiscellaneous, "ToolStripMiscellaneous");
             // 
             // BaseFormApplication
             // 
@@ -84,5 +106,8 @@
         private System.Windows.Forms.MenuStrip MenuStrip;
         private System.Windows.Forms.ToolStripMenuItem Login;
         private System.Windows.Forms.ToolStripMenuItem Registration;
+        private System.Windows.Forms.ToolStripTextBox toolStripPrimaryDetails;
+        private System.Windows.Forms.ToolStripMenuItem ToolStripEducationalDetails;
+        private System.Windows.Forms.ToolStripMenuItem ToolStripMiscellaneous;
     }
 }
