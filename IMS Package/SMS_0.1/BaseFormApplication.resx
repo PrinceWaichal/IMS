@@ -126,7 +126,7 @@
   </data>
   <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
   <data name="Login.Size" type="System.Drawing.Size, System.Drawing">
-    <value>49, 23</value>
+    <value>49, 20</value>
   </data>
   <data name="Login.Text" xml:space="preserve">
     <value>Login</value>
@@ -142,31 +142,13 @@
     <value>False</value>
   </data>
   <data name="Registration.Size" type="System.Drawing.Size, System.Drawing">
-    <value>82, 23</value>
+    <value>82, 20</value>
   </data>
   <data name="Registration.Text" xml:space="preserve">
     <value>Registration</value>
   </data>
   <data name="Registration.ToolTipText" xml:space="preserve">
     <value>Click to Register</value>
-  </data>
-  <data name="Input.Size" type="System.Drawing.Size, System.Drawing">
-    <value>121, 23</value>
-  </data>
-  <data name="Input.Text" xml:space="preserve">
-    <value>Input Data</value>
-  </data>
-  <data name="Input.ToolTipText" xml:space="preserve">
-    <value>Select Input Option</value>
-  </data>
-  <data name="Reports.Size" type="System.Drawing.Size, System.Drawing">
-    <value>59, 23</value>
-  </data>
-  <data name="Reports.Text" xml:space="preserve">
-    <value>Reports</value>
-  </data>
-  <data name="Reports.ToolTipText" xml:space="preserve">
-    <value>Click to View Reports</value>
   </data>
   <data name="MenuStrip.Location" type="System.Drawing.Point, System.Drawing">
     <value>0, 0</value>
@@ -175,7 +157,7 @@
     <value>8, 2, 0, 2</value>
   </data>
   <data name="MenuStrip.Size" type="System.Drawing.Size, System.Drawing">
-    <value>896, 27</value>
+    <value>896, 24</value>
   </data>
   <data name="MenuStrip.TabIndex" type="System.Int32, mscorlib">
     <value>0</value>
@@ -303,18 +285,6 @@
   </data>
   <data name="&gt;&gt;Registration.Type" xml:space="preserve">
     <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;Reports.Name" xml:space="preserve">
-    <value>Reports</value>
-  </data>
-  <data name="&gt;&gt;Reports.Type" xml:space="preserve">
-    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;Input.Name" xml:space="preserve">
-    <value>Input</value>
-  </data>
-  <data name="&gt;&gt;Input.Type" xml:space="preserve">
-    <value>System.Windows.Forms.ToolStripComboBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="&gt;&gt;$this.Name" xml:space="preserve">
     <value>BaseFormApplication</value>
