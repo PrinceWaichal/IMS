@@ -19,90 +19,95 @@ namespace SMS_0._1
         private void LoadModule(object sender, EventArgs e)
         {
             UsernameBox.Focus();
+            ServerInfo.mySQLConnect.Open();
         }
 
         MySqlCommand MSQLC = new MySqlCommand();
 
         private void LoginClick(object sender, EventArgs e)
         {
-            if(RadioAdmin.Checked == true)
+            try
             {
-                ServerInfo.mySQLConnect.Open();
-                MSQLC.CommandText = "Select * from sms.adminusermaster " +
-                        "where adminname = '" + UsernameBox.Text + "' and adminpass = '" + PasswordBox.Text + "'";
-                MSQLC.Connection = ServerInfo.mySQLConnect;
-                MySqlDataReader Read = MSQLC.ExecuteReader();
-                if (Read.Read())
+                if (RadioAdmin.Checked == true)
                 {
-                    ServerInfo.mySQLConnect.Close();
-                 //   ReportsModule RepMod = new ReportsModule();
-                    this.Hide();
-                  //  RepMod.Show();
+                    MSQLC.CommandText = "Select * from sms.adminusermaster " +
+                            "where adminname = '" + UsernameBox.Text + "' and adminpass = '" + PasswordBox.Text + "'";
+                    MSQLC.Connection = ServerInfo.mySQLConnect;
+                    MySqlDataReader Read = MSQLC.ExecuteReader();
+                    if (Read.Read())
+                    {
+                        ServerInfo.mySQLConnect.Close();
+                        ReportModule RepMod = new ReportModule();
+                        this.Hide();
+                        RepMod.Show();
+                    }
+                    else
+                    {
+                        ServerInfo.mySQLConnect.Close();
+                        MessageBox.Show("Sorry, input DID NOT match with the database\n" +
+                            "Application Will now Close", "Wrong Input", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                        this.Close();
+                    }
                 }
+
+                else if (RadioTeach.Checked == true)
+                {
+                    MSQLC.CommandText = "Select * from sms.teacherusermaster " +
+                            "where teachname = '" + UsernameBox.Text + "' and teachpassword = '" + PasswordBox.Text + "'";
+                    MSQLC.Connection = ServerInfo.mySQLConnect;
+                    MySqlDataReader Read = MSQLC.ExecuteReader();
+                    if (Read.Read())
+                    {
+                        ServerInfo.mySQLConnect.Close();
+                        ReportModule RepMod = new ReportModule();
+                        this.Hide();
+                        RepMod.Show();
+                    }
+                    else
+                    {
+                        ServerInfo.mySQLConnect.Close();
+                        MessageBox.Show("Sorry, input DID NOT match with the database\n" +
+                            "Application Will now Close", "Wrong Input", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                        this.Close();
+                    }
+                }
+
+                else if (RadioStudent.Checked == true)
+                {
+                    MSQLC.CommandText = "Select * from sms.studentusermaster " +
+                            "where studname = '" + UsernameBox.Text + "' and studpass = '" + PasswordBox.Text + "'";
+                    MSQLC.Connection = ServerInfo.mySQLConnect;
+                    MySqlDataReader Read = MSQLC.ExecuteReader();
+                    if (Read.Read())
+                    {
+                        ServerInfo.mySQLConnect.Close();
+                        ReportModule RepMod = new ReportModule();
+                        this.Hide();
+                        RepMod.Show();
+                    }
+                    else
+                    {
+                        ServerInfo.mySQLConnect.Close();
+                        MessageBox.Show("Sorry, input DID NOT match with the database\n" +
+                            "Application Will now Close", "Wrong Input", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                        this.Close();
+                    }
+                }
+
                 else
                 {
-                    ServerInfo.mySQLConnect.Close();
-                    MessageBox.Show("Sorry, input DID NOT match with the database\n" +
-                        "Application Will now Close", "Wrong Input",MessageBoxButtons.OK,MessageBoxIcon.Error);
-                    this.Close();
+                    MessageBox.Show("You must select one login category and then try again",
+                        "No Category Selected", MessageBoxButtons.RetryCancel,
+                        MessageBoxIcon.Hand);
+                    UsernameBox.Clear();
+                    PasswordBox.Clear();
                 }
             }
 
-            else if(RadioTeach.Checked == true)
+            catch (MySqlException Exception)
             {
-                ServerInfo.mySQLConnect.Open();
-                MSQLC.CommandText = "Select * from sms.teacherusermaster " +
-                        "where adminname = '" + UsernameBox.Text + "' and adminpass = '" + PasswordBox.Text + "'";
-                MSQLC.Connection = ServerInfo.mySQLConnect;
-                MySqlDataReader Read = MSQLC.ExecuteReader();
-                if (Read.Read())
-                {
-                    ServerInfo.mySQLConnect.Close();
-                 //   ReportsModule RepMod = new ReportsModule();
-                    this.Hide();
-                //    RepMod.Show();
-                }
-                else
-                {
-                    ServerInfo.mySQLConnect.Close();
-                    MessageBox.Show("Sorry, input DID NOT match with the database\n" +
-                        "Application Will now Close", "Wrong Input", MessageBoxButtons.OK, MessageBoxIcon.Error);
-                    this.Close();
-                }
+                MessageBox.Show(Exception.Message,"Error Occurred", MessageBoxButtons.OK, MessageBoxIcon.Error);
             }
-
-            else if(RadioStudent.Checked == true)
-            {
-                ServerInfo.mySQLConnect.Open();
-                MSQLC.CommandText = "Select * from sms.studentusermaster " +
-                        "where adminname = '" + UsernameBox.Text + "' and adminpass = '" + PasswordBox.Text + "'";
-                MSQLC.Connection = ServerInfo.mySQLConnect;
-                MySqlDataReader Read = MSQLC.ExecuteReader();
-                if (Read.Read())
-                {
-                    ServerInfo.mySQLConnect.Close();
-              //      ReportsModule RepMod = new ReportsModule();
-                    this.Hide();
-                //    RepMod.Show();
-                }
-                else
-                {
-                    ServerInfo.mySQLConnect.Close();
-                    MessageBox.Show("Sorry, input DID NOT match with the database\n" +
-                        "Application Will now Close", "Wrong Input", MessageBoxButtons.OK, MessageBoxIcon.Error);
-                    this.Close();
-                }
-            }
-
-            else
-            {
-                MessageBox.Show("You must select one login category and then try again",
-                    "No Category Selected", MessageBoxButtons.RetryCancel,
-                    MessageBoxIcon.Hand);
-                UsernameBox.Clear();
-                PasswordBox.Clear();
-            }
-
         }
 
         private void RegsiterClick(object sender, EventArgs e)

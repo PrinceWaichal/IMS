@@ -16,14 +16,14 @@ namespace SMS_0._1 {
     using CrystalDecisions.CrystalReports.Engine;
     
     
-    public class ReportingModule : ReportClass {
+    public class CrystalReport : ReportClass {
         
-        public ReportingModule() {
+        public CrystalReport() {
         }
         
         public override string ResourceName {
             get {
-                return "ReportingModule.rpt";
+                return "CrystalReport.rpt";
             }
             set {
                 // Do nothing
@@ -41,7 +41,7 @@ namespace SMS_0._1 {
         
         public override string FullResourceName {
             get {
-                return "SMS_0._1.ReportingModule.rpt";
+                return "SMS_0._1.CrystalReport.rpt";
             }
             set {
                 // Do nothing
@@ -90,9 +90,9 @@ namespace SMS_0._1 {
     }
     
     [System.Drawing.ToolboxBitmapAttribute(typeof(CrystalDecisions.Shared.ExportOptions), "report.bmp")]
-    public class CachedReportingModule : Component, ICachedReport {
+    public class CachedCrystalReport : Component, ICachedReport {
         
-        public CachedReportingModule() {
+        public CachedCrystalReport() {
         }
         
         [Browsable(false)]
@@ -129,7 +129,7 @@ namespace SMS_0._1 {
         }
         
         public virtual CrystalDecisions.CrystalReports.Engine.ReportDocument CreateReport() {
-            ReportingModule rpt = new ReportingModule();
+            CrystalReport rpt = new CrystalReport();
             rpt.Site = this.Site;
             return rpt;
         }

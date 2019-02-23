@@ -33,6 +33,11 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
+    <Reference Include="CrystalDecisions.CrystalReports.Engine, Version=13.0.3500.0, Culture=neutral, PublicKeyToken=692fbea5521e1304, processorArchitecture=MSIL" />
+    <Reference Include="CrystalDecisions.ReportSource, Version=13.0.3500.0, Culture=neutral, PublicKeyToken=692fbea5521e1304, processorArchitecture=MSIL" />
+    <Reference Include="CrystalDecisions.Shared, Version=13.0.3500.0, Culture=neutral, PublicKeyToken=692fbea5521e1304, processorArchitecture=MSIL" />
+    <Reference Include="CrystalDecisions.Windows.Forms, Version=13.0.3500.0, Culture=neutral, PublicKeyToken=692fbea5521e1304, processorArchitecture=MSIL" />
+    <Reference Include="FlashControlV71, Version=1.0.3187.32366, Culture=neutral, PublicKeyToken=692fbea5521e1304" />
     <Reference Include="Google.Protobuf, Version=3.5.1.0, Culture=neutral, PublicKeyToken=a7d26565bac4d604, processorArchitecture=MSIL">
       <HintPath>..\packages\Google.Protobuf.3.5.1\lib\net45\Google.Protobuf.dll</HintPath>
       <Private>True</Private>
@@ -47,6 +52,8 @@
     <Reference Include="System.Drawing.Design" />
     <Reference Include="System.Management" />
     <Reference Include="System.Transactions" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Web.Services" />
     <Reference Include="System.Xml.Linq" />
     <Reference Include="System.Data.DataSetExtensions" />
     <Reference Include="Microsoft.CSharp" />
@@ -63,6 +70,12 @@
     </Compile>
     <Compile Include="BaseFormApplication.Designer.cs">
       <DependentUpon>BaseFormApplication.cs</DependentUpon>
+    </Compile>
+    <Compile Include="CrystalReport.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>CrystalReport.rpt</DependentUpon>
+      <SubType>Component</SubType>
     </Compile>
     <Compile Include="ForgotPasswordModule.cs">
       <SubType>Form</SubType>
@@ -84,9 +97,25 @@
     <Compile Include="RegistrationModule.Designer.cs">
       <DependentUpon>RegistrationModule.cs</DependentUpon>
     </Compile>
+    <Compile Include="ReportModule.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ReportModule.Designer.cs">
+      <DependentUpon>ReportModule.cs</DependentUpon>
+    </Compile>
     <Compile Include="ServerInfo.cs" />
+    <Compile Include="TestBaseForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="TestBaseForm.Designer.cs">
+      <DependentUpon>TestBaseForm.cs</DependentUpon>
+    </Compile>
     <EmbeddedResource Include="BaseFormApplication.resx">
       <DependentUpon>BaseFormApplication.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CrystalReport.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>CrystalReport.cs</LastGenOutput>
     </EmbeddedResource>
     <EmbeddedResource Include="LoginModule.resx">
       <DependentUpon>LoginModule.cs</DependentUpon>
@@ -102,6 +131,12 @@
     </Compile>
     <EmbeddedResource Include="RegistrationModule.resx">
       <DependentUpon>RegistrationModule.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ReportModule.resx">
+      <DependentUpon>ReportModule.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="TestBaseForm.resx">
+      <DependentUpon>TestBaseForm.cs</DependentUpon>
     </EmbeddedResource>
     <None Include="packages.config" />
     <None Include="Properties\Settings.settings">
