@@ -38,8 +38,6 @@
             this.labGender = new System.Windows.Forms.Label();
             this.labContactDetails = new System.Windows.Forms.Label();
             this.labAddress = new System.Windows.Forms.Label();
-            this.labLandmark = new System.Windows.Forms.Label();
-            this.labNationality = new System.Windows.Forms.Label();
             this.labState = new System.Windows.Forms.Label();
             this.labCity = new System.Windows.Forms.Label();
             this.labPinCode = new System.Windows.Forms.Label();
@@ -57,6 +55,8 @@
             this.cbCity = new System.Windows.Forms.ComboBox();
             this.dateTimePicker1 = new System.Windows.Forms.DateTimePicker();
             this.comboBox1 = new System.Windows.Forms.ComboBox();
+            this.labLandmark = new System.Windows.Forms.Label();
+            this.labNationality = new System.Windows.Forms.Label();
             this.gbEducaitonalDetails = new System.Windows.Forms.GroupBox();
             this.tableLayoutPanel2 = new System.Windows.Forms.TableLayoutPanel();
             this.labMaxMarks = new System.Windows.Forms.Label();
@@ -277,26 +277,6 @@
             this.labAddress.Size = new System.Drawing.Size(74, 19);
             this.labAddress.TabIndex = 0;
             this.labAddress.Text = "Address ";
-            // 
-            // labLandmark
-            // 
-            this.labLandmark.Anchor = System.Windows.Forms.AnchorStyles.Left;
-            this.labLandmark.AutoSize = true;
-            this.labLandmark.Location = new System.Drawing.Point(3, 269);
-            this.labLandmark.Name = "labLandmark";
-            this.labLandmark.Size = new System.Drawing.Size(86, 19);
-            this.labLandmark.TabIndex = 0;
-            this.labLandmark.Text = "Landmark";
-            // 
-            // labNationality
-            // 
-            this.labNationality.Anchor = System.Windows.Forms.AnchorStyles.Left;
-            this.labNationality.AutoSize = true;
-            this.labNationality.Location = new System.Drawing.Point(3, 236);
-            this.labNationality.Name = "labNationality";
-            this.labNationality.Size = new System.Drawing.Size(96, 19);
-            this.labNationality.TabIndex = 0;
-            this.labNationality.Text = "Nationality";
             // 
             // labState
             // 
@@ -910,6 +890,26 @@
             this.comboBox1.Name = "comboBox1";
             this.comboBox1.Size = new System.Drawing.Size(183, 27);
             this.comboBox1.TabIndex = 7;
+            // 
+            // labLandmark
+            // 
+            this.labLandmark.Anchor = System.Windows.Forms.AnchorStyles.Left;
+            this.labLandmark.AutoSize = true;
+            this.labLandmark.Location = new System.Drawing.Point(3, 269);
+            this.labLandmark.Name = "labLandmark";
+            this.labLandmark.Size = new System.Drawing.Size(86, 19);
+            this.labLandmark.TabIndex = 0;
+            this.labLandmark.Text = "Landmark";
+            // 
+            // labNationality
+            // 
+            this.labNationality.Anchor = System.Windows.Forms.AnchorStyles.Left;
+            this.labNationality.AutoSize = true;
+            this.labNationality.Location = new System.Drawing.Point(3, 236);
+            this.labNationality.Name = "labNationality";
+            this.labNationality.Size = new System.Drawing.Size(96, 19);
+            this.labNationality.TabIndex = 0;
+            this.labNationality.Text = "Nationality";
             // 
             // gbEducaitonalDetails
             // 
