@@ -29,39 +29,7 @@
         private void InitializeComponent()
         {
             this.panel1 = new System.Windows.Forms.Panel();
-            this.tableLayoutPanel5 = new System.Windows.Forms.TableLayoutPanel();
-            this.labUserName = new System.Windows.Forms.Label();
-            this.tbConfirmPassword = new System.Windows.Forms.TextBox();
-            this.label4 = new System.Windows.Forms.Label();
-            this.tbUserName = new System.Windows.Forms.TextBox();
-            this.label2 = new System.Windows.Forms.Label();
-            this.label1 = new System.Windows.Forms.Label();
-            this.tbPassword = new System.Windows.Forms.TextBox();
-            this.labConfirmPassw = new System.Windows.Forms.Label();
-            this.labCreatePassw = new System.Windows.Forms.Label();
             this.flowLayoutPanel1 = new System.Windows.Forms.FlowLayoutPanel();
-            this.gbOtherPersonalDetail = new System.Windows.Forms.GroupBox();
-            this.tableLayoutPanel3 = new System.Windows.Forms.TableLayoutPanel();
-            this.labMaritalStatus = new System.Windows.Forms.Label();
-            this.labM_Name = new System.Windows.Forms.Label();
-            this.labGuardDetails = new System.Windows.Forms.Label();
-            this.tbGuardFirstName = new System.Windows.Forms.TextBox();
-            this.tbGuardLastName = new System.Windows.Forms.TextBox();
-            this.tbGuardMiddleName = new System.Windows.Forms.TextBox();
-            this.tbMotherLastName = new System.Windows.Forms.TextBox();
-            this.tbMotherFirstName = new System.Windows.Forms.TextBox();
-            this.comboBox3 = new System.Windows.Forms.ComboBox();
-            this.tbMotherMiddleName = new System.Windows.Forms.TextBox();
-            this.labReligion = new System.Windows.Forms.Label();
-            this.comboBox2 = new System.Windows.Forms.ComboBox();
-            this.label3 = new System.Windows.Forms.Label();
-            this.cbCategory = new System.Windows.Forms.ComboBox();
-            this.labAadharNo = new System.Windows.Forms.Label();
-            this.tbAddharNo = new System.Windows.Forms.TextBox();
-            this.labCategory = new System.Windows.Forms.Label();
-            this.cbPhysicalDisab = new System.Windows.Forms.ComboBox();
-            this.labParentsContNo = new System.Windows.Forms.Label();
-            this.tbPContactNo = new System.Windows.Forms.TextBox();
             this.gbPrimarydetails = new System.Windows.Forms.GroupBox();
             this.tlpRegistraitonDet = new System.Windows.Forms.TableLayoutPanel();
             this.labName = new System.Windows.Forms.Label();
@@ -69,8 +37,7 @@
             this.labDate_of_birth = new System.Windows.Forms.Label();
             this.labGender = new System.Windows.Forms.Label();
             this.labContactDetails = new System.Windows.Forms.Label();
-            this.labAddressL1 = new System.Windows.Forms.Label();
-            this.labAddressL2 = new System.Windows.Forms.Label();
+            this.labAddress = new System.Windows.Forms.Label();
             this.labLandmark = new System.Windows.Forms.Label();
             this.labNationality = new System.Windows.Forms.Label();
             this.labState = new System.Windows.Forms.Label();
@@ -82,7 +49,6 @@
             this.tbMiddleName = new System.Windows.Forms.TextBox();
             this.tbEmail = new System.Windows.Forms.TextBox();
             this.tbAddressLine1 = new System.Windows.Forms.TextBox();
-            this.tbAddressLine2 = new System.Windows.Forms.TextBox();
             this.tbLandmark = new System.Windows.Forms.TextBox();
             this.tbPinCode = new System.Windows.Forms.TextBox();
             this.tbMobileNo = new System.Windows.Forms.TextBox();
@@ -117,406 +83,87 @@
             this.cbCollege = new System.Windows.Forms.ComboBox();
             this.tbObtianMark = new System.Windows.Forms.TextBox();
             this.tbMaxmark = new System.Windows.Forms.TextBox();
+            this.gbOtherPersonalDetail = new System.Windows.Forms.GroupBox();
+            this.tableLayoutPanel3 = new System.Windows.Forms.TableLayoutPanel();
+            this.labMaritalStatus = new System.Windows.Forms.Label();
+            this.labM_Name = new System.Windows.Forms.Label();
+            this.labGuardDetails = new System.Windows.Forms.Label();
+            this.tbGuardFirstName = new System.Windows.Forms.TextBox();
+            this.tbGuardLastName = new System.Windows.Forms.TextBox();
+            this.tbGuardMiddleName = new System.Windows.Forms.TextBox();
+            this.tbMotherLastName = new System.Windows.Forms.TextBox();
+            this.tbMotherFirstName = new System.Windows.Forms.TextBox();
+            this.comboBox3 = new System.Windows.Forms.ComboBox();
+            this.tbMotherMiddleName = new System.Windows.Forms.TextBox();
+            this.labReligion = new System.Windows.Forms.Label();
+            this.comboBox2 = new System.Windows.Forms.ComboBox();
+            this.label3 = new System.Windows.Forms.Label();
+            this.cbCategory = new System.Windows.Forms.ComboBox();
+            this.labAadharNo = new System.Windows.Forms.Label();
+            this.tbAddharNo = new System.Windows.Forms.TextBox();
+            this.labCategory = new System.Windows.Forms.Label();
+            this.cbPhysicalDisab = new System.Windows.Forms.ComboBox();
+            this.labParentsContNo = new System.Windows.Forms.Label();
+            this.tbPContactNo = new System.Windows.Forms.TextBox();
             this.tableLayoutPanel1 = new System.Windows.Forms.TableLayoutPanel();
             this.butBack = new System.Windows.Forms.Button();
             this.butSubmit = new System.Windows.Forms.Button();
+            this.gbregistrAuthority = new System.Windows.Forms.GroupBox();
+            this.lbUser = new System.Windows.Forms.Label();
+            this.rbutStudent = new System.Windows.Forms.RadioButton();
+            this.rbutTeacher = new System.Windows.Forms.RadioButton();
+            this.tableLayoutPanel5 = new System.Windows.Forms.TableLayoutPanel();
+            this.labUserName = new System.Windows.Forms.Label();
+            this.tbConfirmPassword = new System.Windows.Forms.TextBox();
+            this.label4 = new System.Windows.Forms.Label();
+            this.tbUserName = new System.Windows.Forms.TextBox();
+            this.label2 = new System.Windows.Forms.Label();
+            this.label1 = new System.Windows.Forms.Label();
+            this.tbPassword = new System.Windows.Forms.TextBox();
+            this.labConfirmPassw = new System.Windows.Forms.Label();
+            this.labCreatePassw = new System.Windows.Forms.Label();
             this.panel1.SuspendLayout();
-            this.tableLayoutPanel5.SuspendLayout();
             this.flowLayoutPanel1.SuspendLayout();
-            this.gbOtherPersonalDetail.SuspendLayout();
-            this.tableLayoutPanel3.SuspendLayout();
             this.gbPrimarydetails.SuspendLayout();
             this.tlpRegistraitonDet.SuspendLayout();
             this.gbEducaitonalDetails.SuspendLayout();
             this.tableLayoutPanel2.SuspendLayout();
+            this.gbOtherPersonalDetail.SuspendLayout();
+            this.tableLayoutPanel3.SuspendLayout();
             this.tableLayoutPanel1.SuspendLayout();
+            this.gbregistrAuthority.SuspendLayout();
+            this.tableLayoutPanel5.SuspendLayout();
             this.SuspendLayout();
             // 
             // panel1
             // 
             this.panel1.AutoScroll = true;
-            this.panel1.Controls.Add(this.tableLayoutPanel5);
             this.panel1.Controls.Add(this.flowLayoutPanel1);
             this.panel1.Controls.Add(this.tableLayoutPanel1);
+            this.panel1.Controls.Add(this.gbregistrAuthority);
+            this.panel1.Controls.Add(this.tableLayoutPanel5);
             this.panel1.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.panel1.Location = new System.Drawing.Point(0, 30);
+            this.panel1.Location = new System.Drawing.Point(0, 34);
             this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(1225, 959);
+            this.panel1.Size = new System.Drawing.Size(1181, 927);
             this.panel1.TabIndex = 1;
-            // 
-            // tableLayoutPanel5
-            // 
-            this.tableLayoutPanel5.ColumnCount = 3;
-            this.tableLayoutPanel5.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 33.33333F));
-            this.tableLayoutPanel5.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 33.33334F));
-            this.tableLayoutPanel5.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 33.33334F));
-            this.tableLayoutPanel5.Controls.Add(this.labUserName, 1, 0);
-            this.tableLayoutPanel5.Controls.Add(this.tbConfirmPassword, 2, 2);
-            this.tableLayoutPanel5.Controls.Add(this.label4, 0, 0);
-            this.tableLayoutPanel5.Controls.Add(this.tbUserName, 2, 0);
-            this.tableLayoutPanel5.Controls.Add(this.label2, 0, 2);
-            this.tableLayoutPanel5.Controls.Add(this.label1, 0, 1);
-            this.tableLayoutPanel5.Controls.Add(this.tbPassword, 2, 1);
-            this.tableLayoutPanel5.Controls.Add(this.labConfirmPassw, 1, 2);
-            this.tableLayoutPanel5.Controls.Add(this.labCreatePassw, 1, 1);
-            this.tableLayoutPanel5.Location = new System.Drawing.Point(262, 859);
-            this.tableLayoutPanel5.Name = "tableLayoutPanel5";
-            this.tableLayoutPanel5.RowCount = 3;
-            this.tableLayoutPanel5.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 33.33333F));
-            this.tableLayoutPanel5.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 33.33333F));
-            this.tableLayoutPanel5.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 33.33333F));
-            this.tableLayoutPanel5.Size = new System.Drawing.Size(568, 141);
-            this.tableLayoutPanel5.TabIndex = 5;
-            // 
-            // labUserName
-            // 
-            this.labUserName.AutoSize = true;
-            this.labUserName.Location = new System.Drawing.Point(192, 0);
-            this.labUserName.Name = "labUserName";
-            this.labUserName.Size = new System.Drawing.Size(149, 19);
-            this.labUserName.TabIndex = 7;
-            this.labUserName.Text = "Create User Name";
-            // 
-            // tbConfirmPassword
-            // 
-            this.tbConfirmPassword.Location = new System.Drawing.Point(381, 97);
-            this.tbConfirmPassword.Name = "tbConfirmPassword";
-            this.tbConfirmPassword.Size = new System.Drawing.Size(180, 26);
-            this.tbConfirmPassword.TabIndex = 10;
-            // 
-            // label4
-            // 
-            this.label4.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
-            this.label4.AutoSize = true;
-            this.label4.ForeColor = System.Drawing.Color.Red;
-            this.label4.Location = new System.Drawing.Point(170, 0);
-            this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(16, 19);
-            this.label4.TabIndex = 6;
-            this.label4.Text = "*";
-            // 
-            // tbUserName
-            // 
-            this.tbUserName.Location = new System.Drawing.Point(381, 3);
-            this.tbUserName.Name = "tbUserName";
-            this.tbUserName.Size = new System.Drawing.Size(180, 26);
-            this.tbUserName.TabIndex = 11;
-            // 
-            // label2
-            // 
-            this.label2.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
-            this.label2.AutoSize = true;
-            this.label2.ForeColor = System.Drawing.Color.Red;
-            this.label2.Location = new System.Drawing.Point(170, 94);
-            this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(16, 19);
-            this.label2.TabIndex = 8;
-            this.label2.Text = "*";
-            // 
-            // label1
-            // 
-            this.label1.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
-            this.label1.AutoSize = true;
-            this.label1.ForeColor = System.Drawing.Color.Red;
-            this.label1.Location = new System.Drawing.Point(170, 47);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(16, 19);
-            this.label1.TabIndex = 7;
-            this.label1.Text = "*";
-            // 
-            // tbPassword
-            // 
-            this.tbPassword.Location = new System.Drawing.Point(381, 50);
-            this.tbPassword.Name = "tbPassword";
-            this.tbPassword.Size = new System.Drawing.Size(180, 26);
-            this.tbPassword.TabIndex = 12;
-            // 
-            // labConfirmPassw
-            // 
-            this.labConfirmPassw.AutoSize = true;
-            this.labConfirmPassw.Location = new System.Drawing.Point(192, 94);
-            this.labConfirmPassw.Name = "labConfirmPassw";
-            this.labConfirmPassw.Size = new System.Drawing.Size(145, 19);
-            this.labConfirmPassw.TabIndex = 8;
-            this.labConfirmPassw.Text = "Confirm Password";
-            // 
-            // labCreatePassw
-            // 
-            this.labCreatePassw.AutoSize = true;
-            this.labCreatePassw.Location = new System.Drawing.Point(192, 47);
-            this.labCreatePassw.Name = "labCreatePassw";
-            this.labCreatePassw.Size = new System.Drawing.Size(133, 19);
-            this.labCreatePassw.TabIndex = 9;
-            this.labCreatePassw.Text = "Create Password";
             // 
             // flowLayoutPanel1
             // 
-            this.flowLayoutPanel1.Controls.Add(this.gbOtherPersonalDetail);
             this.flowLayoutPanel1.Controls.Add(this.gbPrimarydetails);
             this.flowLayoutPanel1.Controls.Add(this.gbEducaitonalDetails);
-            this.flowLayoutPanel1.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.flowLayoutPanel1.Controls.Add(this.gbOtherPersonalDetail);
             this.flowLayoutPanel1.Location = new System.Drawing.Point(0, 0);
             this.flowLayoutPanel1.Name = "flowLayoutPanel1";
-            this.flowLayoutPanel1.Size = new System.Drawing.Size(1204, 1047);
+            this.flowLayoutPanel1.Size = new System.Drawing.Size(1153, 812);
             this.flowLayoutPanel1.TabIndex = 5;
-            // 
-            // gbOtherPersonalDetail
-            // 
-            this.gbOtherPersonalDetail.Controls.Add(this.tableLayoutPanel3);
-            this.gbOtherPersonalDetail.Location = new System.Drawing.Point(3, 3);
-            this.gbOtherPersonalDetail.Name = "gbOtherPersonalDetail";
-            this.gbOtherPersonalDetail.Size = new System.Drawing.Size(1144, 241);
-            this.gbOtherPersonalDetail.TabIndex = 4;
-            this.gbOtherPersonalDetail.TabStop = false;
-            this.gbOtherPersonalDetail.Text = "Other Personal Detalis";
-            // 
-            // tableLayoutPanel3
-            // 
-            this.tableLayoutPanel3.ColumnCount = 4;
-            this.tableLayoutPanel3.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 16.66667F));
-            this.tableLayoutPanel3.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 16.66667F));
-            this.tableLayoutPanel3.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 16.66667F));
-            this.tableLayoutPanel3.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 16.66667F));
-            this.tableLayoutPanel3.Controls.Add(this.labMaritalStatus, 0, 4);
-            this.tableLayoutPanel3.Controls.Add(this.labM_Name, 0, 1);
-            this.tableLayoutPanel3.Controls.Add(this.labGuardDetails, 0, 0);
-            this.tableLayoutPanel3.Controls.Add(this.tbGuardFirstName, 2, 0);
-            this.tableLayoutPanel3.Controls.Add(this.tbGuardLastName, 1, 0);
-            this.tableLayoutPanel3.Controls.Add(this.tbGuardMiddleName, 3, 0);
-            this.tableLayoutPanel3.Controls.Add(this.tbMotherLastName, 1, 1);
-            this.tableLayoutPanel3.Controls.Add(this.tbMotherFirstName, 2, 1);
-            this.tableLayoutPanel3.Controls.Add(this.comboBox3, 1, 4);
-            this.tableLayoutPanel3.Controls.Add(this.tbMotherMiddleName, 3, 1);
-            this.tableLayoutPanel3.Controls.Add(this.labReligion, 2, 4);
-            this.tableLayoutPanel3.Controls.Add(this.comboBox2, 3, 4);
-            this.tableLayoutPanel3.Controls.Add(this.label3, 2, 3);
-            this.tableLayoutPanel3.Controls.Add(this.cbCategory, 3, 3);
-            this.tableLayoutPanel3.Controls.Add(this.labAadharNo, 0, 3);
-            this.tableLayoutPanel3.Controls.Add(this.tbAddharNo, 1, 3);
-            this.tableLayoutPanel3.Controls.Add(this.labCategory, 2, 2);
-            this.tableLayoutPanel3.Controls.Add(this.cbPhysicalDisab, 3, 2);
-            this.tableLayoutPanel3.Controls.Add(this.labParentsContNo, 0, 2);
-            this.tableLayoutPanel3.Controls.Add(this.tbPContactNo, 1, 2);
-            this.tableLayoutPanel3.Location = new System.Drawing.Point(6, 25);
-            this.tableLayoutPanel3.Name = "tableLayoutPanel3";
-            this.tableLayoutPanel3.RowCount = 5;
-            this.tableLayoutPanel3.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 16.66667F));
-            this.tableLayoutPanel3.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 16.66667F));
-            this.tableLayoutPanel3.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 16.66667F));
-            this.tableLayoutPanel3.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 16.66667F));
-            this.tableLayoutPanel3.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 16.66667F));
-            this.tableLayoutPanel3.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 20F));
-            this.tableLayoutPanel3.Size = new System.Drawing.Size(750, 209);
-            this.tableLayoutPanel3.TabIndex = 4;
-            // 
-            // labMaritalStatus
-            // 
-            this.labMaritalStatus.AutoSize = true;
-            this.labMaritalStatus.Location = new System.Drawing.Point(3, 164);
-            this.labMaritalStatus.Name = "labMaritalStatus";
-            this.labMaritalStatus.Size = new System.Drawing.Size(117, 19);
-            this.labMaritalStatus.TabIndex = 1;
-            this.labMaritalStatus.Text = "Marital Status";
-            // 
-            // labM_Name
-            // 
-            this.labM_Name.AutoSize = true;
-            this.labM_Name.Location = new System.Drawing.Point(3, 41);
-            this.labM_Name.Name = "labM_Name";
-            this.labM_Name.Size = new System.Drawing.Size(123, 19);
-            this.labM_Name.TabIndex = 0;
-            this.labM_Name.Text = "Mother\'s Name";
-            // 
-            // labGuardDetails
-            // 
-            this.labGuardDetails.AutoSize = true;
-            this.labGuardDetails.Location = new System.Drawing.Point(3, 0);
-            this.labGuardDetails.Name = "labGuardDetails";
-            this.labGuardDetails.Size = new System.Drawing.Size(169, 38);
-            this.labGuardDetails.TabIndex = 0;
-            this.labGuardDetails.Text = "Father\'s/ Husband\'s/ Guardian\'s name";
-            // 
-            // tbGuardFirstName
-            // 
-            this.tbGuardFirstName.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.tbGuardFirstName.Location = new System.Drawing.Point(377, 3);
-            this.tbGuardFirstName.Name = "tbGuardFirstName";
-            this.tbGuardFirstName.Size = new System.Drawing.Size(181, 26);
-            this.tbGuardFirstName.TabIndex = 2;
-            this.tbGuardFirstName.Text = "First Name";
-            // 
-            // tbGuardLastName
-            // 
-            this.tbGuardLastName.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.tbGuardLastName.Location = new System.Drawing.Point(190, 3);
-            this.tbGuardLastName.Name = "tbGuardLastName";
-            this.tbGuardLastName.Size = new System.Drawing.Size(181, 26);
-            this.tbGuardLastName.TabIndex = 2;
-            this.tbGuardLastName.Text = "Last Name";
-            // 
-            // tbGuardMiddleName
-            // 
-            this.tbGuardMiddleName.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.tbGuardMiddleName.Location = new System.Drawing.Point(564, 3);
-            this.tbGuardMiddleName.Name = "tbGuardMiddleName";
-            this.tbGuardMiddleName.Size = new System.Drawing.Size(183, 26);
-            this.tbGuardMiddleName.TabIndex = 2;
-            this.tbGuardMiddleName.Text = "Middle Name";
-            // 
-            // tbMotherLastName
-            // 
-            this.tbMotherLastName.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.tbMotherLastName.Location = new System.Drawing.Point(190, 44);
-            this.tbMotherLastName.Name = "tbMotherLastName";
-            this.tbMotherLastName.Size = new System.Drawing.Size(181, 26);
-            this.tbMotherLastName.TabIndex = 2;
-            this.tbMotherLastName.Text = "Last Name";
-            // 
-            // tbMotherFirstName
-            // 
-            this.tbMotherFirstName.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.tbMotherFirstName.Location = new System.Drawing.Point(377, 44);
-            this.tbMotherFirstName.Name = "tbMotherFirstName";
-            this.tbMotherFirstName.Size = new System.Drawing.Size(181, 26);
-            this.tbMotherFirstName.TabIndex = 2;
-            this.tbMotherFirstName.Text = "First Name";
-            // 
-            // comboBox3
-            // 
-            this.comboBox3.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.comboBox3.FormattingEnabled = true;
-            this.comboBox3.Location = new System.Drawing.Point(190, 167);
-            this.comboBox3.Name = "comboBox3";
-            this.comboBox3.Size = new System.Drawing.Size(181, 27);
-            this.comboBox3.TabIndex = 3;
-            // 
-            // tbMotherMiddleName
-            // 
-            this.tbMotherMiddleName.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.tbMotherMiddleName.Location = new System.Drawing.Point(564, 44);
-            this.tbMotherMiddleName.Name = "tbMotherMiddleName";
-            this.tbMotherMiddleName.Size = new System.Drawing.Size(183, 26);
-            this.tbMotherMiddleName.TabIndex = 2;
-            this.tbMotherMiddleName.Text = "Middle Name";
-            // 
-            // labReligion
-            // 
-            this.labReligion.AutoSize = true;
-            this.labReligion.Location = new System.Drawing.Point(377, 164);
-            this.labReligion.Name = "labReligion";
-            this.labReligion.Size = new System.Drawing.Size(71, 19);
-            this.labReligion.TabIndex = 0;
-            this.labReligion.Text = "Religion";
-            // 
-            // comboBox2
-            // 
-            this.comboBox2.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.comboBox2.FormattingEnabled = true;
-            this.comboBox2.Items.AddRange(new object[] {
-            "Hindu",
-            "Muslim",
-            "Christian",
-            "sikh",
-            "Buddist",
-            "Jain",
-            "Other religion",
-            "Not stated"});
-            this.comboBox2.Location = new System.Drawing.Point(564, 167);
-            this.comboBox2.Name = "comboBox2";
-            this.comboBox2.Size = new System.Drawing.Size(183, 27);
-            this.comboBox2.TabIndex = 3;
-            // 
-            // label3
-            // 
-            this.label3.AutoSize = true;
-            this.label3.Location = new System.Drawing.Point(377, 123);
-            this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(77, 19);
-            this.label3.TabIndex = 0;
-            this.label3.Text = "Category";
-            // 
-            // cbCategory
-            // 
-            this.cbCategory.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.cbCategory.FormattingEnabled = true;
-            this.cbCategory.Items.AddRange(new object[] {
-            "OPEN",
-            "OBC",
-            "SC",
-            "ST",
-            "SBC",
-            "VJ",
-            "NT-B",
-            "NT-D",
-            "NT-C"});
-            this.cbCategory.Location = new System.Drawing.Point(564, 126);
-            this.cbCategory.Name = "cbCategory";
-            this.cbCategory.Size = new System.Drawing.Size(183, 27);
-            this.cbCategory.TabIndex = 3;
-            // 
-            // labAadharNo
-            // 
-            this.labAadharNo.AutoSize = true;
-            this.labAadharNo.Location = new System.Drawing.Point(3, 123);
-            this.labAadharNo.Name = "labAadharNo";
-            this.labAadharNo.Size = new System.Drawing.Size(126, 19);
-            this.labAadharNo.TabIndex = 0;
-            this.labAadharNo.Text = "Adhar Card no.";
-            // 
-            // tbAddharNo
-            // 
-            this.tbAddharNo.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.tbAddharNo.Location = new System.Drawing.Point(190, 126);
-            this.tbAddharNo.MaxLength = 12;
-            this.tbAddharNo.Name = "tbAddharNo";
-            this.tbAddharNo.Size = new System.Drawing.Size(181, 26);
-            this.tbAddharNo.TabIndex = 2;
-            // 
-            // labCategory
-            // 
-            this.labCategory.AutoSize = true;
-            this.labCategory.Location = new System.Drawing.Point(377, 82);
-            this.labCategory.Name = "labCategory";
-            this.labCategory.Size = new System.Drawing.Size(143, 19);
-            this.labCategory.TabIndex = 0;
-            this.labCategory.Text = "Physial Disability";
-            // 
-            // cbPhysicalDisab
-            // 
-            this.cbPhysicalDisab.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.cbPhysicalDisab.FormattingEnabled = true;
-            this.cbPhysicalDisab.Items.AddRange(new object[] {
-            "Yes",
-            "No"});
-            this.cbPhysicalDisab.Location = new System.Drawing.Point(564, 85);
-            this.cbPhysicalDisab.Name = "cbPhysicalDisab";
-            this.cbPhysicalDisab.Size = new System.Drawing.Size(183, 27);
-            this.cbPhysicalDisab.TabIndex = 3;
-            // 
-            // labParentsContNo
-            // 
-            this.labParentsContNo.AutoSize = true;
-            this.labParentsContNo.Location = new System.Drawing.Point(3, 82);
-            this.labParentsContNo.Name = "labParentsContNo";
-            this.labParentsContNo.Size = new System.Drawing.Size(163, 19);
-            this.labParentsContNo.TabIndex = 0;
-            this.labParentsContNo.Text = "Parent\'s Contact No.";
-            // 
-            // tbPContactNo
-            // 
-            this.tbPContactNo.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.tbPContactNo.Location = new System.Drawing.Point(190, 85);
-            this.tbPContactNo.MaxLength = 10;
-            this.tbPContactNo.Name = "tbPContactNo";
-            this.tbPContactNo.Size = new System.Drawing.Size(181, 26);
-            this.tbPContactNo.TabIndex = 2;
             // 
             // gbPrimarydetails
             // 
             this.gbPrimarydetails.Controls.Add(this.tlpRegistraitonDet);
-            this.gbPrimarydetails.Location = new System.Drawing.Point(3, 250);
+            this.gbPrimarydetails.Location = new System.Drawing.Point(3, 3);
             this.gbPrimarydetails.Name = "gbPrimarydetails";
-            this.gbPrimarydetails.Size = new System.Drawing.Size(1144, 419);
+            this.gbPrimarydetails.Size = new System.Drawing.Size(1144, 400);
             this.gbPrimarydetails.TabIndex = 0;
             this.gbPrimarydetails.TabStop = false;
             this.gbPrimarydetails.Text = "Primary details";
@@ -535,31 +182,29 @@
             this.tlpRegistraitonDet.Controls.Add(this.labDate_of_birth, 0, 2);
             this.tlpRegistraitonDet.Controls.Add(this.labGender, 0, 3);
             this.tlpRegistraitonDet.Controls.Add(this.labContactDetails, 0, 5);
-            this.tlpRegistraitonDet.Controls.Add(this.labAddressL1, 0, 6);
-            this.tlpRegistraitonDet.Controls.Add(this.labAddressL2, 0, 7);
-            this.tlpRegistraitonDet.Controls.Add(this.labLandmark, 0, 8);
-            this.tlpRegistraitonDet.Controls.Add(this.labNationality, 0, 9);
-            this.tlpRegistraitonDet.Controls.Add(this.labState, 2, 9);
-            this.tlpRegistraitonDet.Controls.Add(this.labCity, 4, 9);
-            this.tlpRegistraitonDet.Controls.Add(this.labPinCode, 0, 10);
-            this.tlpRegistraitonDet.Controls.Add(this.labMobileNo, 2, 10);
+            this.tlpRegistraitonDet.Controls.Add(this.labAddress, 0, 6);
+            this.tlpRegistraitonDet.Controls.Add(this.labState, 2, 8);
+            this.tlpRegistraitonDet.Controls.Add(this.labCity, 4, 8);
+            this.tlpRegistraitonDet.Controls.Add(this.labPinCode, 0, 9);
+            this.tlpRegistraitonDet.Controls.Add(this.labMobileNo, 2, 9);
             this.tlpRegistraitonDet.Controls.Add(this.tbLastNam, 1, 0);
             this.tlpRegistraitonDet.Controls.Add(this.tbFirstName, 2, 0);
             this.tlpRegistraitonDet.Controls.Add(this.tbMiddleName, 3, 0);
             this.tlpRegistraitonDet.Controls.Add(this.tbEmail, 1, 1);
             this.tlpRegistraitonDet.Controls.Add(this.tbAddressLine1, 1, 6);
-            this.tlpRegistraitonDet.Controls.Add(this.tbAddressLine2, 1, 7);
-            this.tlpRegistraitonDet.Controls.Add(this.tbLandmark, 1, 8);
-            this.tlpRegistraitonDet.Controls.Add(this.tbPinCode, 1, 10);
-            this.tlpRegistraitonDet.Controls.Add(this.tbMobileNo, 3, 10);
-            this.tlpRegistraitonDet.Controls.Add(this.cbNationality, 1, 9);
-            this.tlpRegistraitonDet.Controls.Add(this.cbState, 3, 9);
-            this.tlpRegistraitonDet.Controls.Add(this.cbCity, 5, 9);
+            this.tlpRegistraitonDet.Controls.Add(this.tbLandmark, 1, 7);
+            this.tlpRegistraitonDet.Controls.Add(this.tbPinCode, 1, 9);
+            this.tlpRegistraitonDet.Controls.Add(this.tbMobileNo, 3, 9);
+            this.tlpRegistraitonDet.Controls.Add(this.cbNationality, 1, 8);
+            this.tlpRegistraitonDet.Controls.Add(this.cbState, 3, 8);
+            this.tlpRegistraitonDet.Controls.Add(this.cbCity, 5, 8);
             this.tlpRegistraitonDet.Controls.Add(this.dateTimePicker1, 1, 2);
             this.tlpRegistraitonDet.Controls.Add(this.comboBox1, 1, 3);
+            this.tlpRegistraitonDet.Controls.Add(this.labLandmark, 0, 8);
+            this.tlpRegistraitonDet.Controls.Add(this.labNationality, 0, 7);
             this.tlpRegistraitonDet.Location = new System.Drawing.Point(0, 25);
             this.tlpRegistraitonDet.Name = "tlpRegistraitonDet";
-            this.tlpRegistraitonDet.RowCount = 11;
+            this.tlpRegistraitonDet.RowCount = 10;
             this.tlpRegistraitonDet.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 9.090907F));
             this.tlpRegistraitonDet.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 9.090908F));
             this.tlpRegistraitonDet.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 9.090908F));
@@ -567,7 +212,6 @@
             this.tlpRegistraitonDet.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 4.675324F));
             this.tlpRegistraitonDet.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 9.350649F));
             this.tlpRegistraitonDet.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 8.831169F));
-            this.tlpRegistraitonDet.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 8.571428F));
             this.tlpRegistraitonDet.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 8.831169F));
             this.tlpRegistraitonDet.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 8.311688F));
             this.tlpRegistraitonDet.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 17.14286F));
@@ -579,7 +223,7 @@
             // 
             this.labName.Anchor = System.Windows.Forms.AnchorStyles.Left;
             this.labName.AutoSize = true;
-            this.labName.Location = new System.Drawing.Point(3, 6);
+            this.labName.Location = new System.Drawing.Point(3, 8);
             this.labName.Name = "labName";
             this.labName.Size = new System.Drawing.Size(59, 19);
             this.labName.TabIndex = 0;
@@ -589,7 +233,7 @@
             // 
             this.labEmail.Anchor = System.Windows.Forms.AnchorStyles.Left;
             this.labEmail.AutoSize = true;
-            this.labEmail.Location = new System.Drawing.Point(3, 38);
+            this.labEmail.Location = new System.Drawing.Point(3, 43);
             this.labEmail.Name = "labEmail";
             this.labEmail.Size = new System.Drawing.Size(56, 19);
             this.labEmail.TabIndex = 0;
@@ -599,7 +243,7 @@
             // 
             this.labDate_of_birth.Anchor = System.Windows.Forms.AnchorStyles.Left;
             this.labDate_of_birth.AutoSize = true;
-            this.labDate_of_birth.Location = new System.Drawing.Point(3, 70);
+            this.labDate_of_birth.Location = new System.Drawing.Point(3, 78);
             this.labDate_of_birth.Name = "labDate_of_birth";
             this.labDate_of_birth.Size = new System.Drawing.Size(107, 19);
             this.labDate_of_birth.TabIndex = 0;
@@ -609,7 +253,7 @@
             // 
             this.labGender.Anchor = System.Windows.Forms.AnchorStyles.Left;
             this.labGender.AutoSize = true;
-            this.labGender.Location = new System.Drawing.Point(3, 103);
+            this.labGender.Location = new System.Drawing.Point(3, 113);
             this.labGender.Name = "labGender";
             this.labGender.Size = new System.Drawing.Size(63, 19);
             this.labGender.TabIndex = 0;
@@ -618,37 +262,27 @@
             // labContactDetails
             // 
             this.labContactDetails.AutoSize = true;
-            this.labContactDetails.Location = new System.Drawing.Point(3, 145);
+            this.labContactDetails.Location = new System.Drawing.Point(3, 159);
             this.labContactDetails.Name = "labContactDetails";
             this.labContactDetails.Size = new System.Drawing.Size(124, 19);
             this.labContactDetails.TabIndex = 0;
             this.labContactDetails.Text = "Contact Details";
             // 
-            // labAddressL1
+            // labAddress
             // 
-            this.labAddressL1.Anchor = System.Windows.Forms.AnchorStyles.Left;
-            this.labAddressL1.AutoSize = true;
-            this.labAddressL1.Location = new System.Drawing.Point(3, 184);
-            this.labAddressL1.Name = "labAddressL1";
-            this.labAddressL1.Size = new System.Drawing.Size(117, 19);
-            this.labAddressL1.TabIndex = 0;
-            this.labAddressL1.Text = "Address Line 1";
-            // 
-            // labAddressL2
-            // 
-            this.labAddressL2.Anchor = System.Windows.Forms.AnchorStyles.Left;
-            this.labAddressL2.AutoSize = true;
-            this.labAddressL2.Location = new System.Drawing.Point(3, 214);
-            this.labAddressL2.Name = "labAddressL2";
-            this.labAddressL2.Size = new System.Drawing.Size(119, 19);
-            this.labAddressL2.TabIndex = 0;
-            this.labAddressL2.Text = "Address Line 2";
+            this.labAddress.Anchor = System.Windows.Forms.AnchorStyles.Left;
+            this.labAddress.AutoSize = true;
+            this.labAddress.Location = new System.Drawing.Point(3, 202);
+            this.labAddress.Name = "labAddress";
+            this.labAddress.Size = new System.Drawing.Size(74, 19);
+            this.labAddress.TabIndex = 0;
+            this.labAddress.Text = "Address ";
             // 
             // labLandmark
             // 
             this.labLandmark.Anchor = System.Windows.Forms.AnchorStyles.Left;
             this.labLandmark.AutoSize = true;
-            this.labLandmark.Location = new System.Drawing.Point(3, 245);
+            this.labLandmark.Location = new System.Drawing.Point(3, 269);
             this.labLandmark.Name = "labLandmark";
             this.labLandmark.Size = new System.Drawing.Size(86, 19);
             this.labLandmark.TabIndex = 0;
@@ -658,7 +292,7 @@
             // 
             this.labNationality.Anchor = System.Windows.Forms.AnchorStyles.Left;
             this.labNationality.AutoSize = true;
-            this.labNationality.Location = new System.Drawing.Point(3, 275);
+            this.labNationality.Location = new System.Drawing.Point(3, 236);
             this.labNationality.Name = "labNationality";
             this.labNationality.Size = new System.Drawing.Size(96, 19);
             this.labNationality.TabIndex = 0;
@@ -668,7 +302,7 @@
             // 
             this.labState.Anchor = System.Windows.Forms.AnchorStyles.Left;
             this.labState.AutoSize = true;
-            this.labState.Location = new System.Drawing.Point(381, 275);
+            this.labState.Location = new System.Drawing.Point(381, 269);
             this.labState.Name = "labState";
             this.labState.Size = new System.Drawing.Size(46, 19);
             this.labState.TabIndex = 0;
@@ -678,7 +312,7 @@
             // 
             this.labCity.Anchor = System.Windows.Forms.AnchorStyles.Left;
             this.labCity.AutoSize = true;
-            this.labCity.Location = new System.Drawing.Point(759, 275);
+            this.labCity.Location = new System.Drawing.Point(759, 269);
             this.labCity.Name = "labCity";
             this.labCity.Size = new System.Drawing.Size(40, 19);
             this.labCity.TabIndex = 0;
@@ -688,7 +322,7 @@
             // 
             this.labPinCode.Anchor = System.Windows.Forms.AnchorStyles.Left;
             this.labPinCode.AutoSize = true;
-            this.labPinCode.Location = new System.Drawing.Point(3, 324);
+            this.labPinCode.Location = new System.Drawing.Point(3, 322);
             this.labPinCode.Name = "labPinCode";
             this.labPinCode.Size = new System.Drawing.Size(75, 19);
             this.labPinCode.TabIndex = 0;
@@ -698,7 +332,7 @@
             // 
             this.labMobileNo.Anchor = System.Windows.Forms.AnchorStyles.Left;
             this.labMobileNo.AutoSize = true;
-            this.labMobileNo.Location = new System.Drawing.Point(381, 324);
+            this.labMobileNo.Location = new System.Drawing.Point(381, 322);
             this.labMobileNo.Name = "labMobileNo";
             this.labMobileNo.Size = new System.Drawing.Size(91, 19);
             this.labMobileNo.TabIndex = 0;
@@ -734,7 +368,7 @@
             // tbEmail
             // 
             this.tbEmail.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.tbEmail.Location = new System.Drawing.Point(192, 35);
+            this.tbEmail.Location = new System.Drawing.Point(192, 38);
             this.tbEmail.Name = "tbEmail";
             this.tbEmail.Size = new System.Drawing.Size(183, 26);
             this.tbEmail.TabIndex = 1;
@@ -743,23 +377,15 @@
             // tbAddressLine1
             // 
             this.tbAddressLine1.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.tbAddressLine1.Location = new System.Drawing.Point(192, 181);
+            this.tbAddressLine1.Location = new System.Drawing.Point(192, 198);
             this.tbAddressLine1.Name = "tbAddressLine1";
             this.tbAddressLine1.Size = new System.Drawing.Size(183, 26);
             this.tbAddressLine1.TabIndex = 1;
             // 
-            // tbAddressLine2
-            // 
-            this.tbAddressLine2.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.tbAddressLine2.Location = new System.Drawing.Point(192, 212);
-            this.tbAddressLine2.Name = "tbAddressLine2";
-            this.tbAddressLine2.Size = new System.Drawing.Size(183, 26);
-            this.tbAddressLine2.TabIndex = 1;
-            // 
             // tbLandmark
             // 
             this.tbLandmark.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.tbLandmark.Location = new System.Drawing.Point(192, 242);
+            this.tbLandmark.Location = new System.Drawing.Point(192, 232);
             this.tbLandmark.Name = "tbLandmark";
             this.tbLandmark.Size = new System.Drawing.Size(183, 26);
             this.tbLandmark.TabIndex = 1;
@@ -767,7 +393,7 @@
             // tbPinCode
             // 
             this.tbPinCode.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.tbPinCode.Location = new System.Drawing.Point(192, 302);
+            this.tbPinCode.Location = new System.Drawing.Point(192, 298);
             this.tbPinCode.MaxLength = 8;
             this.tbPinCode.Name = "tbPinCode";
             this.tbPinCode.Size = new System.Drawing.Size(183, 26);
@@ -776,7 +402,7 @@
             // tbMobileNo
             // 
             this.tbMobileNo.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.tbMobileNo.Location = new System.Drawing.Point(570, 302);
+            this.tbMobileNo.Location = new System.Drawing.Point(570, 298);
             this.tbMobileNo.Name = "tbMobileNo";
             this.tbMobileNo.Size = new System.Drawing.Size(183, 26);
             this.tbMobileNo.TabIndex = 1;
@@ -1176,7 +802,7 @@
             "  - \"Yemenite\"",
             "  - \"Zambian\"",
             "  - \"Zimbabwean\""});
-            this.cbNationality.Location = new System.Drawing.Point(192, 273);
+            this.cbNationality.Location = new System.Drawing.Point(192, 266);
             this.cbNationality.Name = "cbNationality";
             this.cbNationality.Size = new System.Drawing.Size(183, 27);
             this.cbNationality.TabIndex = 2;
@@ -1222,7 +848,7 @@
             "UTTARAKHAND",
             "UTTAR PRADESH",
             "WEST BENGAL"});
-            this.cbState.Location = new System.Drawing.Point(570, 273);
+            this.cbState.Location = new System.Drawing.Point(570, 266);
             this.cbState.Name = "cbState";
             this.cbState.Size = new System.Drawing.Size(183, 27);
             this.cbState.TabIndex = 2;
@@ -1259,7 +885,7 @@
             "Thane",
             "Ulhasnagar",
             "Vasai-Virar"});
-            this.cbCity.Location = new System.Drawing.Point(948, 273);
+            this.cbCity.Location = new System.Drawing.Point(948, 266);
             this.cbCity.Name = "cbCity";
             this.cbCity.Size = new System.Drawing.Size(187, 27);
             this.cbCity.TabIndex = 2;
@@ -1267,7 +893,7 @@
             // dateTimePicker1
             // 
             this.dateTimePicker1.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.dateTimePicker1.Location = new System.Drawing.Point(192, 67);
+            this.dateTimePicker1.Location = new System.Drawing.Point(192, 73);
             this.dateTimePicker1.Name = "dateTimePicker1";
             this.dateTimePicker1.Size = new System.Drawing.Size(183, 26);
             this.dateTimePicker1.TabIndex = 4;
@@ -1280,7 +906,7 @@
             "Male",
             "Female",
             "Transgender"});
-            this.comboBox1.Location = new System.Drawing.Point(192, 99);
+            this.comboBox1.Location = new System.Drawing.Point(192, 108);
             this.comboBox1.Name = "comboBox1";
             this.comboBox1.Size = new System.Drawing.Size(183, 27);
             this.comboBox1.TabIndex = 7;
@@ -1288,7 +914,7 @@
             // gbEducaitonalDetails
             // 
             this.gbEducaitonalDetails.Controls.Add(this.tableLayoutPanel2);
-            this.gbEducaitonalDetails.Location = new System.Drawing.Point(3, 675);
+            this.gbEducaitonalDetails.Location = new System.Drawing.Point(3, 409);
             this.gbEducaitonalDetails.Name = "gbEducaitonalDetails";
             this.gbEducaitonalDetails.Size = new System.Drawing.Size(1144, 157);
             this.gbEducaitonalDetails.TabIndex = 3;
@@ -1635,6 +1261,257 @@
             this.tbMaxmark.Size = new System.Drawing.Size(182, 26);
             this.tbMaxmark.TabIndex = 17;
             // 
+            // gbOtherPersonalDetail
+            // 
+            this.gbOtherPersonalDetail.Controls.Add(this.tableLayoutPanel3);
+            this.gbOtherPersonalDetail.Location = new System.Drawing.Point(3, 572);
+            this.gbOtherPersonalDetail.Name = "gbOtherPersonalDetail";
+            this.gbOtherPersonalDetail.Size = new System.Drawing.Size(1144, 241);
+            this.gbOtherPersonalDetail.TabIndex = 4;
+            this.gbOtherPersonalDetail.TabStop = false;
+            this.gbOtherPersonalDetail.Text = "Other Personal Detalis";
+            // 
+            // tableLayoutPanel3
+            // 
+            this.tableLayoutPanel3.ColumnCount = 4;
+            this.tableLayoutPanel3.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 16.66667F));
+            this.tableLayoutPanel3.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 16.66667F));
+            this.tableLayoutPanel3.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 16.66667F));
+            this.tableLayoutPanel3.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 16.66667F));
+            this.tableLayoutPanel3.Controls.Add(this.labMaritalStatus, 0, 4);
+            this.tableLayoutPanel3.Controls.Add(this.labM_Name, 0, 1);
+            this.tableLayoutPanel3.Controls.Add(this.labGuardDetails, 0, 0);
+            this.tableLayoutPanel3.Controls.Add(this.tbGuardFirstName, 2, 0);
+            this.tableLayoutPanel3.Controls.Add(this.tbGuardLastName, 1, 0);
+            this.tableLayoutPanel3.Controls.Add(this.tbGuardMiddleName, 3, 0);
+            this.tableLayoutPanel3.Controls.Add(this.tbMotherLastName, 1, 1);
+            this.tableLayoutPanel3.Controls.Add(this.tbMotherFirstName, 2, 1);
+            this.tableLayoutPanel3.Controls.Add(this.comboBox3, 1, 4);
+            this.tableLayoutPanel3.Controls.Add(this.tbMotherMiddleName, 3, 1);
+            this.tableLayoutPanel3.Controls.Add(this.labReligion, 2, 4);
+            this.tableLayoutPanel3.Controls.Add(this.comboBox2, 3, 4);
+            this.tableLayoutPanel3.Controls.Add(this.label3, 2, 3);
+            this.tableLayoutPanel3.Controls.Add(this.cbCategory, 3, 3);
+            this.tableLayoutPanel3.Controls.Add(this.labAadharNo, 0, 3);
+            this.tableLayoutPanel3.Controls.Add(this.tbAddharNo, 1, 3);
+            this.tableLayoutPanel3.Controls.Add(this.labCategory, 2, 2);
+            this.tableLayoutPanel3.Controls.Add(this.cbPhysicalDisab, 3, 2);
+            this.tableLayoutPanel3.Controls.Add(this.labParentsContNo, 0, 2);
+            this.tableLayoutPanel3.Controls.Add(this.tbPContactNo, 1, 2);
+            this.tableLayoutPanel3.Location = new System.Drawing.Point(6, 25);
+            this.tableLayoutPanel3.Name = "tableLayoutPanel3";
+            this.tableLayoutPanel3.RowCount = 5;
+            this.tableLayoutPanel3.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 16.66667F));
+            this.tableLayoutPanel3.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 16.66667F));
+            this.tableLayoutPanel3.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 16.66667F));
+            this.tableLayoutPanel3.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 16.66667F));
+            this.tableLayoutPanel3.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 16.66667F));
+            this.tableLayoutPanel3.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 20F));
+            this.tableLayoutPanel3.Size = new System.Drawing.Size(750, 209);
+            this.tableLayoutPanel3.TabIndex = 4;
+            // 
+            // labMaritalStatus
+            // 
+            this.labMaritalStatus.AutoSize = true;
+            this.labMaritalStatus.Location = new System.Drawing.Point(3, 164);
+            this.labMaritalStatus.Name = "labMaritalStatus";
+            this.labMaritalStatus.Size = new System.Drawing.Size(117, 19);
+            this.labMaritalStatus.TabIndex = 1;
+            this.labMaritalStatus.Text = "Marital Status";
+            // 
+            // labM_Name
+            // 
+            this.labM_Name.AutoSize = true;
+            this.labM_Name.Location = new System.Drawing.Point(3, 41);
+            this.labM_Name.Name = "labM_Name";
+            this.labM_Name.Size = new System.Drawing.Size(123, 19);
+            this.labM_Name.TabIndex = 0;
+            this.labM_Name.Text = "Mother\'s Name";
+            // 
+            // labGuardDetails
+            // 
+            this.labGuardDetails.AutoSize = true;
+            this.labGuardDetails.Location = new System.Drawing.Point(3, 0);
+            this.labGuardDetails.Name = "labGuardDetails";
+            this.labGuardDetails.Size = new System.Drawing.Size(169, 38);
+            this.labGuardDetails.TabIndex = 0;
+            this.labGuardDetails.Text = "Father\'s/ Husband\'s/ Guardian\'s name";
+            // 
+            // tbGuardFirstName
+            // 
+            this.tbGuardFirstName.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.tbGuardFirstName.Location = new System.Drawing.Point(377, 3);
+            this.tbGuardFirstName.Name = "tbGuardFirstName";
+            this.tbGuardFirstName.Size = new System.Drawing.Size(181, 26);
+            this.tbGuardFirstName.TabIndex = 2;
+            this.tbGuardFirstName.Text = "First Name";
+            // 
+            // tbGuardLastName
+            // 
+            this.tbGuardLastName.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.tbGuardLastName.Location = new System.Drawing.Point(190, 3);
+            this.tbGuardLastName.Name = "tbGuardLastName";
+            this.tbGuardLastName.Size = new System.Drawing.Size(181, 26);
+            this.tbGuardLastName.TabIndex = 2;
+            this.tbGuardLastName.Text = "Last Name";
+            // 
+            // tbGuardMiddleName
+            // 
+            this.tbGuardMiddleName.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.tbGuardMiddleName.Location = new System.Drawing.Point(564, 3);
+            this.tbGuardMiddleName.Name = "tbGuardMiddleName";
+            this.tbGuardMiddleName.Size = new System.Drawing.Size(183, 26);
+            this.tbGuardMiddleName.TabIndex = 2;
+            this.tbGuardMiddleName.Text = "Middle Name";
+            // 
+            // tbMotherLastName
+            // 
+            this.tbMotherLastName.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.tbMotherLastName.Location = new System.Drawing.Point(190, 44);
+            this.tbMotherLastName.Name = "tbMotherLastName";
+            this.tbMotherLastName.Size = new System.Drawing.Size(181, 26);
+            this.tbMotherLastName.TabIndex = 2;
+            this.tbMotherLastName.Text = "Last Name";
+            // 
+            // tbMotherFirstName
+            // 
+            this.tbMotherFirstName.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.tbMotherFirstName.Location = new System.Drawing.Point(377, 44);
+            this.tbMotherFirstName.Name = "tbMotherFirstName";
+            this.tbMotherFirstName.Size = new System.Drawing.Size(181, 26);
+            this.tbMotherFirstName.TabIndex = 2;
+            this.tbMotherFirstName.Text = "First Name";
+            // 
+            // comboBox3
+            // 
+            this.comboBox3.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.comboBox3.FormattingEnabled = true;
+            this.comboBox3.Location = new System.Drawing.Point(190, 167);
+            this.comboBox3.Name = "comboBox3";
+            this.comboBox3.Size = new System.Drawing.Size(181, 27);
+            this.comboBox3.TabIndex = 3;
+            // 
+            // tbMotherMiddleName
+            // 
+            this.tbMotherMiddleName.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.tbMotherMiddleName.Location = new System.Drawing.Point(564, 44);
+            this.tbMotherMiddleName.Name = "tbMotherMiddleName";
+            this.tbMotherMiddleName.Size = new System.Drawing.Size(183, 26);
+            this.tbMotherMiddleName.TabIndex = 2;
+            this.tbMotherMiddleName.Text = "Middle Name";
+            // 
+            // labReligion
+            // 
+            this.labReligion.AutoSize = true;
+            this.labReligion.Location = new System.Drawing.Point(377, 164);
+            this.labReligion.Name = "labReligion";
+            this.labReligion.Size = new System.Drawing.Size(71, 19);
+            this.labReligion.TabIndex = 0;
+            this.labReligion.Text = "Religion";
+            // 
+            // comboBox2
+            // 
+            this.comboBox2.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.comboBox2.FormattingEnabled = true;
+            this.comboBox2.Items.AddRange(new object[] {
+            "Hindu",
+            "Muslim",
+            "Christian",
+            "sikh",
+            "Buddist",
+            "Jain",
+            "Other religion",
+            "Not stated"});
+            this.comboBox2.Location = new System.Drawing.Point(564, 167);
+            this.comboBox2.Name = "comboBox2";
+            this.comboBox2.Size = new System.Drawing.Size(183, 27);
+            this.comboBox2.TabIndex = 3;
+            // 
+            // label3
+            // 
+            this.label3.AutoSize = true;
+            this.label3.Location = new System.Drawing.Point(377, 123);
+            this.label3.Name = "label3";
+            this.label3.Size = new System.Drawing.Size(77, 19);
+            this.label3.TabIndex = 0;
+            this.label3.Text = "Category";
+            // 
+            // cbCategory
+            // 
+            this.cbCategory.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.cbCategory.FormattingEnabled = true;
+            this.cbCategory.Items.AddRange(new object[] {
+            "OPEN",
+            "OBC",
+            "SC",
+            "ST",
+            "SBC",
+            "VJ",
+            "NT-B",
+            "NT-D",
+            "NT-C"});
+            this.cbCategory.Location = new System.Drawing.Point(564, 126);
+            this.cbCategory.Name = "cbCategory";
+            this.cbCategory.Size = new System.Drawing.Size(183, 27);
+            this.cbCategory.TabIndex = 3;
+            // 
+            // labAadharNo
+            // 
+            this.labAadharNo.AutoSize = true;
+            this.labAadharNo.Location = new System.Drawing.Point(3, 123);
+            this.labAadharNo.Name = "labAadharNo";
+            this.labAadharNo.Size = new System.Drawing.Size(126, 19);
+            this.labAadharNo.TabIndex = 0;
+            this.labAadharNo.Text = "Adhar Card no.";
+            // 
+            // tbAddharNo
+            // 
+            this.tbAddharNo.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.tbAddharNo.Location = new System.Drawing.Point(190, 126);
+            this.tbAddharNo.MaxLength = 12;
+            this.tbAddharNo.Name = "tbAddharNo";
+            this.tbAddharNo.Size = new System.Drawing.Size(181, 26);
+            this.tbAddharNo.TabIndex = 2;
+            // 
+            // labCategory
+            // 
+            this.labCategory.AutoSize = true;
+            this.labCategory.Location = new System.Drawing.Point(377, 82);
+            this.labCategory.Name = "labCategory";
+            this.labCategory.Size = new System.Drawing.Size(143, 19);
+            this.labCategory.TabIndex = 0;
+            this.labCategory.Text = "Physial Disability";
+            // 
+            // cbPhysicalDisab
+            // 
+            this.cbPhysicalDisab.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.cbPhysicalDisab.FormattingEnabled = true;
+            this.cbPhysicalDisab.Items.AddRange(new object[] {
+            "Yes",
+            "No"});
+            this.cbPhysicalDisab.Location = new System.Drawing.Point(564, 85);
+            this.cbPhysicalDisab.Name = "cbPhysicalDisab";
+            this.cbPhysicalDisab.Size = new System.Drawing.Size(183, 27);
+            this.cbPhysicalDisab.TabIndex = 3;
+            // 
+            // labParentsContNo
+            // 
+            this.labParentsContNo.AutoSize = true;
+            this.labParentsContNo.Location = new System.Drawing.Point(3, 82);
+            this.labParentsContNo.Name = "labParentsContNo";
+            this.labParentsContNo.Size = new System.Drawing.Size(163, 19);
+            this.labParentsContNo.TabIndex = 0;
+            this.labParentsContNo.Text = "Parent\'s Contact No.";
+            // 
+            // tbPContactNo
+            // 
+            this.tbPContactNo.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.tbPContactNo.Location = new System.Drawing.Point(190, 85);
+            this.tbPContactNo.MaxLength = 10;
+            this.tbPContactNo.Name = "tbPContactNo";
+            this.tbPContactNo.Size = new System.Drawing.Size(181, 26);
+            this.tbPContactNo.TabIndex = 2;
+            // 
             // tableLayoutPanel1
             // 
             this.tableLayoutPanel1.ColumnCount = 2;
@@ -1671,28 +1548,181 @@
             this.butSubmit.Text = "Submit";
             this.butSubmit.UseVisualStyleBackColor = true;
             // 
+            // gbregistrAuthority
+            // 
+            this.gbregistrAuthority.Controls.Add(this.lbUser);
+            this.gbregistrAuthority.Controls.Add(this.rbutStudent);
+            this.gbregistrAuthority.Controls.Add(this.rbutTeacher);
+            this.gbregistrAuthority.Location = new System.Drawing.Point(282, 944);
+            this.gbregistrAuthority.Name = "gbregistrAuthority";
+            this.gbregistrAuthority.Size = new System.Drawing.Size(474, 56);
+            this.gbregistrAuthority.TabIndex = 6;
+            this.gbregistrAuthority.TabStop = false;
+            this.gbregistrAuthority.Text = "Registration Authority";
+            // 
+            // lbUser
+            // 
+            this.lbUser.AutoSize = true;
+            this.lbUser.Location = new System.Drawing.Point(9, 25);
+            this.lbUser.Name = "lbUser";
+            this.lbUser.Size = new System.Drawing.Size(45, 19);
+            this.lbUser.TabIndex = 1;
+            this.lbUser.Text = "User";
+            // 
+            // rbutStudent
+            // 
+            this.rbutStudent.AutoSize = true;
+            this.rbutStudent.Location = new System.Drawing.Point(302, 25);
+            this.rbutStudent.Name = "rbutStudent";
+            this.rbutStudent.Size = new System.Drawing.Size(87, 23);
+            this.rbutStudent.TabIndex = 0;
+            this.rbutStudent.TabStop = true;
+            this.rbutStudent.Text = "Student";
+            this.rbutStudent.UseVisualStyleBackColor = true;
+            // 
+            // rbutTeacher
+            // 
+            this.rbutTeacher.AutoSize = true;
+            this.rbutTeacher.Location = new System.Drawing.Point(115, 25);
+            this.rbutTeacher.Name = "rbutTeacher";
+            this.rbutTeacher.Size = new System.Drawing.Size(95, 23);
+            this.rbutTeacher.TabIndex = 0;
+            this.rbutTeacher.TabStop = true;
+            this.rbutTeacher.Text = "Teacher ";
+            this.rbutTeacher.UseVisualStyleBackColor = true;
+            // 
+            // tableLayoutPanel5
+            // 
+            this.tableLayoutPanel5.ColumnCount = 3;
+            this.tableLayoutPanel5.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 4.225352F));
+            this.tableLayoutPanel5.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 47.89474F));
+            this.tableLayoutPanel5.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 47.89474F));
+            this.tableLayoutPanel5.Controls.Add(this.labUserName, 1, 0);
+            this.tableLayoutPanel5.Controls.Add(this.tbConfirmPassword, 2, 2);
+            this.tableLayoutPanel5.Controls.Add(this.label4, 0, 0);
+            this.tableLayoutPanel5.Controls.Add(this.tbUserName, 2, 0);
+            this.tableLayoutPanel5.Controls.Add(this.label2, 0, 2);
+            this.tableLayoutPanel5.Controls.Add(this.label1, 0, 1);
+            this.tableLayoutPanel5.Controls.Add(this.tbPassword, 2, 1);
+            this.tableLayoutPanel5.Controls.Add(this.labConfirmPassw, 1, 2);
+            this.tableLayoutPanel5.Controls.Add(this.labCreatePassw, 1, 1);
+            this.tableLayoutPanel5.Location = new System.Drawing.Point(282, 832);
+            this.tableLayoutPanel5.Name = "tableLayoutPanel5";
+            this.tableLayoutPanel5.RowCount = 3;
+            this.tableLayoutPanel5.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 33.33333F));
+            this.tableLayoutPanel5.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 33.33333F));
+            this.tableLayoutPanel5.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 33.33333F));
+            this.tableLayoutPanel5.Size = new System.Drawing.Size(400, 106);
+            this.tableLayoutPanel5.TabIndex = 5;
+            // 
+            // labUserName
+            // 
+            this.labUserName.AutoSize = true;
+            this.labUserName.Location = new System.Drawing.Point(19, 0);
+            this.labUserName.Name = "labUserName";
+            this.labUserName.Size = new System.Drawing.Size(149, 19);
+            this.labUserName.TabIndex = 7;
+            this.labUserName.Text = "Create User Name";
+            // 
+            // tbConfirmPassword
+            // 
+            this.tbConfirmPassword.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.tbConfirmPassword.Location = new System.Drawing.Point(210, 73);
+            this.tbConfirmPassword.Name = "tbConfirmPassword";
+            this.tbConfirmPassword.Size = new System.Drawing.Size(187, 26);
+            this.tbConfirmPassword.TabIndex = 10;
+            // 
+            // label4
+            // 
+            this.label4.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
+            this.label4.AutoSize = true;
+            this.label4.ForeColor = System.Drawing.Color.Red;
+            this.label4.Location = new System.Drawing.Point(3, 0);
+            this.label4.Name = "label4";
+            this.label4.Size = new System.Drawing.Size(10, 19);
+            this.label4.TabIndex = 6;
+            this.label4.Text = "*";
+            // 
+            // tbUserName
+            // 
+            this.tbUserName.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.tbUserName.Location = new System.Drawing.Point(210, 3);
+            this.tbUserName.Name = "tbUserName";
+            this.tbUserName.Size = new System.Drawing.Size(187, 26);
+            this.tbUserName.TabIndex = 11;
+            // 
+            // label2
+            // 
+            this.label2.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
+            this.label2.AutoSize = true;
+            this.label2.ForeColor = System.Drawing.Color.Red;
+            this.label2.Location = new System.Drawing.Point(3, 70);
+            this.label2.Name = "label2";
+            this.label2.Size = new System.Drawing.Size(10, 19);
+            this.label2.TabIndex = 8;
+            this.label2.Text = "*";
+            // 
+            // label1
+            // 
+            this.label1.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
+            this.label1.AutoSize = true;
+            this.label1.ForeColor = System.Drawing.Color.Red;
+            this.label1.Location = new System.Drawing.Point(3, 35);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(10, 19);
+            this.label1.TabIndex = 7;
+            this.label1.Text = "*";
+            // 
+            // tbPassword
+            // 
+            this.tbPassword.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.tbPassword.Location = new System.Drawing.Point(210, 38);
+            this.tbPassword.Name = "tbPassword";
+            this.tbPassword.Size = new System.Drawing.Size(187, 26);
+            this.tbPassword.TabIndex = 12;
+            // 
+            // labConfirmPassw
+            // 
+            this.labConfirmPassw.AutoSize = true;
+            this.labConfirmPassw.Location = new System.Drawing.Point(19, 70);
+            this.labConfirmPassw.Name = "labConfirmPassw";
+            this.labConfirmPassw.Size = new System.Drawing.Size(145, 19);
+            this.labConfirmPassw.TabIndex = 8;
+            this.labConfirmPassw.Text = "Confirm Password";
+            // 
+            // labCreatePassw
+            // 
+            this.labCreatePassw.AutoSize = true;
+            this.labCreatePassw.Location = new System.Drawing.Point(19, 35);
+            this.labCreatePassw.Name = "labCreatePassw";
+            this.labCreatePassw.Size = new System.Drawing.Size(133, 19);
+            this.labCreatePassw.TabIndex = 9;
+            this.labCreatePassw.Text = "Create Password";
+            // 
             // RegistrationModule
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(10F, 19F);
-            this.ClientSize = new System.Drawing.Size(1225, 989);
+            this.ClientSize = new System.Drawing.Size(1181, 961);
             this.Controls.Add(this.panel1);
             this.Location = new System.Drawing.Point(0, 0);
             this.Name = "RegistrationModule";
             this.Controls.SetChildIndex(this.panel1, 0);
             this.panel1.ResumeLayout(false);
-            this.tableLayoutPanel5.ResumeLayout(false);
-            this.tableLayoutPanel5.PerformLayout();
             this.flowLayoutPanel1.ResumeLayout(false);
-            this.gbOtherPersonalDetail.ResumeLayout(false);
-            this.tableLayoutPanel3.ResumeLayout(false);
-            this.tableLayoutPanel3.PerformLayout();
             this.gbPrimarydetails.ResumeLayout(false);
             this.tlpRegistraitonDet.ResumeLayout(false);
             this.tlpRegistraitonDet.PerformLayout();
             this.gbEducaitonalDetails.ResumeLayout(false);
             this.tableLayoutPanel2.ResumeLayout(false);
             this.tableLayoutPanel2.PerformLayout();
+            this.gbOtherPersonalDetail.ResumeLayout(false);
+            this.tableLayoutPanel3.ResumeLayout(false);
+            this.tableLayoutPanel3.PerformLayout();
             this.tableLayoutPanel1.ResumeLayout(false);
+            this.gbregistrAuthority.ResumeLayout(false);
+            this.gbregistrAuthority.PerformLayout();
+            this.tableLayoutPanel5.ResumeLayout(false);
+            this.tableLayoutPanel5.PerformLayout();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -1712,8 +1742,7 @@
         private System.Windows.Forms.Label labDate_of_birth;
         private System.Windows.Forms.Label labGender;
         private System.Windows.Forms.Label labContactDetails;
-        private System.Windows.Forms.Label labAddressL1;
-        private System.Windows.Forms.Label labAddressL2;
+        private System.Windows.Forms.Label labAddress;
         private System.Windows.Forms.Label labLandmark;
         private System.Windows.Forms.Label labNationality;
         private System.Windows.Forms.Label labState;
@@ -1725,7 +1754,6 @@
         private System.Windows.Forms.TextBox tbMiddleName;
         private System.Windows.Forms.TextBox tbEmail;
         private System.Windows.Forms.TextBox tbAddressLine1;
-        private System.Windows.Forms.TextBox tbAddressLine2;
         private System.Windows.Forms.TextBox tbLandmark;
         private System.Windows.Forms.TextBox tbPinCode;
         private System.Windows.Forms.TextBox tbMobileNo;
@@ -1792,5 +1820,9 @@
         private System.Windows.Forms.TextBox tbPassword;
         private System.Windows.Forms.Label labConfirmPassw;
         private System.Windows.Forms.Label labCreatePassw;
+        private System.Windows.Forms.GroupBox gbregistrAuthority;
+        private System.Windows.Forms.Label lbUser;
+        private System.Windows.Forms.RadioButton rbutStudent;
+        private System.Windows.Forms.RadioButton rbutTeacher;
     }
 }
