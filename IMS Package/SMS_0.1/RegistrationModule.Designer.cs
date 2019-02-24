@@ -44,9 +44,9 @@
             this.rbutTeacher = new System.Windows.Forms.RadioButton();
             this.tableLayoutPanel3 = new System.Windows.Forms.TableLayoutPanel();
             this.labMaritalStatus = new System.Windows.Forms.Label();
-            this.comboBox3 = new System.Windows.Forms.ComboBox();
+            this.cbMarried = new System.Windows.Forms.ComboBox();
             this.labReligion = new System.Windows.Forms.Label();
-            this.comboBox2 = new System.Windows.Forms.ComboBox();
+            this.cbRelig = new System.Windows.Forms.ComboBox();
             this.label3 = new System.Windows.Forms.Label();
             this.cbCategory = new System.Windows.Forms.ComboBox();
             this.labAadharNo = new System.Windows.Forms.Label();
@@ -283,9 +283,9 @@
             this.tableLayoutPanel3.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 25F));
             this.tableLayoutPanel3.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 25F));
             this.tableLayoutPanel3.Controls.Add(this.labMaritalStatus, 0, 2);
-            this.tableLayoutPanel3.Controls.Add(this.comboBox3, 1, 2);
+            this.tableLayoutPanel3.Controls.Add(this.cbMarried, 1, 2);
             this.tableLayoutPanel3.Controls.Add(this.labReligion, 2, 2);
-            this.tableLayoutPanel3.Controls.Add(this.comboBox2, 3, 2);
+            this.tableLayoutPanel3.Controls.Add(this.cbRelig, 3, 2);
             this.tableLayoutPanel3.Controls.Add(this.label3, 2, 1);
             this.tableLayoutPanel3.Controls.Add(this.cbCategory, 3, 1);
             this.tableLayoutPanel3.Controls.Add(this.labAadharNo, 0, 1);
@@ -316,15 +316,16 @@
             this.labMaritalStatus.TabIndex = 1;
             this.labMaritalStatus.Text = "Marital Status";
             // 
-            // comboBox3
+            // cbMarried
             // 
-            this.comboBox3.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.comboBox3.FormattingEnabled = true;
-            this.comboBox3.Location = new System.Drawing.Point(190, 112);
-            this.comboBox3.Margin = new System.Windows.Forms.Padding(2);
-            this.comboBox3.Name = "comboBox3";
-            this.comboBox3.Size = new System.Drawing.Size(184, 23);
-            this.comboBox3.TabIndex = 3;
+            this.cbMarried.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.cbMarried.FormattingEnabled = true;
+            this.cbMarried.Location = new System.Drawing.Point(190, 112);
+            this.cbMarried.Margin = new System.Windows.Forms.Padding(2);
+            this.cbMarried.Name = "cbMarried";
+            this.cbMarried.Size = new System.Drawing.Size(184, 23);
+            this.cbMarried.TabIndex = 3;
+            this.cbMarried.Text = "Select";
             // 
             // labReligion
             // 
@@ -336,11 +337,11 @@
             this.labReligion.TabIndex = 0;
             this.labReligion.Text = "Religion";
             // 
-            // comboBox2
+            // cbRelig
             // 
-            this.comboBox2.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.comboBox2.FormattingEnabled = true;
-            this.comboBox2.Items.AddRange(new object[] {
+            this.cbRelig.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.cbRelig.FormattingEnabled = true;
+            this.cbRelig.Items.AddRange(new object[] {
             "Hindu",
             "Muslim",
             "Christian",
@@ -349,11 +350,12 @@
             "Jain",
             "Other religion",
             "Not stated"});
-            this.comboBox2.Location = new System.Drawing.Point(566, 112);
-            this.comboBox2.Margin = new System.Windows.Forms.Padding(2);
-            this.comboBox2.Name = "comboBox2";
-            this.comboBox2.Size = new System.Drawing.Size(186, 23);
-            this.comboBox2.TabIndex = 3;
+            this.cbRelig.Location = new System.Drawing.Point(566, 112);
+            this.cbRelig.Margin = new System.Windows.Forms.Padding(2);
+            this.cbRelig.Name = "cbRelig";
+            this.cbRelig.Size = new System.Drawing.Size(186, 23);
+            this.cbRelig.TabIndex = 3;
+            this.cbRelig.Text = "Select";
             // 
             // label3
             // 
@@ -384,6 +386,7 @@
             this.cbCategory.Name = "cbCategory";
             this.cbCategory.Size = new System.Drawing.Size(186, 23);
             this.cbCategory.TabIndex = 3;
+            this.cbCategory.Text = "Select";
             // 
             // labAadharNo
             // 
@@ -427,6 +430,7 @@
             this.cbPhysicalDisab.Name = "cbPhysicalDisab";
             this.cbPhysicalDisab.Size = new System.Drawing.Size(186, 23);
             this.cbPhysicalDisab.TabIndex = 3;
+            this.cbPhysicalDisab.Text = "Select";
             // 
             // labParentsContNo
             // 
@@ -626,6 +630,7 @@
             this.cbHSCuniversity.Name = "cbHSCuniversity";
             this.cbHSCuniversity.Size = new System.Drawing.Size(247, 23);
             this.cbHSCuniversity.TabIndex = 11;
+            this.cbHSCuniversity.Text = "Select";
             // 
             // cbSSC_School
             // 
@@ -640,6 +645,7 @@
             this.cbSSC_School.Name = "cbSSC_School";
             this.cbSSC_School.Size = new System.Drawing.Size(247, 23);
             this.cbSSC_School.TabIndex = 13;
+            this.cbSSC_School.Text = "Select";
             // 
             // cbHSC_School
             // 
@@ -654,6 +660,7 @@
             this.cbHSC_School.Name = "cbHSC_School";
             this.cbHSC_School.Size = new System.Drawing.Size(247, 23);
             this.cbHSC_School.TabIndex = 13;
+            this.cbHSC_School.Text = "Select";
             // 
             // cbSSC_University
             // 
@@ -686,6 +693,7 @@
             this.cbSSC_University.Name = "cbSSC_University";
             this.cbSSC_University.Size = new System.Drawing.Size(247, 23);
             this.cbSSC_University.TabIndex = 11;
+            this.cbSSC_University.Text = "Select";
             // 
             // cbGraduDetails
             // 
@@ -718,6 +726,7 @@
             this.cbGraduDetails.Name = "cbGraduDetails";
             this.cbGraduDetails.Size = new System.Drawing.Size(247, 23);
             this.cbGraduDetails.TabIndex = 15;
+            this.cbGraduDetails.Text = "Select";
             // 
             // cbCollege
             // 
@@ -732,6 +741,7 @@
             this.cbCollege.Name = "cbCollege";
             this.cbCollege.Size = new System.Drawing.Size(247, 23);
             this.cbCollege.TabIndex = 15;
+            this.cbCollege.Text = "Select";
             // 
             // ContactGroupBox
             // 
@@ -1067,9 +1077,9 @@
         private System.Windows.Forms.RadioButton rbutTeacher;
         private System.Windows.Forms.TableLayoutPanel tableLayoutPanel3;
         private System.Windows.Forms.Label labMaritalStatus;
-        private System.Windows.Forms.ComboBox comboBox3;
+        private System.Windows.Forms.ComboBox cbMarried;
         private System.Windows.Forms.Label labReligion;
-        private System.Windows.Forms.ComboBox comboBox2;
+        private System.Windows.Forms.ComboBox cbRelig;
         private System.Windows.Forms.Label label3;
         private System.Windows.Forms.ComboBox cbCategory;
         private System.Windows.Forms.Label labAadharNo;
