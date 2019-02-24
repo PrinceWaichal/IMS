@@ -71,7 +71,6 @@
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
             this.MainMenuStrip = this.MenuStrip;
             this.Name = "BaseFormApplication";
-            this.WindowState = System.Windows.Forms.FormWindowState.Maximized;
             this.MenuStrip.ResumeLayout(false);
             this.MenuStrip.PerformLayout();
             this.ResumeLayout(false);
