@@ -26,6 +26,7 @@ namespace SMS_0._1
             int pin = Convert.ToInt32(PinCodeTextBox.Text);
             int mobile = Convert.ToInt32(MobileTextBox.Text);
             int aadhar = Convert.ToInt32(tbAddharNo.Text);
+            int parentmob = Convert.ToInt32(tbPContactNo.Text);
 
             if (tbLastNam.Text == "Last Name" || tbLastNam.Text == "")
             {
@@ -126,7 +127,7 @@ namespace SMS_0._1
                     , MessageBoxButtons.YesNo, MessageBoxIcon.Hand);
                 return false;
             }
-            else if (tbPContactNo.Text == "")
+            else if (parentmob != 10)
             {
                 MessageBox.Show("Did you forget to enter Parent's Mobile?", "Parent Contact Error",
                     MessageBoxButtons.YesNo, MessageBoxIcon.Hand);
