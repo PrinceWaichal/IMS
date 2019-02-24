@@ -18,12 +18,17 @@ namespace SMS_0._1
 
         private void LogOutClick(object sender, EventArgs e)
         {
-
+            ServerInfo.mySQLConnect.Close();
+            this.Hide();
+            BaseFormApplication Home = new BaseFormApplication();
+            Home.Show();
         }
 
         private void ReportsClick(object sender, EventArgs e)
         {
-
+            this.Hide();
+            ReportModule RepMod = new ReportModule();
+            RepMod.Show();
         }
 
         private void StudModLoad(object sender, EventArgs e)

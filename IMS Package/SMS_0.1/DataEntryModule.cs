@@ -5,30 +5,24 @@ using System.Data;
 using System.Drawing;
 using System.Text;
 using System.Windows.Forms;
-using MySql.Data.MySqlClient;
 
 namespace SMS_0._1
 {
-    public partial class TeacherModule : SMS_0._1.BaseFormApplication
+    public partial class DataEntryModule : SMS_0._1.BaseFormApplication
     {
-        public TeacherModule()
+        public DataEntryModule()
         {
             InitializeComponent();
         }
 
-        private void TeachModLoad(object sender, EventArgs e)
-        {
-
-        }
-
-        private void DataEntryClick(object sender, EventArgs e)
+        private void DEModClick(object sender, EventArgs e)
         {
             this.Hide();
             DataEntryModule DEMod = new DataEntryModule();
             DEMod.Show();
         }
 
-        private void ReportsClick(object sender, EventArgs e)
+        private void RepClick(object sender, EventArgs e)
         {
             this.Hide();
             ReportModule RepMod = new ReportModule();
@@ -42,6 +36,5 @@ namespace SMS_0._1
             BaseFormApplication Home = new BaseFormApplication();
             Home.Show();
         }
-
     }
 }

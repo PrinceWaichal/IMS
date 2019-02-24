@@ -43,9 +43,9 @@
             this.EnterData,
             this.Reports,
             this.LogOut});
-            this.ToolStrip.Location = new System.Drawing.Point(0, 30);
+            this.ToolStrip.Location = new System.Drawing.Point(0, 28);
             this.ToolStrip.Name = "ToolStrip";
-            this.ToolStrip.Size = new System.Drawing.Size(1120, 27);
+            this.ToolStrip.Size = new System.Drawing.Size(896, 27);
             this.ToolStrip.TabIndex = 1;
             this.ToolStrip.Text = "toolStrip1";
             // 
@@ -54,7 +54,7 @@
             this.EnterData.Image = ((System.Drawing.Image)(resources.GetObject("EnterData.Image")));
             this.EnterData.ImageTransparentColor = System.Drawing.Color.Magenta;
             this.EnterData.Name = "EnterData";
-            this.EnterData.Size = new System.Drawing.Size(102, 24);
+            this.EnterData.Size = new System.Drawing.Size(85, 24);
             this.EnterData.Text = "Data Entry";
             this.EnterData.ToolTipText = "Click to Enter Attendance Details";
             this.EnterData.Click += new System.EventHandler(this.DataEntryClick);
@@ -64,7 +64,7 @@
             this.Reports.Image = ((System.Drawing.Image)(resources.GetObject("Reports.Image")));
             this.Reports.ImageTransparentColor = System.Drawing.Color.Magenta;
             this.Reports.Name = "Reports";
-            this.Reports.Size = new System.Drawing.Size(84, 24);
+            this.Reports.Size = new System.Drawing.Size(71, 24);
             this.Reports.Text = "Reports";
             this.Reports.ToolTipText = "Click to View Reports";
             this.Reports.Click += new System.EventHandler(this.ReportsClick);
@@ -74,18 +74,19 @@
             this.LogOut.Image = ((System.Drawing.Image)(resources.GetObject("LogOut.Image")));
             this.LogOut.ImageTransparentColor = System.Drawing.Color.Magenta;
             this.LogOut.Name = "LogOut";
-            this.LogOut.Size = new System.Drawing.Size(86, 24);
+            this.LogOut.Size = new System.Drawing.Size(74, 24);
             this.LogOut.Text = "Log Out";
             this.LogOut.ToolTipText = "Click to Log Out of System";
             this.LogOut.Click += new System.EventHandler(this.LogoutClick);
             // 
             // TeacherModule
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(10F, 19F);
-            this.ClientSize = new System.Drawing.Size(1120, 551);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 15F);
+            this.ClientSize = new System.Drawing.Size(896, 435);
             this.Controls.Add(this.ToolStrip);
-            this.Location = new System.Drawing.Point(0, 0);
+            this.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.Name = "TeacherModule";
+            this.Text = "Attendance Management System";
             this.Load += new System.EventHandler(this.TeachModLoad);
             this.Controls.SetChildIndex(this.ToolStrip, 0);
             this.ToolStrip.ResumeLayout(false);

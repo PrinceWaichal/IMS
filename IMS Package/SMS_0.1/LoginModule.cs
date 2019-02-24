@@ -37,9 +37,9 @@ namespace SMS_0._1
                     if (Read.Read())
                     {
                         ServerInfo.mySQLConnect.Close();
-                    //   ReportModule RepMod = new ReportModule();
+                       AdminModule AdMod = new AdminModule();
                         this.Hide();
-                    //    RepMod.Show();
+                        AdMod.Show();
                     }
                     else
                     {
@@ -59,9 +59,9 @@ namespace SMS_0._1
                     if (Read.Read())
                     {
                         ServerInfo.mySQLConnect.Close();
-                     //   ReportModule RepMod = new ReportModule();
+                       TeacherModule TeachMod = new TeacherModule();
                         this.Hide();
-                     //   RepMod.Show();
+                        TeachMod.Show();
                     }
                     else
                     {
@@ -81,9 +81,9 @@ namespace SMS_0._1
                     if (Read.Read())
                     {
                         ServerInfo.mySQLConnect.Close();
-                 //       ReportModule RepMod = new ReportModule();
+                        StudentModule StudMod = new StudentModule();
                         this.Hide();
-                   //     RepMod.Show();
+                        StudMod.Show();
                     }
                     else
                     {

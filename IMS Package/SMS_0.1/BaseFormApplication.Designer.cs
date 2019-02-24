@@ -69,6 +69,7 @@
             this.BackColor = System.Drawing.Color.AliceBlue;
             this.Controls.Add(this.MenuStrip);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
+            this.IsMdiContainer = true;
             this.MainMenuStrip = this.MenuStrip;
             this.Name = "BaseFormApplication";
             this.MenuStrip.ResumeLayout(false);

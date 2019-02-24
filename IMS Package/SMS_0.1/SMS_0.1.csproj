@@ -87,6 +87,12 @@
       <DependentUpon>CrystalReport.rpt</DependentUpon>
       <SubType>Component</SubType>
     </Compile>
+    <Compile Include="DataEntryModule.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="DataEntryModule.Designer.cs">
+      <DependentUpon>DataEntryModule.cs</DependentUpon>
+    </Compile>
     <Compile Include="ForgotPasswordModule.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -135,6 +141,9 @@
     <EmbeddedResource Include="CrystalReport.rpt">
       <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
       <LastGenOutput>CrystalReport.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DataEntryModule.resx">
+      <DependentUpon>DataEntryModule.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="ForgotPasswordModule.resx">
       <DependentUpon>ForgotPasswordModule.cs</DependentUpon>
