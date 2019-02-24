@@ -50,15 +50,15 @@
             // Login
             // 
             this.Login.AutoToolTip = true;
-            this.Login.Name = "Login";
             resources.ApplyResources(this.Login, "Login");
+            this.Login.Name = "Login";
             this.Login.Click += new System.EventHandler(this.Login_Click);
             // 
             // Registration
             // 
             this.Registration.AutoToolTip = true;
-            this.Registration.Name = "Registration";
             resources.ApplyResources(this.Registration, "Registration");
+            this.Registration.Name = "Registration";
             this.Registration.Click += new System.EventHandler(this.Registration_Click);
             // 
             // BaseFormApplication

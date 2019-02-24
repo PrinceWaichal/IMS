@@ -69,6 +69,12 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="AdminModule.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AdminModule.Designer.cs">
+      <DependentUpon>AdminModule.cs</DependentUpon>
+    </Compile>
     <Compile Include="BaseFormApplication.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -108,12 +114,21 @@
       <DependentUpon>ReportModule.cs</DependentUpon>
     </Compile>
     <Compile Include="ServerInfo.cs" />
-    <Compile Include="Temp_Attend.cs">
+    <Compile Include="StudentModule.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Temp_Attend.Designer.cs">
-      <DependentUpon>Temp_Attend.cs</DependentUpon>
+    <Compile Include="StudentModule.Designer.cs">
+      <DependentUpon>StudentModule.cs</DependentUpon>
     </Compile>
+    <Compile Include="TeacherModule.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="TeacherModule.Designer.cs">
+      <DependentUpon>TeacherModule.cs</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="AdminModule.resx">
+      <DependentUpon>AdminModule.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="BaseFormApplication.resx">
       <DependentUpon>BaseFormApplication.cs</DependentUpon>
     </EmbeddedResource>
@@ -142,8 +157,11 @@
     <EmbeddedResource Include="ReportModule.resx">
       <DependentUpon>ReportModule.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Temp_Attend.resx">
-      <DependentUpon>Temp_Attend.cs</DependentUpon>
+    <EmbeddedResource Include="StudentModule.resx">
+      <DependentUpon>StudentModule.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="TeacherModule.resx">
+      <DependentUpon>TeacherModule.cs</DependentUpon>
     </EmbeddedResource>
     <None Include="packages.config" />
     <None Include="Properties\Settings.settings">
