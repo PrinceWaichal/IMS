@@ -87,14 +87,12 @@
             this.MobileTextBox = new System.Windows.Forms.TextBox();
             this.textBox6 = new System.Windows.Forms.TextBox();
             this.tlpRegistraitonDet = new System.Windows.Forms.TableLayoutPanel();
-            this.GenderCombo = new System.Windows.Forms.ComboBox();
             this.labName = new System.Windows.Forms.Label();
             this.tbLastNam = new System.Windows.Forms.TextBox();
             this.tbFirstName = new System.Windows.Forms.TextBox();
             this.tbMiddleName = new System.Windows.Forms.TextBox();
-            this.labDate_of_birth = new System.Windows.Forms.Label();
-            this.DateofBirth = new System.Windows.Forms.DateTimePicker();
             this.GenderLabel = new System.Windows.Forms.Label();
+            this.GenderCombo = new System.Windows.Forms.ComboBox();
             this.PrimaryGroupBox = new System.Windows.Forms.GroupBox();
             this.tableLayoutPanel5.SuspendLayout();
             this.RegistrationGroupBox.SuspendLayout();
@@ -232,7 +230,7 @@
             this.RegistrationGroupBox.Controls.Add(this.rbutStudent);
             this.RegistrationGroupBox.Controls.Add(this.rbutTeacher);
             this.RegistrationGroupBox.Dock = System.Windows.Forms.DockStyle.Top;
-            this.RegistrationGroupBox.Location = new System.Drawing.Point(0, 28);
+            this.RegistrationGroupBox.Location = new System.Drawing.Point(0, 0);
             this.RegistrationGroupBox.Margin = new System.Windows.Forms.Padding(2);
             this.RegistrationGroupBox.Name = "RegistrationGroupBox";
             this.RegistrationGroupBox.Padding = new System.Windows.Forms.Padding(2);
@@ -909,14 +907,12 @@
             this.tlpRegistraitonDet.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 16.66667F));
             this.tlpRegistraitonDet.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 16.66667F));
             this.tlpRegistraitonDet.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 16.66667F));
-            this.tlpRegistraitonDet.Controls.Add(this.GenderCombo, 3, 1);
             this.tlpRegistraitonDet.Controls.Add(this.labName, 0, 0);
             this.tlpRegistraitonDet.Controls.Add(this.tbLastNam, 1, 0);
             this.tlpRegistraitonDet.Controls.Add(this.tbFirstName, 2, 0);
             this.tlpRegistraitonDet.Controls.Add(this.tbMiddleName, 3, 0);
-            this.tlpRegistraitonDet.Controls.Add(this.labDate_of_birth, 0, 1);
-            this.tlpRegistraitonDet.Controls.Add(this.DateofBirth, 1, 1);
-            this.tlpRegistraitonDet.Controls.Add(this.GenderLabel, 2, 1);
+            this.tlpRegistraitonDet.Controls.Add(this.GenderLabel, 0, 1);
+            this.tlpRegistraitonDet.Controls.Add(this.GenderCombo, 1, 1);
             this.tlpRegistraitonDet.Dock = System.Windows.Forms.DockStyle.Fill;
             this.tlpRegistraitonDet.Location = new System.Drawing.Point(3, 18);
             this.tlpRegistraitonDet.Margin = new System.Windows.Forms.Padding(2);
@@ -927,15 +923,6 @@
             this.tlpRegistraitonDet.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 16F));
             this.tlpRegistraitonDet.Size = new System.Drawing.Size(524, 79);
             this.tlpRegistraitonDet.TabIndex = 2;
-            // 
-            // GenderCombo
-            // 
-            this.GenderCombo.FormattingEnabled = true;
-            this.GenderCombo.Location = new System.Drawing.Point(396, 42);
-            this.GenderCombo.Name = "GenderCombo";
-            this.GenderCombo.Size = new System.Drawing.Size(121, 23);
-            this.GenderCombo.TabIndex = 3;
-            this.GenderCombo.Text = "Select";
             // 
             // labName
             // 
@@ -978,34 +965,25 @@
             this.tbMiddleName.TabIndex = 2;
             this.tbMiddleName.Text = "Middle name";
             // 
-            // labDate_of_birth
-            // 
-            this.labDate_of_birth.Anchor = System.Windows.Forms.AnchorStyles.Left;
-            this.labDate_of_birth.AutoSize = true;
-            this.labDate_of_birth.Location = new System.Drawing.Point(2, 51);
-            this.labDate_of_birth.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
-            this.labDate_of_birth.Name = "labDate_of_birth";
-            this.labDate_of_birth.Size = new System.Drawing.Size(84, 15);
-            this.labDate_of_birth.TabIndex = 0;
-            this.labDate_of_birth.Text = "Date of birth";
-            // 
-            // DateofBirth
-            // 
-            this.DateofBirth.Location = new System.Drawing.Point(134, 42);
-            this.DateofBirth.Name = "DateofBirth";
-            this.DateofBirth.Size = new System.Drawing.Size(125, 22);
-            this.DateofBirth.TabIndex = 13;
-            // 
             // GenderLabel
             // 
             this.GenderLabel.Anchor = System.Windows.Forms.AnchorStyles.Left;
             this.GenderLabel.AutoSize = true;
-            this.GenderLabel.Location = new System.Drawing.Point(264, 51);
+            this.GenderLabel.Location = new System.Drawing.Point(2, 51);
             this.GenderLabel.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.GenderLabel.Name = "GenderLabel";
             this.GenderLabel.Size = new System.Drawing.Size(48, 15);
             this.GenderLabel.TabIndex = 14;
             this.GenderLabel.Text = "Gender";
+            // 
+            // GenderCombo
+            // 
+            this.GenderCombo.FormattingEnabled = true;
+            this.GenderCombo.Location = new System.Drawing.Point(134, 42);
+            this.GenderCombo.Name = "GenderCombo";
+            this.GenderCombo.Size = new System.Drawing.Size(121, 23);
+            this.GenderCombo.TabIndex = 3;
+            this.GenderCombo.Text = "Select";
             // 
             // PrimaryGroupBox
             // 
@@ -1119,8 +1097,6 @@
         private System.Windows.Forms.TextBox tbLastNam;
         private System.Windows.Forms.TextBox tbFirstName;
         private System.Windows.Forms.TextBox tbMiddleName;
-        private System.Windows.Forms.Label labDate_of_birth;
-        private System.Windows.Forms.DateTimePicker DateofBirth;
         private System.Windows.Forms.Label GenderLabel;
         private System.Windows.Forms.GroupBox PrimaryGroupBox;
         private System.Windows.Forms.TextBox AddressBox;

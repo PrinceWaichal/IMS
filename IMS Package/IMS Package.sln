@@ -1,11 +1,13 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 14
-VisualStudioVersion = 14.0.25420.1
+# Visual Studio 15
+VisualStudioVersion = 15.0.28307.421
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "1 - Software Package", "1 - Software Package\1 - Software Package.csproj", "{1647CFBB-A724-4CF6-ADF5-043532CB3DE5}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SMS_0.1", "SMS_0.1\SMS_0.1.csproj", "{ACFA068A-D35F-41D3-8F0B-795682931FDC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AttendanceManagementSystem", "AttendanceManagementSystem\AttendanceManagementSystem.csproj", "{E387FE57-6394-49B0-948C-2E9AF07E7EB5}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -21,6 +23,10 @@ Global
 		{ACFA068A-D35F-41D3-8F0B-795682931FDC}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{ACFA068A-D35F-41D3-8F0B-795682931FDC}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{ACFA068A-D35F-41D3-8F0B-795682931FDC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E387FE57-6394-49B0-948C-2E9AF07E7EB5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E387FE57-6394-49B0-948C-2E9AF07E7EB5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E387FE57-6394-49B0-948C-2E9AF07E7EB5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E387FE57-6394-49B0-948C-2E9AF07E7EB5}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

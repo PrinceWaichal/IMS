@@ -7,20 +7,13 @@ using System.Text;
 using System.Windows.Forms;
 using MySql.Data.MySqlClient;
 
-namespace SMS_0._1
+namespace AttendanceManagementSystem.RegistrationModule
 {
-    public partial class RegistrationModule : SMS_0._1.BaseFormApplication
+    public partial class TeacherRegistrationModule : AttendanceManagementSystem.BaseFormApp
     {
-        public RegistrationModule()
+        public TeacherRegistrationModule()
         {
             InitializeComponent();
-        }
-
-        MySqlCommand mySQLC = new MySqlCommand();
-
-        private void RegModLoad(object sender, EventArgs e)
-        {
-            tbLastNam.Focus();
         }
 
         public new bool Validate()
@@ -158,60 +151,6 @@ namespace SMS_0._1
                 return true;
         }
 
-        private void SubmitClick(object sender, EventArgs e)
-        {
-            ServerInfo.mySQLConnect.Open();
-            try
-            {
-                if (rbutTeacher.Checked == true)
-                {
-                    if (Validate())
-                    {
-                        mySQLC.CommandText = "";
-                    }
-                    else
-                    {
-                        MessageBox.Show("You have not entered valid details", "Invalid Input"
-                            , MessageBoxButtons.RetryCancel, MessageBoxIcon.Exclamation);
-                    }
-                }
-                else if (rbutStudent.Checked == true)
-                {
-                    if (Validate())
-                    {
-                        
-                    }
-                    else
-                    {
-                        MessageBox.Show("You have not entered valid details", "Invalid Input"
-                            , MessageBoxButtons.RetryCancel, MessageBoxIcon.Exclamation);
-                    }
-                }
-                else
-                {
-                    MessageBox.Show("Registration Type Not Selected", "Unknown Category",
-                        MessageBoxButtons.OK, MessageBoxIcon.Hand);
-                    rbutTeacher.Focus();
-                    ServerInfo.mySQLConnect.Close();
-                }
-            }
-            catch (MySqlException error)
-            {
-                MessageBox.Show(error.Message, "Unexpcted Event Occurred",
-                    MessageBoxButtons.OK, MessageBoxIcon.Error);
-            }
-            finally
-            {
-                ServerInfo.mySQLConnect.Close();
-            }
-        }
 
-        private void BackClick(object sender, EventArgs e)
-        {
-            ServerInfo.mySQLConnect.Close();
-            this.Hide();
-            LoginModule LogMod = new _1.LoginModule();
-            LogMod.Show();
-        }
     }
 }
