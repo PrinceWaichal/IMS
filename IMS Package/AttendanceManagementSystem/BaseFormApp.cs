@@ -22,15 +22,21 @@ namespace AttendanceManagementSystem
         {
             if(LoginBox.Text == "Admin Login")
             {
-
+                LoginModule.AdminLoginModule AdLog = new LoginModule.AdminLoginModule();
+                this.Hide();
+                AdLog.Show();
             }
             else if(LoginBox.Text == "Student Login")
             {
-
+                LoginModule.StudentLoginModule StudLog = new LoginModule.StudentLoginModule();
+                this.Hide();
+                StudLog.Show();
             }
             else if(LoginBox.Text == "Teacher Login")
             {
-
+                LoginModule.TeacherLoginModule TeachLogin = new LoginModule.TeacherLoginModule();
+                this.Hide();
+                TeachLogin.Show();
             }
             else
             {
@@ -43,10 +49,15 @@ namespace AttendanceManagementSystem
         {
             if (RegistrationBox.Text == "Student Registration")
             {
-
+                RegistrationModule.StudentRegistrationModule StudReg = new RegistrationModule.StudentRegistrationModule();
+                this.Hide();
+                StudReg.Show();
             }
             else if (RegistrationBox.Text == "Teacher Registration")
             {
+                RegistrationModule.TeacherRegistrationModule TeachMod = new RegistrationModule.TeacherRegistrationModule();
+                this.Hide();
+                TeachMod.Show();
             }
             else
             {

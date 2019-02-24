@@ -14,5 +14,15 @@ namespace AttendanceManagementSystem.LoginModule
         {
             InitializeComponent();
         }
+
+        private void LoginClick(object sender, EventArgs e)
+        {
+
+        }
+
+        private void ForgotLinkLabel_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
+        {
+
+        }
     }
 }

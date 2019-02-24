@@ -30,30 +30,22 @@
         {
             this.GroupBox = new System.Windows.Forms.GroupBox();
             this.LoginButton = new System.Windows.Forms.Button();
-            this.RadioAdmin = new System.Windows.Forms.RadioButton();
-            this.RadioTeach = new System.Windows.Forms.RadioButton();
             this.PasswordBox = new System.Windows.Forms.TextBox();
-            this.RadioStudent = new System.Windows.Forms.RadioButton();
             this.UsernameBox = new System.Windows.Forms.TextBox();
             this.ForgotLinkLabel = new System.Windows.Forms.LinkLabel();
             this.UserNameLabel = new System.Windows.Forms.Label();
             this.PasswordLabel = new System.Windows.Forms.Label();
-            this.HomeButton = new System.Windows.Forms.Button();
             this.GroupBox.SuspendLayout();
             this.SuspendLayout();
             // 
             // GroupBox
             // 
             this.GroupBox.Controls.Add(this.LoginButton);
-            this.GroupBox.Controls.Add(this.RadioAdmin);
-            this.GroupBox.Controls.Add(this.RadioTeach);
             this.GroupBox.Controls.Add(this.PasswordBox);
-            this.GroupBox.Controls.Add(this.RadioStudent);
             this.GroupBox.Controls.Add(this.UsernameBox);
             this.GroupBox.Controls.Add(this.ForgotLinkLabel);
             this.GroupBox.Controls.Add(this.UserNameLabel);
             this.GroupBox.Controls.Add(this.PasswordLabel);
-            this.GroupBox.Controls.Add(this.HomeButton);
             this.GroupBox.Location = new System.Drawing.Point(346, 271);
             this.GroupBox.Name = "GroupBox";
             this.GroupBox.Size = new System.Drawing.Size(492, 184);
@@ -70,28 +62,7 @@
             this.LoginButton.Text = "Login";
             this.LoginButton.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
             this.LoginButton.UseVisualStyleBackColor = true;
-            // 
-            // RadioAdmin
-            // 
-            this.RadioAdmin.AutoSize = true;
-            this.RadioAdmin.Location = new System.Drawing.Point(14, 21);
-            this.RadioAdmin.Name = "RadioAdmin";
-            this.RadioAdmin.Size = new System.Drawing.Size(102, 19);
-            this.RadioAdmin.TabIndex = 0;
-            this.RadioAdmin.TabStop = true;
-            this.RadioAdmin.Text = "Admin Login";
-            this.RadioAdmin.UseVisualStyleBackColor = true;
-            // 
-            // RadioTeach
-            // 
-            this.RadioTeach.AutoSize = true;
-            this.RadioTeach.Location = new System.Drawing.Point(204, 21);
-            this.RadioTeach.Name = "RadioTeach";
-            this.RadioTeach.Size = new System.Drawing.Size(107, 19);
-            this.RadioTeach.TabIndex = 1;
-            this.RadioTeach.TabStop = true;
-            this.RadioTeach.Text = "Teacher Login";
-            this.RadioTeach.UseVisualStyleBackColor = true;
+            this.LoginButton.Click += new System.EventHandler(this.LoginClick);
             // 
             // PasswordBox
             // 
@@ -99,17 +70,6 @@
             this.PasswordBox.Name = "PasswordBox";
             this.PasswordBox.Size = new System.Drawing.Size(143, 22);
             this.PasswordBox.TabIndex = 4;
-            // 
-            // RadioStudent
-            // 
-            this.RadioStudent.AutoSize = true;
-            this.RadioStudent.Location = new System.Drawing.Point(384, 21);
-            this.RadioStudent.Name = "RadioStudent";
-            this.RadioStudent.Size = new System.Drawing.Size(106, 19);
-            this.RadioStudent.TabIndex = 2;
-            this.RadioStudent.TabStop = true;
-            this.RadioStudent.Text = "Student Login";
-            this.RadioStudent.UseVisualStyleBackColor = true;
             // 
             // UsernameBox
             // 
@@ -122,13 +82,14 @@
             // 
             this.ForgotLinkLabel.AutoSize = true;
             this.ForgotLinkLabel.LinkColor = System.Drawing.Color.LightSeaGreen;
-            this.ForgotLinkLabel.Location = new System.Drawing.Point(18, 134);
+            this.ForgotLinkLabel.Location = new System.Drawing.Point(123, 134);
             this.ForgotLinkLabel.Name = "ForgotLinkLabel";
             this.ForgotLinkLabel.Size = new System.Drawing.Size(103, 15);
             this.ForgotLinkLabel.TabIndex = 7;
             this.ForgotLinkLabel.TabStop = true;
             this.ForgotLinkLabel.Text = "Forgot Password";
             this.ForgotLinkLabel.VisitedLinkColor = System.Drawing.Color.SpringGreen;
+            this.ForgotLinkLabel.Click += new System.EventHandler(this.ForgotClick);
             // 
             // UserNameLabel
             // 
@@ -148,15 +109,6 @@
             this.PasswordLabel.TabIndex = 9;
             this.PasswordLabel.Text = "Enter Password";
             // 
-            // HomeButton
-            // 
-            this.HomeButton.Location = new System.Drawing.Point(204, 134);
-            this.HomeButton.Name = "HomeButton";
-            this.HomeButton.Size = new System.Drawing.Size(75, 23);
-            this.HomeButton.TabIndex = 6;
-            this.HomeButton.Text = "Register";
-            this.HomeButton.UseVisualStyleBackColor = true;
-            // 
             // StudentLoginModule
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(96F, 96F);
@@ -175,14 +127,10 @@
 
         private System.Windows.Forms.GroupBox GroupBox;
         private System.Windows.Forms.Button LoginButton;
-        private System.Windows.Forms.RadioButton RadioAdmin;
-        private System.Windows.Forms.RadioButton RadioTeach;
         private System.Windows.Forms.TextBox PasswordBox;
-        private System.Windows.Forms.RadioButton RadioStudent;
         private System.Windows.Forms.TextBox UsernameBox;
         private System.Windows.Forms.LinkLabel ForgotLinkLabel;
         private System.Windows.Forms.Label UserNameLabel;
         private System.Windows.Forms.Label PasswordLabel;
-        private System.Windows.Forms.Button HomeButton;
     }
 }
