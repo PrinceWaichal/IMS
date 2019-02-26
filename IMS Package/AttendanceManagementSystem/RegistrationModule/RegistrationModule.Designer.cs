@@ -106,9 +106,11 @@
             // PrimaryGroupBox
             // 
             this.PrimaryGroupBox.Controls.Add(this.tlpRegistraitonDet);
-            this.PrimaryGroupBox.Location = new System.Drawing.Point(0, 30);
+            this.PrimaryGroupBox.Location = new System.Drawing.Point(0, 38);
+            this.PrimaryGroupBox.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.PrimaryGroupBox.Name = "PrimaryGroupBox";
-            this.PrimaryGroupBox.Size = new System.Drawing.Size(756, 100);
+            this.PrimaryGroupBox.Padding = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.PrimaryGroupBox.Size = new System.Drawing.Size(945, 125);
             this.PrimaryGroupBox.TabIndex = 9;
             this.PrimaryGroupBox.TabStop = false;
             this.PrimaryGroupBox.Text = "Primary Details";
@@ -129,54 +131,54 @@
             this.tlpRegistraitonDet.Controls.Add(this.UserTypeLabel, 2, 1);
             this.tlpRegistraitonDet.Controls.Add(this.UserTypeCombo, 3, 1);
             this.tlpRegistraitonDet.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.tlpRegistraitonDet.Location = new System.Drawing.Point(3, 18);
+            this.tlpRegistraitonDet.Location = new System.Drawing.Point(4, 23);
             this.tlpRegistraitonDet.Margin = new System.Windows.Forms.Padding(2);
             this.tlpRegistraitonDet.Name = "tlpRegistraitonDet";
             this.tlpRegistraitonDet.RowCount = 2;
             this.tlpRegistraitonDet.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 9.090907F));
             this.tlpRegistraitonDet.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 9.090908F));
-            this.tlpRegistraitonDet.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 16F));
-            this.tlpRegistraitonDet.Size = new System.Drawing.Size(750, 79);
+            this.tlpRegistraitonDet.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 20F));
+            this.tlpRegistraitonDet.Size = new System.Drawing.Size(937, 98);
             this.tlpRegistraitonDet.TabIndex = 2;
             // 
             // labName
             // 
             this.labName.Anchor = System.Windows.Forms.AnchorStyles.Left;
             this.labName.AutoSize = true;
-            this.labName.Location = new System.Drawing.Point(2, 12);
+            this.labName.Location = new System.Drawing.Point(2, 14);
             this.labName.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.labName.Name = "labName";
-            this.labName.Size = new System.Drawing.Size(46, 15);
+            this.labName.Size = new System.Drawing.Size(59, 19);
             this.labName.TabIndex = 0;
             this.labName.Text = "Name ";
             // 
             // tbLastNam
             // 
             this.tbLastNam.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.tbLastNam.Location = new System.Drawing.Point(189, 2);
+            this.tbLastNam.Location = new System.Drawing.Point(236, 2);
             this.tbLastNam.Margin = new System.Windows.Forms.Padding(2);
             this.tbLastNam.Name = "tbLastNam";
-            this.tbLastNam.Size = new System.Drawing.Size(183, 22);
+            this.tbLastNam.Size = new System.Drawing.Size(230, 26);
             this.tbLastNam.TabIndex = 0;
             this.tbLastNam.Text = "Last name";
             // 
             // tbFirstName
             // 
             this.tbFirstName.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.tbFirstName.Location = new System.Drawing.Point(376, 2);
+            this.tbFirstName.Location = new System.Drawing.Point(470, 2);
             this.tbFirstName.Margin = new System.Windows.Forms.Padding(2);
             this.tbFirstName.Name = "tbFirstName";
-            this.tbFirstName.Size = new System.Drawing.Size(183, 22);
+            this.tbFirstName.Size = new System.Drawing.Size(230, 26);
             this.tbFirstName.TabIndex = 1;
             this.tbFirstName.Text = "First name";
             // 
             // tbMiddleName
             // 
             this.tbMiddleName.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.tbMiddleName.Location = new System.Drawing.Point(563, 2);
+            this.tbMiddleName.Location = new System.Drawing.Point(704, 2);
             this.tbMiddleName.Margin = new System.Windows.Forms.Padding(2);
             this.tbMiddleName.Name = "tbMiddleName";
-            this.tbMiddleName.Size = new System.Drawing.Size(185, 22);
+            this.tbMiddleName.Size = new System.Drawing.Size(231, 26);
             this.tbMiddleName.TabIndex = 2;
             this.tbMiddleName.Text = "Middle name";
             // 
@@ -184,10 +186,10 @@
             // 
             this.GenderLabel.Anchor = System.Windows.Forms.AnchorStyles.Left;
             this.GenderLabel.AutoSize = true;
-            this.GenderLabel.Location = new System.Drawing.Point(2, 51);
+            this.GenderLabel.Location = new System.Drawing.Point(2, 63);
             this.GenderLabel.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.GenderLabel.Name = "GenderLabel";
-            this.GenderLabel.Size = new System.Drawing.Size(48, 15);
+            this.GenderLabel.Size = new System.Drawing.Size(63, 19);
             this.GenderLabel.TabIndex = 14;
             this.GenderLabel.Text = "Gender";
             // 
@@ -199,18 +201,20 @@
             "Female",
             "Transgender",
             "Prefer Not To Say"});
-            this.GenderCombo.Location = new System.Drawing.Point(190, 42);
+            this.GenderCombo.Location = new System.Drawing.Point(238, 52);
+            this.GenderCombo.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.GenderCombo.Name = "GenderCombo";
-            this.GenderCombo.Size = new System.Drawing.Size(121, 23);
+            this.GenderCombo.Size = new System.Drawing.Size(150, 27);
             this.GenderCombo.TabIndex = 3;
             this.GenderCombo.Text = "Select";
             // 
             // UserTypeLabel
             // 
             this.UserTypeLabel.AutoSize = true;
-            this.UserTypeLabel.Location = new System.Drawing.Point(377, 39);
+            this.UserTypeLabel.Location = new System.Drawing.Point(472, 48);
+            this.UserTypeLabel.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.UserTypeLabel.Name = "UserTypeLabel";
-            this.UserTypeLabel.Size = new System.Drawing.Size(68, 15);
+            this.UserTypeLabel.Size = new System.Drawing.Size(87, 19);
             this.UserTypeLabel.TabIndex = 15;
             this.UserTypeLabel.Text = "User Type";
             // 
@@ -220,9 +224,10 @@
             this.UserTypeCombo.Items.AddRange(new object[] {
             "Student",
             "Teacher"});
-            this.UserTypeCombo.Location = new System.Drawing.Point(564, 42);
+            this.UserTypeCombo.Location = new System.Drawing.Point(706, 52);
+            this.UserTypeCombo.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.UserTypeCombo.Name = "UserTypeCombo";
-            this.UserTypeCombo.Size = new System.Drawing.Size(121, 23);
+            this.UserTypeCombo.Size = new System.Drawing.Size(150, 27);
             this.UserTypeCombo.Sorted = true;
             this.UserTypeCombo.TabIndex = 4;
             this.UserTypeCombo.Text = "Select";
@@ -231,9 +236,11 @@
             // ContactGroupBox
             // 
             this.ContactGroupBox.Controls.Add(this.tableLayoutPanel4);
-            this.ContactGroupBox.Location = new System.Drawing.Point(0, 136);
+            this.ContactGroupBox.Location = new System.Drawing.Point(0, 170);
+            this.ContactGroupBox.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.ContactGroupBox.Name = "ContactGroupBox";
-            this.ContactGroupBox.Size = new System.Drawing.Size(756, 99);
+            this.ContactGroupBox.Padding = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.ContactGroupBox.Size = new System.Drawing.Size(945, 124);
             this.ContactGroupBox.TabIndex = 10;
             this.ContactGroupBox.TabStop = false;
             this.ContactGroupBox.Text = "Contact Details";
@@ -258,23 +265,24 @@
             this.tableLayoutPanel4.Controls.Add(this.MobileTextBox, 1, 2);
             this.tableLayoutPanel4.Controls.Add(this.EmailBox, 3, 2);
             this.tableLayoutPanel4.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.tableLayoutPanel4.Location = new System.Drawing.Point(3, 18);
+            this.tableLayoutPanel4.Location = new System.Drawing.Point(4, 23);
+            this.tableLayoutPanel4.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.tableLayoutPanel4.Name = "tableLayoutPanel4";
             this.tableLayoutPanel4.RowCount = 3;
             this.tableLayoutPanel4.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 33.33333F));
             this.tableLayoutPanel4.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 33.33333F));
             this.tableLayoutPanel4.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 33.33333F));
-            this.tableLayoutPanel4.Size = new System.Drawing.Size(750, 78);
+            this.tableLayoutPanel4.Size = new System.Drawing.Size(937, 97);
             this.tableLayoutPanel4.TabIndex = 0;
             // 
             // labMobileNo
             // 
             this.labMobileNo.Anchor = System.Windows.Forms.AnchorStyles.Left;
             this.labMobileNo.AutoSize = true;
-            this.labMobileNo.Location = new System.Drawing.Point(2, 57);
+            this.labMobileNo.Location = new System.Drawing.Point(2, 71);
             this.labMobileNo.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.labMobileNo.Name = "labMobileNo";
-            this.labMobileNo.Size = new System.Drawing.Size(71, 15);
+            this.labMobileNo.Size = new System.Drawing.Size(91, 19);
             this.labMobileNo.TabIndex = 5;
             this.labMobileNo.Text = "Mobile No.";
             // 
@@ -282,10 +290,10 @@
             // 
             this.labAddress.Anchor = System.Windows.Forms.AnchorStyles.Left;
             this.labAddress.AutoSize = true;
-            this.labAddress.Location = new System.Drawing.Point(2, 5);
+            this.labAddress.Location = new System.Drawing.Point(2, 6);
             this.labAddress.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.labAddress.Name = "labAddress";
-            this.labAddress.Size = new System.Drawing.Size(58, 15);
+            this.labAddress.Size = new System.Drawing.Size(74, 19);
             this.labAddress.TabIndex = 1;
             this.labAddress.Text = "Address ";
             // 
@@ -293,10 +301,10 @@
             // 
             this.labCity.Anchor = System.Windows.Forms.AnchorStyles.Left;
             this.labCity.AutoSize = true;
-            this.labCity.Location = new System.Drawing.Point(376, 5);
+            this.labCity.Location = new System.Drawing.Point(470, 6);
             this.labCity.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.labCity.Name = "labCity";
-            this.labCity.Size = new System.Drawing.Size(32, 15);
+            this.labCity.Size = new System.Drawing.Size(40, 19);
             this.labCity.TabIndex = 2;
             this.labCity.Text = "City";
             // 
@@ -304,10 +312,10 @@
             // 
             this.labPinCode.Anchor = System.Windows.Forms.AnchorStyles.Left;
             this.labPinCode.AutoSize = true;
-            this.labPinCode.Location = new System.Drawing.Point(2, 31);
+            this.labPinCode.Location = new System.Drawing.Point(2, 38);
             this.labPinCode.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.labPinCode.Name = "labPinCode";
-            this.labPinCode.Size = new System.Drawing.Size(58, 15);
+            this.labPinCode.Size = new System.Drawing.Size(75, 19);
             this.labPinCode.TabIndex = 3;
             this.labPinCode.Text = "Pin Code";
             // 
@@ -315,10 +323,10 @@
             // 
             this.labState.Anchor = System.Windows.Forms.AnchorStyles.Left;
             this.labState.AutoSize = true;
-            this.labState.Location = new System.Drawing.Point(376, 31);
+            this.labState.Location = new System.Drawing.Point(470, 38);
             this.labState.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.labState.Name = "labState";
-            this.labState.Size = new System.Drawing.Size(36, 15);
+            this.labState.Size = new System.Drawing.Size(46, 19);
             this.labState.TabIndex = 4;
             this.labState.Text = "State";
             // 
@@ -326,75 +334,77 @@
             // 
             this.labEmail.Anchor = System.Windows.Forms.AnchorStyles.Left;
             this.labEmail.AutoSize = true;
-            this.labEmail.Location = new System.Drawing.Point(376, 57);
+            this.labEmail.Location = new System.Drawing.Point(470, 71);
             this.labEmail.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.labEmail.Name = "labEmail";
-            this.labEmail.Size = new System.Drawing.Size(44, 15);
+            this.labEmail.Size = new System.Drawing.Size(56, 19);
             this.labEmail.TabIndex = 6;
             this.labEmail.Text = "E-mail";
             // 
             // AddressBox
             // 
             this.AddressBox.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.AddressBox.Location = new System.Drawing.Point(189, 2);
+            this.AddressBox.Location = new System.Drawing.Point(236, 2);
             this.AddressBox.Margin = new System.Windows.Forms.Padding(2);
             this.AddressBox.Name = "AddressBox";
-            this.AddressBox.Size = new System.Drawing.Size(183, 22);
+            this.AddressBox.Size = new System.Drawing.Size(230, 26);
             this.AddressBox.TabIndex = 5;
             // 
             // CityBox
             // 
             this.CityBox.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.CityBox.Location = new System.Drawing.Point(563, 2);
+            this.CityBox.Location = new System.Drawing.Point(704, 2);
             this.CityBox.Margin = new System.Windows.Forms.Padding(2);
             this.CityBox.Name = "CityBox";
-            this.CityBox.Size = new System.Drawing.Size(185, 22);
+            this.CityBox.Size = new System.Drawing.Size(231, 26);
             this.CityBox.TabIndex = 6;
             // 
             // PinCodeTextBox
             // 
             this.PinCodeTextBox.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.PinCodeTextBox.Location = new System.Drawing.Point(189, 28);
+            this.PinCodeTextBox.Location = new System.Drawing.Point(236, 34);
             this.PinCodeTextBox.Margin = new System.Windows.Forms.Padding(2);
             this.PinCodeTextBox.MaxLength = 6;
             this.PinCodeTextBox.Name = "PinCodeTextBox";
-            this.PinCodeTextBox.Size = new System.Drawing.Size(183, 22);
+            this.PinCodeTextBox.Size = new System.Drawing.Size(230, 26);
             this.PinCodeTextBox.TabIndex = 7;
             // 
             // StateTextBox
             // 
             this.StateTextBox.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.StateTextBox.Location = new System.Drawing.Point(563, 28);
+            this.StateTextBox.Location = new System.Drawing.Point(704, 34);
             this.StateTextBox.Margin = new System.Windows.Forms.Padding(2);
             this.StateTextBox.Name = "StateTextBox";
-            this.StateTextBox.Size = new System.Drawing.Size(185, 22);
+            this.StateTextBox.Size = new System.Drawing.Size(231, 26);
             this.StateTextBox.TabIndex = 8;
             // 
             // MobileTextBox
             // 
             this.MobileTextBox.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.MobileTextBox.Location = new System.Drawing.Point(189, 54);
+            this.MobileTextBox.Location = new System.Drawing.Point(236, 66);
             this.MobileTextBox.Margin = new System.Windows.Forms.Padding(2);
             this.MobileTextBox.MaxLength = 10;
             this.MobileTextBox.Name = "MobileTextBox";
-            this.MobileTextBox.Size = new System.Drawing.Size(183, 22);
+            this.MobileTextBox.Size = new System.Drawing.Size(230, 26);
             this.MobileTextBox.TabIndex = 9;
             // 
             // EmailBox
             // 
             this.EmailBox.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.EmailBox.Location = new System.Drawing.Point(563, 54);
+            this.EmailBox.Location = new System.Drawing.Point(704, 66);
             this.EmailBox.Margin = new System.Windows.Forms.Padding(2);
             this.EmailBox.Name = "EmailBox";
-            this.EmailBox.Size = new System.Drawing.Size(185, 22);
+            this.EmailBox.Size = new System.Drawing.Size(231, 26);
             this.EmailBox.TabIndex = 7;
             // 
             // MiscGroup
             // 
             this.MiscGroup.Controls.Add(this.tableLayoutPanel3);
-            this.MiscGroup.Location = new System.Drawing.Point(6, 369);
+            this.MiscGroup.Location = new System.Drawing.Point(8, 461);
+            this.MiscGroup.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.MiscGroup.Name = "MiscGroup";
-            this.MiscGroup.Size = new System.Drawing.Size(801, 179);
+            this.MiscGroup.Padding = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.MiscGroup.Size = new System.Drawing.Size(1001, 224);
             this.MiscGroup.TabIndex = 16;
             this.MiscGroup.TabStop = false;
             this.MiscGroup.Text = "Miscellaneous Details";
@@ -419,25 +429,25 @@
             this.tableLayoutPanel3.Controls.Add(this.labParentsContNo, 0, 0);
             this.tableLayoutPanel3.Controls.Add(this.tbPContactNo, 1, 0);
             this.tableLayoutPanel3.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.tableLayoutPanel3.Location = new System.Drawing.Point(3, 18);
+            this.tableLayoutPanel3.Location = new System.Drawing.Point(4, 23);
             this.tableLayoutPanel3.Margin = new System.Windows.Forms.Padding(2);
             this.tableLayoutPanel3.Name = "tableLayoutPanel3";
             this.tableLayoutPanel3.RowCount = 3;
             this.tableLayoutPanel3.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 33.33334F));
             this.tableLayoutPanel3.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 33.33334F));
             this.tableLayoutPanel3.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 33.33334F));
-            this.tableLayoutPanel3.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 20F));
-            this.tableLayoutPanel3.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 20F));
-            this.tableLayoutPanel3.Size = new System.Drawing.Size(795, 158);
+            this.tableLayoutPanel3.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 25F));
+            this.tableLayoutPanel3.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 25F));
+            this.tableLayoutPanel3.Size = new System.Drawing.Size(993, 197);
             this.tableLayoutPanel3.TabIndex = 12;
             // 
             // labMaritalStatus
             // 
             this.labMaritalStatus.AutoSize = true;
-            this.labMaritalStatus.Location = new System.Drawing.Point(2, 104);
+            this.labMaritalStatus.Location = new System.Drawing.Point(2, 130);
             this.labMaritalStatus.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.labMaritalStatus.Name = "labMaritalStatus";
-            this.labMaritalStatus.Size = new System.Drawing.Size(93, 15);
+            this.labMaritalStatus.Size = new System.Drawing.Size(117, 19);
             this.labMaritalStatus.TabIndex = 1;
             this.labMaritalStatus.Text = "Marital Status";
             // 
@@ -448,20 +458,20 @@
             this.cbMarried.Items.AddRange(new object[] {
             "Yes",
             "No"});
-            this.cbMarried.Location = new System.Drawing.Point(200, 106);
+            this.cbMarried.Location = new System.Drawing.Point(250, 132);
             this.cbMarried.Margin = new System.Windows.Forms.Padding(2);
             this.cbMarried.Name = "cbMarried";
-            this.cbMarried.Size = new System.Drawing.Size(194, 23);
+            this.cbMarried.Size = new System.Drawing.Size(244, 27);
             this.cbMarried.TabIndex = 3;
             this.cbMarried.Text = "Select";
             // 
             // labReligion
             // 
             this.labReligion.AutoSize = true;
-            this.labReligion.Location = new System.Drawing.Point(398, 104);
+            this.labReligion.Location = new System.Drawing.Point(498, 130);
             this.labReligion.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.labReligion.Name = "labReligion";
-            this.labReligion.Size = new System.Drawing.Size(56, 15);
+            this.labReligion.Size = new System.Drawing.Size(71, 19);
             this.labReligion.TabIndex = 0;
             this.labReligion.Text = "Religion";
             // 
@@ -478,20 +488,20 @@
             "Jain",
             "Other religion",
             "Not stated"});
-            this.cbRelig.Location = new System.Drawing.Point(596, 106);
+            this.cbRelig.Location = new System.Drawing.Point(746, 132);
             this.cbRelig.Margin = new System.Windows.Forms.Padding(2);
             this.cbRelig.Name = "cbRelig";
-            this.cbRelig.Size = new System.Drawing.Size(197, 23);
+            this.cbRelig.Size = new System.Drawing.Size(245, 27);
             this.cbRelig.TabIndex = 3;
             this.cbRelig.Text = "Select";
             // 
             // label3
             // 
             this.label3.AutoSize = true;
-            this.label3.Location = new System.Drawing.Point(398, 52);
+            this.label3.Location = new System.Drawing.Point(498, 65);
             this.label3.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(60, 15);
+            this.label3.Size = new System.Drawing.Size(77, 19);
             this.label3.TabIndex = 0;
             this.label3.Text = "Category";
             // 
@@ -509,40 +519,40 @@
             "NT-B",
             "NT-D",
             "NT-C"});
-            this.cbCategory.Location = new System.Drawing.Point(596, 54);
+            this.cbCategory.Location = new System.Drawing.Point(746, 67);
             this.cbCategory.Margin = new System.Windows.Forms.Padding(2);
             this.cbCategory.Name = "cbCategory";
-            this.cbCategory.Size = new System.Drawing.Size(197, 23);
+            this.cbCategory.Size = new System.Drawing.Size(245, 27);
             this.cbCategory.TabIndex = 3;
             this.cbCategory.Text = "Select";
             // 
             // labAadharNo
             // 
             this.labAadharNo.AutoSize = true;
-            this.labAadharNo.Location = new System.Drawing.Point(2, 52);
+            this.labAadharNo.Location = new System.Drawing.Point(2, 65);
             this.labAadharNo.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.labAadharNo.Name = "labAadharNo";
-            this.labAadharNo.Size = new System.Drawing.Size(98, 15);
+            this.labAadharNo.Size = new System.Drawing.Size(126, 19);
             this.labAadharNo.TabIndex = 0;
             this.labAadharNo.Text = "Adhar Card no.";
             // 
             // tbAddharNo
             // 
             this.tbAddharNo.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.tbAddharNo.Location = new System.Drawing.Point(200, 54);
+            this.tbAddharNo.Location = new System.Drawing.Point(250, 67);
             this.tbAddharNo.Margin = new System.Windows.Forms.Padding(2);
             this.tbAddharNo.MaxLength = 12;
             this.tbAddharNo.Name = "tbAddharNo";
-            this.tbAddharNo.Size = new System.Drawing.Size(194, 22);
+            this.tbAddharNo.Size = new System.Drawing.Size(244, 26);
             this.tbAddharNo.TabIndex = 2;
             // 
             // labCategory
             // 
             this.labCategory.AutoSize = true;
-            this.labCategory.Location = new System.Drawing.Point(398, 0);
+            this.labCategory.Location = new System.Drawing.Point(498, 0);
             this.labCategory.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.labCategory.Name = "labCategory";
-            this.labCategory.Size = new System.Drawing.Size(113, 15);
+            this.labCategory.Size = new System.Drawing.Size(143, 19);
             this.labCategory.TabIndex = 0;
             this.labCategory.Text = "Physial Disability";
             // 
@@ -553,10 +563,10 @@
             this.cbPhysicalDisab.Items.AddRange(new object[] {
             "Yes",
             "No"});
-            this.cbPhysicalDisab.Location = new System.Drawing.Point(596, 2);
+            this.cbPhysicalDisab.Location = new System.Drawing.Point(746, 2);
             this.cbPhysicalDisab.Margin = new System.Windows.Forms.Padding(2);
             this.cbPhysicalDisab.Name = "cbPhysicalDisab";
-            this.cbPhysicalDisab.Size = new System.Drawing.Size(197, 23);
+            this.cbPhysicalDisab.Size = new System.Drawing.Size(245, 27);
             this.cbPhysicalDisab.TabIndex = 3;
             this.cbPhysicalDisab.Text = "Select";
             // 
@@ -566,28 +576,28 @@
             this.labParentsContNo.Location = new System.Drawing.Point(2, 0);
             this.labParentsContNo.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.labParentsContNo.Name = "labParentsContNo";
-            this.labParentsContNo.Size = new System.Drawing.Size(128, 15);
+            this.labParentsContNo.Size = new System.Drawing.Size(163, 19);
             this.labParentsContNo.TabIndex = 0;
             this.labParentsContNo.Text = "Parent\'s Contact No.";
             // 
             // tbPContactNo
             // 
             this.tbPContactNo.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.tbPContactNo.Location = new System.Drawing.Point(200, 2);
+            this.tbPContactNo.Location = new System.Drawing.Point(250, 2);
             this.tbPContactNo.Margin = new System.Windows.Forms.Padding(2);
             this.tbPContactNo.MaxLength = 10;
             this.tbPContactNo.Name = "tbPContactNo";
-            this.tbPContactNo.Size = new System.Drawing.Size(194, 22);
+            this.tbPContactNo.Size = new System.Drawing.Size(244, 26);
             this.tbPContactNo.TabIndex = 2;
             // 
             // EduDetGroup
             // 
             this.EduDetGroup.Controls.Add(this.tableLayoutPanel2);
-            this.EduDetGroup.Location = new System.Drawing.Point(3, 240);
+            this.EduDetGroup.Location = new System.Drawing.Point(4, 300);
             this.EduDetGroup.Margin = new System.Windows.Forms.Padding(2);
             this.EduDetGroup.Name = "EduDetGroup";
             this.EduDetGroup.Padding = new System.Windows.Forms.Padding(2);
-            this.EduDetGroup.Size = new System.Drawing.Size(757, 124);
+            this.EduDetGroup.Size = new System.Drawing.Size(946, 155);
             this.EduDetGroup.TabIndex = 15;
             this.EduDetGroup.TabStop = false;
             this.EduDetGroup.Text = "Educational Details";
@@ -598,7 +608,7 @@
             this.tableLayoutPanel2.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 20F));
             this.tableLayoutPanel2.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 20F));
             this.tableLayoutPanel2.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 20F));
-            this.tableLayoutPanel2.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 20F));
+            this.tableLayoutPanel2.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 25F));
             this.tableLayoutPanel2.Controls.Add(this.labSSC, 0, 1);
             this.tableLayoutPanel2.Controls.Add(this.labHSC, 0, 2);
             this.tableLayoutPanel2.Controls.Add(this.labDegree, 0, 0);
@@ -612,7 +622,7 @@
             this.tableLayoutPanel2.Controls.Add(this.cbGraduDetails, 1, 3);
             this.tableLayoutPanel2.Controls.Add(this.cbCollege, 2, 3);
             this.tableLayoutPanel2.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.tableLayoutPanel2.Location = new System.Drawing.Point(2, 17);
+            this.tableLayoutPanel2.Location = new System.Drawing.Point(2, 21);
             this.tableLayoutPanel2.Margin = new System.Windows.Forms.Padding(2);
             this.tableLayoutPanel2.Name = "tableLayoutPanel2";
             this.tableLayoutPanel2.RowCount = 4;
@@ -620,26 +630,26 @@
             this.tableLayoutPanel2.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 25F));
             this.tableLayoutPanel2.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 25F));
             this.tableLayoutPanel2.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 25F));
-            this.tableLayoutPanel2.Size = new System.Drawing.Size(753, 105);
+            this.tableLayoutPanel2.Size = new System.Drawing.Size(942, 132);
             this.tableLayoutPanel2.TabIndex = 3;
             // 
             // labSSC
             // 
             this.labSSC.AutoSize = true;
-            this.labSSC.Location = new System.Drawing.Point(2, 26);
+            this.labSSC.Location = new System.Drawing.Point(2, 33);
             this.labSSC.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.labSSC.Name = "labSSC";
-            this.labSSC.Size = new System.Drawing.Size(27, 15);
+            this.labSSC.Size = new System.Drawing.Size(35, 19);
             this.labSSC.TabIndex = 0;
             this.labSSC.Text = "SSC";
             // 
             // labHSC
             // 
             this.labHSC.AutoSize = true;
-            this.labHSC.Location = new System.Drawing.Point(2, 52);
+            this.labHSC.Location = new System.Drawing.Point(2, 66);
             this.labHSC.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.labHSC.Name = "labHSC";
-            this.labHSC.Size = new System.Drawing.Size(32, 15);
+            this.labHSC.Size = new System.Drawing.Size(41, 19);
             this.labHSC.TabIndex = 0;
             this.labHSC.Text = "HSC";
             // 
@@ -649,17 +659,17 @@
             this.labDegree.Location = new System.Drawing.Point(2, 0);
             this.labDegree.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.labDegree.Name = "labDegree";
-            this.labDegree.Size = new System.Drawing.Size(49, 15);
+            this.labDegree.Size = new System.Drawing.Size(64, 19);
             this.labDegree.TabIndex = 0;
             this.labDegree.Text = "Degree";
             // 
             // labGraduaDetails
             // 
             this.labGraduaDetails.AutoSize = true;
-            this.labGraduaDetails.Location = new System.Drawing.Point(2, 78);
+            this.labGraduaDetails.Location = new System.Drawing.Point(2, 99);
             this.labGraduaDetails.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.labGraduaDetails.Name = "labGraduaDetails";
-            this.labGraduaDetails.Size = new System.Drawing.Size(115, 15);
+            this.labGraduaDetails.Size = new System.Drawing.Size(147, 19);
             this.labGraduaDetails.TabIndex = 0;
             this.labGraduaDetails.Text = "Graduation details";
             // 
@@ -667,10 +677,10 @@
             // 
             this.labUniversity.Anchor = System.Windows.Forms.AnchorStyles.Top;
             this.labUniversity.AutoSize = true;
-            this.labUniversity.Location = new System.Drawing.Point(340, 0);
+            this.labUniversity.Location = new System.Drawing.Point(425, 0);
             this.labUniversity.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.labUniversity.Name = "labUniversity";
-            this.labUniversity.Size = new System.Drawing.Size(72, 15);
+            this.labUniversity.Size = new System.Drawing.Size(91, 19);
             this.labUniversity.TabIndex = 8;
             this.labUniversity.Text = "University";
             // 
@@ -678,10 +688,10 @@
             // 
             this.labSchColle.Anchor = System.Windows.Forms.AnchorStyles.Top;
             this.labSchColle.AutoSize = true;
-            this.labSchColle.Location = new System.Drawing.Point(583, 0);
+            this.labSchColle.Location = new System.Drawing.Point(727, 0);
             this.labSchColle.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.labSchColle.Name = "labSchColle";
-            this.labSchColle.Size = new System.Drawing.Size(89, 15);
+            this.labSchColle.Size = new System.Drawing.Size(115, 19);
             this.labSchColle.TabIndex = 10;
             this.labSchColle.Text = "School/College";
             // 
@@ -711,10 +721,10 @@
             "Swami Ramanand Teerth Marathwada University, Nanded-431 606.",
             "The Rashtrasant Tukadoji Maharaj Nagpur University, Nagpur-440 001 (M.S).",
             "Yashwant Rao Chavan Maharashtra Open University, Nashik-422 222"});
-            this.cbHSCuniversity.Location = new System.Drawing.Point(253, 54);
+            this.cbHSCuniversity.Location = new System.Drawing.Point(316, 68);
             this.cbHSCuniversity.Margin = new System.Windows.Forms.Padding(2);
             this.cbHSCuniversity.Name = "cbHSCuniversity";
-            this.cbHSCuniversity.Size = new System.Drawing.Size(247, 23);
+            this.cbHSCuniversity.Size = new System.Drawing.Size(310, 27);
             this.cbHSCuniversity.TabIndex = 11;
             this.cbHSCuniversity.Text = "Select";
             // 
@@ -726,10 +736,10 @@
             "NIRMALA CONVENT HIGH SCHOOL",
             "M.K.S.S.\'S Kanya school",
             "New English School"});
-            this.cbSSC_School.Location = new System.Drawing.Point(504, 28);
+            this.cbSSC_School.Location = new System.Drawing.Point(630, 35);
             this.cbSSC_School.Margin = new System.Windows.Forms.Padding(2);
             this.cbSSC_School.Name = "cbSSC_School";
-            this.cbSSC_School.Size = new System.Drawing.Size(247, 23);
+            this.cbSSC_School.Size = new System.Drawing.Size(310, 27);
             this.cbSSC_School.TabIndex = 13;
             this.cbSSC_School.Text = "Select";
             // 
@@ -741,10 +751,10 @@
             "NIRMALA CONVENT HIGH SCHOOL",
             "M.K.S.S.\'S Kanya school",
             "New English School"});
-            this.cbHSC_School.Location = new System.Drawing.Point(504, 54);
+            this.cbHSC_School.Location = new System.Drawing.Point(630, 68);
             this.cbHSC_School.Margin = new System.Windows.Forms.Padding(2);
             this.cbHSC_School.Name = "cbHSC_School";
-            this.cbHSC_School.Size = new System.Drawing.Size(247, 23);
+            this.cbHSC_School.Size = new System.Drawing.Size(310, 27);
             this.cbHSC_School.TabIndex = 13;
             this.cbHSC_School.Text = "Select";
             // 
@@ -774,10 +784,10 @@
             "Swami Ramanand Teerth Marathwada University, Nanded-431 606.",
             "The Rashtrasant Tukadoji Maharaj Nagpur University, Nagpur-440 001 (M.S).",
             "Yashwant Rao Chavan Maharashtra Open University, Nashik-422 222"});
-            this.cbSSC_University.Location = new System.Drawing.Point(253, 28);
+            this.cbSSC_University.Location = new System.Drawing.Point(316, 35);
             this.cbSSC_University.Margin = new System.Windows.Forms.Padding(2);
             this.cbSSC_University.Name = "cbSSC_University";
-            this.cbSSC_University.Size = new System.Drawing.Size(247, 23);
+            this.cbSSC_University.Size = new System.Drawing.Size(310, 27);
             this.cbSSC_University.TabIndex = 11;
             this.cbSSC_University.Text = "Select";
             // 
@@ -807,10 +817,10 @@
             "Swami Ramanand Teerth Marathwada University, Nanded-431 606.",
             "The Rashtrasant Tukadoji Maharaj Nagpur University, Nagpur-440 001 (M.S).",
             "Yashwant Rao Chavan Maharashtra Open University, Nashik-422 222"});
-            this.cbGraduDetails.Location = new System.Drawing.Point(253, 80);
+            this.cbGraduDetails.Location = new System.Drawing.Point(316, 101);
             this.cbGraduDetails.Margin = new System.Windows.Forms.Padding(2);
             this.cbGraduDetails.Name = "cbGraduDetails";
-            this.cbGraduDetails.Size = new System.Drawing.Size(247, 23);
+            this.cbGraduDetails.Size = new System.Drawing.Size(310, 27);
             this.cbGraduDetails.TabIndex = 15;
             this.cbGraduDetails.Text = "Select";
             // 
@@ -822,10 +832,10 @@
             "Dhanajayrao Gadagil College of Commerce Satara",
             "Yashavanatrao Chavan  Institute of Science Satara",
             "A.A.Dhavaje Junior College of arts and science Satara"});
-            this.cbCollege.Location = new System.Drawing.Point(504, 80);
+            this.cbCollege.Location = new System.Drawing.Point(630, 101);
             this.cbCollege.Margin = new System.Windows.Forms.Padding(2);
             this.cbCollege.Name = "cbCollege";
-            this.cbCollege.Size = new System.Drawing.Size(247, 23);
+            this.cbCollege.Size = new System.Drawing.Size(310, 27);
             this.cbCollege.TabIndex = 15;
             this.cbCollege.Text = "Select";
             // 
@@ -837,13 +847,13 @@
             this.tableLayoutPanel1.Controls.Add(this.butBack, 0, 0);
             this.tableLayoutPanel1.Controls.Add(this.ProceedButton, 1, 0);
             this.tableLayoutPanel1.Dock = System.Windows.Forms.DockStyle.Bottom;
-            this.tableLayoutPanel1.Location = new System.Drawing.Point(0, 669);
+            this.tableLayoutPanel1.Location = new System.Drawing.Point(0, 903);
             this.tableLayoutPanel1.Margin = new System.Windows.Forms.Padding(2);
             this.tableLayoutPanel1.Name = "tableLayoutPanel1";
             this.tableLayoutPanel1.RowCount = 1;
             this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 100F));
-            this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 32F));
-            this.tableLayoutPanel1.Size = new System.Drawing.Size(1184, 32);
+            this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 40F));
+            this.tableLayoutPanel1.Size = new System.Drawing.Size(1848, 40);
             this.tableLayoutPanel1.TabIndex = 18;
             // 
             // butBack
@@ -852,7 +862,7 @@
             this.butBack.Location = new System.Drawing.Point(2, 2);
             this.butBack.Margin = new System.Windows.Forms.Padding(2);
             this.butBack.Name = "butBack";
-            this.butBack.Size = new System.Drawing.Size(588, 28);
+            this.butBack.Size = new System.Drawing.Size(920, 36);
             this.butBack.TabIndex = 0;
             this.butBack.Text = "Back";
             this.butBack.UseVisualStyleBackColor = true;
@@ -862,10 +872,10 @@
             // 
             this.ProceedButton.Dock = System.Windows.Forms.DockStyle.Fill;
             this.ProceedButton.ForeColor = System.Drawing.SystemColors.ControlText;
-            this.ProceedButton.Location = new System.Drawing.Point(594, 2);
+            this.ProceedButton.Location = new System.Drawing.Point(926, 2);
             this.ProceedButton.Margin = new System.Windows.Forms.Padding(2);
             this.ProceedButton.Name = "ProceedButton";
-            this.ProceedButton.Size = new System.Drawing.Size(588, 28);
+            this.ProceedButton.Size = new System.Drawing.Size(920, 36);
             this.ProceedButton.TabIndex = 0;
             this.ProceedButton.Text = "Proceed";
             this.ProceedButton.UseVisualStyleBackColor = true;
@@ -874,9 +884,11 @@
             // ClassDetailsGroup
             // 
             this.ClassDetailsGroup.Controls.Add(this.ClassTable);
-            this.ClassDetailsGroup.Location = new System.Drawing.Point(8, 555);
+            this.ClassDetailsGroup.Location = new System.Drawing.Point(10, 694);
+            this.ClassDetailsGroup.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.ClassDetailsGroup.Name = "ClassDetailsGroup";
-            this.ClassDetailsGroup.Size = new System.Drawing.Size(371, 100);
+            this.ClassDetailsGroup.Padding = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.ClassDetailsGroup.Size = new System.Drawing.Size(464, 125);
             this.ClassDetailsGroup.TabIndex = 19;
             this.ClassDetailsGroup.TabStop = false;
             this.ClassDetailsGroup.Text = "Select Class";
@@ -886,27 +898,29 @@
             this.ClassTable.ColumnCount = 2;
             this.ClassTable.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 25F));
             this.ClassTable.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 75F));
-            this.ClassTable.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 20F));
-            this.ClassTable.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 20F));
+            this.ClassTable.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 25F));
+            this.ClassTable.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 25F));
             this.ClassTable.Controls.Add(this.CourseLabel, 0, 0);
             this.ClassTable.Controls.Add(this.CourseCombo, 1, 0);
             this.ClassTable.Controls.Add(this.YearLabel, 0, 1);
             this.ClassTable.Controls.Add(this.YearCombo, 1, 1);
             this.ClassTable.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.ClassTable.Location = new System.Drawing.Point(3, 18);
+            this.ClassTable.Location = new System.Drawing.Point(4, 23);
+            this.ClassTable.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.ClassTable.Name = "ClassTable";
             this.ClassTable.RowCount = 2;
             this.ClassTable.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 50F));
             this.ClassTable.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 50F));
-            this.ClassTable.Size = new System.Drawing.Size(365, 79);
+            this.ClassTable.Size = new System.Drawing.Size(456, 98);
             this.ClassTable.TabIndex = 0;
             // 
             // CourseLabel
             // 
             this.CourseLabel.AutoSize = true;
-            this.CourseLabel.Location = new System.Drawing.Point(3, 0);
+            this.CourseLabel.Location = new System.Drawing.Point(4, 0);
+            this.CourseLabel.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.CourseLabel.Name = "CourseLabel";
-            this.CourseLabel.Size = new System.Drawing.Size(46, 15);
+            this.CourseLabel.Size = new System.Drawing.Size(59, 19);
             this.CourseLabel.TabIndex = 0;
             this.CourseLabel.Text = "Course";
             // 
@@ -918,9 +932,10 @@
             "B. Com. Bank Management",
             "B. Com. Information Technology",
             "B. Com. Regular"});
-            this.CourseCombo.Location = new System.Drawing.Point(94, 3);
+            this.CourseCombo.Location = new System.Drawing.Point(118, 4);
+            this.CourseCombo.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.CourseCombo.Name = "CourseCombo";
-            this.CourseCombo.Size = new System.Drawing.Size(268, 23);
+            this.CourseCombo.Size = new System.Drawing.Size(334, 27);
             this.CourseCombo.Sorted = true;
             this.CourseCombo.TabIndex = 1;
             this.CourseCombo.Text = "Select";
@@ -928,9 +943,10 @@
             // YearLabel
             // 
             this.YearLabel.AutoSize = true;
-            this.YearLabel.Location = new System.Drawing.Point(3, 39);
+            this.YearLabel.Location = new System.Drawing.Point(4, 49);
+            this.YearLabel.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.YearLabel.Name = "YearLabel";
-            this.YearLabel.Size = new System.Drawing.Size(35, 15);
+            this.YearLabel.Size = new System.Drawing.Size(45, 19);
             this.YearLabel.TabIndex = 2;
             this.YearLabel.Text = "Year";
             // 
@@ -942,24 +958,26 @@
             "First Year",
             "Second Year",
             "Third Year"});
-            this.YearCombo.Location = new System.Drawing.Point(94, 42);
+            this.YearCombo.Location = new System.Drawing.Point(118, 53);
+            this.YearCombo.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.YearCombo.Name = "YearCombo";
-            this.YearCombo.Size = new System.Drawing.Size(268, 23);
+            this.YearCombo.Size = new System.Drawing.Size(334, 27);
             this.YearCombo.TabIndex = 3;
             this.YearCombo.Text = "Select";
             // 
             // panel1
             // 
             this.panel1.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.panel1.Location = new System.Drawing.Point(0, 24);
+            this.panel1.Location = new System.Drawing.Point(0, 28);
+            this.panel1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(1184, 677);
+            this.panel1.Size = new System.Drawing.Size(1848, 915);
             this.panel1.TabIndex = 21;
             // 
             // RegistrationModule
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(96F, 96F);
-            this.ClientSize = new System.Drawing.Size(1184, 727);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(120F, 120F);
+            this.ClientSize = new System.Drawing.Size(1848, 981);
             this.Controls.Add(this.ClassDetailsGroup);
             this.Controls.Add(this.tableLayoutPanel1);
             this.Controls.Add(this.MiscGroup);
@@ -967,6 +985,8 @@
             this.Controls.Add(this.ContactGroupBox);
             this.Controls.Add(this.PrimaryGroupBox);
             this.Controls.Add(this.panel1);
+            this.Margin = new System.Windows.Forms.Padding(5, 5, 5, 5);
+            this.MinimumSize = new System.Drawing.Size(1866, 1028);
             this.Name = "RegistrationModule";
             this.Controls.SetChildIndex(this.panel1, 0);
             this.Controls.SetChildIndex(this.PrimaryGroupBox, 0);
