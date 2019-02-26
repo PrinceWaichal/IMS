@@ -35,6 +35,7 @@
             this.ModifyEntry = new System.Windows.Forms.ToolStripButton();
             this.Reports = new System.Windows.Forms.ToolStripButton();
             this.Logout = new System.Windows.Forms.ToolStripButton();
+            this.crystalReportViewer1 = new CrystalDecisions.Windows.Forms.CrystalReportViewer();
             this.ToolStrip.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -48,7 +49,7 @@
             this.Logout});
             this.ToolStrip.Location = new System.Drawing.Point(0, 27);
             this.ToolStrip.Name = "ToolStrip";
-            this.ToolStrip.Size = new System.Drawing.Size(784, 25);
+            this.ToolStrip.Size = new System.Drawing.Size(1184, 25);
             this.ToolStrip.TabIndex = 5;
             this.ToolStrip.Text = "ToolStrip";
             // 
@@ -102,13 +103,26 @@
             this.Logout.ToolTipText = "Click to Logout of System";
             this.Logout.Click += new System.EventHandler(this.LogoutClick);
             // 
+            // crystalReportViewer1
+            // 
+            this.crystalReportViewer1.ActiveViewIndex = -1;
+            this.crystalReportViewer1.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.crystalReportViewer1.Cursor = System.Windows.Forms.Cursors.Default;
+            this.crystalReportViewer1.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.crystalReportViewer1.Location = new System.Drawing.Point(0, 52);
+            this.crystalReportViewer1.Name = "crystalReportViewer1";
+            this.crystalReportViewer1.Size = new System.Drawing.Size(1184, 649);
+            this.crystalReportViewer1.TabIndex = 6;
+            // 
             // A_ReportingModule
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(96F, 96F);
-            this.ClientSize = new System.Drawing.Size(784, 361);
+            this.ClientSize = new System.Drawing.Size(1184, 727);
+            this.Controls.Add(this.crystalReportViewer1);
             this.Controls.Add(this.ToolStrip);
             this.Name = "A_ReportingModule";
             this.Controls.SetChildIndex(this.ToolStrip, 0);
+            this.Controls.SetChildIndex(this.crystalReportViewer1, 0);
             this.ToolStrip.ResumeLayout(false);
             this.ToolStrip.PerformLayout();
             this.ResumeLayout(false);
@@ -124,5 +138,6 @@
         private System.Windows.Forms.ToolStripButton ModifyEntry;
         private System.Windows.Forms.ToolStripButton Reports;
         private System.Windows.Forms.ToolStripButton Logout;
+        private CrystalDecisions.Windows.Forms.CrystalReportViewer crystalReportViewer1;
     }
 }

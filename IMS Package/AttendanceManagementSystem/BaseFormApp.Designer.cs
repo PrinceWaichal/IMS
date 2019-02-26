@@ -30,10 +30,10 @@
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(BaseFormApp));
             this.MenuStrip = new System.Windows.Forms.MenuStrip();
-            this.LoginBox = new System.Windows.Forms.ToolStripComboBox();
-            this.RegistrationBox = new System.Windows.Forms.ToolStripComboBox();
             this.StatusStrip = new System.Windows.Forms.StatusStrip();
             this.ProgressBar = new System.Windows.Forms.ToolStripProgressBar();
+            this.Login = new System.Windows.Forms.ToolStripMenuItem();
+            this.Registration = new System.Windows.Forms.ToolStripMenuItem();
             this.MenuStrip.SuspendLayout();
             this.StatusStrip.SuspendLayout();
             this.SuspendLayout();
@@ -43,35 +43,10 @@
             this.MenuStrip.AccessibleRole = System.Windows.Forms.AccessibleRole.MenuBar;
             this.MenuStrip.BackColor = System.Drawing.Color.Linen;
             this.MenuStrip.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
-            this.LoginBox,
-            this.RegistrationBox});
+            this.Login,
+            this.Registration});
             resources.ApplyResources(this.MenuStrip, "MenuStrip");
             this.MenuStrip.Name = "MenuStrip";
-            // 
-            // LoginBox
-            // 
-            this.LoginBox.AccessibleRole = System.Windows.Forms.AccessibleRole.MenuItem;
-            this.LoginBox.AutoToolTip = true;
-            this.LoginBox.BackColor = System.Drawing.Color.Linen;
-            this.LoginBox.Items.AddRange(new object[] {
-            resources.GetString("LoginBox.Items"),
-            resources.GetString("LoginBox.Items1"),
-            resources.GetString("LoginBox.Items2")});
-            this.LoginBox.Name = "LoginBox";
-            resources.ApplyResources(this.LoginBox, "LoginBox");
-            this.LoginBox.Sorted = true;
-            this.LoginBox.SelectedIndexChanged += new System.EventHandler(this.LoginIndexChange);
-            // 
-            // RegistrationBox
-            // 
-            this.RegistrationBox.BackColor = System.Drawing.Color.Linen;
-            this.RegistrationBox.Items.AddRange(new object[] {
-            resources.GetString("RegistrationBox.Items"),
-            resources.GetString("RegistrationBox.Items1")});
-            this.RegistrationBox.Name = "RegistrationBox";
-            resources.ApplyResources(this.RegistrationBox, "RegistrationBox");
-            this.RegistrationBox.Sorted = true;
-            this.RegistrationBox.SelectedIndexChanged += new System.EventHandler(this.RegIndecChange);
             // 
             // StatusStrip
             // 
@@ -92,6 +67,20 @@
             this.ProgressBar.Step = 5;
             this.ProgressBar.Style = System.Windows.Forms.ProgressBarStyle.Continuous;
             this.ProgressBar.Value = 40;
+            // 
+            // Login
+            // 
+            this.Login.AutoToolTip = true;
+            resources.ApplyResources(this.Login, "Login");
+            this.Login.Name = "Login";
+            this.Login.Click += new System.EventHandler(this.LoginClick);
+            // 
+            // Registration
+            // 
+            this.Registration.AutoToolTip = true;
+            resources.ApplyResources(this.Registration, "Registration");
+            this.Registration.Name = "Registration";
+            this.Registration.Click += new System.EventHandler(this.RegisterClick);
             // 
             // BaseFormApp
             // 
@@ -116,8 +105,8 @@
 
         private System.Windows.Forms.MenuStrip MenuStrip;
         private System.Windows.Forms.StatusStrip StatusStrip;
-        private System.Windows.Forms.ToolStripComboBox LoginBox;
-        private System.Windows.Forms.ToolStripComboBox RegistrationBox;
         private System.Windows.Forms.ToolStripProgressBar ProgressBar;
+        private System.Windows.Forms.ToolStripMenuItem Login;
+        private System.Windows.Forms.ToolStripMenuItem Registration;
     }
 }

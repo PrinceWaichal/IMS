@@ -1,6 +1,6 @@
 ﻿namespace AttendanceManagementSystem.LoginModule
 {
-    partial class AdminLoginModule
+    partial class LoginModule
     {
         /// <summary>
         /// Required designer variable.
@@ -35,15 +35,19 @@
             this.ForgotLinkLabel = new System.Windows.Forms.LinkLabel();
             this.UserNameLabel = new System.Windows.Forms.Label();
             this.PasswordLabel = new System.Windows.Forms.Label();
+            this.UsertypeCombo = new System.Windows.Forms.ComboBox();
+            this.UserTypeLabel = new System.Windows.Forms.Label();
             this.GroupBox.SuspendLayout();
             this.SuspendLayout();
             // 
             // GroupBox
             // 
+            this.GroupBox.Controls.Add(this.UsertypeCombo);
             this.GroupBox.Controls.Add(this.LoginButton);
             this.GroupBox.Controls.Add(this.PasswordBox);
             this.GroupBox.Controls.Add(this.UsernameBox);
             this.GroupBox.Controls.Add(this.ForgotLinkLabel);
+            this.GroupBox.Controls.Add(this.UserTypeLabel);
             this.GroupBox.Controls.Add(this.UserNameLabel);
             this.GroupBox.Controls.Add(this.PasswordLabel);
             this.GroupBox.Location = new System.Drawing.Point(346, 271);
@@ -66,6 +70,7 @@
             // 
             // PasswordBox
             // 
+            this.PasswordBox.Enabled = false;
             this.PasswordBox.Location = new System.Drawing.Point(301, 88);
             this.PasswordBox.Name = "PasswordBox";
             this.PasswordBox.Size = new System.Drawing.Size(143, 22);
@@ -73,6 +78,7 @@
             // 
             // UsernameBox
             // 
+            this.UsernameBox.Enabled = false;
             this.UsernameBox.Location = new System.Drawing.Point(301, 51);
             this.UsernameBox.Name = "UsernameBox";
             this.UsernameBox.Size = new System.Drawing.Size(143, 22);
@@ -89,12 +95,12 @@
             this.ForgotLinkLabel.TabStop = true;
             this.ForgotLinkLabel.Text = "Forgot Password";
             this.ForgotLinkLabel.VisitedLinkColor = System.Drawing.Color.SpringGreen;
-            this.ForgotLinkLabel.LinkClicked += new System.Windows.Forms.LinkLabelLinkClickedEventHandler(this.ForgotLinkLabel_LinkClicked);
+            this.ForgotLinkLabel.Click += new System.EventHandler(this.ForgotClick);
             // 
             // UserNameLabel
             // 
             this.UserNameLabel.AutoSize = true;
-            this.UserNameLabel.Location = new System.Drawing.Point(117, 51);
+            this.UserNameLabel.Location = new System.Drawing.Point(118, 54);
             this.UserNameLabel.Name = "UserNameLabel";
             this.UserNameLabel.Size = new System.Drawing.Size(104, 15);
             this.UserNameLabel.TabIndex = 8;
@@ -109,12 +115,35 @@
             this.PasswordLabel.TabIndex = 9;
             this.PasswordLabel.Text = "Enter Password";
             // 
-            // AdminLoginModule
+            // UsertypeCombo
+            // 
+            this.UsertypeCombo.FormattingEnabled = true;
+            this.UsertypeCombo.Items.AddRange(new object[] {
+            "Admin",
+            "Student",
+            "Teacher"});
+            this.UsertypeCombo.Location = new System.Drawing.Point(301, 17);
+            this.UsertypeCombo.Name = "UsertypeCombo";
+            this.UsertypeCombo.Size = new System.Drawing.Size(143, 23);
+            this.UsertypeCombo.TabIndex = 10;
+            this.UsertypeCombo.Text = "Select";
+            this.UsertypeCombo.SelectedIndexChanged += new System.EventHandler(this.UsertypeIndexChange);
+            // 
+            // UserTypeLabel
+            // 
+            this.UserTypeLabel.AutoSize = true;
+            this.UserTypeLabel.Location = new System.Drawing.Point(118, 20);
+            this.UserTypeLabel.Name = "UserTypeLabel";
+            this.UserTypeLabel.Size = new System.Drawing.Size(68, 15);
+            this.UserTypeLabel.TabIndex = 8;
+            this.UserTypeLabel.Text = "User Type";
+            // 
+            // LoginModule
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(96F, 96F);
             this.ClientSize = new System.Drawing.Size(1184, 727);
             this.Controls.Add(this.GroupBox);
-            this.Name = "AdminLoginModule";
+            this.Name = "LoginModule";
             this.Controls.SetChildIndex(this.GroupBox, 0);
             this.GroupBox.ResumeLayout(false);
             this.GroupBox.PerformLayout();
@@ -132,5 +161,7 @@
         private System.Windows.Forms.LinkLabel ForgotLinkLabel;
         private System.Windows.Forms.Label UserNameLabel;
         private System.Windows.Forms.Label PasswordLabel;
+        private System.Windows.Forms.ComboBox UsertypeCombo;
+        private System.Windows.Forms.Label UserTypeLabel;
     }
 }

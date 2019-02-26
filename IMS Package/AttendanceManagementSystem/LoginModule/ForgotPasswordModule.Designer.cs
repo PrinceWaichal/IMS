@@ -42,8 +42,6 @@
             this.ConfirmPassLabel = new System.Windows.Forms.Label();
             this.PasswordLabel = new System.Windows.Forms.Label();
             this.HomeButton = new System.Windows.Forms.Button();
-            this.UserTypeLabel = new System.Windows.Forms.Label();
-            this.UserTypeBox = new System.Windows.Forms.TextBox();
             this.PasswordRestGroupBox.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -53,11 +51,9 @@
             this.PasswordRestGroupBox.Controls.Add(this.CheckButton);
             this.PasswordRestGroupBox.Controls.Add(this.ConfirmPasswordBox);
             this.PasswordRestGroupBox.Controls.Add(this.PasswordBox);
-            this.PasswordRestGroupBox.Controls.Add(this.UserTypeBox);
             this.PasswordRestGroupBox.Controls.Add(this.MobileTextBox);
             this.PasswordRestGroupBox.Controls.Add(this.EmailTextBox);
             this.PasswordRestGroupBox.Controls.Add(this.UsernameBox);
-            this.PasswordRestGroupBox.Controls.Add(this.UserTypeLabel);
             this.PasswordRestGroupBox.Controls.Add(this.MobileNumberLabel);
             this.PasswordRestGroupBox.Controls.Add(this.MobileLabel);
             this.PasswordRestGroupBox.Controls.Add(this.UserNameLabel);
@@ -79,6 +75,7 @@
             this.ResetButton.TabIndex = 9;
             this.ResetButton.Text = "Reset";
             this.ResetButton.UseVisualStyleBackColor = true;
+            this.ResetButton.Click += new System.EventHandler(this.ResetClick);
             // 
             // CheckButton
             // 
@@ -89,6 +86,7 @@
             this.CheckButton.Text = "Check";
             this.CheckButton.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
             this.CheckButton.UseVisualStyleBackColor = true;
+            this.CheckButton.Click += new System.EventHandler(this.CheckClick);
             // 
             // ConfirmPasswordBox
             // 
@@ -180,23 +178,7 @@
             this.HomeButton.TabIndex = 10;
             this.HomeButton.Text = "Register";
             this.HomeButton.UseVisualStyleBackColor = true;
-            // 
-            // UserTypeLabel
-            // 
-            this.UserTypeLabel.AutoSize = true;
-            this.UserTypeLabel.Location = new System.Drawing.Point(115, 139);
-            this.UserTypeLabel.Name = "UserTypeLabel";
-            this.UserTypeLabel.Size = new System.Drawing.Size(68, 15);
-            this.UserTypeLabel.TabIndex = 8;
-            this.UserTypeLabel.Text = "User Type";
-            // 
-            // UserTypeBox
-            // 
-            this.UserTypeBox.Location = new System.Drawing.Point(299, 136);
-            this.UserTypeBox.Name = "UserTypeBox";
-            this.UserTypeBox.ReadOnly = true;
-            this.UserTypeBox.Size = new System.Drawing.Size(143, 22);
-            this.UserTypeBox.TabIndex = 5;
+            this.HomeButton.Click += new System.EventHandler(this.RegisterClick);
             // 
             // ForgotPasswordModule
             // 
@@ -228,7 +210,5 @@
         private System.Windows.Forms.Label ConfirmPassLabel;
         private System.Windows.Forms.Label PasswordLabel;
         private System.Windows.Forms.Button HomeButton;
-        private System.Windows.Forms.TextBox UserTypeBox;
-        private System.Windows.Forms.Label UserTypeLabel;
     }
 }

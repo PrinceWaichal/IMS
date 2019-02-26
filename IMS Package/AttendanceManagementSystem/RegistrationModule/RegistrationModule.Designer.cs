@@ -1,6 +1,6 @@
 ﻿namespace AttendanceManagementSystem.RegistrationModule
 {
-    partial class TeacherRegistrationModule
+    partial class RegistrationModule
     {
         /// <summary>
         /// Required designer variable.
@@ -36,6 +36,8 @@
             this.tbMiddleName = new System.Windows.Forms.TextBox();
             this.GenderLabel = new System.Windows.Forms.Label();
             this.GenderCombo = new System.Windows.Forms.ComboBox();
+            this.UserTypeLabel = new System.Windows.Forms.Label();
+            this.UserTypeCombo = new System.Windows.Forms.ComboBox();
             this.ContactGroupBox = new System.Windows.Forms.GroupBox();
             this.tableLayoutPanel4 = new System.Windows.Forms.TableLayoutPanel();
             this.labMobileNo = new System.Windows.Forms.Label();
@@ -49,17 +51,7 @@
             this.PinCodeTextBox = new System.Windows.Forms.TextBox();
             this.StateTextBox = new System.Windows.Forms.TextBox();
             this.MobileTextBox = new System.Windows.Forms.TextBox();
-            this.textBox6 = new System.Windows.Forms.TextBox();
-            this.tableLayoutPanel5 = new System.Windows.Forms.TableLayoutPanel();
-            this.labUserName = new System.Windows.Forms.Label();
-            this.tbConfirmPassword = new System.Windows.Forms.TextBox();
-            this.label4 = new System.Windows.Forms.Label();
-            this.tbUserName = new System.Windows.Forms.TextBox();
-            this.label2 = new System.Windows.Forms.Label();
-            this.label1 = new System.Windows.Forms.Label();
-            this.tbPassword = new System.Windows.Forms.TextBox();
-            this.labConfirmPassw = new System.Windows.Forms.Label();
-            this.labCreatePassw = new System.Windows.Forms.Label();
+            this.EmailBox = new System.Windows.Forms.TextBox();
             this.MiscGroup = new System.Windows.Forms.GroupBox();
             this.tableLayoutPanel3 = new System.Windows.Forms.TableLayoutPanel();
             this.labMaritalStatus = new System.Windows.Forms.Label();
@@ -90,17 +82,25 @@
             this.cbCollege = new System.Windows.Forms.ComboBox();
             this.tableLayoutPanel1 = new System.Windows.Forms.TableLayoutPanel();
             this.butBack = new System.Windows.Forms.Button();
-            this.butSubmit = new System.Windows.Forms.Button();
+            this.ProceedButton = new System.Windows.Forms.Button();
+            this.ClassDetailsGroup = new System.Windows.Forms.GroupBox();
+            this.ClassTable = new System.Windows.Forms.TableLayoutPanel();
+            this.CourseLabel = new System.Windows.Forms.Label();
+            this.CourseCombo = new System.Windows.Forms.ComboBox();
+            this.YearLabel = new System.Windows.Forms.Label();
+            this.YearCombo = new System.Windows.Forms.ComboBox();
+            this.panel1 = new System.Windows.Forms.Panel();
             this.PrimaryGroupBox.SuspendLayout();
             this.tlpRegistraitonDet.SuspendLayout();
             this.ContactGroupBox.SuspendLayout();
             this.tableLayoutPanel4.SuspendLayout();
-            this.tableLayoutPanel5.SuspendLayout();
             this.MiscGroup.SuspendLayout();
             this.tableLayoutPanel3.SuspendLayout();
             this.EduDetGroup.SuspendLayout();
             this.tableLayoutPanel2.SuspendLayout();
             this.tableLayoutPanel1.SuspendLayout();
+            this.ClassDetailsGroup.SuspendLayout();
+            this.ClassTable.SuspendLayout();
             this.SuspendLayout();
             // 
             // PrimaryGroupBox
@@ -108,7 +108,7 @@
             this.PrimaryGroupBox.Controls.Add(this.tlpRegistraitonDet);
             this.PrimaryGroupBox.Location = new System.Drawing.Point(0, 30);
             this.PrimaryGroupBox.Name = "PrimaryGroupBox";
-            this.PrimaryGroupBox.Size = new System.Drawing.Size(530, 100);
+            this.PrimaryGroupBox.Size = new System.Drawing.Size(756, 100);
             this.PrimaryGroupBox.TabIndex = 9;
             this.PrimaryGroupBox.TabStop = false;
             this.PrimaryGroupBox.Text = "Primary Details";
@@ -126,6 +126,8 @@
             this.tlpRegistraitonDet.Controls.Add(this.tbMiddleName, 3, 0);
             this.tlpRegistraitonDet.Controls.Add(this.GenderLabel, 0, 1);
             this.tlpRegistraitonDet.Controls.Add(this.GenderCombo, 1, 1);
+            this.tlpRegistraitonDet.Controls.Add(this.UserTypeLabel, 2, 1);
+            this.tlpRegistraitonDet.Controls.Add(this.UserTypeCombo, 3, 1);
             this.tlpRegistraitonDet.Dock = System.Windows.Forms.DockStyle.Fill;
             this.tlpRegistraitonDet.Location = new System.Drawing.Point(3, 18);
             this.tlpRegistraitonDet.Margin = new System.Windows.Forms.Padding(2);
@@ -134,7 +136,7 @@
             this.tlpRegistraitonDet.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 9.090907F));
             this.tlpRegistraitonDet.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 9.090908F));
             this.tlpRegistraitonDet.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 16F));
-            this.tlpRegistraitonDet.Size = new System.Drawing.Size(524, 79);
+            this.tlpRegistraitonDet.Size = new System.Drawing.Size(750, 79);
             this.tlpRegistraitonDet.TabIndex = 2;
             // 
             // labName
@@ -151,30 +153,30 @@
             // tbLastNam
             // 
             this.tbLastNam.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.tbLastNam.Location = new System.Drawing.Point(133, 2);
+            this.tbLastNam.Location = new System.Drawing.Point(189, 2);
             this.tbLastNam.Margin = new System.Windows.Forms.Padding(2);
             this.tbLastNam.Name = "tbLastNam";
-            this.tbLastNam.Size = new System.Drawing.Size(127, 22);
+            this.tbLastNam.Size = new System.Drawing.Size(183, 22);
             this.tbLastNam.TabIndex = 0;
             this.tbLastNam.Text = "Last name";
             // 
             // tbFirstName
             // 
             this.tbFirstName.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.tbFirstName.Location = new System.Drawing.Point(264, 2);
+            this.tbFirstName.Location = new System.Drawing.Point(376, 2);
             this.tbFirstName.Margin = new System.Windows.Forms.Padding(2);
             this.tbFirstName.Name = "tbFirstName";
-            this.tbFirstName.Size = new System.Drawing.Size(127, 22);
+            this.tbFirstName.Size = new System.Drawing.Size(183, 22);
             this.tbFirstName.TabIndex = 1;
             this.tbFirstName.Text = "First name";
             // 
             // tbMiddleName
             // 
             this.tbMiddleName.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.tbMiddleName.Location = new System.Drawing.Point(395, 2);
+            this.tbMiddleName.Location = new System.Drawing.Point(563, 2);
             this.tbMiddleName.Margin = new System.Windows.Forms.Padding(2);
             this.tbMiddleName.Name = "tbMiddleName";
-            this.tbMiddleName.Size = new System.Drawing.Size(127, 22);
+            this.tbMiddleName.Size = new System.Drawing.Size(185, 22);
             this.tbMiddleName.TabIndex = 2;
             this.tbMiddleName.Text = "Middle name";
             // 
@@ -192,18 +194,46 @@
             // GenderCombo
             // 
             this.GenderCombo.FormattingEnabled = true;
-            this.GenderCombo.Location = new System.Drawing.Point(134, 42);
+            this.GenderCombo.Items.AddRange(new object[] {
+            "Male",
+            "Female",
+            "Transgender",
+            "Prefer Not To Say"});
+            this.GenderCombo.Location = new System.Drawing.Point(190, 42);
             this.GenderCombo.Name = "GenderCombo";
             this.GenderCombo.Size = new System.Drawing.Size(121, 23);
             this.GenderCombo.TabIndex = 3;
             this.GenderCombo.Text = "Select";
+            // 
+            // UserTypeLabel
+            // 
+            this.UserTypeLabel.AutoSize = true;
+            this.UserTypeLabel.Location = new System.Drawing.Point(377, 39);
+            this.UserTypeLabel.Name = "UserTypeLabel";
+            this.UserTypeLabel.Size = new System.Drawing.Size(68, 15);
+            this.UserTypeLabel.TabIndex = 15;
+            this.UserTypeLabel.Text = "User Type";
+            // 
+            // UserTypeCombo
+            // 
+            this.UserTypeCombo.FormattingEnabled = true;
+            this.UserTypeCombo.Items.AddRange(new object[] {
+            "Student",
+            "Teacher"});
+            this.UserTypeCombo.Location = new System.Drawing.Point(564, 42);
+            this.UserTypeCombo.Name = "UserTypeCombo";
+            this.UserTypeCombo.Size = new System.Drawing.Size(121, 23);
+            this.UserTypeCombo.Sorted = true;
+            this.UserTypeCombo.TabIndex = 4;
+            this.UserTypeCombo.Text = "Select";
+            this.UserTypeCombo.SelectedIndexChanged += new System.EventHandler(this.UserTypeIndexChange);
             // 
             // ContactGroupBox
             // 
             this.ContactGroupBox.Controls.Add(this.tableLayoutPanel4);
             this.ContactGroupBox.Location = new System.Drawing.Point(0, 136);
             this.ContactGroupBox.Name = "ContactGroupBox";
-            this.ContactGroupBox.Size = new System.Drawing.Size(530, 99);
+            this.ContactGroupBox.Size = new System.Drawing.Size(756, 99);
             this.ContactGroupBox.TabIndex = 10;
             this.ContactGroupBox.TabStop = false;
             this.ContactGroupBox.Text = "Contact Details";
@@ -226,7 +256,7 @@
             this.tableLayoutPanel4.Controls.Add(this.PinCodeTextBox, 1, 1);
             this.tableLayoutPanel4.Controls.Add(this.StateTextBox, 3, 1);
             this.tableLayoutPanel4.Controls.Add(this.MobileTextBox, 1, 2);
-            this.tableLayoutPanel4.Controls.Add(this.textBox6, 3, 2);
+            this.tableLayoutPanel4.Controls.Add(this.EmailBox, 3, 2);
             this.tableLayoutPanel4.Dock = System.Windows.Forms.DockStyle.Fill;
             this.tableLayoutPanel4.Location = new System.Drawing.Point(3, 18);
             this.tableLayoutPanel4.Name = "tableLayoutPanel4";
@@ -234,7 +264,7 @@
             this.tableLayoutPanel4.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 33.33333F));
             this.tableLayoutPanel4.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 33.33333F));
             this.tableLayoutPanel4.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 33.33333F));
-            this.tableLayoutPanel4.Size = new System.Drawing.Size(524, 78);
+            this.tableLayoutPanel4.Size = new System.Drawing.Size(750, 78);
             this.tableLayoutPanel4.TabIndex = 0;
             // 
             // labMobileNo
@@ -263,7 +293,7 @@
             // 
             this.labCity.Anchor = System.Windows.Forms.AnchorStyles.Left;
             this.labCity.AutoSize = true;
-            this.labCity.Location = new System.Drawing.Point(264, 5);
+            this.labCity.Location = new System.Drawing.Point(376, 5);
             this.labCity.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.labCity.Name = "labCity";
             this.labCity.Size = new System.Drawing.Size(32, 15);
@@ -285,7 +315,7 @@
             // 
             this.labState.Anchor = System.Windows.Forms.AnchorStyles.Left;
             this.labState.AutoSize = true;
-            this.labState.Location = new System.Drawing.Point(264, 31);
+            this.labState.Location = new System.Drawing.Point(376, 31);
             this.labState.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.labState.Name = "labState";
             this.labState.Size = new System.Drawing.Size(36, 15);
@@ -296,7 +326,7 @@
             // 
             this.labEmail.Anchor = System.Windows.Forms.AnchorStyles.Left;
             this.labEmail.AutoSize = true;
-            this.labEmail.Location = new System.Drawing.Point(264, 57);
+            this.labEmail.Location = new System.Drawing.Point(376, 57);
             this.labEmail.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.labEmail.Name = "labEmail";
             this.labEmail.Size = new System.Drawing.Size(44, 15);
@@ -306,174 +336,58 @@
             // AddressBox
             // 
             this.AddressBox.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.AddressBox.Location = new System.Drawing.Point(133, 2);
+            this.AddressBox.Location = new System.Drawing.Point(189, 2);
             this.AddressBox.Margin = new System.Windows.Forms.Padding(2);
             this.AddressBox.Name = "AddressBox";
-            this.AddressBox.Size = new System.Drawing.Size(127, 22);
-            this.AddressBox.TabIndex = 7;
+            this.AddressBox.Size = new System.Drawing.Size(183, 22);
+            this.AddressBox.TabIndex = 5;
             // 
             // CityBox
             // 
             this.CityBox.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.CityBox.Location = new System.Drawing.Point(395, 2);
+            this.CityBox.Location = new System.Drawing.Point(563, 2);
             this.CityBox.Margin = new System.Windows.Forms.Padding(2);
             this.CityBox.Name = "CityBox";
-            this.CityBox.Size = new System.Drawing.Size(127, 22);
-            this.CityBox.TabIndex = 7;
+            this.CityBox.Size = new System.Drawing.Size(185, 22);
+            this.CityBox.TabIndex = 6;
             // 
             // PinCodeTextBox
             // 
             this.PinCodeTextBox.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.PinCodeTextBox.Location = new System.Drawing.Point(133, 28);
+            this.PinCodeTextBox.Location = new System.Drawing.Point(189, 28);
             this.PinCodeTextBox.Margin = new System.Windows.Forms.Padding(2);
+            this.PinCodeTextBox.MaxLength = 6;
             this.PinCodeTextBox.Name = "PinCodeTextBox";
-            this.PinCodeTextBox.Size = new System.Drawing.Size(127, 22);
+            this.PinCodeTextBox.Size = new System.Drawing.Size(183, 22);
             this.PinCodeTextBox.TabIndex = 7;
             // 
             // StateTextBox
             // 
             this.StateTextBox.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.StateTextBox.Location = new System.Drawing.Point(395, 28);
+            this.StateTextBox.Location = new System.Drawing.Point(563, 28);
             this.StateTextBox.Margin = new System.Windows.Forms.Padding(2);
             this.StateTextBox.Name = "StateTextBox";
-            this.StateTextBox.Size = new System.Drawing.Size(127, 22);
-            this.StateTextBox.TabIndex = 7;
+            this.StateTextBox.Size = new System.Drawing.Size(185, 22);
+            this.StateTextBox.TabIndex = 8;
             // 
             // MobileTextBox
             // 
             this.MobileTextBox.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.MobileTextBox.Location = new System.Drawing.Point(133, 54);
+            this.MobileTextBox.Location = new System.Drawing.Point(189, 54);
             this.MobileTextBox.Margin = new System.Windows.Forms.Padding(2);
+            this.MobileTextBox.MaxLength = 10;
             this.MobileTextBox.Name = "MobileTextBox";
-            this.MobileTextBox.Size = new System.Drawing.Size(127, 22);
-            this.MobileTextBox.TabIndex = 7;
+            this.MobileTextBox.Size = new System.Drawing.Size(183, 22);
+            this.MobileTextBox.TabIndex = 9;
             // 
-            // textBox6
+            // EmailBox
             // 
-            this.textBox6.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.textBox6.Location = new System.Drawing.Point(395, 54);
-            this.textBox6.Margin = new System.Windows.Forms.Padding(2);
-            this.textBox6.Name = "textBox6";
-            this.textBox6.Size = new System.Drawing.Size(127, 22);
-            this.textBox6.TabIndex = 7;
-            // 
-            // tableLayoutPanel5
-            // 
-            this.tableLayoutPanel5.ColumnCount = 3;
-            this.tableLayoutPanel5.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 4.225352F));
-            this.tableLayoutPanel5.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 47.89474F));
-            this.tableLayoutPanel5.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 47.89474F));
-            this.tableLayoutPanel5.Controls.Add(this.labUserName, 1, 0);
-            this.tableLayoutPanel5.Controls.Add(this.tbConfirmPassword, 2, 2);
-            this.tableLayoutPanel5.Controls.Add(this.label4, 0, 0);
-            this.tableLayoutPanel5.Controls.Add(this.tbUserName, 2, 0);
-            this.tableLayoutPanel5.Controls.Add(this.label2, 0, 2);
-            this.tableLayoutPanel5.Controls.Add(this.label1, 0, 1);
-            this.tableLayoutPanel5.Controls.Add(this.tbPassword, 2, 1);
-            this.tableLayoutPanel5.Controls.Add(this.labConfirmPassw, 1, 2);
-            this.tableLayoutPanel5.Controls.Add(this.labCreatePassw, 1, 1);
-            this.tableLayoutPanel5.Location = new System.Drawing.Point(209, 553);
-            this.tableLayoutPanel5.Margin = new System.Windows.Forms.Padding(2);
-            this.tableLayoutPanel5.Name = "tableLayoutPanel5";
-            this.tableLayoutPanel5.RowCount = 3;
-            this.tableLayoutPanel5.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 33.33333F));
-            this.tableLayoutPanel5.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 33.33333F));
-            this.tableLayoutPanel5.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 33.33333F));
-            this.tableLayoutPanel5.Size = new System.Drawing.Size(280, 84);
-            this.tableLayoutPanel5.TabIndex = 17;
-            // 
-            // labUserName
-            // 
-            this.labUserName.AutoSize = true;
-            this.labUserName.Location = new System.Drawing.Point(13, 0);
-            this.labUserName.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
-            this.labUserName.Name = "labUserName";
-            this.labUserName.Size = new System.Drawing.Size(116, 15);
-            this.labUserName.TabIndex = 7;
-            this.labUserName.Text = "Create User Name";
-            // 
-            // tbConfirmPassword
-            // 
-            this.tbConfirmPassword.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.tbConfirmPassword.Location = new System.Drawing.Point(147, 58);
-            this.tbConfirmPassword.Margin = new System.Windows.Forms.Padding(2);
-            this.tbConfirmPassword.Name = "tbConfirmPassword";
-            this.tbConfirmPassword.Size = new System.Drawing.Size(131, 22);
-            this.tbConfirmPassword.TabIndex = 10;
-            // 
-            // label4
-            // 
-            this.label4.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
-            this.label4.AutoSize = true;
-            this.label4.ForeColor = System.Drawing.Color.Red;
-            this.label4.Location = new System.Drawing.Point(2, 0);
-            this.label4.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
-            this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(7, 15);
-            this.label4.TabIndex = 6;
-            this.label4.Text = "*";
-            // 
-            // tbUserName
-            // 
-            this.tbUserName.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.tbUserName.Location = new System.Drawing.Point(147, 2);
-            this.tbUserName.Margin = new System.Windows.Forms.Padding(2);
-            this.tbUserName.Name = "tbUserName";
-            this.tbUserName.Size = new System.Drawing.Size(131, 22);
-            this.tbUserName.TabIndex = 11;
-            // 
-            // label2
-            // 
-            this.label2.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
-            this.label2.AutoSize = true;
-            this.label2.ForeColor = System.Drawing.Color.Red;
-            this.label2.Location = new System.Drawing.Point(2, 56);
-            this.label2.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
-            this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(7, 15);
-            this.label2.TabIndex = 8;
-            this.label2.Text = "*";
-            // 
-            // label1
-            // 
-            this.label1.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
-            this.label1.AutoSize = true;
-            this.label1.ForeColor = System.Drawing.Color.Red;
-            this.label1.Location = new System.Drawing.Point(2, 28);
-            this.label1.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(7, 15);
-            this.label1.TabIndex = 7;
-            this.label1.Text = "*";
-            // 
-            // tbPassword
-            // 
-            this.tbPassword.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.tbPassword.Location = new System.Drawing.Point(147, 30);
-            this.tbPassword.Margin = new System.Windows.Forms.Padding(2);
-            this.tbPassword.Name = "tbPassword";
-            this.tbPassword.Size = new System.Drawing.Size(131, 22);
-            this.tbPassword.TabIndex = 12;
-            // 
-            // labConfirmPassw
-            // 
-            this.labConfirmPassw.AutoSize = true;
-            this.labConfirmPassw.Location = new System.Drawing.Point(13, 56);
-            this.labConfirmPassw.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
-            this.labConfirmPassw.Name = "labConfirmPassw";
-            this.labConfirmPassw.Size = new System.Drawing.Size(113, 15);
-            this.labConfirmPassw.TabIndex = 8;
-            this.labConfirmPassw.Text = "Confirm Password";
-            // 
-            // labCreatePassw
-            // 
-            this.labCreatePassw.AutoSize = true;
-            this.labCreatePassw.Location = new System.Drawing.Point(13, 28);
-            this.labCreatePassw.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
-            this.labCreatePassw.Name = "labCreatePassw";
-            this.labCreatePassw.Size = new System.Drawing.Size(103, 15);
-            this.labCreatePassw.TabIndex = 9;
-            this.labCreatePassw.Text = "Create Password";
+            this.EmailBox.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.EmailBox.Location = new System.Drawing.Point(563, 54);
+            this.EmailBox.Margin = new System.Windows.Forms.Padding(2);
+            this.EmailBox.Name = "EmailBox";
+            this.EmailBox.Size = new System.Drawing.Size(185, 22);
+            this.EmailBox.TabIndex = 7;
             // 
             // MiscGroup
             // 
@@ -531,6 +445,9 @@
             // 
             this.cbMarried.Dock = System.Windows.Forms.DockStyle.Fill;
             this.cbMarried.FormattingEnabled = true;
+            this.cbMarried.Items.AddRange(new object[] {
+            "Yes",
+            "No"});
             this.cbMarried.Location = new System.Drawing.Point(200, 106);
             this.cbMarried.Margin = new System.Windows.Forms.Padding(2);
             this.cbMarried.Name = "cbMarried";
@@ -918,7 +835,7 @@
             this.tableLayoutPanel1.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 50F));
             this.tableLayoutPanel1.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 50F));
             this.tableLayoutPanel1.Controls.Add(this.butBack, 0, 0);
-            this.tableLayoutPanel1.Controls.Add(this.butSubmit, 1, 0);
+            this.tableLayoutPanel1.Controls.Add(this.ProceedButton, 1, 0);
             this.tableLayoutPanel1.Dock = System.Windows.Forms.DockStyle.Bottom;
             this.tableLayoutPanel1.Location = new System.Drawing.Point(0, 669);
             this.tableLayoutPanel1.Margin = new System.Windows.Forms.Padding(2);
@@ -939,44 +856,131 @@
             this.butBack.TabIndex = 0;
             this.butBack.Text = "Back";
             this.butBack.UseVisualStyleBackColor = true;
+            this.butBack.Click += new System.EventHandler(this.BackClick);
             // 
-            // butSubmit
+            // ProceedButton
             // 
-            this.butSubmit.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.butSubmit.ForeColor = System.Drawing.SystemColors.ControlText;
-            this.butSubmit.Location = new System.Drawing.Point(594, 2);
-            this.butSubmit.Margin = new System.Windows.Forms.Padding(2);
-            this.butSubmit.Name = "butSubmit";
-            this.butSubmit.Size = new System.Drawing.Size(588, 28);
-            this.butSubmit.TabIndex = 0;
-            this.butSubmit.Text = "Submit";
-            this.butSubmit.UseVisualStyleBackColor = true;
+            this.ProceedButton.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.ProceedButton.ForeColor = System.Drawing.SystemColors.ControlText;
+            this.ProceedButton.Location = new System.Drawing.Point(594, 2);
+            this.ProceedButton.Margin = new System.Windows.Forms.Padding(2);
+            this.ProceedButton.Name = "ProceedButton";
+            this.ProceedButton.Size = new System.Drawing.Size(588, 28);
+            this.ProceedButton.TabIndex = 0;
+            this.ProceedButton.Text = "Proceed";
+            this.ProceedButton.UseVisualStyleBackColor = true;
+            this.ProceedButton.Click += new System.EventHandler(this.SubmitClick);
             // 
-            // TeacherRegistrationModule
+            // ClassDetailsGroup
+            // 
+            this.ClassDetailsGroup.Controls.Add(this.ClassTable);
+            this.ClassDetailsGroup.Location = new System.Drawing.Point(8, 555);
+            this.ClassDetailsGroup.Name = "ClassDetailsGroup";
+            this.ClassDetailsGroup.Size = new System.Drawing.Size(371, 100);
+            this.ClassDetailsGroup.TabIndex = 19;
+            this.ClassDetailsGroup.TabStop = false;
+            this.ClassDetailsGroup.Text = "Select Class";
+            // 
+            // ClassTable
+            // 
+            this.ClassTable.ColumnCount = 2;
+            this.ClassTable.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 25F));
+            this.ClassTable.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 75F));
+            this.ClassTable.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 20F));
+            this.ClassTable.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 20F));
+            this.ClassTable.Controls.Add(this.CourseLabel, 0, 0);
+            this.ClassTable.Controls.Add(this.CourseCombo, 1, 0);
+            this.ClassTable.Controls.Add(this.YearLabel, 0, 1);
+            this.ClassTable.Controls.Add(this.YearCombo, 1, 1);
+            this.ClassTable.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.ClassTable.Location = new System.Drawing.Point(3, 18);
+            this.ClassTable.Name = "ClassTable";
+            this.ClassTable.RowCount = 2;
+            this.ClassTable.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 50F));
+            this.ClassTable.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 50F));
+            this.ClassTable.Size = new System.Drawing.Size(365, 79);
+            this.ClassTable.TabIndex = 0;
+            // 
+            // CourseLabel
+            // 
+            this.CourseLabel.AutoSize = true;
+            this.CourseLabel.Location = new System.Drawing.Point(3, 0);
+            this.CourseLabel.Name = "CourseLabel";
+            this.CourseLabel.Size = new System.Drawing.Size(46, 15);
+            this.CourseLabel.TabIndex = 0;
+            this.CourseLabel.Text = "Course";
+            // 
+            // CourseCombo
+            // 
+            this.CourseCombo.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.CourseCombo.FormattingEnabled = true;
+            this.CourseCombo.Items.AddRange(new object[] {
+            "B. Com. Bank Management",
+            "B. Com. Information Technology",
+            "B. Com. Regular"});
+            this.CourseCombo.Location = new System.Drawing.Point(94, 3);
+            this.CourseCombo.Name = "CourseCombo";
+            this.CourseCombo.Size = new System.Drawing.Size(268, 23);
+            this.CourseCombo.Sorted = true;
+            this.CourseCombo.TabIndex = 1;
+            this.CourseCombo.Text = "Select";
+            // 
+            // YearLabel
+            // 
+            this.YearLabel.AutoSize = true;
+            this.YearLabel.Location = new System.Drawing.Point(3, 39);
+            this.YearLabel.Name = "YearLabel";
+            this.YearLabel.Size = new System.Drawing.Size(35, 15);
+            this.YearLabel.TabIndex = 2;
+            this.YearLabel.Text = "Year";
+            // 
+            // YearCombo
+            // 
+            this.YearCombo.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.YearCombo.FormattingEnabled = true;
+            this.YearCombo.Items.AddRange(new object[] {
+            "First Year",
+            "Second Year",
+            "Third Year"});
+            this.YearCombo.Location = new System.Drawing.Point(94, 42);
+            this.YearCombo.Name = "YearCombo";
+            this.YearCombo.Size = new System.Drawing.Size(268, 23);
+            this.YearCombo.TabIndex = 3;
+            this.YearCombo.Text = "Select";
+            // 
+            // panel1
+            // 
+            this.panel1.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.panel1.Location = new System.Drawing.Point(0, 24);
+            this.panel1.Name = "panel1";
+            this.panel1.Size = new System.Drawing.Size(1184, 677);
+            this.panel1.TabIndex = 21;
+            // 
+            // RegistrationModule
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(96F, 96F);
             this.ClientSize = new System.Drawing.Size(1184, 727);
+            this.Controls.Add(this.ClassDetailsGroup);
             this.Controls.Add(this.tableLayoutPanel1);
-            this.Controls.Add(this.tableLayoutPanel5);
             this.Controls.Add(this.MiscGroup);
             this.Controls.Add(this.EduDetGroup);
             this.Controls.Add(this.ContactGroupBox);
             this.Controls.Add(this.PrimaryGroupBox);
-            this.Name = "TeacherRegistrationModule";
+            this.Controls.Add(this.panel1);
+            this.Name = "RegistrationModule";
+            this.Controls.SetChildIndex(this.panel1, 0);
             this.Controls.SetChildIndex(this.PrimaryGroupBox, 0);
             this.Controls.SetChildIndex(this.ContactGroupBox, 0);
             this.Controls.SetChildIndex(this.EduDetGroup, 0);
             this.Controls.SetChildIndex(this.MiscGroup, 0);
-            this.Controls.SetChildIndex(this.tableLayoutPanel5, 0);
             this.Controls.SetChildIndex(this.tableLayoutPanel1, 0);
+            this.Controls.SetChildIndex(this.ClassDetailsGroup, 0);
             this.PrimaryGroupBox.ResumeLayout(false);
             this.tlpRegistraitonDet.ResumeLayout(false);
             this.tlpRegistraitonDet.PerformLayout();
             this.ContactGroupBox.ResumeLayout(false);
             this.tableLayoutPanel4.ResumeLayout(false);
             this.tableLayoutPanel4.PerformLayout();
-            this.tableLayoutPanel5.ResumeLayout(false);
-            this.tableLayoutPanel5.PerformLayout();
             this.MiscGroup.ResumeLayout(false);
             this.tableLayoutPanel3.ResumeLayout(false);
             this.tableLayoutPanel3.PerformLayout();
@@ -984,6 +988,9 @@
             this.tableLayoutPanel2.ResumeLayout(false);
             this.tableLayoutPanel2.PerformLayout();
             this.tableLayoutPanel1.ResumeLayout(false);
+            this.ClassDetailsGroup.ResumeLayout(false);
+            this.ClassTable.ResumeLayout(false);
+            this.ClassTable.PerformLayout();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -1012,17 +1019,7 @@
         private System.Windows.Forms.TextBox PinCodeTextBox;
         private System.Windows.Forms.TextBox StateTextBox;
         private System.Windows.Forms.TextBox MobileTextBox;
-        private System.Windows.Forms.TextBox textBox6;
-        private System.Windows.Forms.TableLayoutPanel tableLayoutPanel5;
-        private System.Windows.Forms.Label labUserName;
-        private System.Windows.Forms.TextBox tbConfirmPassword;
-        private System.Windows.Forms.Label label4;
-        private System.Windows.Forms.TextBox tbUserName;
-        private System.Windows.Forms.Label label2;
-        private System.Windows.Forms.Label label1;
-        private System.Windows.Forms.TextBox tbPassword;
-        private System.Windows.Forms.Label labConfirmPassw;
-        private System.Windows.Forms.Label labCreatePassw;
+        private System.Windows.Forms.TextBox EmailBox;
         private System.Windows.Forms.GroupBox MiscGroup;
         private System.Windows.Forms.TableLayoutPanel tableLayoutPanel3;
         private System.Windows.Forms.Label labMaritalStatus;
@@ -1053,6 +1050,15 @@
         private System.Windows.Forms.ComboBox cbCollege;
         private System.Windows.Forms.TableLayoutPanel tableLayoutPanel1;
         private System.Windows.Forms.Button butBack;
-        private System.Windows.Forms.Button butSubmit;
+        private System.Windows.Forms.Button ProceedButton;
+        private System.Windows.Forms.Label UserTypeLabel;
+        private System.Windows.Forms.ComboBox UserTypeCombo;
+        private System.Windows.Forms.GroupBox ClassDetailsGroup;
+        private System.Windows.Forms.TableLayoutPanel ClassTable;
+        private System.Windows.Forms.Label CourseLabel;
+        private System.Windows.Forms.ComboBox CourseCombo;
+        private System.Windows.Forms.Label YearLabel;
+        private System.Windows.Forms.ComboBox YearCombo;
+        private System.Windows.Forms.Panel panel1;
     }
 }
