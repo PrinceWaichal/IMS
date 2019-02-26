@@ -39,5 +39,7 @@ namespace AttendanceManagementSystem.SessionModule.DataEntry
             this.Hide();
             BFA.Show();
         }
+
+        
     }
 }
