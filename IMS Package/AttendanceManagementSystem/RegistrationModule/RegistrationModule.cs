@@ -16,7 +16,7 @@ namespace AttendanceManagementSystem.RegistrationModule
         {
             InitializeComponent();
         }
-
+        static int id = 1;
         SqlCommand mysqlcom = new SqlCommand();
 
         public new bool Validate()
@@ -230,7 +230,7 @@ namespace AttendanceManagementSystem.RegistrationModule
 
                     if (UserTypeCombo.Text == "Teacher")
                     {
-                        mysqlcom.CommandText = "INSERT INTO UserMaster values(''," +
+                        mysqlcom.CommandText = "INSERT INTO UserMaster values('"+id+"', " +
                         "'" + tbLastNam.Text + "', ' " + tbFirstName.Text + " ', ' " + tbMiddleName.Text + " ' ," +
                         " '" + GenderCombo.Text + "', '" + AddressBox.Text + "', '" + CityBox.Text + "', " +
                         "'" + PinCodeTextBox.Text + "','" + StateTextBox.Text + "','" + MobileTextBox.Text + "'," +
@@ -243,7 +243,7 @@ namespace AttendanceManagementSystem.RegistrationModule
                     }
                     else
                     {
-                        mysqlcom.CommandText = "INSERT INTO UserMaster values(''," +
+                        mysqlcom.CommandText = "INSERT INTO UserMaster values('"+id+"'," +
                         " '" + tbLastNam.Text + "', ' " + tbFirstName.Text + " ', ' " + tbMiddleName.Text + " ' ," +
                         " '" + GenderCombo.Text + "', '" + AddressBox.Text + "', '" + CityBox.Text + "', " +
                         " '" + PinCodeTextBox.Text + "','" + StateTextBox.Text + "','" + MobileTextBox.Text + "'," +
