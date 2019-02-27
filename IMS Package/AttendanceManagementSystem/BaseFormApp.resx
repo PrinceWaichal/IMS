@@ -1605,10 +1605,10 @@
     <value>132, 17</value>
   </metadata>
   <data name="StatusStrip.Location" type="System.Drawing.Point, System.Drawing">
-    <value>0, 701</value>
+    <value>0, 705</value>
   </data>
   <data name="StatusStrip.Size" type="System.Drawing.Size, System.Drawing">
-    <value>1184, 26</value>
+    <value>1184, 22</value>
   </data>
   <data name="StatusStrip.TabIndex" type="System.Int32, mscorlib">
     <value>2</value>
@@ -1627,15 +1627,6 @@
   </data>
   <data name="&gt;&gt;StatusStrip.ZOrder" xml:space="preserve">
     <value>0</value>
-  </data>
-  <data name="ProgressBar.Font" type="System.Drawing.Font, System.Drawing">
-    <value>Lucida Calligraphy, 9pt</value>
-  </data>
-  <data name="ProgressBar.Size" type="System.Drawing.Size, System.Drawing">
-    <value>150, 20</value>
-  </data>
-  <data name="ProgressBar.ToolTipText" xml:space="preserve">
-    <value>Shows Progress of Processes</value>
   </data>
   <metadata name="$this.Localizable" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
     <value>True</value>
@@ -1735,13 +1726,7 @@
     <value>1200, 766</value>
   </data>
   <data name="$this.Text" xml:space="preserve">
-    <value>Student Attendance Management</value>
-  </data>
-  <data name="&gt;&gt;ProgressBar.Name" xml:space="preserve">
-    <value>ProgressBar</value>
-  </data>
-  <data name="&gt;&gt;ProgressBar.Type" xml:space="preserve">
-    <value>System.Windows.Forms.ToolStripProgressBar, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+    <value>Information Management System</value>
   </data>
   <data name="&gt;&gt;Login.Name" xml:space="preserve">
     <value>Login</value>

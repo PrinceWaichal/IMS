@@ -29,6 +29,7 @@
         private void InitializeComponent()
         {
             this.panel1 = new System.Windows.Forms.Panel();
+            this.SubmitButton = new System.Windows.Forms.Button();
             this.PasswordGroup = new System.Windows.Forms.GroupBox();
             this.PasswordTable = new System.Windows.Forms.TableLayoutPanel();
             this.labConfirmPassw = new System.Windows.Forms.Label();
@@ -37,7 +38,6 @@
             this.tbUserName = new System.Windows.Forms.TextBox();
             this.tbPassword = new System.Windows.Forms.TextBox();
             this.tbConfirmPassword = new System.Windows.Forms.TextBox();
-            this.SubmitButton = new System.Windows.Forms.Button();
             this.panel1.SuspendLayout();
             this.PasswordGroup.SuspendLayout();
             this.PasswordTable.SuspendLayout();
@@ -50,8 +50,19 @@
             this.panel1.Dock = System.Windows.Forms.DockStyle.Fill;
             this.panel1.Location = new System.Drawing.Point(0, 24);
             this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(1184, 677);
+            this.panel1.Size = new System.Drawing.Size(1184, 681);
             this.panel1.TabIndex = 4;
+            // 
+            // SubmitButton
+            // 
+            this.SubmitButton.Dock = System.Windows.Forms.DockStyle.Bottom;
+            this.SubmitButton.Location = new System.Drawing.Point(0, 658);
+            this.SubmitButton.Name = "SubmitButton";
+            this.SubmitButton.Size = new System.Drawing.Size(1184, 23);
+            this.SubmitButton.TabIndex = 22;
+            this.SubmitButton.Text = "Submit";
+            this.SubmitButton.UseVisualStyleBackColor = true;
+            this.SubmitButton.Click += new System.EventHandler(this.SubmitClick);
             // 
             // PasswordGroup
             // 
@@ -129,6 +140,7 @@
             this.tbPassword.Dock = System.Windows.Forms.DockStyle.Fill;
             this.tbPassword.Location = new System.Drawing.Point(148, 29);
             this.tbPassword.Name = "tbPassword";
+            this.tbPassword.PasswordChar = '*';
             this.tbPassword.Size = new System.Drawing.Size(139, 22);
             this.tbPassword.TabIndex = 11;
             // 
@@ -137,18 +149,9 @@
             this.tbConfirmPassword.Dock = System.Windows.Forms.DockStyle.Fill;
             this.tbConfirmPassword.Location = new System.Drawing.Point(148, 55);
             this.tbConfirmPassword.Name = "tbConfirmPassword";
+            this.tbConfirmPassword.PasswordChar = '*';
             this.tbConfirmPassword.Size = new System.Drawing.Size(139, 22);
             this.tbConfirmPassword.TabIndex = 12;
-            // 
-            // SubmitButton
-            // 
-            this.SubmitButton.Dock = System.Windows.Forms.DockStyle.Bottom;
-            this.SubmitButton.Location = new System.Drawing.Point(0, 654);
-            this.SubmitButton.Name = "SubmitButton";
-            this.SubmitButton.Size = new System.Drawing.Size(1184, 23);
-            this.SubmitButton.TabIndex = 22;
-            this.SubmitButton.Text = "Submit";
-            this.SubmitButton.UseVisualStyleBackColor = true;
             // 
             // PasswordCreateModule
             // 
@@ -156,6 +159,7 @@
             this.ClientSize = new System.Drawing.Size(1184, 727);
             this.Controls.Add(this.panel1);
             this.Name = "PasswordCreateModule";
+            this.Load += new System.EventHandler(this.PassCrtModLoad);
             this.Controls.SetChildIndex(this.panel1, 0);
             this.panel1.ResumeLayout(false);
             this.PasswordGroup.ResumeLayout(false);

@@ -30,12 +30,10 @@
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(BaseFormApp));
             this.MenuStrip = new System.Windows.Forms.MenuStrip();
-            this.StatusStrip = new System.Windows.Forms.StatusStrip();
-            this.ProgressBar = new System.Windows.Forms.ToolStripProgressBar();
             this.Login = new System.Windows.Forms.ToolStripMenuItem();
             this.Registration = new System.Windows.Forms.ToolStripMenuItem();
+            this.StatusStrip = new System.Windows.Forms.StatusStrip();
             this.MenuStrip.SuspendLayout();
-            this.StatusStrip.SuspendLayout();
             this.SuspendLayout();
             // 
             // MenuStrip
@@ -47,26 +45,6 @@
             this.Registration});
             resources.ApplyResources(this.MenuStrip, "MenuStrip");
             this.MenuStrip.Name = "MenuStrip";
-            // 
-            // StatusStrip
-            // 
-            this.StatusStrip.AccessibleRole = System.Windows.Forms.AccessibleRole.StatusBar;
-            this.StatusStrip.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
-            this.ProgressBar});
-            resources.ApplyResources(this.StatusStrip, "StatusStrip");
-            this.StatusStrip.Name = "StatusStrip";
-            // 
-            // ProgressBar
-            // 
-            this.ProgressBar.AccessibleRole = System.Windows.Forms.AccessibleRole.ProgressBar;
-            this.ProgressBar.AutoToolTip = true;
-            resources.ApplyResources(this.ProgressBar, "ProgressBar");
-            this.ProgressBar.MarqueeAnimationSpeed = 90;
-            this.ProgressBar.Minimum = 40;
-            this.ProgressBar.Name = "ProgressBar";
-            this.ProgressBar.Step = 5;
-            this.ProgressBar.Style = System.Windows.Forms.ProgressBarStyle.Continuous;
-            this.ProgressBar.Value = 40;
             // 
             // Login
             // 
@@ -82,6 +60,12 @@
             this.Registration.Name = "Registration";
             this.Registration.Click += new System.EventHandler(this.RegisterClick);
             // 
+            // StatusStrip
+            // 
+            this.StatusStrip.AccessibleRole = System.Windows.Forms.AccessibleRole.StatusBar;
+            resources.ApplyResources(this.StatusStrip, "StatusStrip");
+            this.StatusStrip.Name = "StatusStrip";
+            // 
             // BaseFormApp
             // 
             resources.ApplyResources(this, "$this");
@@ -94,8 +78,6 @@
             this.Name = "BaseFormApp";
             this.MenuStrip.ResumeLayout(false);
             this.MenuStrip.PerformLayout();
-            this.StatusStrip.ResumeLayout(false);
-            this.StatusStrip.PerformLayout();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -105,7 +87,6 @@
 
         private System.Windows.Forms.MenuStrip MenuStrip;
         private System.Windows.Forms.StatusStrip StatusStrip;
-        private System.Windows.Forms.ToolStripProgressBar ProgressBar;
         private System.Windows.Forms.ToolStripMenuItem Login;
         private System.Windows.Forms.ToolStripMenuItem Registration;
     }

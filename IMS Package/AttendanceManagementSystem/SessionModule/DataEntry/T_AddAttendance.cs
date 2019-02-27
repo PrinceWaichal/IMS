@@ -40,6 +40,11 @@ namespace AttendanceManagementSystem.SessionModule.DataEntry
             BFA.Show();
         }
 
-        
+        private void T_AddAttendance_Load(object sender, EventArgs e)
+        {
+            // TODO: This line of code loads data into the 'aMSDBDataSet.CourseTable' table. You can move, or remove it, as needed.
+            this.courseTableTableAdapter.Fill(this.aMSDBDataSet.CourseTable);
+
+        }
     }
 }

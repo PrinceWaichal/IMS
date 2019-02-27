@@ -45,14 +45,52 @@ namespace AttendanceManagementSystem.LoginModule
 
         private void LoginClick(object sender, EventArgs e)
         {
-            
-            try
+            if(UsernameBox.Text != "" && PasswordBox.Text != "")
             {
-                
+                try
+                {
+                    ServerInfo.Connect.Open();
+                    mysqlc.Connection = ServerInfo.Connect;
+                    mysqlc.CommandText = "select Id, UserType, Password from dbo.UserMaster where Id = '"+UsernameBox.Text+"' and UserType = '"+UsertypeCombo.Text+"' and Password = '"+PasswordBox.Text+"' ";
+                    mysqlc.ExecuteNonQuery();
+
+                    SqlDataReader reader = mysqlc.ExecuteReader(CommandBehavior.CloseConnection);
+
+                    if(reader.Read() == true)
+                    {
+                        MessageBox.Show("You have sucessfully logged in","Login Successful"
+                            ,MessageBoxButtons.OKCancel,MessageBoxIcon.Information);
+                        this.Hide();
+                        if(UsertypeCombo.Text == "Teacher")
+                        {
+                            SessionModule.TeacherSessionModule TeachMod = new SessionModule.TeacherSessionModule();
+                            TeachMod.Show();
+                        }
+                        else if(UsertypeCombo.Text == "Student")
+                        {
+                            SessionModule.StudentSessionModule StudMod = new SessionModule.StudentSessionModule();
+                            StudMod.Show();
+                        }
+                        else
+                        {
+                            MessageBox.Show("Something Went Wrong", "Logincal Error",
+                                MessageBoxButtons.OKCancel, MessageBoxIcon.Hand);
+                        }
+                    }
+                }
+                catch (SqlException error)
+                {
+                    MessageBox.Show(error.Message, "Unexpected Error Ocurred", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                }
+                finally
+                {
+                    ServerInfo.Connect.Close();
+                }
             }
-            catch (MySqlException error)
+            else
             {
-                MessageBox.Show(error.Message, "Unexpected Error Ocurred", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                MessageBox.Show("Entered details dont match with database\nTry Again", "Invalid ID & Pass", 
+                    MessageBoxButtons.OKCancel, MessageBoxIcon.Hand);
             }
             
         }

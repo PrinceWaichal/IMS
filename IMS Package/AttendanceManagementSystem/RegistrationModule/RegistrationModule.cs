@@ -16,8 +16,34 @@ namespace AttendanceManagementSystem.RegistrationModule
         {
             InitializeComponent();
         }
-        static int id = 1;
+
         SqlCommand mysqlcom = new SqlCommand();
+
+        public static int ID()
+        {
+            SqlCommand sqlcom = new SqlCommand();
+            Int32 count=201900001;
+
+            sqlcom.CommandText = "Select Max(Id) from dbo.UserMaster";
+
+            try
+            {
+                ServerInfo.Connect.Open();
+                sqlcom.Connection = ServerInfo.Connect;
+                count = (Int32) sqlcom.ExecuteScalar();
+                count++;
+            }
+            catch (SqlException error)
+            {
+                MessageBox.Show(error.Message, "Connection Error",
+                    MessageBoxButtons.OKCancel, MessageBoxIcon.Error);
+            }
+            finally
+            {
+                ServerInfo.Connect.Close();
+            }
+            return count;
+        }
 
         public new bool Validate()
         {
@@ -43,13 +69,6 @@ namespace AttendanceManagementSystem.RegistrationModule
                 if (CourseCombo.Text == "Select" || CourseCombo.Text == "")
                 {
                     MessageBox.Show("Forgot to Select Course?", "Course Error"
-                        , MessageBoxButtons.YesNo, MessageBoxIcon.Hand);
-                    return false;
-                }
-
-                else if (YearCombo.Text == "Select" || YearCombo.Text == "")
-                {
-                    MessageBox.Show("Forgot to Select Year?", "Year Error"
                         , MessageBoxButtons.YesNo, MessageBoxIcon.Hand);
                     return false;
                 }
@@ -192,7 +211,6 @@ namespace AttendanceManagementSystem.RegistrationModule
             if (UserTypeCombo.Text == "Student")
             {
                 CourseCombo.Enabled = true;
-                YearCombo.Enabled = true;
                 cbGraduDetails.Enabled = false;
                 cbCollege.Enabled = false;
             }
@@ -201,7 +219,6 @@ namespace AttendanceManagementSystem.RegistrationModule
                 cbGraduDetails.Enabled = true;
                 cbCollege.Enabled = true;
                 CourseCombo.Enabled = false;
-                YearCombo.Enabled = false;
             }
             else
             {
@@ -219,10 +236,11 @@ namespace AttendanceManagementSystem.RegistrationModule
 
         private void SubmitClick(object sender, EventArgs e)
         {
+            int id = ID();
+
             if (Validate())
             {
                 mysqlcom.CommandType = CommandType.Text;
-                
                 try
                 {
                     ServerInfo.Connect.Open();
@@ -238,7 +256,7 @@ namespace AttendanceManagementSystem.RegistrationModule
                         "'" + cbHSCuniversity.Text + "','" + cbHSC_School.Text + "', '" + cbGraduDetails.Text + "'," +
                         "'" + cbCollege.Text + "', '" + tbPContactNo.Text + "', '" + tbAddharNo.Text + "', " +
                         "'" + cbMarried.Text + "', '" + cbPhysicalDisab.Text + "', '" + cbCategory.Text + "'," +
-                        "'" + cbRelig.Text + "', '','','Teacher',''" +
+                        "'" + cbRelig.Text + "', '', '', '', 'Teacher',''" +
                         ")";
                     }
                     else
@@ -251,7 +269,7 @@ namespace AttendanceManagementSystem.RegistrationModule
                         " '" + cbHSCuniversity.Text + "','" + cbHSC_School.Text + "', ''," +
                         " '', '" + tbPContactNo.Text + "', '" + tbAddharNo.Text + "', " +
                         " '" + cbMarried.Text + "', '" + cbPhysicalDisab.Text + "', '" + cbCategory.Text + "'," +
-                        " '" + cbRelig.Text + "', '','','Student',''" +
+                        " '" + cbRelig.Text + "', ' " + CourseCombo.Text + " ','', '','Student',''" +
                         ")";
                     }
                     mysqlcom.ExecuteNonQuery();
@@ -265,14 +283,21 @@ namespace AttendanceManagementSystem.RegistrationModule
                 }
                 finally
                 {
-                    this.Hide();
                     ServerInfo.Connect.Close();
+                    this.Hide();
                 }
             }
             else
             {
                 MessageBox.Show("Details Validation Failed", "Internal Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
             }
+        }
+
+        private void RegistrationModule_Load(object sender, EventArgs e)
+        {
+            // TODO: This line of code loads data into the 'aMSDBDataSet.CourseTable' table. You can move, or remove it, as needed.
+            this.courseTableTableAdapter.Fill(this.aMSDBDataSet.CourseTable);
+
         }
     }
 }

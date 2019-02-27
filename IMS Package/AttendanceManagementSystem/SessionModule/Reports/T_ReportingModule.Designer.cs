@@ -43,7 +43,7 @@
             this.DataEntry,
             this.Reports,
             this.LogOut});
-            this.ToolStrip.Location = new System.Drawing.Point(0, 27);
+            this.ToolStrip.Location = new System.Drawing.Point(0, 24);
             this.ToolStrip.Name = "ToolStrip";
             this.ToolStrip.Size = new System.Drawing.Size(1184, 25);
             this.ToolStrip.TabIndex = 5;
@@ -85,9 +85,9 @@
             this.crystalReportViewer1.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.crystalReportViewer1.Cursor = System.Windows.Forms.Cursors.Default;
             this.crystalReportViewer1.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.crystalReportViewer1.Location = new System.Drawing.Point(0, 52);
+            this.crystalReportViewer1.Location = new System.Drawing.Point(0, 49);
             this.crystalReportViewer1.Name = "crystalReportViewer1";
-            this.crystalReportViewer1.Size = new System.Drawing.Size(1184, 649);
+            this.crystalReportViewer1.Size = new System.Drawing.Size(1184, 656);
             this.crystalReportViewer1.TabIndex = 6;
             // 
             // T_ReportingModule
